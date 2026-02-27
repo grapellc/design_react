@@ -1,6 +1,6 @@
 # replace-custom-imported-typography-variable
 
-Seed Design V2에서 V3로 마이그레이션 시 import된 타이포그래피 변수를 변환합니다.
+Grape Design V2에서 V3로 마이그레이션 시 import된 타이포그래피 변수를 변환합니다.
 
 ## 기능
 

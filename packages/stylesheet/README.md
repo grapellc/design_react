@@ -23,9 +23,9 @@ bun add @grape_design_react/stylesheet
 
 #### CSS 스타일시트 로딩하기 (DOM)
 
-웹 브라우저에서 실행되는 경우 Seed Design 의 모든 속성 정의는 [CSS Variables](https://developer.mozilla.org/ko/docs/Web/CSS/Using_CSS_custom_properties)를 통해 제공됩니다.
+웹 브라우저에서 실행되는 경우 Grape Design 의 모든 속성 정의는 [CSS Variables](https://developer.mozilla.org/ko/docs/Web/CSS/Using_CSS_custom_properties)를 통해 제공됩니다.
 
-Seed Design의 스타일시트 리소스를 사용할 수 있도록 우선 로딩 해야합니다.
+Grape Design의 스타일시트 리소스를 사용할 수 있도록 우선 로딩 해야합니다.
 
 ```html
 <!-- 브라우저가 자산을 우선적으로 처리하도록 preload 표시 -->
@@ -42,7 +42,7 @@ import "@grape_design_react/stylesheet/global.css";
 
 #### 루트 엘리먼트(`<html>`) 초기화
 
-Seed Design 에서 제공하는 속성은 사용하기 전에 **명시적인 초기화**가 필요합니다.
+Grape Design 에서 제공하는 속성은 사용하기 전에 **명시적인 초기화**가 필요합니다.
 
 - 페이지 루트 요소에 `data-seed` 어트리뷰트를 지정합니다.
 - 사용자가 선호하는 컬러 스킴에 따라 `data-seed-scale-color` 어트리뷰트를 지정합니다.

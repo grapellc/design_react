@@ -1,6 +1,6 @@
 # replace-alpha-color
 
-Seed Design V3에서 V3로 알파 컬러 토큰을 업데이트하는 transform입니다.
+Grape Design V3에서 V3로 알파 컬러 토큰을 업데이트하는 transform입니다.
 이 transform은 다음과 같은 알파 컬러 토큰들을 새로운 값으로 변경합니다:
 
 - `staticBlackAlpha50` → `staticBlackAlpha200`

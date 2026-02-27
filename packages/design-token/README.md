@@ -2,7 +2,7 @@
 
 DEPRECATED: see [@grape_design_react/css](../css) for the latest version.
 
-> Seed Design 디자인 토큰은 [KDT](https://github.com/daangn/kdt/tree/main/language) 의미론을 따릅니다.
+> Grape Design 디자인 토큰은 [KDT](https://github.com/daangn/kdt/tree/main/language) 의미론을 따릅니다.
 
 디자인 토큰이 무엇인가요?
 
@@ -20,7 +20,7 @@ DEPRECATED: see [@grape_design_react/css](../css) for the latest version.
 
 ## Token Structures
 
-Seed Design 의 디자인 토큰은 [KDT](https://github.com/daangn/kdt)를 통해 정의되고, 그 의미론을 따릅니다.
+Grape Design 의 디자인 토큰은 [KDT](https://github.com/daangn/kdt)를 통해 정의되고, 그 의미론을 따릅니다.
 
 ![디자인 토큰 계층구조](design-token-explainer.png)
 
