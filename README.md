@@ -2,7 +2,7 @@
 
 The React implementation of the Grape Design System.
 
-![banner](./BANNER.png)
+<img src="./BANNER.png" width="100%" alt="Grape Design Banner" />
 
 ## Packages
 
