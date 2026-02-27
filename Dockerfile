@@ -1,13 +1,16 @@
 # Stage 1: Build docs (Next.js standalone)
 FROM oven/bun:1.2-alpine AS builder
 
+RUN apk add --no-cache nodejs
+
 WORKDIR /app
 COPY package.json bun.lock bunfig.toml tsconfig.base.json ./
 COPY packages ./packages
 COPY examples/docs ./examples/docs
 
 RUN bun install
-RUN bun run build:docs
+RUN bun run build
+RUN cd examples/docs && node node_modules/.bin/next build
 
 # Stage 2: Run standalone Next.js server
 FROM node:22-alpine
