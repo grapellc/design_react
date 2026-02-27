@@ -1,0 +1,1 @@
+export { ChipTabsCarousel as Carousel, ChipTabsCarouselCamera as CarouselCamera, ChipTabsContent as Content, ChipTabsList as List, ChipTabsRoot as Root, ChipTabsTrigger as Trigger } from './ChipTabs.js';

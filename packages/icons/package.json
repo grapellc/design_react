@@ -1,0 +1,54 @@
+{
+  "name": "@grape-design/icons",
+  "version": "0.1.0",
+  "description": "Grape Design icon set – React components (monochrome & multicolor), compatible with @karrotmarket icon API",
+  "type": "module",
+  "main": "./lib/monochrome.js",
+  "types": "./lib/monochrome.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/monochrome.d.ts",
+      "import": "./lib/monochrome.js",
+      "default": "./lib/monochrome.js"
+    },
+    "./monochrome": {
+      "types": "./lib/monochrome.d.ts",
+      "import": "./lib/monochrome.js",
+      "default": "./lib/monochrome.js"
+    },
+    "./multicolor": {
+      "types": "./lib/multicolor.d.ts",
+      "import": "./lib/multicolor.js",
+      "default": "./lib/multicolor.js"
+    },
+    "./monochrome/*": {
+      "types": "./lib/monochrome/*.d.ts",
+      "import": "./lib/monochrome/*.js",
+      "default": "./lib/monochrome/*.js"
+    },
+    "./multicolor/*": {
+      "types": "./lib/multicolor/*.d.ts",
+      "import": "./lib/multicolor/*.js",
+      "default": "./lib/multicolor/*.js"
+    }
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "node scripts/generate-from-assets.mjs && tsc",
+    "clean": "rm -rf lib",
+    "generate": "node scripts/generate-from-assets.mjs"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "typescript": "^5.6.0"
+  }
+}

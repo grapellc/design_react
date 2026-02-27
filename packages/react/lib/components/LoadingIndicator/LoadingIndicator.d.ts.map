@@ -1,0 +1,1 @@
+{"version":3,"file":"LoadingIndicator.d.ts","sourceRoot":"","sources":["../../../src/components/LoadingIndicator/LoadingIndicator.tsx"],"names":[],"mappings":";AAKA,MAAM,WAAW,qBACf,SAAQ,IAAI,CAAC,KAAK,CAAC,cAAc,CAAC,eAAe,CAAC,EAAE,OAAO,CAAC;IAC5D,SAAS,EAAE,KAAK,CAAC,SAAS,CAAC;CAC5B;AAED,eAAO,MAAM,gBAAgB,mHAgB3B,CAAC"}

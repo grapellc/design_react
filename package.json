@@ -1,0 +1,24 @@
+{
+  "name": "grape-design-system",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "bun@1.2.20",
+  "workspaces": [
+    "packages/*",
+    "examples/*"
+  ],
+  "scripts": {
+    "build": "bun run --cwd packages/tokens build && bun run --cwd packages/react build && bun run --cwd packages/react-native build && bun run --cwd packages/icons build",
+    "build:tokens": "bun run --cwd packages/tokens build",
+    "build:react": "bun run --cwd packages/react build",
+    "build:react-native": "bun run --cwd packages/react-native build",
+    "showcase": "bun run --cwd examples/showcase dev",
+    "docs": "bun run --cwd examples/docs dev"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,1 @@
+export { DialogAction as Action, DialogBackdrop as Backdrop, DialogContent as Content, DialogDescription as Description, DialogFooter as Footer, DialogHeader as Header, DialogPositioner as Positioner, DialogRoot as Root, DialogTitle as Title, DialogTrigger as Trigger } from './Dialog.js';

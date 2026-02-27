@@ -1,0 +1,14 @@
+'use client';
+import { Primitive } from '@seed-design/react-primitive';
+import { extendedFab } from '@seed-design/css/recipes/extended-fab';
+import { createRecipeContext } from '../../utils/createRecipeContext.js';
+
+const { withContext } = createRecipeContext(extendedFab);
+const ExtendedFab = withContext(Primitive.button, {
+  defaultProps: {
+    variant: "neutralSolid",
+    size: "medium"
+  }
+});
+
+export { ExtendedFab };

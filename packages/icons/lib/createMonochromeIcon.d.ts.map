@@ -1,0 +1,1 @@
+{"version":3,"file":"createMonochromeIcon.d.ts","sourceRoot":"","sources":["../src/createMonochromeIcon.tsx"],"names":[],"mappings":"AAAA,OAAO,EAAE,cAAc,EAAE,MAAM,WAAW,CAAC;AAE3C,wBAAgB,oBAAoB,CAAC,IAAI,EAAE,MAAM;YAC1B,IAAI,CAAC,KAAK,CAAC,cAAc,CAAC,OAAO,cAAc,CAAC,EAAE,MAAM,CAAC;;EAK/E"}

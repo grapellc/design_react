@@ -1,0 +1,32 @@
+{
+  "name": "@grape-design/tokens",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/index.d.ts",
+      "import": "./lib/index.js",
+      "require": "./lib/index.cjs"
+    },
+    "./native": {
+      "types": "./lib/native.d.ts",
+      "import": "./lib/native.js",
+      "require": "./lib/native.cjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": ["lib", "src"],
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf lib"
+  },
+  "dependencies": {
+    "@seed-design/css": ">=1.1.17"
+  },
+  "peerDependencies": {},
+  "devDependencies": {
+    "typescript": "^5.6.0"
+  }
+}

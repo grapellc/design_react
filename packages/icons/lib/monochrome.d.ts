@@ -1,0 +1,6 @@
+/**
+ * Monochrome icons – re-export from assets-generated components.
+ * Run `node scripts/generate-from-assets.mjs` to regenerate from grape_design_dart/assets/icons.
+ */
+export { IconArrowClockwiseCircularFill, IconArrowClockwiseCircularLine, IconArrowUpBracketDownLine, IconArrowUpRightLine, IconBellFill, IconBellLine, IconBellSlashLine, IconCalendarFill, IconCarrotFill, IconCheckmarkCircleFill, IconCheckmarkFatFill, IconCheckmarkFill, IconCheckmarkLine, IconChevronDownFill, IconChevronDownLine, IconChevronLeftLine, IconChevronRightFill, IconChevronRightLine, IconExclamationmarkCircleFill, IconEyeSlashLine, IconFaceSmileCircleFill, IconHeartFill, IconILowercaseSerifCircleFill, IconILowercaseSerifCircleLine, IconLocationpinFill, IconLockLine, IconMagnifyingglassLine, IconMegaphoneFill, IconMinusFatFill, IconPenHorizlineFill, IconPersonCircleLine, IconPlusCircleLine, IconPlusFill, IconPlusLine, IconQuestionmarkCircleFill, IconSlashCircleLine, IconSquare2StackedFill, IconStarFill, IconHorizline2VerticalChatbubbleRectangularRightFill, IconTagLine, IconTimer_10Line, IconTimer_3Line, IconTrashcanLine, IconWonLine, IconXmarkCircleFill, IconXmarkLine, } from "./generated/monochrome-icons";
+//# sourceMappingURL=monochrome.d.ts.map

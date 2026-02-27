@@ -1,0 +1,2 @@
+export { BottomSheetBackdrop as Backdrop, BottomSheetBody as Body, BottomSheetCloseButton as CloseButton, BottomSheetContent as Content, BottomSheetDescription as Description, BottomSheetFooter as Footer, BottomSheetHeader as Header, BottomSheetPositioner as Positioner, BottomSheetRoot as Root, BottomSheetTitle as Title, BottomSheetTrigger as Trigger } from './BottomSheet.js';
+export { BottomSheetHandle as Handle } from '../BottomSheetHandle/BottomSheetHandle.js';

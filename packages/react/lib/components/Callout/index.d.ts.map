@@ -1,0 +1,1 @@
+{"version":3,"file":"index.d.ts","sourceRoot":"","sources":["../../../src/components/Callout/index.ts"],"names":[],"mappings":"AAAA,OAAO,EACL,kBAAkB,EAClB,cAAc,EACd,kBAAkB,EAClB,WAAW,EACX,WAAW,EACX,YAAY,EACZ,KAAK,uBAAuB,EAC5B,KAAK,mBAAmB,EACxB,KAAK,uBAAuB,EAC5B,KAAK,gBAAgB,EACrB,KAAK,gBAAgB,EACrB,KAAK,iBAAiB,GACvB,MAAM,WAAW,CAAC;AAEnB,OAAO,KAAK,OAAO,MAAM,qBAAqB,CAAC"}
