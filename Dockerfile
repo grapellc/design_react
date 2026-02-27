@@ -6,7 +6,7 @@ COPY package.json bun.lock bunfig.toml ./
 COPY packages ./packages
 COPY examples/docs ./examples/docs
 
-RUN bun install --frozen-lockfile
+RUN bun install
 RUN bun run build:docs
 
 # Stage 2: Run standalone Next.js server
