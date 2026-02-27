@@ -1,4 +1,4 @@
-# Stage 1: Build docs as static export (no Node server, CSS/assets work with nginx)
+# Stage 1: Build docs (Next.js standalone)
 FROM oven/bun:1.2-alpine AS builder
 
 WORKDIR /app
@@ -6,20 +6,20 @@ COPY package.json bun.lock bunfig.toml tsconfig.base.json ./
 COPY packages ./packages
 COPY examples/docs ./examples/docs
 
-# Static export: no API routes, no OG route (uses native @takumi-rs/image-response)
-RUN rm -rf /app/examples/docs/app/api /app/examples/docs/app/og
-
 RUN bun install
-
-ENV STATIC_EXPORT=1
 RUN bun run build:docs
 
-# Stage 2: Serve static export with nginx
-FROM nginx:alpine
+# Stage 2: Run standalone Next.js server
+FROM node:22-alpine
 
-RUN rm -rf /usr/share/nginx/html/*
-COPY --from=builder /app/examples/docs/out /usr/share/nginx/html
-COPY nginx-docs.conf /etc/nginx/conf.d/default.conf
+WORKDIR /app
+ENV NODE_ENV=production
+ENV HOSTNAME=0.0.0.0
+ENV PORT=3000
+EXPOSE 3000
 
-EXPOSE 80
-CMD ["nginx", "-g", "daemon off;"]
+COPY --from=builder /app/examples/docs/.next/standalone ./
+# Server at examples/docs/server.js resolves static from that dir
+COPY --from=builder /app/examples/docs/.next/static ./examples/docs/.next/static
+
+CMD ["node", "examples/docs/server.js"]
