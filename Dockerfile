@@ -8,6 +8,7 @@ COPY . .
 
 # Install dependencies and build
 RUN bun install
+RUN bun run build
 RUN bun run docs:build
 
 # Stage 2: Serve with nginx
