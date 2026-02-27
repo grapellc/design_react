@@ -1,31 +1,31 @@
-![cover](./cover.png)
+# Grape Design React
+
+The React implementation of the Grape Design System.
+
+![banner](./BANNER.png)
+
+## Packages
 
 **Definitions**
-
-- [@grape_design_react/rootage](./packages/rootage)
-- [@grape_design_react/qvism-preset](./packages/qvism-preset)
+- [@grape-design/rootage](./packages/rootage)
+- [@grape-design/qvism-preset](./packages/qvism-preset)
 
 **Base Libraries**
-
-- [@grape_design_react/css](./packages/css)
+- [@grape-design/css](./packages/css)
 
 **React Libraries**
-
-- [@grape_design_react/react-headless](./packages/react-headless)
-- [@grape_design_react/react](./packages/react)
-- [@grape_design_react/stackflow](./packages/stackflow)
+- [@grape-design/react-headless](./packages/react-headless)
+- [@grape-design/react](./packages/react)
+- [@grape-design/stackflow](./packages/stackflow)
 
 **Integrations**
-
-- [@grape_design_react/figma](./packages/figma)
-- [@grape_design_react/mcp](./packages/mcp)
+- [@grape-design/figma](./packages/figma)
+- [@grape-design/mcp](./packages/mcp)
 
 **Ecosystem**
-
-- [@grape_design_react/ecosystem/rootage](./ecosystem/rootage)
-- [@grape_design_react/ecosystem/qvism](./ecosystem/qvism)
-- [@grape_design_react/ecosystem/figma-extractor](./ecosystem/figma-extractor)
+- [@grape-design/ecosystem/rootage](./ecosystem/rootage)
+- [@grape-design/ecosystem/qvism](./ecosystem/qvism)
+- [@grape-design/ecosystem/figma-extractor](./ecosystem/figma-extractor)
 
 **Documentation**
-
-- [@grape_design_react/docs](./docs)
+- [@grape-design/docs](./docs)
