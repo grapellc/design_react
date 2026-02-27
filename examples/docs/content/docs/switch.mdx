@@ -1,0 +1,84 @@
+---
+title: Switch
+description: 특정 설정 및 상태를 즉시 켜거나 끌 수 있도록 하는 컴포넌트입니다.
+---
+
+<ComponentExample name="switch/preview">
+  <CodeFromFile path="switch/preview.tsx" />
+</ComponentExample>
+
+## Installation
+
+```package-install
+npx @seed-design/cli@latest add ui:switch
+```
+
+<ManualInstallation name="switch" />
+
+## Props
+
+### `Switch`
+
+<react-type-table path="./registry/ui/switch.tsx" name="SwitchProps" />
+
+### `Switchmark`
+
+<react-type-table path="./registry/ui/switch.tsx" name="SwitchmarkProps" />
+
+## Examples
+
+### Sizes
+
+<Callout title="Deprecated Props" type="warning">
+  `size="medium"`과 `size="small"`은 더 이상 사용되지 않습니다. 대신 `size="32"`와 `size="16"`을 사용하세요.
+</Callout>
+
+<ComponentExample name="switch/sizes">
+  <CodeFromFile path="switch/sizes.tsx" />
+</ComponentExample>
+
+### Tones
+
+#### Brand
+
+<ComponentExample name="switch/brand">
+  <CodeFromFile path="switch/brand.tsx" />
+</ComponentExample>
+
+#### Neutral
+
+<ComponentExample name="switch/neutral">
+  <CodeFromFile path="switch/neutral.tsx" />
+</ComponentExample>
+
+### Long Label
+
+<ComponentExample name="switch/long-label">
+  <CodeFromFile path="switch/long-label.tsx" />
+</ComponentExample>
+
+### Disabled
+
+<ComponentExample name="switch/disabled">
+  <CodeFromFile path="switch/disabled.tsx" />
+</ComponentExample>
+
+### Listening to Value Changes
+
+`onCheckedChange`를 사용하여 스위치의 선택 상태 변경을 감지할 수 있습니다.
+
+이벤트를 활용해야 하는 경우 `inputProps`를 통해 내부 `<input>` 요소에 직접 이벤트 핸들러를 추가할 수 있습니다.
+
+<ComponentExample name="switch/value-changes">
+  <CodeFromFile path="switch/value-changes.tsx" />
+</ComponentExample>
+
+### Use Cases
+
+#### Using `Switchmark`
+
+`Switchmark`는 레이블을 제외한 스위치 컴포넌트로, 커스텀 레이아웃을 위해 사용할 수 있습니다.
+
+<ComponentExample name="switch/switchmark">
+  <CodeFromFile path="switch/switchmark.tsx" />
+</ComponentExample>

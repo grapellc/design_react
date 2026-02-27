@@ -1,0 +1,5 @@
+{
+  "title": "Foundation",
+  "icon": "LayoutGrid",
+  "pages": ["box", "flex", "grid", "h-stack", "v-stack", "stack", "columns", "text", "float", "aspect-ratio", "divider", "composition", "library"]
+}

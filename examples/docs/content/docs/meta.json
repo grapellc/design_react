@@ -1,0 +1,6 @@
+{
+  "title": "Grape Design",
+  "description": "React component documentation",
+  "icon": "Atom",
+  "pages": ["index", "---Foundation---", "foundation", "---Components---", "components"]
+}

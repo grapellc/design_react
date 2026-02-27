@@ -1,0 +1,154 @@
+---
+title: Tabs
+description: 한 화면 내에서 콘텐츠를 탭 단위로 구분하여 전환할 수 있는 컴포넌트입니다.
+---
+
+<ComponentExample name="tabs/preview">
+  <CodeFromFile path="tabs/preview.tsx" />
+</ComponentExample>
+
+## Installation
+
+```package-install
+npx @seed-design/cli@latest add ui:tabs
+```
+
+<ManualInstallation name="tabs" />
+
+## Props
+
+### `TabsRoot`
+
+<react-type-table path="./registry/ui/tabs.tsx" name="TabsRootProps" />
+
+### `TabsList`
+
+<react-type-table path="./registry/ui/tabs.tsx" name="TabsListProps" />
+
+### `TabsTrigger`
+
+<react-type-table path="./registry/ui/tabs.tsx" name="TabsTriggerProps" />
+
+### `TabsCarousel`
+
+<react-type-table path="./registry/ui/tabs.tsx" name="TabsCarouselProps" />
+
+### `TabsContent`
+
+<react-type-table path="./registry/ui/tabs.tsx" name="TabsContentProps" />
+
+## Examples
+
+### Layout Fill (Default)
+
+<ComponentExample name="tabs/layout-fill">
+  <CodeFromFile path="tabs/layout-fill.tsx" />
+</ComponentExample>
+
+### Layout Hug
+
+<ComponentExample name="tabs/layout-hug">
+  <CodeFromFile path="tabs/layout-hug.tsx" />
+</ComponentExample>
+
+### Size Medium
+
+<ComponentExample name="tabs/size-medium">
+  <CodeFromFile path="tabs/size-medium.tsx" />
+</ComponentExample>
+
+### Size Small (Default)
+
+<ComponentExample name="tabs/size-small">
+  <CodeFromFile path="tabs/size-small.tsx" />
+</ComponentExample>
+
+### Transition
+
+`TabsCarousel` 컴포넌트로 `TabsContent` 컴포넌트들을 감싸면 탭 변경시 컨텐츠가 자연스럽게 전환됩니다.
+
+<ComponentExample name="tabs/transition">
+  <CodeFromFile path="tabs/transition.tsx" />
+</ComponentExample>
+
+### Swipeable
+
+`TabsCarousel` 컴포넌트에 `swipeable` 속성을 추가하면 스와이프 제스처로 탭을 이동할 수 있습니다.
+
+<ComponentExample name="tabs/swipeable">
+  <CodeFromFile path="tabs/swipeable.tsx" />
+</ComponentExample>
+
+### Carousel Prevent Drag
+
+`Tabs.carouselPreventDrag`를 사용하면 특정 요소가 드래그 제스처에 반응하지 않도록 설정할 수 있습니다.
+
+<ComponentExample name="tabs/carousel-prevent-drag">
+  <CodeFromFile path="tabs/carousel-prevent-drag.tsx" />
+</ComponentExample>
+
+### Disabled
+
+<ComponentExample name="tabs/disabled">
+  <CodeFromFile path="tabs/disabled.tsx" />
+</ComponentExample>
+
+### Notification
+
+<ComponentExample name="tabs/notification">
+  <CodeFromFile path="tabs/notification.tsx" />
+</ComponentExample>
+
+### Sticky List
+
+<Callout type="info">
+
+탭이 전체화면을 차지하고, Tabs.List가 top에 고정되어 있는 경우 사용하는 예시입니다.
+
+</Callout>
+
+<ComponentExample name="tabs/sticky-list">
+  <CodeFromFile path="tabs/sticky-list.tsx" />
+</ComponentExample>
+
+### Standalone
+
+<Callout type="info">
+
+TabContent를 사용하지 않고, 컨텐츠 영역을 온전히 소유하고 싶을 때 사용하는 예시입니다.
+
+</Callout>
+
+<Callout type="warn">
+
+탭에서 제공하는 Swipe 기능을 사용할 수 없습니다.
+
+</Callout>
+
+<ComponentExample name="tabs/standalone">
+  <CodeFromFile path="tabs/standalone.tsx" />
+</ComponentExample>
+
+### Dynamic Height
+
+<Callout type="info">
+
+각 탭의 높이가 다를 때, 아래의 컨텐츠를 탭 아래에 바로 맞추기 위해서 사용하는 예시입니다.
+
+</Callout>
+
+<Callout type="warn">
+
+탭이 자주 바뀌고, 탭에 네트워크 요청이 많은 경우 캐싱을 잘 고려해주세요.
+
+</Callout>
+
+<ComponentExample name="tabs/dynamic-height">
+  <CodeFromFile path="tabs/dynamic-height.tsx" />
+</ComponentExample>
+
+### Scroll to Top
+
+<ComponentExample name="tabs/scroll-top">
+  <CodeFromFile path="tabs/scroll-top.tsx" />
+</ComponentExample>

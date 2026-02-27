@@ -1,0 +1,115 @@
+---
+title: Checkbox
+description: 사용자가 하나 이상의 옵션을 선택할 수 있게 해주는 컴포넌트입니다. 목록에서 여러 항목을 선택하거나 약관 동의와 같은 선택적 작업에 사용됩니다.
+---
+
+<ComponentExample name="checkbox/preview">
+  <CodeFromFile path="checkbox/preview.tsx" />
+</ComponentExample>
+
+## Installation
+
+```package-install
+npx @seed-design/cli@latest add ui:checkbox
+```
+
+<ManualInstallation name="checkbox" />
+
+## Props
+
+### `CheckboxGroup`
+
+<react-type-table path="./registry/ui/checkbox.tsx" name="CheckboxGroupProps" />
+
+### `Checkbox`
+
+<react-type-table path="./registry/ui/checkbox.tsx" name="CheckboxProps" />
+
+### `Checkmark`
+
+<react-type-table path="./registry/ui/checkbox.tsx" name="CheckmarkProps" />
+
+## Examples
+
+### Sizes
+
+<ComponentExample name="checkbox/size">
+  <CodeFromFile path="checkbox/size.tsx" />
+</ComponentExample>
+
+### Tones and Variants
+
+#### Brand
+
+<ComponentExample name="checkbox/brand">
+  <CodeFromFile path="checkbox/brand.tsx" />
+</ComponentExample>
+
+#### Neutral
+
+<ComponentExample name="checkbox/neutral">
+  <CodeFromFile path="checkbox/neutral.tsx" />
+</ComponentExample>
+
+### Indeterminate
+
+<ComponentExample name="checkbox/indeterminate">
+  <CodeFromFile path="checkbox/indeterminate.tsx" />
+</ComponentExample>
+
+### Weights
+
+<Callout title="Deprecated Props" type="warning">
+  `weight="default"`와 `weight="stronger"`는 더 이상 사용되지 않습니다. 대신
+  `weight="regular"`와 `weight="bold"`를 사용하세요.
+</Callout>
+
+<ComponentExample name="checkbox/weights">
+  <CodeFromFile path="checkbox/weights.tsx" />
+</ComponentExample>
+
+### Long Label
+
+<ComponentExample name="checkbox/long-label">
+  <CodeFromFile path="checkbox/long-label.tsx" />
+</ComponentExample>
+
+### Disabled
+
+<ComponentExample name="checkbox/disabled">
+  <CodeFromFile path="checkbox/disabled.tsx" />
+</ComponentExample>
+
+### Listening to Value Changes
+
+`onCheckedChange`를 사용하여 체크박스의 선택 상태 변경을 감지할 수 있습니다.
+
+이벤트를 활용해야 하는 경우 `inputProps`를 통해 내부 `<input>` 요소에 직접 이벤트 핸들러를 추가할 수 있습니다.
+
+<ComponentExample name="checkbox/value-changes">
+  <CodeFromFile path="checkbox/value-changes.tsx" />
+</ComponentExample>
+
+### Use Cases
+
+#### React Hook Form
+
+<ComponentExample name="checkbox/react-hook-form">
+  <CodeFromFile path="checkbox/react-hook-form.tsx" />
+</ComponentExample>
+
+#### Using `Checkmark`
+
+`Checkmark`는 독립적인 체크 마크 컴포넌트로, Checkbox Primitive 컴포넌트와 조합하여 커스텀 레이아웃을 위해 사용할 수 있습니다.
+
+<ComponentExample name="checkbox/checkmark">
+  <CodeFromFile path="checkbox/checkmark.tsx" />
+</ComponentExample>
+
+### Fieldset Integration
+
+`CheckboxGroup`을 사용하여 여러 체크박스를 그룹화하고 `label`, `description`, `errorMessage` 등의 Fieldset 관련 prop을 사용할 수 있습니다.
+
+<ComponentExample name="checkbox/fieldset">
+  <CodeFromFile path="checkbox/fieldset.tsx" />
+</ComponentExample>

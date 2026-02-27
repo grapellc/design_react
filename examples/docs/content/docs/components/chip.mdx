@@ -1,0 +1,163 @@
+---
+title: Chip
+description: 사용자가 선택하거나 입력하는 값을 표시하는 컴포넌트입니다.
+---
+
+<ComponentExample name="chip/preview">
+  <CodeFromFile path="chip/preview.tsx" />
+</ComponentExample>
+
+## Installation
+
+```package-install
+npx @seed-design/cli@latest add ui:chip
+```
+
+<ManualInstallation name="chip" />
+
+## Props
+
+### `Chip.Button`
+
+<react-type-table
+  path="./registry/ui/chip.tsx"
+  name="ButtonChipProps"
+/>
+
+### `Chip.Toggle`
+
+<react-type-table
+  path="./registry/ui/chip.tsx"
+  name="ToggleChipProps"
+/>
+
+### `Chip.RadioRoot`
+
+<react-type-table
+  path="./registry/ui/chip.tsx"
+  name="RadioChipRootProps"
+/>
+
+### `Chip.RadioItem`
+
+<react-type-table
+  path="./registry/ui/chip.tsx"
+  name="RadioChipItemProps"
+/>
+
+## Examples
+
+### Sizes
+
+#### Small
+
+<ComponentExample name="chip/small">
+  <CodeFromFile path="chip/small.tsx" />
+</ComponentExample>
+
+#### Medium
+
+<ComponentExample name="chip/medium">
+  <CodeFromFile path="chip/medium.tsx" />
+</ComponentExample>
+
+#### Large
+
+<ComponentExample name="chip/large">
+  <CodeFromFile path="chip/large.tsx" />
+</ComponentExample>
+
+### Variants
+
+#### Solid
+
+<ComponentExample name="chip/solid">
+  <CodeFromFile path="chip/solid.tsx" />
+</ComponentExample>
+
+#### Outline Strong
+
+<ComponentExample name="chip/outline-strong">
+  <CodeFromFile path="chip/outline-strong.tsx" />
+</ComponentExample>
+
+#### Outline Weak
+
+<ComponentExample name="chip/outline-weak">
+  <CodeFromFile path="chip/outline-weak.tsx" />
+</ComponentExample>
+
+### Prefix Icon
+
+<ComponentExample name="chip/prefix-icon">
+  <CodeFromFile path="chip/prefix-icon.tsx" />
+</ComponentExample>
+
+### Suffix Icon
+
+<ComponentExample name="chip/suffix-icon">
+  <CodeFromFile path="chip/suffix-icon.tsx" />
+</ComponentExample>
+
+### Icon Only
+
+<ComponentExample name="chip/icon-only">
+  <CodeFromFile path="chip/icon-only.tsx" />
+</ComponentExample>
+
+### Prefix Avatar
+
+[Avatar](/react/components/avatar)와 함께 사용할 수 있습니다.
+
+<ComponentExample name="chip/prefix-avatar">
+  <CodeFromFile path="chip/prefix-avatar.tsx" />
+</ComponentExample>
+
+### Listening to Value Changes
+
+- `Chip.Toggle`
+  - `onCheckedChange`를 사용하여 토글 상태 변경을 감지할 수 있습니다.
+  - 이벤트를 활용해야 하는 경우 `inputProps`를 통해 내부 `<input>` 요소에 직접 이벤트 핸들러를 추가할 수 있습니다.
+- `Chip.RadioRoot` / `Chip.RadioItem`
+  - `Chip.RadioRoot`의 `onValueChange`를 사용하여 라디오 버튼의 선택 값 변경을 감지할 수 있습니다.
+  - 이벤트를 활용해야 하는 경우 `Chip.RadioItem`의 `inputProps`를 통해 내부 `<input>` 요소에 직접 이벤트 핸들러를 추가할 수 있습니다.
+  
+<ComponentExample name="chip/value-changes">
+  <CodeFromFile path="chip/value-changes.tsx" />
+</ComponentExample>
+
+## Migrating from ActionChip/ControlChip
+
+[Action Chip](/react/components/action-chip)과 [Control Chip](/react/components/control-chip)을 대체합니다.
+
+### ActionChip → Chip.Button
+
+```tsx
+// Before
+import { ActionChip } from "@seed-design/react";
+
+<ActionChip size="medium">Label</ActionChip>
+
+// After
+import { Chip } from "@seed-design/react";
+
+<Chip.Button size="medium" variant="solid">
+  <Chip.Label>Label</Chip.Label>
+</Chip.Button>
+```
+
+### ControlChip → Chip.Toggle
+
+```tsx
+// Before
+import { ControlChip } from "@seed-design/react";
+
+<ControlChip size="medium">Label</ControlChip>
+
+// After
+import { Chip } from "@seed-design/react";
+
+<Chip.Toggle size="medium" variant="outlineStrong">
+  <Chip.Label>Label</Chip.Label>
+</Chip.Toggle>
+```

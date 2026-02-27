@@ -1,0 +1,120 @@
+---
+title: Callout
+description: 사용자에게 중요한 정보나 팁을 시각적으로 강조하여 전달하는 메시지 컴포넌트입니다.
+---
+
+<ComponentExample name="callout/preview">
+  <CodeFromFile path="callout/preview.tsx" />
+</ComponentExample>
+
+## Installation
+
+```package-install
+npx @seed-design/cli@latest add ui:callout
+```
+
+<ManualInstallation name="callout" />
+
+## Props
+
+### `Callout`
+
+<react-type-table path="./registry/ui/callout.tsx" name="CalloutProps" />
+
+### `ActionableCallout`
+
+<react-type-table
+  path="./registry/ui/callout.tsx"
+  name="ActionableCalloutProps"
+/>
+
+### `DismissibleCallout`
+
+<react-type-table
+  path="./registry/ui/callout.tsx"
+  name="DismissibleCalloutProps"
+/>
+
+## Examples
+
+### Content Layout
+
+#### Text Only
+
+<ComponentExample name="callout/text-only">
+  <CodeFromFile path="callout/text-only.tsx" />
+</ComponentExample>
+
+#### With Icon
+
+<ComponentExample name="callout/with-icon">
+  <CodeFromFile path="callout/with-icon.tsx" />
+</ComponentExample>
+
+#### With Title Text
+
+<ComponentExample name="callout/with-title-text">
+  <CodeFromFile path="callout/with-title-text.tsx" />
+</ComponentExample>
+
+#### With Link Label
+
+<Callout type="warn">
+`ActionableCallout`에서는 `linkProps`를 제공하지 않아요.
+</Callout>
+
+<ComponentExample name="callout/with-link-label">
+  <CodeFromFile path="callout/with-link-label.tsx" />
+</ComponentExample>
+
+#### With All
+
+<ComponentExample name="callout/with-all">
+  <CodeFromFile path="callout/with-all.tsx" />
+</ComponentExample>
+
+### Customizable Parts
+
+#### Rendering Link Label as Child
+
+<ComponentExample name="callout/link-label-as-child">
+  <CodeFromFile path="callout/link-label-as-child.tsx" />
+</ComponentExample>
+
+### Tones
+
+#### Neutral (Default)
+
+<ComponentExample name="callout/neutral">
+  <CodeFromFile path="callout/neutral.tsx" />
+</ComponentExample>
+
+#### Informative
+
+<ComponentExample name="callout/informative">
+  <CodeFromFile path="callout/informative.tsx" />
+</ComponentExample>
+
+#### Positive
+
+<ComponentExample name="callout/positive">
+  <CodeFromFile path="callout/positive.tsx" />
+</ComponentExample>
+
+#### Warning
+
+<ComponentExample name="callout/warning">
+  <CodeFromFile path="callout/warning.tsx" />
+</ComponentExample>
+
+#### Critical
+
+<ComponentExample name="callout/critical">
+  <CodeFromFile path="callout/critical.tsx" />
+</ComponentExample>
+
+#### Magic
+
+<ComponentExample name="callout/magic">
+  <CodeFromFile path="callout/magic.tsx" />
+</ComponentExample>

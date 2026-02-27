@@ -1,0 +1,106 @@
+---
+title: Page Banner
+description: 페이지 상단에 위치하며 사용자에게 전체적인 상태나 중요한 메시지를 전달하는 상위 레벨 메시지 컴포넌트입니다.
+---
+
+<ComponentExample name="page-banner/preview">
+  <CodeFromFile path="page-banner/preview.tsx" />
+</ComponentExample>
+
+## Installation
+
+```package-install
+npx @seed-design/cli@latest add ui:page-banner
+```
+
+<ManualInstallation name="page-banner" />
+
+## Props
+
+### `PageBanner`
+
+<react-type-table
+  path="./registry/ui/page-banner.tsx"
+  name="PageBannerProps"
+/>
+
+### `PageBannerButton`
+
+<react-type-table
+  path="./registry/ui/page-banner.tsx"
+  name="PageBannerButtonProps"
+/>
+
+### `ActionablePageBanner`
+
+<react-type-table
+  path="./registry/ui/page-banner.tsx"
+  name="ActionablePageBannerProps"
+/>
+
+### `DismissiblePageBanner`
+
+<react-type-table
+  path="./registry/ui/page-banner.tsx"
+  name="DismissiblePageBannerProps"
+/>
+
+## Examples
+
+### With Button
+
+`PageBanner`의 `suffix` prop에 `PageBannerButton`을 전달하여 버튼을 추가할 수 있습니다.
+
+<ComponentExample name="page-banner/with-button">
+  <CodeFromFile path="page-banner/with-button.tsx" />
+</ComponentExample>
+
+### Rendering `PageBannerButton` as a Child
+
+<ComponentExample name="page-banner/button-as-child">
+  <CodeFromFile path="page-banner/button-as-child.tsx" />
+</ComponentExample>
+
+### Tones and Variants
+
+#### Neutral
+
+<ComponentExample name="page-banner/neutral">
+  <CodeFromFile path="page-banner/neutral.tsx" />
+</ComponentExample>
+
+#### Positive
+
+<ComponentExample name="page-banner/positive">
+  <CodeFromFile path="page-banner/positive.tsx" />
+</ComponentExample>
+
+#### Informative
+
+<ComponentExample name="page-banner/informative">
+  <CodeFromFile path="page-banner/informative.tsx" />
+</ComponentExample>
+
+#### Warning
+
+<ComponentExample name="page-banner/warning">
+  <CodeFromFile path="page-banner/warning.tsx" />
+</ComponentExample>
+
+#### Critical
+
+<ComponentExample name="page-banner/critical">
+  <CodeFromFile path="page-banner/critical.tsx" />
+</ComponentExample>
+
+#### Magic
+
+<Callout type="warning">
+
+`tone="magic"`은 `variant="weak"` 조합으로만 사용할 수 있습니다.
+
+</Callout>
+
+<ComponentExample name="page-banner/magic">
+  <CodeFromFile path="page-banner/magic.tsx" />
+</ComponentExample>

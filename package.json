@@ -13,7 +13,8 @@
     "build:react": "bun run --cwd packages/react build",
     "build:react-native": "bun run --cwd packages/react-native build",
     "showcase": "bun run --cwd examples/showcase dev",
-    "docs": "bun run --cwd examples/docs dev"
+    "docs": "bun run --cwd examples/docs dev",
+    "build:docs": "bun run build && bun run --cwd examples/docs build"
   },
   "devDependencies": {
     "typescript": "^5.6.0"
