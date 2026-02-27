@@ -4,8 +4,8 @@
 Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
 
 const jsxRuntime = require('react/jsx-runtime');
-const snackbar = require('@seed-design/css/recipes/snackbar');
-const snackbarRegion = require('@seed-design/css/recipes/snackbar-region');
+const snackbar = require('@grape-design/css/recipes/snackbar');
+const snackbarRegion = require('@grape-design/css/recipes/snackbar-region');
 const domUtils = require('@seed-design/dom-utils');
 const reactPrimitive = require('@seed-design/react-primitive');
 const reactSnackbar = require('@seed-design/react-snackbar');

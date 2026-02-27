@@ -1,8 +1,8 @@
 'use client';
 import { jsx } from 'react/jsx-runtime';
 import { composeRefs } from '@radix-ui/react-compose-refs';
-import { selectBox } from '@seed-design/css/recipes/select-box';
-import { selectBoxGroup } from '@seed-design/css/recipes/select-box-group';
+import { selectBox } from '@grape-design/css/recipes/select-box';
+import { selectBoxGroup } from '@grape-design/css/recipes/select-box-group';
 import { useCollapsibleContext, Collapsible, useCollapsible, CollapsibleProvider } from '@seed-design/react-collapsible';
 import { Primitive } from '@seed-design/react-primitive';
 import { useRadioGroupItemContext, RadioGroup } from '@seed-design/react-radio-group';

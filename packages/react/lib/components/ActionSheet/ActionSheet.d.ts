@@ -1,5 +1,5 @@
-import { ActionSheetVariantProps } from '@seed-design/css/recipes/action-sheet';
-import { ActionSheetItemVariantProps } from '@seed-design/css/recipes/action-sheet-item';
+import { ActionSheetVariantProps } from '@grape-design/css/recipes/action-sheet';
+import { ActionSheetItemVariantProps } from '@grape-design/css/recipes/action-sheet-item';
 import { Dialog as DialogPrimitive } from '@seed-design/react-dialog';
 import { PrimitiveProps } from '@seed-design/react-primitive';
 import type * as React from "react";

@@ -30,6 +30,7 @@ export default defineConfig({
       external: [
         ...Object.keys(pkg.dependencies ?? {}),
         ...Object.keys(pkg.peerDependencies ?? {}),
+        /^@grape-design\/css\/.+/,
         /^@seed-design\/css\/.+/,
         /^unicode-segmenter\/.+/,
         "react/jsx-runtime",

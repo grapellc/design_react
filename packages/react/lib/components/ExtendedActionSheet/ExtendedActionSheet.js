@@ -1,8 +1,8 @@
 'use client';
 import { Dialog, useDialogContext } from '@seed-design/react-dialog';
 import { Primitive } from '@seed-design/react-primitive';
-import { extendedActionSheet } from '@seed-design/css/recipes/extended-action-sheet';
-import { extendedActionSheetItem } from '@seed-design/css/recipes/extended-action-sheet-item';
+import { extendedActionSheet } from '@grape-design/css/recipes/extended-action-sheet';
+import { extendedActionSheetItem } from '@grape-design/css/recipes/extended-action-sheet-item';
 import { createRecipeContext } from '../../utils/createRecipeContext.js';
 import { createSlotRecipeContext } from '../../utils/createSlotRecipeContext.js';
 import { createWithStateProps } from '../../utils/createWithStateProps.js';

@@ -1,13 +1,13 @@
 'use client';
 import { jsx } from 'react/jsx-runtime';
-import { actionButton } from '@seed-design/css/recipes/action-button';
+import { actionButton } from '@grape-design/css/recipes/action-button';
 import { Primitive } from '@seed-design/react-primitive';
 import clsx from 'clsx';
 import * as React from 'react';
 import { useStyleProps, handleColor } from '../../utils/styled.js';
 import { IconRequired } from '../Icon/Icon.js';
 import { usePendingButton, PendingButtonProvider } from '../LoadingIndicator/usePendingButton.js';
-import { vars } from '@seed-design/css/vars';
+import { vars } from '@grape-design/css/vars';
 
 const ActionButton = React.forwardRef(
   ({

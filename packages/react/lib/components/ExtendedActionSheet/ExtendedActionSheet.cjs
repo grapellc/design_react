@@ -5,8 +5,8 @@ Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
 
 const reactDialog = require('@seed-design/react-dialog');
 const reactPrimitive = require('@seed-design/react-primitive');
-const extendedActionSheet = require('@seed-design/css/recipes/extended-action-sheet');
-const extendedActionSheetItem = require('@seed-design/css/recipes/extended-action-sheet-item');
+const extendedActionSheet = require('@grape-design/css/recipes/extended-action-sheet');
+const extendedActionSheetItem = require('@grape-design/css/recipes/extended-action-sheet-item');
 const createRecipeContext = require('../../utils/createRecipeContext.cjs');
 const createSlotRecipeContext = require('../../utils/createSlotRecipeContext.cjs');
 const createWithStateProps = require('../../utils/createWithStateProps.cjs');

@@ -1,6 +1,6 @@
 'use client';
 import { jsx } from 'react/jsx-runtime';
-import { bottomSheet } from '@seed-design/css/recipes/bottom-sheet';
+import { bottomSheet } from '@grape-design/css/recipes/bottom-sheet';
 import { dataAttr } from '@seed-design/dom-utils';
 import { Drawer, useDrawerContext } from '@seed-design/react-drawer';
 import { Primitive } from '@seed-design/react-primitive';

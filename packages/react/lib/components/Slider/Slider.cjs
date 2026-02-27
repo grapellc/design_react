@@ -4,9 +4,9 @@
 Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
 
 const jsxRuntime = require('react/jsx-runtime');
-const slider = require('@seed-design/css/recipes/slider');
-const sliderTick = require('@seed-design/css/recipes/slider-tick');
-const sliderMarker = require('@seed-design/css/recipes/slider-marker');
+const slider = require('@grape-design/css/recipes/slider');
+const sliderTick = require('@grape-design/css/recipes/slider-tick');
+const sliderMarker = require('@grape-design/css/recipes/slider-marker');
 const reactPrimitive = require('@seed-design/react-primitive');
 const createSlotRecipeContext = require('../../utils/createSlotRecipeContext.cjs');
 const reactSlider = require('@seed-design/react-slider');

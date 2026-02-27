@@ -1,6 +1,6 @@
 'use client';
 import { jsx } from 'react/jsx-runtime';
-import { listHeader } from '@seed-design/css/recipes/list-header';
+import { listHeader } from '@grape-design/css/recipes/list-header';
 import { forwardRef } from 'react';
 import clsx from 'clsx';
 

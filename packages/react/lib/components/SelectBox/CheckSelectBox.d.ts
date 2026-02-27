@@ -1,6 +1,6 @@
-import { SelectBoxVariantProps } from '@seed-design/css/recipes/select-box';
-import { SelectBoxCheckmarkVariantProps } from '@seed-design/css/recipes/selectBoxCheckmark';
-import { SelectBoxGroupVariantProps } from '@seed-design/css/recipes/select-box-group';
+import { SelectBoxVariantProps } from '@grape-design/css/recipes/select-box';
+import { SelectBoxCheckmarkVariantProps } from '@grape-design/css/recipes/selectBoxCheckmark';
+import { SelectBoxGroupVariantProps } from '@grape-design/css/recipes/select-box-group';
 import { Checkbox as CheckboxPrimitive } from '@seed-design/react-checkbox';
 import { PrimitiveProps } from '@seed-design/react-primitive';
 import { InternalIconProps } from '../private/Icon';

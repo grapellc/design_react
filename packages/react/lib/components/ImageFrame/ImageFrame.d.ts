@@ -1,6 +1,6 @@
-import { ImageFrameVariantProps } from '@seed-design/css/recipes/image-frame';
-import { ImageFrameIconVariantProps } from '@seed-design/css/recipes/image-frame-icon';
-import { ImageFrameIndicatorVariantProps } from '@seed-design/css/recipes/image-frame-indicator';
+import { ImageFrameVariantProps } from '@grape-design/css/recipes/image-frame';
+import { ImageFrameIconVariantProps } from '@grape-design/css/recipes/image-frame-icon';
+import { ImageFrameIndicatorVariantProps } from '@grape-design/css/recipes/image-frame-indicator';
 import { Toggle as TogglePrimitive } from '@seed-design/react-toggle';
 import { AspectRatioProps } from '../AspectRatio/AspectRatio';
 import { BadgeProps } from '../Badge/Badge';

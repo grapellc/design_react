@@ -4,10 +4,10 @@
 Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
 
 const jsxRuntime = require('react/jsx-runtime');
-const scrollFog = require('@seed-design/css/recipes/scroll-fog');
+const scrollFog = require('@grape-design/css/recipes/scroll-fog');
 const clsx = require('clsx');
 const React = require('react');
-const component = require('@seed-design/css/vars/component');
+const component = require('@grape-design/css/vars/component');
 
 const ScrollFog = React.forwardRef(
   ({

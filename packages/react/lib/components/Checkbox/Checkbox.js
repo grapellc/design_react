@@ -1,7 +1,7 @@
 'use client';
 import { jsx } from 'react/jsx-runtime';
-import { checkbox } from '@seed-design/css/recipes/checkbox';
-import { checkmark } from '@seed-design/css/recipes/checkmark';
+import { checkbox } from '@grape-design/css/recipes/checkbox';
+import { checkmark } from '@grape-design/css/recipes/checkmark';
 import { splitMultipleVariantsProps } from '../../utils/splitMultipleVariantsProps.js';
 import { mergeProps } from '@seed-design/dom-utils';
 import { Checkbox, useCheckboxContext } from '@seed-design/react-checkbox';
@@ -12,7 +12,7 @@ import { createSlotRecipeContext } from '../../utils/createSlotRecipeContext.js'
 import { createWithStateProps } from '../../utils/createWithStateProps.js';
 import { InternalIcon } from '../private/Icon.js';
 import { createRecipeContext } from '../../utils/createRecipeContext.js';
-import { checkboxGroup } from '@seed-design/css/recipes/checkbox-group';
+import { checkboxGroup } from '@grape-design/css/recipes/checkbox-group';
 
 const { withContext: withGroupContext } = createRecipeContext(checkboxGroup);
 const { ClassNamesProvider, withContext } = createSlotRecipeContext(checkbox);

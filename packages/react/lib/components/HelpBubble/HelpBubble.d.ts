@@ -1,6 +1,6 @@
 import { Popover as PopoverPrimitive } from '@seed-design/react-popover';
 import { PrimitiveProps } from '@seed-design/react-primitive';
-import { HelpBubbleVariantProps } from '@seed-design/css/recipes/help-bubble';
+import { HelpBubbleVariantProps } from '@grape-design/css/recipes/help-bubble';
 import { StyleProps } from '../../utils/styled';
 import { ForwardRefExoticComponent, RefAttributes } from 'react';
 export interface HelpBubbleRootProps extends HelpBubbleVariantProps, PopoverPrimitive.RootProps {

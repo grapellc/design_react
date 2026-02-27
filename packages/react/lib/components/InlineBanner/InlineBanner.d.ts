@@ -1,4 +1,4 @@
-import { InlineBannerVariantProps } from '@seed-design/css/recipes/inline-banner';
+import { InlineBannerVariantProps } from '@grape-design/css/recipes/inline-banner';
 import { PrimitiveProps } from '@seed-design/react-primitive';
 import { DismissibleRootProps } from '../private/useDismissible';
 import type * as React from "react";

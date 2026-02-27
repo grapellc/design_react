@@ -1,7 +1,7 @@
 import { PrimitiveProps } from '@seed-design/react-primitive';
 import { FieldButton } from '@seed-design/react-field-button';
-import { FieldVariantProps } from '@seed-design/css/recipes/field';
-import { FieldLabelVariantProps } from '@seed-design/css/recipes/field-label';
+import { FieldVariantProps } from '@grape-design/css/recipes/field';
+import { FieldLabelVariantProps } from '@grape-design/css/recipes/field-label';
 import { InternalIconProps } from '../private/Icon';
 import * as React from "react";
 export interface FieldButtonRootProps extends FieldVariantProps, FieldButton.RootProps {

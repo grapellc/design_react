@@ -1,6 +1,6 @@
 'use client';
 import { jsx } from 'react/jsx-runtime';
-import { vars } from '@seed-design/css/vars';
+import { vars } from '@grape-design/css/vars';
 import { forwardRef } from 'react';
 
 function handleColor(color) {

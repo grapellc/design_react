@@ -1,4 +1,4 @@
-import { Dimension } from '@seed-design/css/vars';
+import { Dimension } from '@grape-design/css/vars';
 import * as React from "react";
 export interface FloatProps extends React.HTMLAttributes<HTMLDivElement> {
     as?: React.ElementType;

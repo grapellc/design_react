@@ -1,4 +1,4 @@
-import { ListItemVariantProps } from '@seed-design/css/recipes/list-item';
+import { ListItemVariantProps } from '@grape-design/css/recipes/list-item';
 import { PrimitiveProps } from '@seed-design/react-primitive';
 import { StyleProps } from '../../utils/styled';
 import { VStackProps } from '../Stack';

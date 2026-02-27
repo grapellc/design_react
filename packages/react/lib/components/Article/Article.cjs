@@ -7,7 +7,7 @@ const jsxRuntime = require('react/jsx-runtime');
 const React = require('react');
 const Box = require('../Box/Box.cjs');
 const clsx = require('clsx');
-const article = require('@seed-design/css/recipes/article');
+const article = require('@grape-design/css/recipes/article');
 
 function _interopNamespaceDefault(e) {
   const n = Object.create(null, { [Symbol.toStringTag]: { value: 'Module' } });

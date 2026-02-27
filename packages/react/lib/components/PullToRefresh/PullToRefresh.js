@@ -1,6 +1,6 @@
 'use client';
 import { PullToRefresh } from '@seed-design/react-pull-to-refresh';
-import { pullToRefresh } from '@seed-design/css/recipes/pull-to-refresh';
+import { pullToRefresh } from '@grape-design/css/recipes/pull-to-refresh';
 import { createSlotRecipeContext } from '../../utils/createSlotRecipeContext.js';
 
 const { withContext, withProvider } = createSlotRecipeContext(pullToRefresh);

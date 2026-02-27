@@ -4,7 +4,7 @@
 Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
 
 const jsxRuntime = require('react/jsx-runtime');
-const vars = require('@seed-design/css/vars');
+const vars = require('@grape-design/css/vars');
 const React = require('react');
 
 function handleColor(color) {

@@ -1,8 +1,8 @@
 'use client';
 import { jsx, jsxs } from 'react/jsx-runtime';
 import { Primitive } from '@seed-design/react-primitive';
-import { tagGroup } from '@seed-design/css/recipes/tag-group';
-import { tagGroupItem } from '@seed-design/css/recipes/tag-group-item';
+import { tagGroup } from '@grape-design/css/recipes/tag-group';
+import { tagGroupItem } from '@grape-design/css/recipes/tag-group-item';
 import { forwardRef, Children, Fragment } from 'react';
 import clsx from 'clsx';
 import { splitMultipleVariantsProps } from '../../utils/splitMultipleVariantsProps.js';

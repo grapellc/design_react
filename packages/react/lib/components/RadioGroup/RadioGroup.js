@@ -1,8 +1,8 @@
 'use client';
 import { jsx } from 'react/jsx-runtime';
-import { radio } from '@seed-design/css/recipes/radio';
-import { radioGroup } from '@seed-design/css/recipes/radio-group';
-import { radiomark } from '@seed-design/css/recipes/radiomark';
+import { radio } from '@grape-design/css/recipes/radio';
+import { radioGroup } from '@grape-design/css/recipes/radio-group';
+import { radiomark } from '@grape-design/css/recipes/radiomark';
 import { mergeProps } from '@seed-design/dom-utils';
 import { RadioGroup, useRadioGroupItemContext } from '@seed-design/react-radio-group';
 import { Primitive } from '@seed-design/react-primitive';

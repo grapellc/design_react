@@ -1,6 +1,6 @@
 'use client';
 import { jsx } from 'react/jsx-runtime';
-import { aspectRatio } from '@seed-design/css/recipes/aspect-ratio';
+import { aspectRatio } from '@grape-design/css/recipes/aspect-ratio';
 import clsx from 'clsx';
 import * as React from 'react';
 import { Box } from '../Box/Box.js';

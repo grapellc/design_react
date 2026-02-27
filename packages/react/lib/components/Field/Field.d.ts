@@ -1,7 +1,7 @@
 import { PrimitiveProps } from '@seed-design/react-primitive';
 import { Field } from '@seed-design/react-field';
-import { FieldVariantProps } from '@seed-design/css/recipes/field';
-import { FieldLabelVariantProps } from '@seed-design/css/recipes/field-label';
+import { FieldVariantProps } from '@grape-design/css/recipes/field';
+import { FieldLabelVariantProps } from '@grape-design/css/recipes/field-label';
 import type * as React from "react";
 export interface FieldRootProps extends FieldVariantProps, Field.RootProps {
 }

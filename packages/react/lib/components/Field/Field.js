@@ -5,8 +5,8 @@ import { useFieldContext, Field } from '@seed-design/react-field';
 import { forwardRef } from 'react';
 import { createSlotRecipeContext } from '../../utils/createSlotRecipeContext.js';
 import { createWithStateProps } from '../../utils/createWithStateProps.js';
-import { field } from '@seed-design/css/recipes/field';
-import { fieldLabel } from '@seed-design/css/recipes/field-label';
+import { field } from '@grape-design/css/recipes/field';
+import { fieldLabel } from '@grape-design/css/recipes/field-label';
 import { InternalIcon } from '../private/Icon.js';
 import clsx from 'clsx';
 

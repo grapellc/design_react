@@ -1,4 +1,4 @@
-import { ReactionButtonVariantProps } from '@seed-design/css/recipes/reaction-button';
+import { ReactionButtonVariantProps } from '@grape-design/css/recipes/reaction-button';
 import { Toggle as TogglePrimitive } from '@seed-design/react-toggle';
 import { UsePendingButtonProps } from '../LoadingIndicator/usePendingButton';
 import * as React from "react";

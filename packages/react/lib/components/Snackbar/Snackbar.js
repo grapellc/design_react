@@ -1,7 +1,7 @@
 'use client';
 import { jsx } from 'react/jsx-runtime';
-import { snackbar } from '@seed-design/css/recipes/snackbar';
-import { snackbarRegion } from '@seed-design/css/recipes/snackbar-region';
+import { snackbar } from '@grape-design/css/recipes/snackbar';
+import { snackbarRegion } from '@grape-design/css/recipes/snackbar-region';
 import { visuallyHidden } from '@seed-design/dom-utils';
 import { Primitive } from '@seed-design/react-primitive';
 import { Snackbar } from '@seed-design/react-snackbar';

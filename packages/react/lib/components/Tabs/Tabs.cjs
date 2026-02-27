@@ -3,7 +3,7 @@
 
 Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
 
-const tabs = require('@seed-design/css/recipes/tabs');
+const tabs = require('@grape-design/css/recipes/tabs');
 const reactTabs = require('@seed-design/react-tabs');
 const createSlotRecipeContext = require('../../utils/createSlotRecipeContext.cjs');
 

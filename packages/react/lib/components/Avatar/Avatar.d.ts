@@ -1,7 +1,7 @@
 import { Image } from '@seed-design/react-image';
 import { PrimitiveProps } from '@seed-design/react-primitive';
-import { AvatarVariantProps } from '@seed-design/css/recipes/avatar';
-import { AvatarStackVariantProps } from '@seed-design/css/recipes/avatar-stack';
+import { AvatarVariantProps } from '@grape-design/css/recipes/avatar';
+import { AvatarStackVariantProps } from '@grape-design/css/recipes/avatar-stack';
 import * as React from "react";
 export interface AvatarRootProps extends AvatarVariantProps, Image.RootProps {
 }

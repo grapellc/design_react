@@ -1,4 +1,4 @@
-import { ScopedColorBg, ScopedColorFg, ScopedColorPalette, ScopedColorStroke, Dimension, Radius, SpacingX, SpacingY, Gradient, Shadow, ScopedColorBanner } from '@seed-design/css/vars';
+import { ScopedColorBg, ScopedColorFg, ScopedColorPalette, ScopedColorStroke, Dimension, Radius, SpacingX, SpacingY, Gradient, Shadow, ScopedColorBanner } from '@grape-design/css/vars';
 import { ForwardRefExoticComponent, PropsWithoutRef, RefAttributes } from 'react';
 export declare function handleColor(color: string | undefined): any;
 export declare function handleDimension(dimension: string | 0 | undefined): string | undefined;

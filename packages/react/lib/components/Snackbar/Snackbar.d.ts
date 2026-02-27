@@ -1,4 +1,4 @@
-import { SnackbarVariantProps } from '@seed-design/css/recipes/snackbar';
+import { SnackbarVariantProps } from '@grape-design/css/recipes/snackbar';
 import { PrimitiveProps } from '@seed-design/react-primitive';
 import { Snackbar as SnackbarPrimitive } from '@seed-design/react-snackbar';
 import { InternalIconProps } from '../private/Icon';

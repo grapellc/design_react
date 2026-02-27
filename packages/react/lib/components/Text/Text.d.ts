@@ -1,5 +1,5 @@
-import { TextVariantProps } from '@seed-design/css/recipes/text';
-import { FontSize, FontWeight, LineHeight, ScopedColorFg, ScopedColorPalette } from '@seed-design/css/vars';
+import { TextVariantProps } from '@grape-design/css/recipes/text';
+import { FontSize, FontWeight, LineHeight, ScopedColorFg, ScopedColorPalette } from '@grape-design/css/vars';
 import type * as React from "react";
 import type * as CSS from "csstype";
 export interface TextProps extends Omit<TextVariantProps, "maxLines">, React.HTMLAttributes<HTMLSpanElement> {

@@ -1,6 +1,6 @@
 'use client';
 import { Primitive } from '@seed-design/react-primitive';
-import { skeleton } from '@seed-design/css/recipes/skeleton';
+import { skeleton } from '@grape-design/css/recipes/skeleton';
 import { createRecipeContext } from '../../utils/createRecipeContext.js';
 import { withStyleProps } from '../../utils/styled.js';
 

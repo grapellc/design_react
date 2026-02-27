@@ -1,6 +1,6 @@
 import { PrimitiveProps } from '@seed-design/react-primitive';
 import { TextField } from '@seed-design/react-text-field';
-import { TextInputVariantProps } from '@seed-design/css/recipes/text-input';
+import { TextInputVariantProps } from '@grape-design/css/recipes/text-input';
 import { InternalIconProps } from '../private/Icon';
 import type * as React from "react";
 export interface TextFieldRootProps extends TextInputVariantProps, TextField.RootProps {

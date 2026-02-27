@@ -1,4 +1,4 @@
-import { BottomSheetVariantProps } from '@seed-design/css/recipes/bottom-sheet';
+import { BottomSheetVariantProps } from '@grape-design/css/recipes/bottom-sheet';
 import { Drawer } from '@seed-design/react-drawer';
 import { PrimitiveProps } from '@seed-design/react-primitive';
 import { StyleProps } from '../../utils/styled';

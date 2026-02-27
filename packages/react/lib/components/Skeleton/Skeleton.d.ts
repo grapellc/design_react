@@ -1,5 +1,5 @@
 import { PrimitiveProps } from '@seed-design/react-primitive';
-import { SkeletonVariantProps } from '@seed-design/css/recipes/skeleton';
+import { SkeletonVariantProps } from '@grape-design/css/recipes/skeleton';
 import { StyleProps } from '../../utils/styled';
 import type * as React from "react";
 export interface SkeletonProps extends SkeletonVariantProps, PrimitiveProps, Pick<StyleProps, "height" | "width">, Omit<React.HTMLAttributes<HTMLDivElement>, "color"> {

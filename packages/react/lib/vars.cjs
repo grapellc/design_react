@@ -2,7 +2,7 @@
 
 Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
 
-const vars = require('@seed-design/css/vars');
+const vars = require('@grape-design/css/vars');
 
 
 

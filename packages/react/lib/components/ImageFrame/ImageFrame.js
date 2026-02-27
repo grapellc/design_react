@@ -1,10 +1,10 @@
 'use client';
 import { jsx, jsxs } from 'react/jsx-runtime';
-import { imageFrame } from '@seed-design/css/recipes/image-frame';
-import { imageFrameIcon } from '@seed-design/css/recipes/image-frame-icon';
-import { imageFrameIndicator } from '@seed-design/css/recipes/image-frame-indicator';
-import { imageFrameReactionButton } from '@seed-design/css/recipes/image-frame-reaction-button';
-import { imageFrameFloater } from '@seed-design/css/vars/component';
+import { imageFrame } from '@grape-design/css/recipes/image-frame';
+import { imageFrameIcon } from '@grape-design/css/recipes/image-frame-icon';
+import { imageFrameIndicator } from '@grape-design/css/recipes/image-frame-indicator';
+import { imageFrameReactionButton } from '@grape-design/css/recipes/image-frame-reaction-button';
+import { imageFrameFloater } from '@grape-design/css/vars/component';
 import { Image } from '@seed-design/react-image';
 import { Toggle } from '@seed-design/react-toggle';
 import clsx from 'clsx';

@@ -1,25 +1,25 @@
-# Stage 1: Build docs (Next.js standalone)
+# Stage 1: Build docs as static export (no Node server, CSS/assets work with nginx)
 FROM oven/bun:1.2-alpine AS builder
 
 WORKDIR /app
-COPY package.json bun.lock bunfig.toml ./
+COPY package.json bun.lock bunfig.toml tsconfig.base.json ./
 COPY packages ./packages
 COPY examples/docs ./examples/docs
 
+# Static export cannot include API routes; search will need client-side config (Fumadocs Orama)
+RUN rm -rf /app/examples/docs/app/api
+
 RUN bun install
+
+ENV STATIC_EXPORT=1
 RUN bun run build:docs
 
-# Stage 2: Run standalone Next.js server
-FROM node:22-alpine
+# Stage 2: Serve static export with nginx
+FROM nginx:alpine
 
-WORKDIR /app
-ENV NODE_ENV=production
-ENV HOSTNAME=0.0.0.0
-ENV PORT=3000
-EXPOSE 3000
+RUN rm -rf /usr/share/nginx/html/*
+COPY --from=builder /app/examples/docs/out /usr/share/nginx/html
+COPY nginx-docs.conf /etc/nginx/conf.d/default.conf
 
-COPY --from=builder /app/examples/docs/.next/standalone ./
-COPY --from=builder /app/examples/docs/.next/static ./.next/static
-COPY --from=builder /app/examples/docs/public ./public
-
-CMD ["node", "server.js"]
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]

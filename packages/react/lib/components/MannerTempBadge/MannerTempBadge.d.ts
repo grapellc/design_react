@@ -1,4 +1,4 @@
-import { MannerTempBadgeVariantProps } from '@seed-design/css/recipes/manner-temp-badge';
+import { MannerTempBadgeVariantProps } from '@grape-design/css/recipes/manner-temp-badge';
 import { PrimitiveProps } from '@seed-design/react-primitive';
 import type * as React from "react";
 export interface MannerTempBadgeProps extends MannerTempBadgeVariantProps, PrimitiveProps, React.HTMLAttributes<HTMLSpanElement> {

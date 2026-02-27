@@ -1,4 +1,4 @@
-import { IdentityPlaceholderVariantProps } from '@seed-design/css/recipes/identity-placeholder';
+import { IdentityPlaceholderVariantProps } from '@grape-design/css/recipes/identity-placeholder';
 import { PrimitiveProps } from '@seed-design/react-primitive';
 import * as React from "react";
 export interface IdentityPlaceholderRootProps extends IdentityPlaceholderVariantProps, PrimitiveProps, React.HTMLAttributes<HTMLDivElement> {

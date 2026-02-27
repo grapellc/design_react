@@ -132,6 +132,5 @@ if (multicolorOut) {
 }
 
 if (!monochromeOut && !multicolorOut) {
-  console.error('[icons] No assets found at', ASSETS_ROOT);
-  process.exit(1);
+  console.warn('[icons] No assets found at', ASSETS_ROOT, '- using existing generated files if present.');
 }

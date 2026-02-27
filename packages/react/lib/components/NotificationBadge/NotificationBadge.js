@@ -1,7 +1,7 @@
 'use client';
 import { jsx } from 'react/jsx-runtime';
-import { notificationBadge } from '@seed-design/css/recipes/notification-badge';
-import { notificationBadgePositioner } from '@seed-design/css/recipes/notification-badge-positioner';
+import { notificationBadge } from '@grape-design/css/recipes/notification-badge';
+import { notificationBadgePositioner } from '@grape-design/css/recipes/notification-badge-positioner';
 import { Primitive } from '@seed-design/react-primitive';
 import clsx from 'clsx';
 import * as React from 'react';

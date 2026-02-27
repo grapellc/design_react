@@ -1,5 +1,5 @@
 'use client';
-import { chip } from '@seed-design/css/recipes/chip';
+import { chip } from '@grape-design/css/recipes/chip';
 import { Primitive } from '@seed-design/react-primitive';
 import { createSlotRecipeContext } from '../../utils/createSlotRecipeContext.js';
 import { withIconRequired } from '../Icon/Icon.js';

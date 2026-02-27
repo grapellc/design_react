@@ -1,4 +1,4 @@
-import { FloatingActionButtonVariantProps } from '@seed-design/css/recipes/floating-action-button';
+import { FloatingActionButtonVariantProps } from '@grape-design/css/recipes/floating-action-button';
 import { PrimitiveProps } from '@seed-design/react-primitive';
 import { InternalIconProps } from '../private/Icon';
 import type * as React from "react";

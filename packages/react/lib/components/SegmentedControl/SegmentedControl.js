@@ -1,5 +1,5 @@
 'use client';
-import { segmentedControl } from '@seed-design/css/recipes/segmented-control';
+import { segmentedControl } from '@grape-design/css/recipes/segmented-control';
 import { Primitive } from '@seed-design/react-primitive';
 import { SegmentedControl } from '@seed-design/react-segmented-control';
 import { createSlotRecipeContext } from '../../utils/createSlotRecipeContext.js';

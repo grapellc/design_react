@@ -1,7 +1,7 @@
 'use client';
 import { jsx } from 'react/jsx-runtime';
-import { text } from '@seed-design/css/recipes/text';
-import { vars } from '@seed-design/css/vars';
+import { text } from '@grape-design/css/recipes/text';
+import { vars } from '@grape-design/css/vars';
 import clsx from 'clsx';
 import { forwardRef, useMemo } from 'react';
 

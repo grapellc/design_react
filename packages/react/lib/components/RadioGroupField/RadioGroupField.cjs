@@ -4,8 +4,8 @@
 Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
 
 const jsxRuntime = require('react/jsx-runtime');
-const field = require('@seed-design/css/recipes/field');
-const fieldLabel = require('@seed-design/css/recipes/field-label');
+const field = require('@grape-design/css/recipes/field');
+const fieldLabel = require('@grape-design/css/recipes/field-label');
 const reactPrimitive = require('@seed-design/react-primitive');
 const reactRadioGroup = require('@seed-design/react-radio-group');
 const React = require('react');

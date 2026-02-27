@@ -1,6 +1,6 @@
 import { Switch as SwitchPrimitive } from '@seed-design/react-switch';
-import { SwitchVariantProps } from '@seed-design/css/recipes/switch';
-import { SwitchmarkVariantProps } from '@seed-design/css/recipes/switchmark';
+import { SwitchVariantProps } from '@grape-design/css/recipes/switch';
+import { SwitchmarkVariantProps } from '@grape-design/css/recipes/switchmark';
 import { PrimitiveProps } from '@seed-design/react-primitive';
 import { default as React } from 'react';
 /**

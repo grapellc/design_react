@@ -1,4 +1,4 @@
-import { SegmentedControlVariantProps } from '@seed-design/css/recipes/segmented-control';
+import { SegmentedControlVariantProps } from '@grape-design/css/recipes/segmented-control';
 import { PrimitiveProps } from '@seed-design/react-primitive';
 import { SegmentedControl as SegmentedControlPrimitive } from '@seed-design/react-segmented-control';
 import { ForwardRefExoticComponent, RefAttributes } from 'react';

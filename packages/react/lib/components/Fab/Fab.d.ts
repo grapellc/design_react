@@ -1,5 +1,5 @@
 import { PrimitiveProps } from '@seed-design/react-primitive';
-import { FabVariantProps } from '@seed-design/css/recipes/fab';
+import { FabVariantProps } from '@grape-design/css/recipes/fab';
 import type * as React from "react";
 /**
  * @deprecated Use `ContextualFloatingButton` instead.

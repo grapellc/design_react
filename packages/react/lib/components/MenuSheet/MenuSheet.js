@@ -2,8 +2,8 @@
 import { jsx } from 'react/jsx-runtime';
 import { Dialog, useDialogContext } from '@seed-design/react-dialog';
 import { Primitive } from '@seed-design/react-primitive';
-import { menuSheet } from '@seed-design/css/recipes/menu-sheet';
-import { menuSheetItem } from '@seed-design/css/recipes/menu-sheet-item';
+import { menuSheet } from '@grape-design/css/recipes/menu-sheet';
+import { menuSheetItem } from '@grape-design/css/recipes/menu-sheet-item';
 import * as React from 'react';
 import { createSlotRecipeContext } from '../../utils/createSlotRecipeContext.js';
 import { createWithStateProps } from '../../utils/createWithStateProps.js';

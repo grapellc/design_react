@@ -1,6 +1,6 @@
 'use client';
 import { jsx } from 'react/jsx-runtime';
-import { mannerTemp } from '@seed-design/css/recipes/manner-temp';
+import { mannerTemp } from '@grape-design/css/recipes/manner-temp';
 import { Primitive } from '@seed-design/react-primitive';
 import { forwardRef, useMemo } from 'react';
 import { createRecipeContext } from '../../utils/createRecipeContext.js';

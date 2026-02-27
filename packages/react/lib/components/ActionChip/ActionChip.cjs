@@ -3,7 +3,7 @@
 
 Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
 
-const actionChip = require('@seed-design/css/recipes/action-chip');
+const actionChip = require('@grape-design/css/recipes/action-chip');
 const reactPrimitive = require('@seed-design/react-primitive');
 const createRecipeContext = require('../../utils/createRecipeContext.cjs');
 const Icon = require('../Icon/Icon.cjs');

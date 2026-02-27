@@ -1,5 +1,5 @@
 import { PrimitiveProps } from '@seed-design/react-primitive';
-import { ExtendedFabVariantProps } from '@seed-design/css/recipes/extended-fab';
+import { ExtendedFabVariantProps } from '@grape-design/css/recipes/extended-fab';
 import { ForwardRefExoticComponent, RefAttributes } from 'react';
 /**
  * @deprecated Use `ContextualFloatingButton` instead.

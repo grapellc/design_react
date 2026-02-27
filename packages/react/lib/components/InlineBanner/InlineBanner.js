@@ -1,5 +1,5 @@
 'use client';
-import { inlineBanner } from '@seed-design/css/recipes/inline-banner';
+import { inlineBanner } from '@grape-design/css/recipes/inline-banner';
 import { Primitive } from '@seed-design/react-primitive';
 import { createSlotRecipeContext } from '../../utils/createSlotRecipeContext.js';
 import { DismissibleCloseButton, DismissibleRoot } from '../private/useDismissible.js';

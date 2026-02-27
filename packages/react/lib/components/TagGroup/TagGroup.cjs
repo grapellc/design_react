@@ -5,8 +5,8 @@ Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
 
 const jsxRuntime = require('react/jsx-runtime');
 const reactPrimitive = require('@seed-design/react-primitive');
-const tagGroup = require('@seed-design/css/recipes/tag-group');
-const tagGroupItem = require('@seed-design/css/recipes/tag-group-item');
+const tagGroup = require('@grape-design/css/recipes/tag-group');
+const tagGroupItem = require('@grape-design/css/recipes/tag-group-item');
 const React = require('react');
 const clsx = require('clsx');
 const splitMultipleVariantsProps = require('../../utils/splitMultipleVariantsProps.cjs');

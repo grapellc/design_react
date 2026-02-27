@@ -4,9 +4,9 @@
 Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
 
 const jsxRuntime = require('react/jsx-runtime');
-const radio = require('@seed-design/css/recipes/radio');
-const radioGroup = require('@seed-design/css/recipes/radio-group');
-const radiomark = require('@seed-design/css/recipes/radiomark');
+const radio = require('@grape-design/css/recipes/radio');
+const radioGroup = require('@grape-design/css/recipes/radio-group');
+const radiomark = require('@grape-design/css/recipes/radiomark');
 const domUtils = require('@seed-design/dom-utils');
 const reactRadioGroup = require('@seed-design/react-radio-group');
 const reactPrimitive = require('@seed-design/react-primitive');

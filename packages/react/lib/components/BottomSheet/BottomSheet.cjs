@@ -4,7 +4,7 @@
 Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
 
 const jsxRuntime = require('react/jsx-runtime');
-const bottomSheet = require('@seed-design/css/recipes/bottom-sheet');
+const bottomSheet = require('@grape-design/css/recipes/bottom-sheet');
 const domUtils = require('@seed-design/dom-utils');
 const reactDrawer = require('@seed-design/react-drawer');
 const reactPrimitive = require('@seed-design/react-primitive');

@@ -4,8 +4,8 @@
 Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
 
 const jsxRuntime = require('react/jsx-runtime');
-const checkbox = require('@seed-design/css/recipes/checkbox');
-const checkmark = require('@seed-design/css/recipes/checkmark');
+const checkbox = require('@grape-design/css/recipes/checkbox');
+const checkmark = require('@grape-design/css/recipes/checkmark');
 const splitMultipleVariantsProps = require('../../utils/splitMultipleVariantsProps.cjs');
 const domUtils = require('@seed-design/dom-utils');
 const reactCheckbox = require('@seed-design/react-checkbox');
@@ -16,7 +16,7 @@ const createSlotRecipeContext = require('../../utils/createSlotRecipeContext.cjs
 const createWithStateProps = require('../../utils/createWithStateProps.cjs');
 const Icon = require('../private/Icon.cjs');
 const createRecipeContext = require('../../utils/createRecipeContext.cjs');
-const checkboxGroup = require('@seed-design/css/recipes/checkbox-group');
+const checkboxGroup = require('@grape-design/css/recipes/checkbox-group');
 
 const { withContext: withGroupContext } = createRecipeContext.createRecipeContext(checkboxGroup.checkboxGroup);
 const { ClassNamesProvider, withContext } = createSlotRecipeContext.createSlotRecipeContext(checkbox.checkbox);

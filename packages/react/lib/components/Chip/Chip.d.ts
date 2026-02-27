@@ -1,4 +1,4 @@
-import { ChipVariantProps } from '@seed-design/css/recipes/chip';
+import { ChipVariantProps } from '@grape-design/css/recipes/chip';
 import { PrimitiveProps } from '@seed-design/react-primitive';
 import type * as React from "react";
 export interface ChipRootProps extends PrimitiveProps, ChipVariantProps, React.ButtonHTMLAttributes<HTMLButtonElement> {

@@ -4,8 +4,8 @@
 Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
 
 const jsxRuntime = require('react/jsx-runtime');
-const text = require('@seed-design/css/recipes/text');
-const vars = require('@seed-design/css/vars');
+const text = require('@grape-design/css/recipes/text');
+const vars = require('@grape-design/css/vars');
 const clsx = require('clsx');
 const React = require('react');
 

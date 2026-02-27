@@ -3,7 +3,7 @@
 
 Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
 
-const floatingActionButton = require('@seed-design/css/recipes/floating-action-button');
+const floatingActionButton = require('@grape-design/css/recipes/floating-action-button');
 const reactPrimitive = require('@seed-design/react-primitive');
 const createSlotRecipeContext = require('../../utils/createSlotRecipeContext.cjs');
 const Icon = require('../private/Icon.cjs');

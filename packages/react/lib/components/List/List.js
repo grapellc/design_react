@@ -1,6 +1,6 @@
 'use client';
 import { jsx } from 'react/jsx-runtime';
-import { listItem } from '@seed-design/css/recipes/list-item';
+import { listItem } from '@grape-design/css/recipes/list-item';
 import { Primitive } from '@seed-design/react-primitive';
 import { forwardRef } from 'react';
 import { createSlotRecipeContext } from '../../utils/createSlotRecipeContext.js';

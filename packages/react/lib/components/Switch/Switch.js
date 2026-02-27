@@ -1,8 +1,8 @@
 'use client';
 import { jsx } from 'react/jsx-runtime';
 import { Switch, useSwitchContext } from '@seed-design/react-switch';
-import { switchStyle } from '@seed-design/css/recipes/switch';
-import { switchmark } from '@seed-design/css/recipes/switchmark';
+import { switchStyle } from '@grape-design/css/recipes/switch';
+import { switchmark } from '@grape-design/css/recipes/switchmark';
 import { createSlotRecipeContext } from '../../utils/createSlotRecipeContext.js';
 import { Primitive } from '@seed-design/react-primitive';
 import { createWithStateProps } from '../../utils/createWithStateProps.js';

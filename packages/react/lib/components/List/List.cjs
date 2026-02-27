@@ -4,7 +4,7 @@
 Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
 
 const jsxRuntime = require('react/jsx-runtime');
-const listItem = require('@seed-design/css/recipes/list-item');
+const listItem = require('@grape-design/css/recipes/list-item');
 const reactPrimitive = require('@seed-design/react-primitive');
 const React = require('react');
 const createSlotRecipeContext = require('../../utils/createSlotRecipeContext.cjs');

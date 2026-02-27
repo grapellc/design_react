@@ -1,6 +1,6 @@
-import { RadioVariantProps } from '@seed-design/css/recipes/radio';
-import { RadioGroupVariantProps } from '@seed-design/css/recipes/radio-group';
-import { RadiomarkVariantProps } from '@seed-design/css/recipes/radiomark';
+import { RadioVariantProps } from '@grape-design/css/recipes/radio';
+import { RadioGroupVariantProps } from '@grape-design/css/recipes/radio-group';
+import { RadiomarkVariantProps } from '@grape-design/css/recipes/radiomark';
 import { RadioGroup as RadioGroupPrimitive } from '@seed-design/react-radio-group';
 import { PrimitiveProps } from '@seed-design/react-primitive';
 import { ForwardRefExoticComponent, RefAttributes } from 'react';

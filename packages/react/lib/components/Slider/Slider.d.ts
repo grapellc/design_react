@@ -1,6 +1,6 @@
-import { SliderVariantProps } from '@seed-design/css/recipes/slider';
-import { SliderTickVariantProps } from '@seed-design/css/recipes/slider-tick';
-import { SliderMarkerVariantProps } from '@seed-design/css/recipes/slider-marker';
+import { SliderVariantProps } from '@grape-design/css/recipes/slider';
+import { SliderTickVariantProps } from '@grape-design/css/recipes/slider-tick';
+import { SliderMarkerVariantProps } from '@grape-design/css/recipes/slider-marker';
 import { PrimitiveProps } from '@seed-design/react-primitive';
 import { Slider } from '@seed-design/react-slider';
 import { HTMLAttributes, ForwardRefExoticComponent, RefAttributes } from 'react';

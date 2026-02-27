@@ -1,8 +1,8 @@
-import { ActionButtonVariantProps } from '@seed-design/css/recipes/action-button';
+import { ActionButtonVariantProps } from '@grape-design/css/recipes/action-button';
 import { PrimitiveProps } from '@seed-design/react-primitive';
 import { StyleProps } from '../../utils/styled';
 import { UsePendingButtonProps } from '../LoadingIndicator/usePendingButton';
-import { ScopedColorFg, ScopedColorPalette, FontWeight } from '@seed-design/css/vars';
+import { ScopedColorFg, ScopedColorPalette, FontWeight } from '@grape-design/css/vars';
 import * as React from "react";
 export interface ActionButtonProps extends ActionButtonVariantProps, UsePendingButtonProps, PrimitiveProps, Pick<StyleProps, "flexGrow" | "bleedX" | "bleedY">, React.ButtonHTMLAttributes<HTMLButtonElement> {
     /**

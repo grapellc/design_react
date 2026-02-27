@@ -1,4 +1,4 @@
-import { ActionChipVariantProps } from '@seed-design/css/recipes/action-chip';
+import { ActionChipVariantProps } from '@grape-design/css/recipes/action-chip';
 import { PrimitiveProps } from '@seed-design/react-primitive';
 import type * as React from "react";
 /**

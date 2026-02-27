@@ -1,4 +1,4 @@
-import { ChipTabsVariantProps } from '@seed-design/css/recipes/chip-tabs';
+import { ChipTabsVariantProps } from '@grape-design/css/recipes/chip-tabs';
 import { Tabs as TabsPrimitive } from '@seed-design/react-tabs';
 import { ForwardRefExoticComponent, RefAttributes } from 'react';
 export interface ChipTabsRootProps extends ChipTabsVariantProps, TabsPrimitive.RootProps {

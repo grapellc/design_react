@@ -1,5 +1,5 @@
 'use client';
-import { floatingActionButton } from '@seed-design/css/recipes/floating-action-button';
+import { floatingActionButton } from '@grape-design/css/recipes/floating-action-button';
 import { Primitive } from '@seed-design/react-primitive';
 import { createSlotRecipeContext } from '../../utils/createSlotRecipeContext.js';
 import { InternalIcon } from '../private/Icon.js';

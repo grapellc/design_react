@@ -2,8 +2,8 @@
 import { jsx } from 'react/jsx-runtime';
 import { Image } from '@seed-design/react-image';
 import { Primitive } from '@seed-design/react-primitive';
-import { avatar } from '@seed-design/css/recipes/avatar';
-import { avatarStack } from '@seed-design/css/recipes/avatar-stack';
+import { avatar } from '@grape-design/css/recipes/avatar';
+import { avatarStack } from '@grape-design/css/recipes/avatar-stack';
 import clsx from 'clsx';
 import * as React from 'react';
 import { useMemo } from 'react';

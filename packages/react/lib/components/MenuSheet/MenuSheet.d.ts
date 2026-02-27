@@ -1,7 +1,7 @@
 import { Dialog as DialogPrimitive } from '@seed-design/react-dialog';
 import { PrimitiveProps } from '@seed-design/react-primitive';
-import { MenuSheetVariantProps } from '@seed-design/css/recipes/menu-sheet';
-import { MenuSheetItemVariantProps } from '@seed-design/css/recipes/menu-sheet-item';
+import { MenuSheetVariantProps } from '@grape-design/css/recipes/menu-sheet';
+import { MenuSheetItemVariantProps } from '@grape-design/css/recipes/menu-sheet-item';
 import * as React from "react";
 export interface MenuSheetRootProps extends MenuSheetVariantProps, DialogPrimitive.RootProps {
     /**

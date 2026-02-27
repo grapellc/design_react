@@ -1,8 +1,8 @@
 'use client';
 import { jsx } from 'react/jsx-runtime';
-import { slider } from '@seed-design/css/recipes/slider';
-import { sliderTick } from '@seed-design/css/recipes/slider-tick';
-import { sliderMarker } from '@seed-design/css/recipes/slider-marker';
+import { slider } from '@grape-design/css/recipes/slider';
+import { sliderTick } from '@grape-design/css/recipes/slider-tick';
+import { sliderMarker } from '@grape-design/css/recipes/slider-marker';
 import { Primitive } from '@seed-design/react-primitive';
 import { createSlotRecipeContext } from '../../utils/createSlotRecipeContext.js';
 import { Slider, useSliderContext } from '@seed-design/react-slider';

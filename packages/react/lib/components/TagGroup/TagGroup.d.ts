@@ -1,6 +1,6 @@
 import { PrimitiveProps } from '@seed-design/react-primitive';
-import { TagGroupVariantProps } from '@seed-design/css/recipes/tag-group';
-import { TagGroupItemVariantProps } from '@seed-design/css/recipes/tag-group-item';
+import { TagGroupVariantProps } from '@grape-design/css/recipes/tag-group';
+import { TagGroupItemVariantProps } from '@grape-design/css/recipes/tag-group-item';
 import { StyleProps } from '../../utils/styled';
 import { ForwardRefExoticComponent, RefAttributes } from 'react';
 export interface TagGroupRootProps extends TagGroupVariantProps, TagGroupItemVariantProps, PrimitiveProps, React.HTMLAttributes<HTMLSpanElement> {

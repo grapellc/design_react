@@ -4,7 +4,7 @@
 Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
 
 const jsxRuntime = require('react/jsx-runtime');
-const contextualFloatingButton = require('@seed-design/css/recipes/contextual-floating-button');
+const contextualFloatingButton = require('@grape-design/css/recipes/contextual-floating-button');
 const reactPrimitive = require('@seed-design/react-primitive');
 const clsx = require('clsx');
 const React = require('react');

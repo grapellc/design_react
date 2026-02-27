@@ -4,7 +4,7 @@ import { useLayoutEffect } from '@radix-ui/react-use-layout-effect';
 import { Primitive } from '@seed-design/react-primitive';
 import { useTextFieldContext, TextField } from '@seed-design/react-text-field';
 import { useFieldContext } from '@seed-design/react-field';
-import { textInput } from '@seed-design/css/recipes/text-input';
+import { textInput } from '@grape-design/css/recipes/text-input';
 import clsx from 'clsx';
 import { forwardRef, useRef, useCallback } from 'react';
 import { createSlotRecipeContext } from '../../utils/createSlotRecipeContext.js';

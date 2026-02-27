@@ -1,9 +1,9 @@
 'use client';
 import { jsx } from 'react/jsx-runtime';
-import { scrollFog } from '@seed-design/css/recipes/scroll-fog';
+import { scrollFog } from '@grape-design/css/recipes/scroll-fog';
 import clsx from 'clsx';
 import { forwardRef, useMemo } from 'react';
-import { scrollFog as scrollFog$1 } from '@seed-design/css/vars/component';
+import { scrollFog as scrollFog$1 } from '@grape-design/css/vars/component';
 
 const ScrollFog = forwardRef(
   ({

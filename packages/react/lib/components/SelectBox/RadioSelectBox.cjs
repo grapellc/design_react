@@ -5,8 +5,8 @@ Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
 
 const jsxRuntime = require('react/jsx-runtime');
 const reactComposeRefs = require('@radix-ui/react-compose-refs');
-const selectBox = require('@seed-design/css/recipes/select-box');
-const selectBoxGroup = require('@seed-design/css/recipes/select-box-group');
+const selectBox = require('@grape-design/css/recipes/select-box');
+const selectBoxGroup = require('@grape-design/css/recipes/select-box-group');
 const reactCollapsible = require('@seed-design/react-collapsible');
 const reactPrimitive = require('@seed-design/react-primitive');
 const reactRadioGroup = require('@seed-design/react-radio-group');

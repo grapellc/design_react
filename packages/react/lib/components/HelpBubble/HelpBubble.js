@@ -2,7 +2,7 @@
 import { jsx } from 'react/jsx-runtime';
 import { Popover, usePopoverContext } from '@seed-design/react-popover';
 import { Primitive } from '@seed-design/react-primitive';
-import { helpBubble } from '@seed-design/css/recipes/help-bubble';
+import { helpBubble } from '@grape-design/css/recipes/help-bubble';
 import { forwardRef } from 'react';
 import { createSlotRecipeContext } from '../../utils/createSlotRecipeContext.js';
 import { createWithStateProps } from '../../utils/createWithStateProps.js';

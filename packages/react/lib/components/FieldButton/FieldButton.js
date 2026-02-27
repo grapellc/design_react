@@ -5,10 +5,10 @@ import { FieldButton, useFieldButtonContext } from '@seed-design/react-field-but
 import * as React from 'react';
 import { createSlotRecipeContext } from '../../utils/createSlotRecipeContext.js';
 import { createWithStateProps } from '../../utils/createWithStateProps.js';
-import { field } from '@seed-design/css/recipes/field';
-import { fieldLabel } from '@seed-design/css/recipes/field-label';
+import { field } from '@grape-design/css/recipes/field';
+import { fieldLabel } from '@grape-design/css/recipes/field-label';
 import { InternalIcon } from '../private/Icon.js';
-import { inputButton } from '@seed-design/css/recipes/input-button';
+import { inputButton } from '@grape-design/css/recipes/input-button';
 import clsx from 'clsx';
 
 const { withContext: withFieldContext, withProvider: withFieldProvider } = createSlotRecipeContext(field);

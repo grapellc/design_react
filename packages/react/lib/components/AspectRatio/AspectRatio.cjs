@@ -4,7 +4,7 @@
 Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
 
 const jsxRuntime = require('react/jsx-runtime');
-const aspectRatio = require('@seed-design/css/recipes/aspect-ratio');
+const aspectRatio = require('@grape-design/css/recipes/aspect-ratio');
 const clsx = require('clsx');
 const React = require('react');
 const Box = require('../Box/Box.cjs');

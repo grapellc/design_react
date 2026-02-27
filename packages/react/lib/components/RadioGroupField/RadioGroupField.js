@@ -1,7 +1,7 @@
 'use client';
 import { jsx } from 'react/jsx-runtime';
-import { field } from '@seed-design/css/recipes/field';
-import { fieldLabel } from '@seed-design/css/recipes/field-label';
+import { field } from '@grape-design/css/recipes/field';
+import { fieldLabel } from '@grape-design/css/recipes/field-label';
 import { Primitive } from '@seed-design/react-primitive';
 import { RadioGroup } from '@seed-design/react-radio-group';
 import { forwardRef } from 'react';

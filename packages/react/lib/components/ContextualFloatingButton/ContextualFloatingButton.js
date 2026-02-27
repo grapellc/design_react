@@ -1,6 +1,6 @@
 'use client';
 import { jsx } from 'react/jsx-runtime';
-import { contextualFloatingButton } from '@seed-design/css/recipes/contextual-floating-button';
+import { contextualFloatingButton } from '@grape-design/css/recipes/contextual-floating-button';
 import { Primitive } from '@seed-design/react-primitive';
 import clsx from 'clsx';
 import * as React from 'react';

@@ -1,5 +1,5 @@
 import { PrimitiveProps } from '@seed-design/react-primitive';
-import { CalloutVariantProps } from '@seed-design/css/recipes/callout';
+import { CalloutVariantProps } from '@grape-design/css/recipes/callout';
 import { DismissibleRootProps } from '../private/useDismissible';
 import type * as React from "react";
 export interface CalloutRootProps extends CalloutVariantProps, DismissibleRootProps {

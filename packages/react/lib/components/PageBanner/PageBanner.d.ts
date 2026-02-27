@@ -1,4 +1,4 @@
-import { PageBannerVariantProps } from '@seed-design/css/recipes/page-banner';
+import { PageBannerVariantProps } from '@grape-design/css/recipes/page-banner';
 import { PrimitiveProps } from '@seed-design/react-primitive';
 import { DismissibleRootProps } from '../private/useDismissible';
 import type * as React from "react";

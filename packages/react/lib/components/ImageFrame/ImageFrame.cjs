@@ -4,11 +4,11 @@
 Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
 
 const jsxRuntime = require('react/jsx-runtime');
-const imageFrame = require('@seed-design/css/recipes/image-frame');
-const imageFrameIcon = require('@seed-design/css/recipes/image-frame-icon');
-const imageFrameIndicator = require('@seed-design/css/recipes/image-frame-indicator');
-const imageFrameReactionButton = require('@seed-design/css/recipes/image-frame-reaction-button');
-const component = require('@seed-design/css/vars/component');
+const imageFrame = require('@grape-design/css/recipes/image-frame');
+const imageFrameIcon = require('@grape-design/css/recipes/image-frame-icon');
+const imageFrameIndicator = require('@grape-design/css/recipes/image-frame-indicator');
+const imageFrameReactionButton = require('@grape-design/css/recipes/image-frame-reaction-button');
+const component = require('@grape-design/css/vars/component');
 const reactImage = require('@seed-design/react-image');
 const reactToggle = require('@seed-design/react-toggle');
 const clsx = require('clsx');

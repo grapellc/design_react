@@ -4,7 +4,7 @@
 Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
 
 const reactPrimitive = require('@seed-design/react-primitive');
-const skeleton = require('@seed-design/css/recipes/skeleton');
+const skeleton = require('@grape-design/css/recipes/skeleton');
 const createRecipeContext = require('../../utils/createRecipeContext.cjs');
 const styled = require('../../utils/styled.cjs');
 

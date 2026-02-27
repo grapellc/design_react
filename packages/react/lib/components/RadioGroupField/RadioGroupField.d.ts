@@ -1,5 +1,5 @@
-import { FieldVariantProps } from '@seed-design/css/recipes/field';
-import { FieldLabelVariantProps } from '@seed-design/css/recipes/field-label';
+import { FieldVariantProps } from '@grape-design/css/recipes/field';
+import { FieldLabelVariantProps } from '@grape-design/css/recipes/field-label';
 import { PrimitiveProps } from '@seed-design/react-primitive';
 import { RadioGroup as RadioGroupPrimitive } from '@seed-design/react-radio-group';
 import type * as React from "react";

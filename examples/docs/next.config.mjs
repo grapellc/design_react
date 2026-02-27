@@ -50,8 +50,11 @@ const turbopackAliases = {
 
 /** @type {import('next').NextConfig} */
 const config = {
-  output: 'standalone',
-  serverExternalPackages: ['@takumi-rs/image-response'],
+  output: process.env.STATIC_EXPORT === '1' ? 'export' : 'standalone',
+  ...(process.env.STATIC_EXPORT !== '1' && {
+    serverExternalPackages: ['@takumi-rs/image-response'],
+  }),
+  trailingSlash: process.env.STATIC_EXPORT === '1',
   reactStrictMode: true,
   typescript: { ignoreBuildErrors: true },
   turbopack: {

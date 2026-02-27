@@ -9,8 +9,8 @@ const reactField = require('@seed-design/react-field');
 const React = require('react');
 const createSlotRecipeContext = require('../../utils/createSlotRecipeContext.cjs');
 const createWithStateProps = require('../../utils/createWithStateProps.cjs');
-const field = require('@seed-design/css/recipes/field');
-const fieldLabel = require('@seed-design/css/recipes/field-label');
+const field = require('@grape-design/css/recipes/field');
+const fieldLabel = require('@grape-design/css/recipes/field-label');
 const Icon = require('../private/Icon.cjs');
 const clsx = require('clsx');
 

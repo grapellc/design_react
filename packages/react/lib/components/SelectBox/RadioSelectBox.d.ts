@@ -1,5 +1,5 @@
-import { SelectBoxVariantProps } from '@seed-design/css/recipes/select-box';
-import { SelectBoxGroupVariantProps } from '@seed-design/css/recipes/select-box-group';
+import { SelectBoxVariantProps } from '@grape-design/css/recipes/select-box';
+import { SelectBoxGroupVariantProps } from '@grape-design/css/recipes/select-box-group';
 import { PrimitiveProps } from '@seed-design/react-primitive';
 import { RadioGroup as RadioGroupPrimitive } from '@seed-design/react-radio-group';
 import { ForwardRefExoticComponent, RefAttributes } from 'react';

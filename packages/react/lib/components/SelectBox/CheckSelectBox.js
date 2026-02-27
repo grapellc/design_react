@@ -1,9 +1,9 @@
 'use client';
 import { jsx } from 'react/jsx-runtime';
 import { composeRefs } from '@radix-ui/react-compose-refs';
-import { selectBox } from '@seed-design/css/recipes/select-box';
-import { selectBoxCheckmark } from '@seed-design/css/recipes/selectBoxCheckmark';
-import { selectBoxGroup } from '@seed-design/css/recipes/select-box-group';
+import { selectBox } from '@grape-design/css/recipes/select-box';
+import { selectBoxCheckmark } from '@grape-design/css/recipes/selectBoxCheckmark';
+import { selectBoxGroup } from '@grape-design/css/recipes/select-box-group';
 import { Checkbox, useCheckboxContext } from '@seed-design/react-checkbox';
 import { useCollapsibleContext, Collapsible, useCollapsible, CollapsibleProvider } from '@seed-design/react-collapsible';
 import { Primitive } from '@seed-design/react-primitive';

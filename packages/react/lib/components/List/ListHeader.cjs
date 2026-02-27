@@ -4,7 +4,7 @@
 Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
 
 const jsxRuntime = require('react/jsx-runtime');
-const listHeader = require('@seed-design/css/recipes/list-header');
+const listHeader = require('@grape-design/css/recipes/list-header');
 const React = require('react');
 const clsx = require('clsx');
 

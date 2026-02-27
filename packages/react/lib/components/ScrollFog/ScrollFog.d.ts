@@ -1,4 +1,4 @@
-import { ScrollFogVariantProps } from '@seed-design/css/recipes/scroll-fog';
+import { ScrollFogVariantProps } from '@grape-design/css/recipes/scroll-fog';
 import { ForwardRefExoticComponent, RefAttributes } from 'react';
 type ScrollPlacement = "top" | "bottom" | "left" | "right";
 type SizesConfig = {

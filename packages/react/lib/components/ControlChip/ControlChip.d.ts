@@ -1,4 +1,4 @@
-import { ControlChipVariantProps } from '@seed-design/css/recipes/control-chip';
+import { ControlChipVariantProps } from '@grape-design/css/recipes/control-chip';
 import { PrimitiveProps } from '@seed-design/react-primitive';
 import type * as React from "react";
 /**

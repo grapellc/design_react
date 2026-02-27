@@ -1,5 +1,5 @@
 'use client';
-import { mannerTempBadge } from '@seed-design/css/recipes/manner-temp-badge';
+import { mannerTempBadge } from '@grape-design/css/recipes/manner-temp-badge';
 import { Primitive } from '@seed-design/react-primitive';
 import { createRecipeContext } from '../../utils/createRecipeContext.js';
 

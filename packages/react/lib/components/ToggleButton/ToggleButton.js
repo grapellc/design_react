@@ -1,6 +1,6 @@
 'use client';
 import { jsx } from 'react/jsx-runtime';
-import { toggleButton } from '@seed-design/css/recipes/toggle-button';
+import { toggleButton } from '@grape-design/css/recipes/toggle-button';
 import { Toggle } from '@seed-design/react-toggle';
 import clsx from 'clsx';
 import * as React from 'react';

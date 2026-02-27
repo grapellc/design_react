@@ -1,8 +1,8 @@
-import { CheckboxVariantProps } from '@seed-design/css/recipes/checkbox';
-import { CheckmarkVariantProps } from '@seed-design/css/recipes/checkmark';
+import { CheckboxVariantProps } from '@grape-design/css/recipes/checkbox';
+import { CheckmarkVariantProps } from '@grape-design/css/recipes/checkmark';
 import { Checkbox as CheckboxPrimitive } from '@seed-design/react-checkbox';
 import { PrimitiveProps } from '@seed-design/react-primitive';
-import { CheckboxGroupVariantProps } from '@seed-design/css/recipes/checkbox-group';
+import { CheckboxGroupVariantProps } from '@grape-design/css/recipes/checkbox-group';
 import { ForwardRefExoticComponent, RefAttributes } from 'react';
 export interface CheckboxGroupProps extends CheckboxGroupVariantProps, PrimitiveProps, React.HTMLAttributes<HTMLDivElement> {
 }

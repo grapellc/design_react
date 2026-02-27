@@ -4,14 +4,14 @@
 Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
 
 const jsxRuntime = require('react/jsx-runtime');
-const actionButton = require('@seed-design/css/recipes/action-button');
+const actionButton = require('@grape-design/css/recipes/action-button');
 const reactPrimitive = require('@seed-design/react-primitive');
 const clsx = require('clsx');
 const React = require('react');
 const styled = require('../../utils/styled.cjs');
 const Icon = require('../Icon/Icon.cjs');
 const usePendingButton = require('../LoadingIndicator/usePendingButton.cjs');
-const vars = require('@seed-design/css/vars');
+const vars = require('@grape-design/css/vars');
 
 function _interopNamespaceDefault(e) {
   const n = Object.create(null, { [Symbol.toStringTag]: { value: 'Module' } });

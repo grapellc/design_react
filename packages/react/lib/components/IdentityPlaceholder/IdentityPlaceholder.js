@@ -1,6 +1,6 @@
 'use client';
 import { jsx } from 'react/jsx-runtime';
-import { identityPlaceholder } from '@seed-design/css/recipes/identity-placeholder';
+import { identityPlaceholder } from '@grape-design/css/recipes/identity-placeholder';
 import { mergeProps } from '@seed-design/dom-utils';
 import { Primitive } from '@seed-design/react-primitive';
 import * as React from 'react';
