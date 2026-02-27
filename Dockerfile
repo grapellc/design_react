@@ -6,8 +6,8 @@ COPY package.json bun.lock bunfig.toml tsconfig.base.json ./
 COPY packages ./packages
 COPY examples/docs ./examples/docs
 
-# Static export cannot include API routes; search will need client-side config (Fumadocs Orama)
-RUN rm -rf /app/examples/docs/app/api
+# Static export: no API routes, no OG route (uses native @takumi-rs/image-response)
+RUN rm -rf /app/examples/docs/app/api /app/examples/docs/app/og
 
 RUN bun install
 
