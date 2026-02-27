@@ -29,8 +29,8 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@grape_design_react/qvism-core": "0.0.0",
-    "@grape_design_react/rootage-core": "0.0.0"
+    "@grape_design_react/qvism-core": "workspace:*",
+    "@grape_design_react/rootage-core": "workspace:*"
   },
   "publishConfig": {
     "access": "public"

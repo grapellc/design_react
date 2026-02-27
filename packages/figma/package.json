@@ -39,7 +39,7 @@
     "sync-entities": "find src/entities/data/__generated__ -mindepth 1 -maxdepth 1 ! -name 'archive' -exec rm -rf {} + 2>/dev/null; bun figma-extractor src/entities/data/__generated__"
   },
   "dependencies": {
-    "@grape_design_react/css": "1.2.3",
+    "@grape_design_react/css": "workspace:*",
     "change-case": "^5.4.4",
     "ts-pattern": "^5.7.0"
   },
@@ -47,7 +47,7 @@
     "@figma/plugin-typings": "^1.110.0",
     "@figma/rest-api-spec": "^0.36.0",
     "@karrotmarket/icon-data": "^1.17.0",
-    "@grape_design_react/figma-extractor": "^1.1.0",
+    "@grape_design_react/figma-extractor": "workspace:*",
     "typescript": "^5.9.2"
   },
   "publishConfig": {

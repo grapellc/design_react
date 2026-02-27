@@ -29,10 +29,10 @@
   "dependencies": {
     "@radix-ui/react-dismissable-layer": "^1.1.7",
     "@radix-ui/react-focus-scope": "^1.1.4",
-    "@grape_design_react/react-use-controllable-state": "1.0.0",
+    "@grape_design_react/react-use-controllable-state": "workspace:*",
     "@radix-ui/react-use-layout-effect": "^1.1.1",
-    "@grape_design_react/dom-utils": "1.0.0",
-    "@grape_design_react/react-primitive": "1.0.0"
+    "@grape_design_react/dom-utils": "workspace:*",
+    "@grape_design_react/react-primitive": "workspace:*"
   },
   "devDependencies": {
     "@types/react": "^19.1.6",

@@ -18,7 +18,7 @@
     "lint:publish": "bun publint"
   },
   "dependencies": {
-    "@grape_design_react/migration-index": "^1.0.0",
+    "@grape_design_react/migration-index": "workspace:*",
     "cac": "^6.7.14",
     "change-case": "^5.4.4",
     "es-toolkit": "^1.35.0",

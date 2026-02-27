@@ -43,7 +43,7 @@
     "react-dom": "^17.0.0 || ^18.0.0"
   },
   "dependencies": {
-    "@grape_design_react/design-token": "^1.0.3"
+    "@grape_design_react/design-token": "workspace:*"
   },
   "devDependencies": {
     "@types/react": "^19.1.6",

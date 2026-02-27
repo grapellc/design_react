@@ -36,11 +36,11 @@
   "dependencies": {},
   "devDependencies": {
     "@rsbuild/core": "^1.3.11",
-    "@grape_design_react/css": "^1.1.0"
+    "@grape_design_react/css": "workspace:*"
   },
   "peerDependencies": {
     "@rsbuild/core": "^1.1.0",
-    "@grape_design_react/css": "^1.1.0"
+    "@grape_design_react/css": "workspace:*"
   },
   "publishConfig": {
     "access": "public"

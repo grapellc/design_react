@@ -35,11 +35,11 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@grape_design_react/css": "^1.1.0",
+    "@grape_design_react/css": "workspace:*",
     "vite": "^7.0.0"
   },
   "peerDependencies": {
-    "@grape_design_react/css": "^1.1.0",
+    "@grape_design_react/css": "workspace:*",
     "vite": "^5.0.0 || ^6.0.0 || ^7.0.0"
   },
   "publishConfig": {

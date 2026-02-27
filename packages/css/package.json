@@ -59,8 +59,8 @@
     "*.css"
   ],
   "devDependencies": {
-    "@grape_design_react/qvism-cli": "0.0.0",
-    "@grape_design_react/qvism-preset": "0.0.0"
+    "@grape_design_react/qvism-cli": "workspace:*",
+    "@grape_design_react/qvism-preset": "workspace:*"
   },
   "publishConfig": {
     "access": "public"

@@ -30,8 +30,8 @@
     "wrapRootElement.tsx"
   ],
   "dependencies": {
-    "@grape_design_react/react-theming": "^2.1.3",
-    "@grape_design_react/stylesheet": "0.0.0-alpha-20241014145845"
+    "@grape_design_react/react-theming": "workspace:*",
+    "@grape_design_react/stylesheet": "workspace:*"
   },
   "peerDependencies": {
     "gatsby": "^3.0.0 || ^4.0.0 || ^5.0.0",
