@@ -1,0 +1,24 @@
+{
+  "name": "@grape_design_react/figma-spec-widget",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "test": "bun run tsc && bun run build",
+    "tsc": "tsc --noEmit -p widget-src",
+    "build": "bun build.mjs",
+    "dev": "concurrently -n tsc,build 'bun tsc --preserveWatchOutput --watch' 'bun dev.mjs'"
+  },
+  "author": "Asher <asher@daangn.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@grape_design_react/rootage-core": "0.0.0",
+    "yaml": "^2.7.1"
+  },
+  "devDependencies": {
+    "@figma/plugin-typings": "^1.110.0",
+    "@figma/widget-typings": "*",
+    "concurrently": "^9.1.2",
+    "esbuild": "^0.27.0",
+    "typescript": "^5.9.2"
+  }
+}

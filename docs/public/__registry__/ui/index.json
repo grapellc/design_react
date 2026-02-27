@@ -1,0 +1,737 @@
+{
+  "id": "ui",
+  "items": [
+    {
+      "snippets": [
+        {
+          "path": "action-button.tsx",
+          "dependencies": {
+            "@grape_design_react/react": "~1.0.0",
+            "@grape_design_react/css": "~1.0.0"
+          }
+        }
+      ],
+      "id": "action-button",
+      "dependencies": [
+        "@grape_design_react/react"
+      ],
+      "innerDependencies": [
+        {
+          "registryId": "ui",
+          "itemIds": [
+            "loading-indicator"
+          ]
+        }
+      ]
+    },
+    {
+      "snippets": [
+        {
+          "path": "action-sheet.tsx",
+          "dependencies": {
+            "@grape_design_react/react": "~1.0.0",
+            "@grape_design_react/css": "~1.0.0"
+          }
+        }
+      ],
+      "id": "action-sheet",
+      "deprecated": true,
+      "dependencies": [
+        "@grape_design_react/react"
+      ]
+    },
+    {
+      "snippets": [
+        {
+          "path": "alert-dialog.tsx",
+          "dependencies": {
+            "@grape_design_react/react": "~1.0.0",
+            "@grape_design_react/css": "~1.0.0"
+          }
+        }
+      ],
+      "id": "alert-dialog",
+      "dependencies": [
+        "@grape_design_react/react"
+      ],
+      "innerDependencies": [
+        {
+          "registryId": "ui",
+          "itemIds": [
+            "action-button"
+          ]
+        }
+      ]
+    },
+    {
+      "snippets": [
+        {
+          "path": "app-screen.tsx",
+          "dependencies": {
+            "@grape_design_react/react": "~1.0.0",
+            "@grape_design_react/css": "~1.0.0"
+          }
+        },
+        {
+          "path": "app-bar.tsx",
+          "dependencies": {
+            "@grape_design_react/react": "~1.0.0",
+            "@grape_design_react/css": "~1.0.0"
+          }
+        }
+      ],
+      "id": "app-screen",
+      "dependencies": [
+        "@karrotmarket/react-monochrome-icon",
+        "@grape_design_react/react",
+        "@grape_design_react/stackflow",
+        "@stackflow/react"
+      ],
+      "innerDependencies": [
+        {
+          "registryId": "ui",
+          "itemIds": [
+            "pull-to-refresh"
+          ]
+        }
+      ]
+    },
+    {
+      "snippets": [
+        {
+          "path": "avatar.tsx",
+          "dependencies": {
+            "@grape_design_react/react": "~1.0.0",
+            "@grape_design_react/css": "~1.0.0"
+          }
+        }
+      ],
+      "id": "avatar",
+      "dependencies": [
+        "@grape_design_react/react"
+      ]
+    },
+    {
+      "snippets": [
+        {
+          "path": "bottom-sheet.tsx",
+          "dependencies": {
+            "@grape_design_react/react": "~1.1.0",
+            "@grape_design_react/css": "~1.1.0"
+          }
+        }
+      ],
+      "id": "bottom-sheet",
+      "dependencies": [
+        "@karrotmarket/react-monochrome-icon",
+        "@grape_design_react/react"
+      ]
+    },
+    {
+      "snippets": [
+        {
+          "path": "callout.tsx",
+          "dependencies": {
+            "@grape_design_react/react": "~1.0.0",
+            "@grape_design_react/css": "~1.0.0"
+          }
+        }
+      ],
+      "id": "callout",
+      "dependencies": [
+        "@karrotmarket/react-monochrome-icon",
+        "@grape_design_react/react"
+      ]
+    },
+    {
+      "snippets": [
+        {
+          "path": "checkbox.tsx",
+          "dependencies": {
+            "@grape_design_react/react": "~1.2.0",
+            "@grape_design_react/css": "~1.2.0"
+          }
+        }
+      ],
+      "id": "checkbox",
+      "dependencies": [
+        "@karrotmarket/react-monochrome-icon",
+        "@grape_design_react/css",
+        "@grape_design_react/react"
+      ]
+    },
+    {
+      "snippets": [
+        {
+          "path": "chip.tsx",
+          "dependencies": {
+            "@grape_design_react/react": "~1.0.0",
+            "@grape_design_react/css": "~1.0.0"
+          }
+        }
+      ],
+      "id": "chip",
+      "dependencies": [
+        "@grape_design_react/css",
+        "@grape_design_react/react"
+      ]
+    },
+    {
+      "snippets": [
+        {
+          "path": "chip-tabs.tsx",
+          "dependencies": {
+            "@grape_design_react/react": "~1.0.0",
+            "@grape_design_react/css": "~1.0.0"
+          }
+        }
+      ],
+      "id": "chip-tabs",
+      "dependencies": [
+        "@grape_design_react/react"
+      ]
+    },
+    {
+      "snippets": [
+        {
+          "path": "contextual-floating-button.tsx",
+          "dependencies": {
+            "@grape_design_react/react": "~1.0.0",
+            "@grape_design_react/css": "~1.0.0"
+          }
+        }
+      ],
+      "id": "contextual-floating-button",
+      "dependencies": [
+        "@grape_design_react/react"
+      ],
+      "innerDependencies": [
+        {
+          "registryId": "ui",
+          "itemIds": [
+            "loading-indicator"
+          ]
+        }
+      ]
+    },
+    {
+      "snippets": [
+        {
+          "path": "control-chip.tsx",
+          "dependencies": {
+            "@grape_design_react/react": "~1.0.0",
+            "@grape_design_react/css": "~1.0.0"
+          }
+        }
+      ],
+      "id": "control-chip",
+      "deprecated": true,
+      "dependencies": [
+        "@grape_design_react/react"
+      ]
+    },
+    {
+      "snippets": [
+        {
+          "path": "error-state.tsx",
+          "dependencies": {
+            "@grape_design_react/react": "~1.1.0",
+            "@grape_design_react/css": "~1.1.0"
+          }
+        }
+      ],
+      "id": "error-state",
+      "deprecated": true,
+      "dependencies": [
+        "@grape_design_react/css",
+        "@grape_design_react/react"
+      ],
+      "innerDependencies": [
+        {
+          "registryId": "ui",
+          "itemIds": [
+            "action-button"
+          ]
+        }
+      ]
+    },
+    {
+      "snippets": [
+        {
+          "path": "extended-action-sheet.tsx",
+          "dependencies": {
+            "@grape_design_react/react": "~1.0.0",
+            "@grape_design_react/css": "~1.0.0"
+          }
+        }
+      ],
+      "id": "extended-action-sheet",
+      "deprecated": true,
+      "dependencies": [
+        "@grape_design_react/react"
+      ]
+    },
+    {
+      "snippets": [
+        {
+          "path": "field-button.tsx",
+          "dependencies": {
+            "@grape_design_react/react": "~1.1.0",
+            "@grape_design_react/css": "~1.1.0"
+          }
+        }
+      ],
+      "id": "field-button",
+      "dependencies": [
+        "@karrotmarket/react-monochrome-icon",
+        "@grape_design_react/css",
+        "@grape_design_react/react"
+      ]
+    },
+    {
+      "snippets": [
+        {
+          "path": "floating-action-button.tsx",
+          "dependencies": {
+            "@grape_design_react/react": "~1.0.0",
+            "@grape_design_react/css": "~1.0.0"
+          }
+        }
+      ],
+      "id": "floating-action-button",
+      "dependencies": [
+        "@grape_design_react/react"
+      ]
+    },
+    {
+      "snippets": [
+        {
+          "path": "help-bubble.tsx",
+          "dependencies": {
+            "@grape_design_react/react": "~1.2.0",
+            "@grape_design_react/css": "~1.2.0"
+          }
+        }
+      ],
+      "id": "help-bubble",
+      "dependencies": [
+        "@karrotmarket/react-monochrome-icon",
+        "@grape_design_react/react"
+      ]
+    },
+    {
+      "snippets": [
+        {
+          "path": "identity-placeholder.tsx",
+          "dependencies": {
+            "@grape_design_react/react": "~1.0.0",
+            "@grape_design_react/css": "~1.0.0"
+          }
+        }
+      ],
+      "id": "identity-placeholder",
+      "dependencies": [
+        "@grape_design_react/react"
+      ]
+    },
+    {
+      "snippets": [
+        {
+          "path": "inline-banner.tsx",
+          "dependencies": {
+            "@grape_design_react/react": "~1.0.0",
+            "@grape_design_react/css": "~1.0.0"
+          }
+        }
+      ],
+      "id": "inline-banner",
+      "deprecated": true,
+      "dependencies": [
+        "@karrotmarket/react-monochrome-icon",
+        "@grape_design_react/react"
+      ]
+    },
+    {
+      "snippets": [
+        {
+          "path": "list.tsx",
+          "dependencies": {
+            "@grape_design_react/react": "~1.0.0",
+            "@grape_design_react/css": "~1.0.0"
+          }
+        },
+        {
+          "path": "list-header.tsx",
+          "dependencies": {
+            "@grape_design_react/react": "~1.0.0",
+            "@grape_design_react/css": "~1.0.0"
+          }
+        }
+      ],
+      "id": "list",
+      "dependencies": [
+        "@grape_design_react/css",
+        "@grape_design_react/react"
+      ]
+    },
+    {
+      "snippets": [
+        {
+          "path": "loading-indicator.tsx",
+          "dependencies": {
+            "@grape_design_react/react": "~1.0.0",
+            "@grape_design_react/css": "~1.0.0"
+          }
+        }
+      ],
+      "id": "loading-indicator",
+      "dependencies": [
+        "@grape_design_react/react"
+      ],
+      "innerDependencies": [
+        {
+          "registryId": "ui",
+          "itemIds": [
+            "progress-circle"
+          ]
+        }
+      ]
+    },
+    {
+      "snippets": [
+        {
+          "path": "manner-temp.tsx",
+          "dependencies": {
+            "@grape_design_react/react": "~1.0.0",
+            "@grape_design_react/css": "~1.0.0"
+          }
+        }
+      ],
+      "id": "manner-temp",
+      "dependencies": [
+        "@grape_design_react/react"
+      ],
+      "innerDependencies": [
+        {
+          "registryId": "lib",
+          "itemIds": [
+            "manner-temp-level"
+          ]
+        }
+      ]
+    },
+    {
+      "snippets": [
+        {
+          "path": "manner-temp-badge.tsx",
+          "dependencies": {
+            "@grape_design_react/react": "~1.0.0",
+            "@grape_design_react/css": "~1.0.0"
+          }
+        }
+      ],
+      "id": "manner-temp-badge",
+      "dependencies": [
+        "@grape_design_react/react"
+      ],
+      "innerDependencies": [
+        {
+          "registryId": "lib",
+          "itemIds": [
+            "manner-temp-level"
+          ]
+        }
+      ]
+    },
+    {
+      "snippets": [
+        {
+          "path": "menu-sheet.tsx",
+          "dependencies": {
+            "@grape_design_react/react": "~1.2.0",
+            "@grape_design_react/css": "~1.2.0"
+          }
+        }
+      ],
+      "id": "menu-sheet",
+      "dependencies": [
+        "@grape_design_react/react"
+      ]
+    },
+    {
+      "snippets": [
+        {
+          "path": "page-banner.tsx",
+          "dependencies": {
+            "@grape_design_react/react": "~1.1.0",
+            "@grape_design_react/css": "~1.1.0"
+          }
+        }
+      ],
+      "id": "page-banner",
+      "dependencies": [
+        "@karrotmarket/react-monochrome-icon",
+        "@grape_design_react/react"
+      ]
+    },
+    {
+      "snippets": [
+        {
+          "path": "progress-circle.tsx",
+          "dependencies": {
+            "@grape_design_react/react": "~1.0.0",
+            "@grape_design_react/css": "~1.0.0"
+          }
+        }
+      ],
+      "id": "progress-circle",
+      "dependencies": [
+        "@grape_design_react/react"
+      ]
+    },
+    {
+      "snippets": [
+        {
+          "path": "pull-to-refresh.tsx",
+          "dependencies": {
+            "@grape_design_react/react": "~1.0.0",
+            "@grape_design_react/css": "~1.0.0"
+          }
+        }
+      ],
+      "id": "pull-to-refresh",
+      "dependencies": [
+        "@grape_design_react/react"
+      ],
+      "innerDependencies": [
+        {
+          "registryId": "ui",
+          "itemIds": [
+            "progress-circle"
+          ]
+        }
+      ]
+    },
+    {
+      "snippets": [
+        {
+          "path": "radio-group.tsx",
+          "dependencies": {
+            "@grape_design_react/react": "~1.2.0",
+            "@grape_design_react/css": "~1.2.0"
+          }
+        }
+      ],
+      "id": "radio-group",
+      "dependencies": [
+        "@karrotmarket/react-monochrome-icon",
+        "@grape_design_react/css",
+        "@grape_design_react/react"
+      ]
+    },
+    {
+      "snippets": [
+        {
+          "path": "reaction-button.tsx",
+          "dependencies": {
+            "@grape_design_react/react": "~1.0.0",
+            "@grape_design_react/css": "~1.0.0"
+          }
+        }
+      ],
+      "id": "reaction-button",
+      "dependencies": [
+        "@grape_design_react/react"
+      ],
+      "innerDependencies": [
+        {
+          "registryId": "ui",
+          "itemIds": [
+            "loading-indicator"
+          ]
+        }
+      ]
+    },
+    {
+      "snippets": [
+        {
+          "path": "result-section.tsx",
+          "dependencies": {
+            "@grape_design_react/react": "~1.1.0",
+            "@grape_design_react/css": "~1.1.0"
+          }
+        }
+      ],
+      "id": "result-section",
+      "dependencies": [
+        "@grape_design_react/react"
+      ],
+      "innerDependencies": [
+        {
+          "registryId": "ui",
+          "itemIds": [
+            "action-button"
+          ]
+        }
+      ]
+    },
+    {
+      "snippets": [
+        {
+          "path": "segmented-control.tsx",
+          "dependencies": {
+            "@grape_design_react/react": "~1.0.0",
+            "@grape_design_react/css": "~1.0.0"
+          }
+        }
+      ],
+      "id": "segmented-control",
+      "dependencies": [
+        "@grape_design_react/react"
+      ]
+    },
+    {
+      "snippets": [
+        {
+          "path": "select-box.tsx",
+          "dependencies": {
+            "@grape_design_react/react": "~1.2.0",
+            "@grape_design_react/css": "~1.2.0"
+          }
+        }
+      ],
+      "id": "select-box",
+      "dependencies": [
+        "@karrotmarket/react-monochrome-icon",
+        "@grape_design_react/css",
+        "@grape_design_react/react"
+      ],
+      "innerDependencies": [
+        {
+          "registryId": "ui",
+          "itemIds": [
+            "radio-group"
+          ]
+        }
+      ]
+    },
+    {
+      "snippets": [
+        {
+          "path": "slider.tsx",
+          "dependencies": {
+            "@grape_design_react/react": "~1.1.0",
+            "@grape_design_react/css": "~1.1.0"
+          }
+        }
+      ],
+      "id": "slider",
+      "dependencies": [
+        "@karrotmarket/react-monochrome-icon",
+        "@grape_design_react/css",
+        "@grape_design_react/react"
+      ]
+    },
+    {
+      "snippets": [
+        {
+          "path": "snackbar.tsx",
+          "dependencies": {
+            "@grape_design_react/react": "~1.0.0",
+            "@grape_design_react/css": "~1.0.0"
+          }
+        }
+      ],
+      "id": "snackbar",
+      "dependencies": [
+        "@karrotmarket/react-monochrome-icon",
+        "@grape_design_react/react"
+      ]
+    },
+    {
+      "snippets": [
+        {
+          "path": "switch.tsx",
+          "dependencies": {
+            "@grape_design_react/react": "~1.2.0",
+            "@grape_design_react/css": "~1.2.0"
+          }
+        }
+      ],
+      "id": "switch",
+      "dependencies": [
+        "@grape_design_react/react"
+      ]
+    },
+    {
+      "snippets": [
+        {
+          "path": "tabs.tsx",
+          "dependencies": {
+            "@grape_design_react/react": "~1.0.0",
+            "@grape_design_react/css": "~1.0.0"
+          }
+        }
+      ],
+      "id": "tabs",
+      "dependencies": [
+        "@grape_design_react/react"
+      ]
+    },
+    {
+      "snippets": [
+        {
+          "path": "tag-group.tsx",
+          "dependencies": {
+            "@grape_design_react/react": "~1.2.0",
+            "@grape_design_react/css": "~1.2.0"
+          }
+        }
+      ],
+      "id": "tag-group",
+      "dependencies": [
+        "@grape_design_react/react"
+      ]
+    },
+    {
+      "snippets": [
+        {
+          "path": "text-field.tsx",
+          "dependencies": {
+            "@grape_design_react/react": "~1.1.0",
+            "@grape_design_react/css": "~1.1.0"
+          }
+        }
+      ],
+      "id": "text-field",
+      "dependencies": [
+        "@karrotmarket/react-monochrome-icon",
+        "@grape_design_react/css",
+        "@grape_design_react/react"
+      ]
+    },
+    {
+      "snippets": [
+        {
+          "path": "toggle-button.tsx",
+          "dependencies": {
+            "@grape_design_react/react": "~1.0.0",
+            "@grape_design_react/css": "~1.0.0"
+          }
+        }
+      ],
+      "id": "toggle-button",
+      "dependencies": [
+        "@grape_design_react/react"
+      ],
+      "innerDependencies": [
+        {
+          "registryId": "ui",
+          "itemIds": [
+            "loading-indicator"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+import { IconCheckmarkLine, IconPlusLine } from "@karrotmarket/react-monochrome-icon";
+import { PrefixIcon } from "@grape_design_react/react";
+import { useState } from "react";
+import { ToggleButton } from "grape_design_react/ui/toggle-button";
+
+export default function ToggleButtonPrefixIcon() {
+  const [pressed, setPressed] = useState(false);
+
+  return (
+    <ToggleButton pressed={pressed} onPressedChange={setPressed}>
+      <PrefixIcon svg={pressed ? <IconPlusLine /> : <IconCheckmarkLine />} />
+      {pressed ? "선택됨" : "미선택"}
+    </ToggleButton>
+  );
+}

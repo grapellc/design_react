@@ -1,0 +1,2220 @@
+---
+title: Changelog
+description: 최신 업데이트와 변경사항을 기록합니다.
+---
+
+## 2026.02.24
+
+BottomSheet의 title padding을 수정합니다. [`eb390cf`](https://github.com/daangn/grape_design_react/commit/eb390cffbff455af5914150139f9f9cfb4f1b36b)
+
+- left 헤더 정렬 시 오른쪽 padding을 `50px` -> `56px`로 수정합니다.
+- center 헤더 정렬 시 양쪽 padding을 `60px` -> `56px`로 수정합니다.
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.2.3](https://npmjs.com/package/@grape_design_react/css/v/1.2.3)
+- 📦 [@grape_design_react/rootage-artifacts@1.2.3](https://npmjs.com/package/@grape_design_react/rootage-artifacts/v/1.2.3)
+
+---
+
+`Image.Content` (`ImageFrame` 및 `AvatarImage`)에 `loading="lazy"` 사용 시 이미지 로드가 시작되지 않는 문제를 수정합니다. [`c46d593`](https://github.com/daangn/grape_design_react/commit/c46d593a0e9b33ae6e0ae6e2552db74134f48175)
+
+영향받는 패키지
+- 📦 [@grape_design_react/react-image@0.1.1](https://npmjs.com/package/@grape_design_react/react-image/v/0.1.1)
+
+---
+
+Android 환경에서 온스크린 키보드가 닫힐 때 Drawer(Bottom Sheet) 높이가 정상적으로 복원되지 않는 문제를 수정합니다. [`0420c89`](https://github.com/daangn/grape_design_react/commit/0420c8979aee12d3717b475f20969bd8e2e2c069)
+
+영향받는 패키지
+- 📦 [@grape_design_react/react-drawer@1.0.9](https://npmjs.com/package/@grape_design_react/react-drawer/v/1.0.9)
+
+---
+
+Figma Codegen 관련 개선 사항을 적용합니다. [`92f08de`](https://github.com/daangn/grape_design_react/commit/92f08de2ded0b8f44c835cb9105cf3712c5e7d1c)
+
+- Image Frame 컴포넌트의 React Codegen을 지원합니다.
+- OS 상단바 등 불필요한 UI 요소를 codegen 대상에서 제외합니다.
+- 너비가 Fill로 설정된 Action Button이 `flexGrow`를 갖도록 개선합니다.
+
+영향받는 패키지
+- 📦 [@grape_design_react/figma@1.3.4](https://npmjs.com/package/@grape_design_react/figma/v/1.3.4)
+
+---
+
+Slider의 Value Indicator 가시성 및 트랜지션을 개선합니다. [`7c3bbe7`](https://github.com/daangn/grape_design_react/commit/7c3bbe7e84dbcd0e11d3e9156b562a80a57aac7b)
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.2.3](https://npmjs.com/package/@grape_design_react/css/v/1.2.3)
+- 📦 [@grape_design_react/rootage-artifacts@1.2.3](https://npmjs.com/package/@grape_design_react/rootage-artifacts/v/1.2.3)
+
+---
+
+- `grape_design_react compat` 명령어를 추가해 현재 프로젝트의 스니펫과 `@grape_design_react/react`, `@grape_design_react/css` 버전 호환성을 비대화형으로 점검할 수 있도록 개선합니다. [`50cd41e`](https://github.com/daangn/grape_design_react/commit/50cd41e1957f1a8315c78bf47dc9f3c228ab2b42)
+- `add`, `add-all` 실행 시 스니펫의 요구 버전과 프로젝트 버전을 semver로 비교해, 호환되지 않는 항목을 경고하도록 개선합니다.
+
+영향받는 패키지
+- 📦 [@grape_design_react/cli@1.2.2](https://npmjs.com/package/@grape_design_react/cli/v/1.2.2)
+
+---
+
+- CLI 실패 원인 표시를 개선하고 `--verbose` 상세 진단 출력을 추가합니다. [`1af88d1`](https://github.com/daangn/grape_design_react/commit/1af88d1ec46c3f994525b3a99450876e9556a9ba)
+- `grape_design_react.json`이 없을 때 외부 명령 실행 대신 내부 초기화 로직으로 설정 파일을 생성합니다.
+- 또한 `@clack/prompts`를 v1으로 업데이트하고 `init --default`를 `--yes` 호환 alias로 유지합니다.
+
+영향받는 패키지
+- 📦 [@grape_design_react/cli@1.2.2](https://npmjs.com/package/@grape_design_react/cli/v/1.2.2)
+
+---
+
+PullToRefresh.Root의 ref 타입을 실제 렌더링 요소인 HTMLDivElement로 수정해 잘못된 SVG ref 타입 요구를 해결했습니다.
+
+영향받는 패키지
+- 📦 [@grape_design_react/react@1.2.5](https://npmjs.com/package/@grape_design_react/react/v/1.2.5)
+
+---
+
+AppBar의 `bg` 또는 `background` 프로퍼티로 배경 색상을 조절할 수 있는 옵션을 추가합니다. (`tone="layer"`인 경우 적용) [`6db2515`](https://github.com/daangn/grape_design_react/commit/6db2515732523cb635eebc2c94cfa9adbfb7c14b)
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.2.3](https://npmjs.com/package/@grape_design_react/css/v/1.2.3)
+- 📦 [@grape_design_react/stackflow@1.1.17](https://npmjs.com/package/@grape_design_react/stackflow/v/1.1.17)
+
+---
+
+Segmented Control pressed, selected-pressed 상태에서 stroke border 가 나타나도록 합니다. [`12789e6`](https://github.com/daangn/grape_design_react/commit/12789e6d95941b47270f7965d9aaab468f71ab77)
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.2.3](https://npmjs.com/package/@grape_design_react/css/v/1.2.3)
+
+---
+
+AspectRatio 스타일시트의 `position: relative`와 `overflow: hidden` 선언을 React 레이어로 이동하여 CSS specificity 문제를 수정합니다. [`6fb6dc2`](https://github.com/daangn/grape_design_react/commit/6fb6dc21d75b89a1fb25e5f633148ecf8f4810ba)
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.2.3](https://npmjs.com/package/@grape_design_react/css/v/1.2.3)
+- 📦 [@grape_design_react/react@1.2.5](https://npmjs.com/package/@grape_design_react/react/v/1.2.5)
+
+---
+
+## 2026.02.09
+
+ImageFrame 내부 요소에 width, height 100%를 추가합니다 [`15010c3`](https://github.com/daangn/grape_design_react/commit/15010c35ad1d694bd5def5ce4281ec63ad61a29d)
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.2.2](https://npmjs.com/package/@grape_design_react/css/v/1.2.2)
+
+---
+
+ImageFrame `rounded` 옵션을 제거하고, borderRadius를 받을 수 있게 변경합니다 [`a3e6859`](https://github.com/daangn/grape_design_react/commit/a3e6859c7caf964d0f51ef1b1efe67e3f0cbc9a3)
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.2.2](https://npmjs.com/package/@grape_design_react/css/v/1.2.2)
+- 📦 [@grape_design_react/react@1.2.4](https://npmjs.com/package/@grape_design_react/react/v/1.2.4)
+- 📦 [@grape_design_react/rootage-artifacts@1.2.2](https://npmjs.com/package/@grape_design_react/rootage-artifacts/v/1.2.2)
+
+---
+
+BottomSheet title 영역에서 닫기 버튼 간격에 따라 조정된 padding 기준으로 정리하고, word-break 추가 및 description 영역 너비를 정리했습니다. [`4287600`](https://github.com/daangn/grape_design_react/commit/4287600e9eaf27a15815aa1ce76665d160d7981c)
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.2.2](https://npmjs.com/package/@grape_design_react/css/v/1.2.2)
+- 📦 [@grape_design_react/react@1.2.4](https://npmjs.com/package/@grape_design_react/react/v/1.2.4)
+- 📦 [@grape_design_react/rootage-artifacts@1.2.2](https://npmjs.com/package/@grape_design_react/rootage-artifacts/v/1.2.2)
+
+---
+
+## 2026.02.03 #4
+
+Snackbar 타이머가 멈추는 기준을 `focus`에서 `focus-visible`로 수정하여 `pauseOnInteraction={true}`인 경우 Snackbar가 닫히지 않는 문제를 수정합니다. [`acae645`](https://github.com/daangn/grape_design_react/commit/acae645ac92ae63e5ccd1256ca1903624dde0f8c)
+
+영향받는 패키지
+- 📦 [@grape_design_react/react-snackbar@1.0.1](https://npmjs.com/package/@grape_design_react/react-snackbar/v/1.0.1)
+
+---
+
+## 2026.02.03 #3
+
+Figma 엔티티를 업데이트합니다. 모든 구성 요소에 대해 generated 데이터를 사용하여 안정성을 개선합니다. [`934bea0`](https://github.com/daangn/grape_design_react/commit/934bea0127a6bf43494356c5738e8f9a810fb83f)
+
+영향받는 패키지
+- 📦 [@grape_design_react/figma@1.3.2](https://npmjs.com/package/@grape_design_react/figma/v/1.3.2)
+
+---
+
+## 2026.02.03 #2
+
+MCP를 Node.js 프로젝트에서 직접 구성할 수 있도록 `registerTools`를 비롯한 export를 추가합니다. [`2f9690a`](https://github.com/daangn/grape_design_react/commit/2f9690a0f2e2c8cfe316df81bbb7c92a27660d58)
+
+영향받는 패키지
+- 📦 [@grape_design_react/mcp@1.3.1](https://npmjs.com/package/@grape_design_react/mcp/v/1.3.1)
+
+---
+
+## 2026.02.03
+
+`AlertDialogRoot`, `MenuSheetRoot` 및 `BottomSheetRoot`의 `onOpenChange` 두 번째 인자로 `details`를 제공합니다. `details.reason`과 `details.event`를 사용할 수 있습니다. [`576c2e6`](https://github.com/daangn/grape_design_react/commit/576c2e602de44bacdad8991cf6be2d369ace73f5)
+
+`DialogAction`을 `DialogPrimitive.CloseButton`으로 교체합니다. `AlertDialogAction` `onClick` 핸들러에서 `event.preventDefault()`를 호출하여 닫기 동작을 방지할 수 있습니다. [(예제)](https://grape_design_react.io/react/components/alert-dialog#prevent-close)
+
+영향받는 패키지
+- 📦 [@grape_design_react/react@1.2.2](https://npmjs.com/package/@grape_design_react/react/v/1.2.2)
+- 📦 [@grape_design_react/react-dialog@1.0.2](https://npmjs.com/package/@grape_design_react/react-dialog/v/1.0.2)
+- 📦 [@grape_design_react/react-drawer@1.0.8](https://npmjs.com/package/@grape_design_react/react-drawer/v/1.0.8)
+- 📦 [@grape_design_react/react-use-controllable-state@1.0.0](https://npmjs.com/package/@grape_design_react/react-use-controllable-state/v/1.0.0)
+
+---
+
+Figma Personal Access Token을 활용하여 WebSocket 서버와 Figma 플러그인 없이 MCP 일부 기능을 활용할 수 있도록 합니다. `--mode` 옵션을 통해 필요한 도구만 등록할 수 있습니다. [`423d604`](https://github.com/daangn/grape_design_react/commit/423d604b9ecc178f935d7c105e49d3711eab6f82)
+
+영향받는 패키지
+- 📦 [@grape_design_react/mcp@1.3.0](https://npmjs.com/package/@grape_design_react/mcp/v/1.3.0)
+
+---
+
+## 2026.01.29
+
+AlertDialog 닫힐 때 focus 복원으로 인해 BottomSheet가 즉시 닫히는 문제 수정 [`8188130`](https://github.com/daangn/grape_design_react/commit/8188130e3c62651acea63ae699f11fe16d2e9a06)
+
+- onFocusOutside에서 항상 preventDefault 호출
+- onInteractOutside에서 defaultPrevented 체크 추가
+
+영향받는 패키지
+- 📦 [@grape_design_react/react-drawer@1.0.6](https://npmjs.com/package/@grape_design_react/react-drawer/v/1.0.6)
+
+---
+
+ImageFrameReactionButton에 fillIcon, lineIcon spec을 추가합니다 [`9446f2c`](https://github.com/daangn/grape_design_react/commit/9446f2cc68ae9db41cc5da6124a2a0897a2f250b)
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.2.1](https://npmjs.com/package/@grape_design_react/css/v/1.2.1)
+- 📦 [@grape_design_react/rootage-artifacts@1.2.1](https://npmjs.com/package/@grape_design_react/rootage-artifacts/v/1.2.1)
+
+---
+
+ImageFrameReactionButton의 SVG 사이즈와 Rootage 정의를 수정합니다. [`8ad9484`](https://github.com/daangn/grape_design_react/commit/8ad948427977be6b18b6e385a6ffc95478fdef16)
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.2.1](https://npmjs.com/package/@grape_design_react/css/v/1.2.1)
+- 📦 [@grape_design_react/react@1.2.1](https://npmjs.com/package/@grape_design_react/react/v/1.2.1)
+- 📦 [@grape_design_react/rootage-artifacts@1.2.1](https://npmjs.com/package/@grape_design_react/rootage-artifacts/v/1.2.1)
+
+---
+
+Figma 엔티티를 최신 버전으로 업데이트합니다. [`15d9587`](https://github.com/daangn/grape_design_react/commit/15d95874c61bfed3b88bcdc578b5147764bec8aa)
+
+영향받는 패키지
+- 📦 [@grape_design_react/figma@1.2.1](https://npmjs.com/package/@grape_design_react/figma/v/1.2.1)
+
+---
+
+`@grape_design_react/figma-extractor` config 파이프라인에서 `fetchNodes`를 context의 일부로 제공합니다. [`15d9587`](https://github.com/daangn/grape_design_react/commit/15d95874c61bfed3b88bcdc578b5147764bec8aa)
+
+영향받는 패키지
+- 📦 [@grape_design_react/figma-extractor@1.1.0](https://npmjs.com/package/@grape_design_react/figma-extractor/v/1.1.0)
+
+---
+
+BottomSheet `showCloseButton` variant 변경 및 animation 버그 수정 [`9cbeba0`](https://github.com/daangn/grape_design_react/commit/9cbeba019778a5fc10b1308b3a492a91083a6795)
+
+- `showCloseButton` variant 변경: CloseButton 미사용 시 header padding 조정 가능
+- `hasEntered` 상태 추가: modal prop 변경 시 enter animation 재실행 방지
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.2.1](https://npmjs.com/package/@grape_design_react/css/v/1.2.1)
+- 📦 [@grape_design_react/react-drawer@1.0.6](https://npmjs.com/package/@grape_design_react/react-drawer/v/1.0.6)
+
+---
+
+## 2026.01.26
+
+`--on-diff` flag를 추가하고 `--overwrite` flag를 `--on-diff=overwrite`로 대체합니다. `--on-diff=backup`을 사용하여 변경사항이 있는 모든 snippet에 대해 이전 파일을 유지할 수 있습니다. [`f7a6217`](https://github.com/daangn/grape_design_react/commit/f7a621701082bc1bf09da849d036c279c56eefa5)
+
+영향받는 패키지
+- 📦 [@grape_design_react/cli@1.2.1](https://npmjs.com/package/@grape_design_react/cli/v/1.2.1)
+
+---
+
+## 2026.01.25
+
+[Help Bubble](/react/components/help-bubble) 관련 컴포넌트를 업데이트합니다. [`0ecb893`](https://github.com/daangn/grape_design_react/commit/0ecb893a5de3075ad975cf41cb0cff4cea0901a5)
+
+- **1.1 → 1.2 업그레이드 시 snippet 업데이트 필요**: `HelpBubbleTrigger` 및 `HelpBubbleAnchor`의 내부 구조가 변경되었습니다. snippet을 다시 내려받아 주세요.
+  - `npx @grape_design_react/cli@latest add ui:help-bubble`
+  - **인터페이스 변경사항이 없으므로 `HelpBubbleAnchor`와 `HelpBubbleTrigger`를 사용하는 기존 코드를 변경할 필요가 없습니다.**
+  - `HelpBubble.Body`를 사용하여 `HelpBubble.Title`과 `HelpBubble.Description`을 감싸도록 변경되었습니다.
+  - `zIndexOffset`을 활용하여 `HelpBubble.Positioner`의 z-index를 조정할 수 있습니다. ([예시](/react/components/help-bubble#z-index-offset))
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.2.0](https://npmjs.com/package/@grape_design_react/css/v/1.2.0)
+- 📦 [@grape_design_react/react@1.2.0](https://npmjs.com/package/@grape_design_react/react/v/1.2.0)
+- 📦 [@grape_design_react/rootage-artifacts@1.2.0](https://npmjs.com/package/@grape_design_react/rootage-artifacts/v/1.2.0)
+
+---
+
+[Checkbox](/react/components/checkbox) 관련 컴포넌트를 추가합니다. [`98dbac4`](https://github.com/daangn/grape_design_react/commit/98dbac46406999d30734edc9e8f3c2180e406414)
+
+- `CheckboxGroup` snippet 컴포넌트가 추가되었습니다. 사용하려면 snippet을 다시 내려받아 주세요.
+  - `npx @grape_design_react/cli@latest add ui:checkbox`
+  - `CheckboxGroup`은 자체적으로 gap과 100% width를 갖습니다. `VStack`을 사용하여 `Checkbox`를 묶지 않아도 됩니다.
+    - 기존 `Checkbox`를 `CheckboxGroup`으로 감쌀 필요는 없습니다. `CheckboxGroup`은 선택적으로 사용할 수 있습니다.
+  - `label`, `description`, `errorMessage`, `indicator`, `showRequiredIndicator`, `labelWeight` prop을 사용할 수 있습니다.
+
+[Radio Group](/react/components/radio-group) 관련 컴포넌트를 업데이트합니다.
+
+- **1.1 → 1.2 업그레이드 시 snippet 업데이트 필요**: `RadioGroup` snippet의 내부 구조가 변경되었습니다. snippet을 다시 내려받아 주세요.
+
+  - `npx @grape_design_react/cli@latest add ui:radio-group`
+  - `RadioGroup`이 자체적으로 gap과 100% width를 갖습니다. `VStack`을 사용하여 `RadioGroupItem`을 묶는 코드를 제거합니다.
+    - **1.1 → 1.2 업그레이드 시 변경 필요**: `RadioGroupItem`을 묶어서 사용하던 `VStack`을 제거하여 `RadioGroupItem`이 `RadioGroup`의 direct child가 되도록 변경하세요.
+  - `label`, `description`, `errorMessage`, `indicator`, `showRequiredIndicator`, `labelWeight` prop을 사용할 수 있습니다.
+  - `@grape_design_react/react`의 `RadioGroup.Root`를 레이아웃 컴포넌트로 변경합니다.
+    - `@grape_design_react/react`에서 직접 import해서 사용하는 코드가 있다면 `RadioGroup.Root`를 `@grape_design_react/react/primitive`의 `RadioGroup.Root`로 변경해주세요.
+
+  ```tsx
+  // 전
+  import { VStack } from "@grape_design_react/react";
+  import { RadioGroup, RadioGroupItem } from "grape_design_react/ui/radio-group";
+
+  <RadioGroup defaultValue="apple" aria-label="Fruit selection">
+    <VStack>
+      <RadioGroupItem value="apple" label="Apple" />
+      <RadioGroupItem value="banana" label="Banana" />
+    </VStack>
+  </RadioGroup>;
+  ```
+
+  ```tsx
+  // 후
+  import { RadioGroup, RadioGroupItem } from "grape_design_react/ui/radio-group";
+
+  {
+    /* aria-label 대신 label을 사용하여 시각적으로 레이블을 표시할 수도 있습니다. */
+  }
+  <RadioGroup defaultValue="apple" aria-label="Fruit selection">
+    <RadioGroupItem value="apple" label="Apple" />
+    <RadioGroupItem value="banana" label="Banana" />
+  </RadioGroup>;
+  ```
+
+  ```tsx
+  // 전
+  import { RadioGroup } from "@grape_design_react/react";
+  import { ListRadioItem } from "grape_design_react/ui/list";
+
+  <RadioGroup.Root
+    value={value}
+    onValueChange={onValueChange}
+    aria-label="옵션 선택"
+  >
+    <ListRadioItem
+      value="option1"
+      title="옵션 1"
+      detail="첫 번째 선택지"
+      suffix={<Radiomark tone="neutral" size="large" />}
+    />
+  </RadioGroup.Root>;
+  ```
+
+  ```tsx
+  // 후
+  import { RadioGroup } from "@grape_design_react/react/primitive";
+  import { ListRadioItem } from "grape_design_react/ui/list";
+
+  <RadioGroup.Root
+    value={value}
+    onValueChange={onValueChange}
+    aria-label="옵션 선택"
+  >
+    <ListRadioItem
+      value="option1"
+      title="옵션 1"
+      detail="첫 번째 선택지"
+      suffix={<Radiomark tone="neutral" size="large" />}
+    />
+  </RadioGroup.Root>;
+  ```
+
+RadioGroupItem, RadioChipItem, RadioSelectBoxItem, ListRadioItem에서 `invalid` prop이 제거되었습니다.
+
+- **1.1 → 1.2 업그레이드 시 확인 필요**: `invalid` 상태는 group/field 레벨에서 설정해주세요. 각 항목을 `data-invalid` 속성으로 스타일링하는 경우 확인이 필요합니다.
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.2.0](https://npmjs.com/package/@grape_design_react/css/v/1.2.0)
+- 📦 [@grape_design_react/react@1.2.0](https://npmjs.com/package/@grape_design_react/react/v/1.2.0)
+- 📦 [@grape_design_react/react-radio-group@1.1.0](https://npmjs.com/package/@grape_design_react/react-radio-group/v/1.1.0)
+- 📦 [@grape_design_react/rootage-artifacts@1.2.0](https://npmjs.com/package/@grape_design_react/rootage-artifacts/v/1.2.0)
+
+---
+
+`SwitchMark`를 `Switchmark`로, `RadioMark`를 `Radiomark`로 Snippet 컴포넌트 이름을 변경합니다.
+
+- **1.1 → 1.2 업그레이드 시 변경 권장**: snippet을 다시 내려받고, `SwitchMark`, `RadioMark`를 사용하는 코드를 아래와 같이 변경하세요.
+
+  - `npx @grape_design_react/cli@latest add ui:switch ui:radio-group`
+  - snippet에 `SwitchMark`, `RadioMark` 정의가 존재하지만, 1.3 릴리즈 시 snippet에서 해당 맵핑이 제거될 예정이므로 미리 변경해두시길 권장드립니다.
+
+  ```tsx
+  // 전
+  import { ListSwitchItem, ListRadioItem } from "grape_design_react/ui/list";
+  import { SwitchMark } from "grape_design_react/ui/switch";
+  import { RadioMark } from "grape_design_react/ui/radio-group";
+
+  <ListSwitchItem
+    title="리스트 아이템 스위치"
+    detail="설명 텍스트"
+    suffix={<SwitchMark tone="neutral" />}
+  />;
+
+  <ListRadioItem
+    prefix={<RadioMark tone="neutral" size="large" />}
+    value="option"
+    title="옵션"
+  />;
+  ```
+
+  ```tsx
+  // 후
+  import { ListSwitchItem, ListRadioItem } from "grape_design_react/ui/list";
+  import { Switchmark } from "grape_design_react/ui/switch";
+  import { Radiomark } from "grape_design_react/ui/radio-group";
+
+  <ListSwitchItem
+    title="리스트 아이템 스위치"
+    detail="설명 텍스트"
+    suffix={<Switchmark tone="neutral" />}
+  />;
+
+  <ListRadioItem
+    prefix={<Radiomark tone="neutral" size="large" />}
+    value="option"
+    title="옵션"
+  />;
+  ```
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.2.0](https://npmjs.com/package/@grape_design_react/css/v/1.2.0)
+- 📦 [@grape_design_react/figma@1.2.0](https://npmjs.com/package/@grape_design_react/figma/v/1.2.0)
+- 📦 [@grape_design_react/react@1.2.0](https://npmjs.com/package/@grape_design_react/react/v/1.2.0)
+- 📦 [@grape_design_react/rootage-artifacts@1.2.0](https://npmjs.com/package/@grape_design_react/rootage-artifacts/v/1.2.0)
+
+---
+
+[`Grid` 및 `GridItem`](/react/components/layout/grid) 레이아웃 유틸리티 컴포넌트를 추가합니다.
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.2.0](https://npmjs.com/package/@grape_design_react/css/v/1.2.0)
+- 📦 [@grape_design_react/react@1.2.0](https://npmjs.com/package/@grape_design_react/react/v/1.2.0)
+
+---
+
+[Select Box](/react/components/select-box) 관련 컴포넌트를 업데이트합니다. [`cfd2df4`](https://github.com/daangn/grape_design_react/commit/cfd2df43c3bed9cda6413fc7938068d38da777ff)
+
+- **1.1 → 1.2 업그레이드 시 snippet을 다시 내려받아 주세요.**
+  - `npx @grape_design_react/cli@latest add ui:select-box`
+- `CheckSelectBoxGroup`, `RadioSelectBoxRoot`의 children이 기본적으로 gap이 포함된 그리드 레이아웃으로 정렬됩니다.
+  - **1.1 → 1.2 업그레이드 시 변경 필요**: `CheckSelectBox`, `RadioSelectBoxItem`을 묶어서 사용하던 `VStack`을 제거하여 `CheckSelectBox`와 `RadioSelectBoxItem`이 `CheckSelectBoxGroup` 또는 `RadioSelectBoxRoot`의 direct child가 되도록 변경하세요. `VStack`에 `gap` 이외의 스타일이 적용된 경우 `<VStack paddingX="x4"><CheckSelectBoxGroup>...</CheckSelectBoxGroup></VStack>`와 같이 `VStack`을 외부에 남겨두세요.
+  - **기능 추가**: `CheckSelectBoxGroup`와 `RadioSelectBoxRoot`에 `columns`를 지정할 수 있습니다. `columns`가 `2` 이상인 경우 하위 항목에 기본적으로 `layout="vertical"`이 적용됩니다. 기본 `layout`은 하위 항목에서 오버라이드할 수 있습니다.
+  - **기능 추가**: `CheckSelectBoxGroup`과 `RadioSelectBoxRoot`에 `label`, `description`, `errorMessage`, `indicator` 등 Fieldset 관련 prop을 사용할 수 있습니다.
+- **1.1 → 1.2 업그레이드 시 변경 필요**: `CheckSelectBox`, `RadioSelectBoxItem`에 기본적으로 표시되던 `Checkmark`와 `RadioMark`가 이제 표시되지 않습니다. `suffix` prop을 통해 선택적으로 추가할 수 있습니다.
+  - 단순 마이그레이션 시 `suffix={<CheckSelectBoxCheckmark />}`와 `suffix={<RadioSelectBoxRadiomark />}`를 추가하세요.
+- **기능 추가**: `prefixIcon`, `footer`, `footerVisibility` prop 추가
+  - `footer`에 넣는 요소는 기본적으로 해당 `CheckSelectBox` 또는 `RadioSelectBoxItem`가 선택된 상태일 때 표시됩니다. `footerVisibility="always"`를 설정하여 footer 요소를 항상 표시할 수 있습니다.
+- `label`이 기본적으로 가로 나열되며 `$dimension.x2` gap을 갖는 flex container로 변경되었습니다.
+  - **1.1 → 1.2 업그레이드 시 확인 권장**: `label={<HStack gap="x2">{/* ... */}</HStack>}`와 같은 코드는 `HStack`을 `Fragment` 등으로 대체할 수 있습니다.
+- **문제 수정**: `CheckSelectBox`와 `RadioSelectBoxItem`에서 사용되지 않는 `children`을 타입 정의에서 제거합니다.
+- `CheckSelectBoxGroup`에 `label`, `aria-label`, `aria-labelledby` 중 아무것도 설정하지 않은 경우 경고를 표시합니다. (`RadioSelectBoxRoot`는 기존에도 표시)
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.2.0](https://npmjs.com/package/@grape_design_react/css/v/1.2.0)
+- 📦 [@grape_design_react/react@1.2.0](https://npmjs.com/package/@grape_design_react/react/v/1.2.0)
+- 📦 [@grape_design_react/react-radio-group@1.1.0](https://npmjs.com/package/@grape_design_react/react-radio-group/v/1.1.0)
+- 📦 [@grape_design_react/rootage-artifacts@1.2.0](https://npmjs.com/package/@grape_design_react/rootage-artifacts/v/1.2.0)
+
+---
+
+fieldset, collapsible headless 릴리즈
+
+영향받는 패키지
+- 📦 [@grape_design_react/react-collapsible@0.1.0](https://npmjs.com/package/@grape_design_react/react-collapsible/v/0.1.0)
+- 📦 [@grape_design_react/react-fieldset@0.1.0](https://npmjs.com/package/@grape_design_react/react-fieldset/v/0.1.0)
+
+---
+
+[BottomSheetContent](/react/components/bottom-sheet)와 [MenuSheetContent](/react/components/menu-sheet)가 기본적으로 bottom safe area만큼 하단 padding을 갖도록 수정합니다. [`b673455`](https://github.com/daangn/grape_design_react/commit/b6734550839d17df2fda63df144fd861e21877dd)
+
+- 별도로 safe area padding을 지정하는 경우 제거할 수 있습니다. BottomSheetContent 내부에서의 `<VStack paddingBottom="safeArea">` 등
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.2.0](https://npmjs.com/package/@grape_design_react/css/v/1.2.0)
+
+---
+
+[Tag Group](/react/components/tag-group) 관련 컴포넌트를 업데이트합니다. [`a0e40ca`](https://github.com/daangn/grape_design_react/commit/a0e40ca2d568a249fa77e46f5780c735082e911c)
+
+- `TagGroupItem` 레이블 내부에서 줄바꿈이 발생할 수 있도록 수정합니다. (기존: `TagGroupItem` 또는 separator 전후에서 줄바꿈 발생)
+- 한 줄 레이아웃 및 우선순위 옵션을 추가합니다.
+  - `TagGroupRoot`에 `truncate` prop을 사용하여 한 줄로 유지하고 말줄임 처리를 할 수 있습니다. (기본값: `false`)
+  - `TagGroupItem`에 `flexShrink` prop을 사용하여 말줄임 우선순위를 조정할 수 있습니다.
+- **1.1 → 1.2 업그레이드 시 변경 필요**: `TagGroupItem` 내부 레이블을 `TagGroupItemLabel`로 감싸거나, 신규로 제공되는 Snippet에서 제공하는 API로 교체해주세요.
+
+  - `npx @grape_design_react/cli@latest add ui:tag-group` 명령어로 Snippet을 추가할 수 있습니다.
+
+  ```tsx
+  // 전
+  import { TagGroupRoot, TagGroupItem } from "@grape_design_react/react";
+
+  {
+    /* TagGroup.Root, TagGroup.Item처럼 namespace import하는 코드가 있을 수 있습니다. */
+  }
+  <TagGroupRoot>
+    <TagGroupItem>
+      <PrefixIcon svg={<IconLocationpinFill />} />
+      서초4동
+    </TagGroupItem>
+    <TagGroupItem>
+      광고
+      <Icon svg={<IconMegaphoneFill />} color="fg.brand" />
+    </TagGroupItem>
+    {/* ... */}
+  </TagGroupRoot>;
+  ```
+
+  ```tsx
+  // 후 (Compound Component 유지)
+
+  import {
+    TagGroupRoot,
+    TagGroupItem,
+    TagGroupItemLabel,
+  } from "@grape_design_react/react";
+
+  <TagGroupRoot>
+    <TagGroupItem>
+      <PrefixIcon svg={<IconLocationpinFill />} />
+      {/* TagGroupItemLabel 사용 */}
+      <TagGroupItemLabel>서초4동</TagGroupItemLabel>
+    </TagGroupItem>
+    <TagGroupItem>
+      {/* TagGroupItemLabel 사용 */}
+      <TagGroupItemLabel>광고</TagGroupItemLabel>
+      <Icon svg={<IconMegaphoneFill />} color="fg.brand" />
+    </TagGroupItem>
+    {/* ... */}
+  </TagGroupRoot>;
+  ```
+
+  ```tsx
+  // 후 (snippet API로 교체)
+  // snippet 없는 경우, `npx @grape_design_react/cli@latest add ui:tag-group`
+
+  import { TagGroupRoot, TagGroupItem } from "grape_design_react/ui/tag-group";
+  import {
+    TagGroupRoot as SeedTagGroupRoot,
+    TagGroupItem as SeedTagGroupItem,
+    TagGroupItemLabel as SeedTagGroupItemLabel,
+  } from "@grape_design_react/react";
+
+  <TagGroupRoot>
+    <TagGroupItem label="서초4동" prefixIcon={<IconLocationpinFill />} />
+    <SeedTagGroupItem>
+      <SeedTagGroupItemLabel>광고</SeedTagGroupItemLabel>
+      {/* 아이콘 커스터마이징이 필요한 경우 snippet 대신 Compound Component를 사용합니다. */}
+      <Icon svg={<IconMegaphoneFill />} color="fg.brand" />
+    </SeedTagGroupItem>
+    {/* ... */}
+  </TagGroupRoot>;
+  ```
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.2.0](https://npmjs.com/package/@grape_design_react/css/v/1.2.0)
+- 📦 [@grape_design_react/figma@1.2.0](https://npmjs.com/package/@grape_design_react/figma/v/1.2.0)
+- 📦 [@grape_design_react/react@1.2.0](https://npmjs.com/package/@grape_design_react/react/v/1.2.0)
+
+---
+
+Text Field (text-input)과 Field Button (input-button)의 포커스 및 에러 상태 border 트랜지션을 수정합니다. [`17c0ebd`](https://github.com/daangn/grape_design_react/commit/17c0ebde386711eed1188045238272224179f2d7)
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.2.0](https://npmjs.com/package/@grape_design_react/css/v/1.2.0)
+- 📦 [@grape_design_react/rootage-artifacts@1.2.0](https://npmjs.com/package/@grape_design_react/rootage-artifacts/v/1.2.0)
+
+---
+
+[Menu Sheet](/react/components/menu-sheet) 관련 컴포넌트를 업데이트합니다. [`358a1e4`](https://github.com/daangn/grape_design_react/commit/358a1e47dd855ab22dfaa4e0a2fd657a93595f13)
+
+- `MenuSheetContent`에 설명을 추가할 수 있는 `description` prop이 추가되었습니다.
+- `MenuSheetItem`에 설명을 추가할 수 있는 `description` prop이 추가되었습니다.
+- **1.1 → 1.2 업그레이드 시 변경 필요**: snippet을 다시 내려받고, `MenuSheetItem`을 사용하는 코드를 아래와 같이 변경하세요.
+
+  - `npx @grape_design_react/cli@latest add ui:menu-sheet`
+  - `children` 대신 `label` prop을 사용합니다.
+  - `description`, `prefixIcon` prop이 추가되었습니다.
+
+  ```tsx
+  // 전
+  <MenuSheetItem>
+    <PrefixIcon svg={<IconHouseLine />} />
+    메뉴 항목
+  </MenuSheetItem>
+
+  // 후
+  <MenuSheetItem
+    prefixIcon={<IconHouseLine />}
+    label="메뉴 항목"
+    description="이제 설명도 추가할 수 있어요"
+  />
+  ```
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.2.0](https://npmjs.com/package/@grape_design_react/css/v/1.2.0)
+- 📦 [@grape_design_react/figma@1.2.0](https://npmjs.com/package/@grape_design_react/figma/v/1.2.0)
+- 📦 [@grape_design_react/react@1.2.0](https://npmjs.com/package/@grape_design_react/react/v/1.2.0)
+
+---
+
+react-image headless 릴리즈 [`cfd2df4`](https://github.com/daangn/grape_design_react/commit/cfd2df43c3bed9cda6413fc7938068d38da777ff)
+
+영향받는 패키지
+- 📦 [@grape_design_react/react-image@0.1.0](https://npmjs.com/package/@grape_design_react/react-image/v/0.1.0)
+
+---
+
+CLI add/add-all 명령 실행 시, 파일 변경사항을 보여주고 덮어쓰기/백업/그대로 두기 선택지를 제공합니다. `--overwrite` flag를 통해 이 과정을 건너뛰고 덮어쓰기를 선택할 수 있습니다. [`21c6ca8`](https://github.com/daangn/grape_design_react/commit/21c6ca8aa792d7bfc5a6f73f9434532185eb6050)
+
+영향받는 패키지
+- 📦 [@grape_design_react/cli@1.2.0](https://npmjs.com/package/@grape_design_react/cli/v/1.2.0)
+
+---
+
+MCP `get_node(s)_info` 및 `get_node_react_code` 툴 호출이 실패하는 경우 Figma 라이브러리 업데이트 안내를 추가합니다. [`41c4e31`](https://github.com/daangn/grape_design_react/commit/41c4e3185d938467bb7d2071e1548dde15bf16d0)
+
+영향받는 패키지
+- 📦 [@grape_design_react/mcp@1.2.0](https://npmjs.com/package/@grape_design_react/mcp/v/1.2.0)
+
+---
+
+## 2026.01.20
+
+BottomSheetRoot `headerAlign="center"` variant에서 텍스트 정렬 문제를 수정합니다 ([예제](/react/components/bottom-sheet#header-align)). MenuSheetTitle의 내용이 길어질 때 MenuSheetHeader가 가운데 정렬되지 않는 문제를 수정합니다. [`6697fbe`](https://github.com/daangn/grape_design_react/commit/6697fbeb1b194e4edd48d2dcfd017bac93d5a3d3)
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.1.19](https://npmjs.com/package/@grape_design_react/css/v/1.1.19)
+
+---
+
+## 2026.01.19 #2
+
+아이콘 정보를 업데이트합니다. [`e92892a`](https://github.com/daangn/grape_design_react/commit/e92892a568d1dec922e7b19ba79e6bb7db0f1722)
+
+영향받는 패키지
+- 📦 [@grape_design_react/docs-mcp@0.5.1](https://npmjs.com/package/@grape_design_react/docs-mcp/v/0.5.1)
+- 📦 [@grape_design_react/figma@1.1.18](https://npmjs.com/package/@grape_design_react/figma/v/1.1.18)
+
+---
+
+## 2026.01.19
+
+Chip 컴포넌트 스펙에 `layout=withText` variant를 명시합니다. (스타일 변경사항 없음) [`db49a84`](https://github.com/daangn/grape_design_react/commit/db49a844ef665853d7cb23f096eaea3fce9144d5)
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.1.17](https://npmjs.com/package/@grape_design_react/css/v/1.1.17)
+- 📦 [@grape_design_react/rootage-artifacts@1.1.8](https://npmjs.com/package/@grape_design_react/rootage-artifacts/v/1.1.8)
+
+---
+
+Skeleton 가시성 향상을 위해 `$gradient.shimmer-magic` 및 `$gradient.shimmer-neutral` 토큰의 색상을 업데이트합니다. [`6fab0e7`](https://github.com/daangn/grape_design_react/commit/6fab0e7275613d6732356d00111c24bbf2eaaa41)
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.1.17](https://npmjs.com/package/@grape_design_react/css/v/1.1.17)
+- 📦 [@grape_design_react/rootage-artifacts@1.1.8](https://npmjs.com/package/@grape_design_react/rootage-artifacts/v/1.1.8)
+- 📦 [@grape_design_react/tailwind3-plugin@1.1.17](https://npmjs.com/package/@grape_design_react/tailwind3-plugin/v/1.1.17)
+- 📦 [@grape_design_react/tailwind4-theme@1.1.17](https://npmjs.com/package/@grape_design_react/tailwind4-theme/v/1.1.17)
+
+---
+
+주석, 참고 사항 및 상세 리스트 등 부가 정보에 사용할 수 있는 시맨틱 텍스트 스타일 `articleNote`를 추가합니다. [`5faef3a`](https://github.com/daangn/grape_design_react/commit/5faef3ad175e62e60e1214b301db1c2b4ca2721a)
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.1.17](https://npmjs.com/package/@grape_design_react/css/v/1.1.17)
+- 📦 [@grape_design_react/rootage-artifacts@1.1.8](https://npmjs.com/package/@grape_design_react/rootage-artifacts/v/1.1.8)
+- 📦 [@grape_design_react/tailwind3-plugin@1.1.17](https://npmjs.com/package/@grape_design_react/tailwind3-plugin/v/1.1.17)
+- 📦 [@grape_design_react/tailwind4-theme@1.1.17](https://npmjs.com/package/@grape_design_react/tailwind4-theme/v/1.1.17)
+
+---
+
+`@grape_design_react/css@1.3` 및 `@grape_design_react/react@1.3`에서 제거되는 토큰 및 옵션에 관한 경고를 추가합니다. [`8847e88`](https://github.com/daangn/grape_design_react/commit/8847e88b38a826e1f4c98f5168d83d4f739df315)
+
+- 1.3에서 제거 예정인 색상 토큰
+  - [`$color.bg.layer-fill`](/docs/foundation/design-token/%24color.bg.layer-fill)
+  - [`$gradient.fade-layer-floating`](/docs/foundation/design-token/%24gradient.fade-layer-floating)
+  - [`$gradient.fade-layer-default`](/docs/foundation/design-token/%24gradient.fade-layer-default)
+- 1.3에서 제거 예정인 컴포넌트 variant
+  - [ChipTabs](/react/components/chip-tabs)
+    - `variant="brandSolid"`
+      - 1.2까지 사용 가능, 1.3부터 디자인 변경 필요
+  - [Checkbox](/react/components/checkbox)
+    - `weight="default"`
+      - 0.2.4부터 `weight="regular"` 사용 가능
+      - `weight="default"`는 1.2까지 사용 가능, 1.3부터 `weight="regular"`만 허용
+    - `weight="stronger"`
+      - 0.2.4부터 `weight="bold"` 사용 가능
+      - `weight="stronger"`는 1.2까지 사용 가능, 1.3부터 `weight="bold"`만 허용
+  - [Switch](/react/components/switch)
+    - `size="small"`
+      - 0.1.9부터 `size="16"` 사용 가능
+      - `size="small"`은 1.2까지 사용 가능, 1.3부터 `size="16"`만 허용
+    - `size="medium"`
+      - 0.1.9부터 `size="32"` 사용 가능
+      - `size="medium"`은 1.2까지 사용 가능, 1.3부터 `size="32"`만 허용
+  - `StyleProps`를 상속하는 컴포넌트
+    - `display`, `justifyContent/justify`, `alignItems/align`, `alignContent`, `alignSelf`, `flexDirection/direction` 프로퍼티에서의 `camelCase` 값 제거 예정
+      - 0.0.15부터 `kebab-case` 값 사용 가능
+      - `camelCase` 값은 1.2까지 사용 가능, 1.3부터 `kebab-case` 값만 허용
+      - 예: `justifyContent="spaceBetween"` → `justifyContent="space-between"`
+    - 영향 범위인 컴포넌트: [Box](/react/components/layout/box), [Flex](/react/components/layout/flex), [HStack](/react/components/layout/h-stack), [VStack](/react/components/layout/v-stack), [Article](/react/components/article), [List (List.Root) 및 ListItem, ListButtonItem, ListLinkItem, ListSwitchItem, ListCheckItem, ListRadioItem (List.Item)](/react/components/list), [BottomSheetBody (BottomSheet.Body)](/react/components/bottom-sheet), ResponsivePair, [Inline (deprecated)](/react/components/inline), [Columns, Column (deprecated)](/react/components/columns), [Stack (deprecated)](/react/components/stack)
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.1.17](https://npmjs.com/package/@grape_design_react/css/v/1.1.17)
+- 📦 [@grape_design_react/react@1.1.17](https://npmjs.com/package/@grape_design_react/react/v/1.1.17)
+- 📦 [@grape_design_react/rootage-artifacts@1.1.8](https://npmjs.com/package/@grape_design_react/rootage-artifacts/v/1.1.8)
+
+---
+
+`$color.bg.layer-basement` 위에서 컴포넌트의 가시성을 보장하기 위해 `$color.bg.neutral-weak-alpha` 토큰을 추가합니다. [`94bebf8`](https://github.com/daangn/grape_design_react/commit/94bebf836c33681d4945a88af8fe8a8b3393197b)
+
+- Chip `variant=solid`에 적용
+- ChipTab `variant=neutralSolid`에 적용
+- SegmentedControl root에 적용
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.1.17](https://npmjs.com/package/@grape_design_react/css/v/1.1.17)
+- 📦 [@grape_design_react/rootage-artifacts@1.1.8](https://npmjs.com/package/@grape_design_react/rootage-artifacts/v/1.1.8)
+- 📦 [@grape_design_react/tailwind3-plugin@1.1.17](https://npmjs.com/package/@grape_design_react/tailwind3-plugin/v/1.1.17)
+- 📦 [@grape_design_react/tailwind4-theme@1.1.17](https://npmjs.com/package/@grape_design_react/tailwind4-theme/v/1.1.17)
+
+---
+
+잘못된 pseudo selector를 수정합니다 [`8495fae`](https://github.com/daangn/grape_design_react/commit/8495fae362f9f5d0673c19cb4362c06fec3a1241)
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.1.17](https://npmjs.com/package/@grape_design_react/css/v/1.1.17)
+
+---
+
+## 2026.01.12
+
+Tool의 개수를 유지보수 가능한 형태로 줄였습니다 [`c300110`](https://github.com/daangn/grape_design_react/commit/c3001105fddd2b57f27914c82ff79c2df2b6e236)
+
+영향받는 패키지
+- 📦 [@grape_design_react/docs-mcp@0.5.0](https://npmjs.com/package/@grape_design_react/docs-mcp/v/0.5.0)
+
+---
+
+## 2026.01.07
+
+정적 텍스트 스타일 추가 (t1Static* ~ t10Static*) [`2f29fe8`](https://github.com/daangn/grape_design_react/commit/2f29fe862e6f9a68476ff01a809bc7845b2e6ba2)
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.1.16](https://npmjs.com/package/@grape_design_react/css/v/1.1.16)
+- 📦 [@grape_design_react/rootage-artifacts@1.1.7](https://npmjs.com/package/@grape_design_react/rootage-artifacts/v/1.1.7)
+- 📦 [@grape_design_react/tailwind3-plugin@1.1.16](https://npmjs.com/package/@grape_design_react/tailwind3-plugin/v/1.1.16)
+- 📦 [@grape_design_react/tailwind4-theme@1.1.16](https://npmjs.com/package/@grape_design_react/tailwind4-theme/v/1.1.16)
+
+---
+
+Checkmark `variant=ghost` `tone=neutral`에서 icon의 색상을 $color.fg.neutral로 변경하고 색상 트랜지션을 추가합니다. [`9119723`](https://github.com/daangn/grape_design_react/commit/91197230b98ca59296c3e77e4bece18af7580087)
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.1.16](https://npmjs.com/package/@grape_design_react/css/v/1.1.16)
+- 📦 [@grape_design_react/rootage-artifacts@1.1.7](https://npmjs.com/package/@grape_design_react/rootage-artifacts/v/1.1.7)
+
+---
+
+Stackflow와 함께 AppScreen 사용 시 최상위 AppScreen이 push/pop될 때, 이외의 AppScreen이 고유한 `transitionStyle`을 재생하는 문제를 수정합니다. 같은 스택 내에 여러 `transitionStyle`이 공존할 때 자연스러운 트랜지션을 제공하기 위해 최상위 AppScreen의 `transitionStyle`을 재생합니다. ([데모](https://grape_design_react.io/react/stackflow/app-screen#transition-styles)) [`6d30b72`](https://github.com/daangn/grape_design_react/commit/6d30b7294974d31e853cc07fcda7d74405795cb4)
+
+- 예를 들면, `transitionStyle="fadeFromBottomAndroid"`인 0번 AppScreen 위에 `transitionStyle="slideFromLeftIOS"`인 1번 AppScreen이 push되는 경우, 0번 AppScreen이 `slideFromLeftIOS` 트랜지션을 재생하도록 수정합니다.
+  - 0번 AppScreen이 자연스럽게 좌측으로 조금 밀려나며 어두워지고(`slideFromLeftIOS`) 1번 AppScreen이 우측에서 슬라이드 인(`slideFromLeftIOS`)
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.1.16](https://npmjs.com/package/@grape_design_react/css/v/1.1.16)
+- 📦 [@grape_design_react/stackflow@1.1.16](https://npmjs.com/package/@grape_design_react/stackflow/v/1.1.16)
+
+---
+
+배너 템플릿에 사용되는 `$color.banner.*` 색상 토큰을 추가합니다. [`10c0765`](https://github.com/daangn/grape_design_react/commit/10c0765c378261aca611eb62c62a0564004e01f9)
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.1.16](https://npmjs.com/package/@grape_design_react/css/v/1.1.16)
+- 📦 [@grape_design_react/react@1.1.16](https://npmjs.com/package/@grape_design_react/react/v/1.1.16)
+- 📦 [@grape_design_react/rootage-artifacts@1.1.7](https://npmjs.com/package/@grape_design_react/rootage-artifacts/v/1.1.7)
+- 📦 [@grape_design_react/tailwind3-plugin@1.1.16](https://npmjs.com/package/@grape_design_react/tailwind3-plugin/v/1.1.16)
+- 📦 [@grape_design_react/tailwind4-theme@1.1.16](https://npmjs.com/package/@grape_design_react/tailwind4-theme/v/1.1.16)
+
+---
+
+`AppScreen`에 신규 `transitionStyle` `fadeIn`을 추가합니다. [`5e462db`](https://github.com/daangn/grape_design_react/commit/5e462dbe0fec261662442096ad451d51b84370c2)
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.1.16](https://npmjs.com/package/@grape_design_react/css/v/1.1.16)
+
+---
+
+아이콘 라이브러리 관련 새로운 도구 3개를 추가합니다. (아이콘 목록 조회, 검색, 상세 정보 조회) [`0315e98`](https://github.com/daangn/grape_design_react/commit/0315e986aa6cf557ae5f0fdddee2fd1ad11f8ca9)
+
+영향받는 패키지
+- 📦 [@grape_design_react/docs-mcp@0.4.0](https://npmjs.com/package/@grape_design_react/docs-mcp/v/0.4.0)
+
+---
+
+Rootage에 누락된 Slot Schema 정의 추가 (스타일 변경사항 없음) [`b46264a`](https://github.com/daangn/grape_design_react/commit/b46264aae6eb640f9f79fdecd4218dc33c047a49)
+
+영향받는 패키지
+- 📦 [@grape_design_react/rootage-artifacts@1.1.7](https://npmjs.com/package/@grape_design_react/rootage-artifacts/v/1.1.7)
+
+---
+
+## 2025.12.24
+
+iOS 15 이하 기기에서 MenuSheetItem이 의도하지 않은 margin을 갖는 문제를 수정합니다. [`76acd7e`](https://github.com/daangn/grape_design_react/commit/76acd7eebc0b537acf1c4fe2e82271a0a04c9cf3)
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.1.15](https://npmjs.com/package/@grape_design_react/css/v/1.1.15)
+
+---
+
+AppScreen 스와이프 중 취소 시 트랜지션이 끝난 뒤에도 `GlobalInteraction`의 `data-swipe-back-state`가 `idle`로 되돌아가지 않고 `canceling`으로 남아 있는 문제를 수정합니다. [`e4b0ce8`](https://github.com/daangn/grape_design_react/commit/e4b0ce8009f3dc7edbb142a5c02df10a860df4fe)
+
+영향받는 패키지
+- 📦 [@grape_design_react/stackflow@1.1.15](https://npmjs.com/package/@grape_design_react/stackflow/v/1.1.15)
+
+---
+
+`theme=“android”`인 AppScreen 또는 AppBar에 속한 AppBarMain의 title과 subtitle 말줄임(truncation)이 적용되지 않는 문제를 수정합니다. [`7a428ec`](https://github.com/daangn/grape_design_react/commit/7a428ec62c84f1746b4316ea1965c8c9d63b7da5)
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.1.15](https://npmjs.com/package/@grape_design_react/css/v/1.1.15)
+
+---
+
+- `get_rootage` tool 추가 (design token 및 component spec 조회) [`63b65db`](https://github.com/daangn/grape_design_react/commit/63b65db36dedeb421f164aa9f2fd3c048fa476d7)
+- React 문서 조회 기능 개선 및 fetch 함수 통합
+
+영향받는 패키지
+- 📦 [@grape_design_react/docs-mcp@0.3.0](https://npmjs.com/package/@grape_design_react/docs-mcp/v/0.3.0)
+
+---
+
+iOS 17 이하 기기에서 SegmentedControlItem의 높이가 잘못 설정될 수 있는 문제를 수정합니다. [`498a9e7`](https://github.com/daangn/grape_design_react/commit/498a9e7013662a19f941f3e42edaa125685cf62a)
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.1.15](https://npmjs.com/package/@grape_design_react/css/v/1.1.15)
+
+---
+
+## 2025.12.22
+
+Figma Codegen & MCP에서 `boxShadow` 코드 생성을 지원하고 엔티티 정보를 최신화합니다. [`c1f818f`](https://github.com/daangn/grape_design_react/commit/c1f818f92b8e07f43fd5def3a28430342da0ef90)
+
+영향받는 패키지
+- 📦 [@grape_design_react/figma@1.1.14](https://npmjs.com/package/@grape_design_react/figma/v/1.1.14)
+
+---
+
+## 2025.12.18
+
+`list_foundation`, `get_foundation`, `list_docs_components`, `get_docs_component` tools 추가 [`f385599`](https://github.com/daangn/grape_design_react/commit/f3855998785f9b5d9ee2bea1e997c2c22b20cbf2)
+
+영향받는 패키지
+- 📦 [@grape_design_react/docs-mcp@0.2.0](https://npmjs.com/package/@grape_design_react/docs-mcp/v/0.2.0)
+
+---
+
+## 2025.12.15
+
+`radiomark` Rootage 정의를 명확화합니다. (스타일 변경사항 없음) [`9be0581`](https://github.com/daangn/grape_design_react/commit/9be0581cd36d3d350284445b4a7fd75898bb1823)
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.1.13](https://npmjs.com/package/@grape_design_react/css/v/1.1.13)
+- 📦 [@grape_design_react/rootage-artifacts@1.1.6](https://npmjs.com/package/@grape_design_react/rootage-artifacts/v/1.1.6)
+
+---
+
+신규 [Elevation 가이드](https://grape_design_react.io/docs/foundation/elevation)에 맞는 shadow 토큰을 추가합니다. [`cc4a45a`](https://github.com/daangn/grape_design_react/commit/cc4a45a00a93c987447255b3cc6bee9182e520a9)
+
+- React: Box, Flex, HStack 등 StyleProps를 사용하는 컴포넌트에서 `boxShadow` prop을 사용하여 shadow 토큰을 쉽게 사용할 수 있습니다.
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.1.13](https://npmjs.com/package/@grape_design_react/css/v/1.1.13)
+- 📦 [@grape_design_react/react@1.1.13](https://npmjs.com/package/@grape_design_react/react/v/1.1.13)
+- 📦 [@grape_design_react/rootage-artifacts@1.1.6](https://npmjs.com/package/@grape_design_react/rootage-artifacts/v/1.1.6)
+- 📦 [@grape_design_react/tailwind3-plugin@1.1.13](https://npmjs.com/package/@grape_design_react/tailwind3-plugin/v/1.1.13)
+- 📦 [@grape_design_react/tailwind4-theme@1.1.13](https://npmjs.com/package/@grape_design_react/tailwind4-theme/v/1.1.13)
+
+---
+
+unicode-segmenter 0.14.4 버전을 설치합니다. [`8f54b80`](https://github.com/daangn/grape_design_react/commit/8f54b80e81adf6415e5b687bf25da33dd3c82ea9)
+
+영향받는 패키지
+- 📦 [@grape_design_react/react@1.1.13](https://npmjs.com/package/@grape_design_react/react/v/1.1.13)
+
+---
+
+Button들의 xsmall variant의 텍스트 사이즈를 t4에서 t3로 변경해요. [`739937f`](https://github.com/daangn/grape_design_react/commit/739937fefe4ffcc21e57216508053fe60bfa958d)
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.1.13](https://npmjs.com/package/@grape_design_react/css/v/1.1.13)
+- 📦 [@grape_design_react/rootage-artifacts@1.1.6](https://npmjs.com/package/@grape_design_react/rootage-artifacts/v/1.1.6)
+
+---
+
+Divider 자체적으로 16px의 여백을 가지는 `inset` 옵션을 추가합니다. [`fce8668`](https://github.com/daangn/grape_design_react/commit/fce866834642a0a516a85efdce65f1637ae28181)
+
+영향받는 패키지
+- 📦 [@grape_design_react/react@1.1.13](https://npmjs.com/package/@grape_design_react/react/v/1.1.13)
+
+---
+
+## 2025.12.08
+
+Figma Codegen 정보를 최신화합니다. [`6d680ba`](https://github.com/daangn/grape_design_react/commit/6d680baf7b106d97f64e41b0e4aa7156959ec49e)
+
+영향받는 패키지
+- 📦 [@grape_design_react/figma@1.1.12](https://npmjs.com/package/@grape_design_react/figma/v/1.1.12)
+
+---
+
+seedFontMultiplier, seedFontScaling attribute를 추가합니다 [`8d0ad90`](https://github.com/daangn/grape_design_react/commit/8d0ad90ca761954a066025ee0075fac90bd9a9e5)
+- seedFontMultiplier: 폰트 크기 스케일링 계수 (e.g. 0.8, 1.35, 1.5, 1)
+- seedFontScaling: 폰트 크기 스케일링 활성화 여부 (e.g. "enabled")
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.1.12](https://npmjs.com/package/@grape_design_react/css/v/1.1.12)
+
+---
+
+cssnano 등 CSS 최적화 도구를 사용할 때, `bleedX`와 `bleedY` 중 한 가지 속성만 정의하는 경우 bleed가 적용되지 않던 문제를 수정합니다. [`8f31f93`](https://github.com/daangn/grape_design_react/commit/8f31f9315b18031c816ecc61dcec9a984e474318)
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.1.12](https://npmjs.com/package/@grape_design_react/css/v/1.1.12)
+
+---
+
+Overlay 컴포넌트에 skipAnimation 옵션을 추가합니다 [`69ccc6e`](https://github.com/daangn/grape_design_react/commit/69ccc6e7d13ff1790bfb0b9924669e6ad63ea49c)
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.1.12](https://npmjs.com/package/@grape_design_react/css/v/1.1.12)
+- 📦 [@grape_design_react/react-dialog@1.0.1](https://npmjs.com/package/@grape_design_react/react-dialog/v/1.0.1)
+- 📦 [@grape_design_react/react-drawer@1.0.5](https://npmjs.com/package/@grape_design_react/react-drawer/v/1.0.5)
+
+---
+
+Badge의 크기와 Field의 indicator 크기 및 여백이 폰트 스케일링 제한의 영향을 받도록 업데이트합니다. [`279001a`](https://github.com/daangn/grape_design_react/commit/279001a99f13accf981654438e1bbee632b62476)
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.1.12](https://npmjs.com/package/@grape_design_react/css/v/1.1.12)
+
+---
+
+## 2025.12.04
+
+@grape_design_react/stackflow: @stackflow/react-ui-core를 peerDependencies에서 dependencies로 이동합니다. [`ea488c5`](https://github.com/daangn/grape_design_react/commit/ea488c5da8813d16f9d6401858dfd932d9b53553)
+
+영향받는 패키지
+- 📦 [@grape_design_react/stackflow@1.1.11](https://npmjs.com/package/@grape_design_react/stackflow/v/1.1.11)
+
+---
+
+Figma MCP가 `export_node_as_image` 툴과 `clone_node` 툴 호출 후 반환 결과를 정상적으로 파싱하지 못하는 문제를 수정합니다. [`b58ac46`](https://github.com/daangn/grape_design_react/commit/b58ac46b66c4a9589bd894d072a01a3c3de83c2a)
+
+영향받는 패키지
+- 📦 [@grape_design_react/mcp@1.1.11](https://npmjs.com/package/@grape_design_react/mcp/v/1.1.11)
+
+---
+
+## 2025.12.01
+
+Figma 엔티티 및 Codegen을 업데이트합니다. (신규 아이콘 및 `ResultSection` Codegen 지원) [`bc9f9a0`](https://github.com/daangn/grape_design_react/commit/bc9f9a0462f4fbdd8282d2b107d036e4b7d33632)
+
+영향받는 패키지
+- 📦 [@grape_design_react/figma@1.1.10](https://npmjs.com/package/@grape_design_react/figma/v/1.1.10)
+
+---
+
+`TagGroupRoot`의 children이 `null` 또는 `undefined`를 포함하는 경우 불필요한 separator가 표시되는 문제를 수정합니다. [`a2b874b`](https://github.com/daangn/grape_design_react/commit/a2b874b790c7d40ce7561d044ceaad176dc7955d)
+
+영향받는 패키지
+- 📦 [@grape_design_react/react@1.1.10](https://npmjs.com/package/@grape_design_react/react/v/1.1.10)
+
+---
+
+peerDeps에 `@grape_design_react/css` 패키지가 추가됩니다. [`12ffece`](https://github.com/daangn/grape_design_react/commit/12ffece09da7a3740ddc2dba0fc8f65b70210d7a)
+
+영향받는 패키지
+- 📦 [@grape_design_react/react@1.1.10](https://npmjs.com/package/@grape_design_react/react/v/1.1.10)
+
+---
+
+PageBanner에 tone="magic" 스타일을 추가합니다. [`db5de74`](https://github.com/daangn/grape_design_react/commit/db5de74c6c8ad7b434372e498443c5d706f3279b)
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.1.10](https://npmjs.com/package/@grape_design_react/css/v/1.1.10)
+- 📦 [@grape_design_react/react@1.1.10](https://npmjs.com/package/@grape_design_react/react/v/1.1.10)
+- 📦 [@grape_design_react/rootage-artifacts@1.1.5](https://npmjs.com/package/@grape_design_react/rootage-artifacts/v/1.1.5)
+
+---
+
+Segmented Control의 스타일을 업데이트합니다: Indicator에서 shadow 정의를 제거합니다. [`70d11b8`](https://github.com/daangn/grape_design_react/commit/70d11b80ae01b616570468ddc5133740ae1182cb)
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.1.10](https://npmjs.com/package/@grape_design_react/css/v/1.1.10)
+- 📦 [@grape_design_react/rootage-artifacts@1.1.5](https://npmjs.com/package/@grape_design_react/rootage-artifacts/v/1.1.5)
+
+---
+
+TabsCarousel에 onSwipeStart, onSwipeEnd 이벤트 콜백을 추가합니다. [`938bf0b`](https://github.com/daangn/grape_design_react/commit/938bf0bb413947ef03dcbb3d5cdf36af62cebfb5)
+
+영향받는 패키지
+- 📦 [@grape_design_react/react-tabs@1.0.2](https://npmjs.com/package/@grape_design_react/react-tabs/v/1.0.2)
+
+---
+
+TextFieldInput 및 TextFieldTextarea (text-input 스타일시트)에서 브라우저 기본 자동 완성 스타일이 표시되지 않도록 수정합니다. [`c03a3dd`](https://github.com/daangn/grape_design_react/commit/c03a3dd984a15d66da10127bd37d1b8966b15ec7)
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.1.10](https://npmjs.com/package/@grape_design_react/css/v/1.1.10)
+
+---
+
+Field(TextField)의 스타일을 수정합니다. [`a12e49b`](https://github.com/daangn/grape_design_react/commit/a12e49b6f3a7fdec66c12666a35b15a4787d3aca)
+
+- `maxGraphemeCount`를 사용하지만 `description`을 사용하지 않는 경우 `maxGraphemeCount`가 우측이 아닌 좌측에 표시되는 문제를 수정합니다.
+- Tailwind Preflight 사용 시 Character Count 영역이 디자인 의도보다 높이를 더 많이 차지하는 문제를 수정합니다.
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.1.10](https://npmjs.com/package/@grape_design_react/css/v/1.1.10)
+- 📦 [@grape_design_react/react@1.1.10](https://npmjs.com/package/@grape_design_react/react/v/1.1.10)
+
+---
+
+## 2025.11.26
+
+`AppBar`에 적용되는 그라디언트를 `AppScreen`으로 이동합니다. [`37d332d`](https://github.com/daangn/grape_design_react/commit/37d332daf30f0f61e4e1692e896021a73b38287c)
+
+- `<AppBar tone="transparent">`를 사용하는 경우 `tone="transparent"`를 `AppScreen`으로 옮겨 그라디언트를 표시할 수 있습니다.
+- `AppScreen`에 `gradient={false}`를 설정하여 그라디언트를 숨길 수 있습니다.
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.1.9](https://npmjs.com/package/@grape_design_react/css/v/1.1.9)
+
+---
+
+iOS 웹뷰 환경에서 Avatar가 정상적으로 렌더링되지 않는 문제를 수정합니다. [`77517f1`](https://github.com/daangn/grape_design_react/commit/77517f16067b72e4792e12105e93a7b0cc1d0292)
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.1.9](https://npmjs.com/package/@grape_design_react/css/v/1.1.9)
+
+---
+
+Stackflow 플러그인이 최신이 아닌 data attribute에 의해 잘못된 트랜지션을 재생하지 않도록 수정합니다. [`afa281b`](https://github.com/daangn/grape_design_react/commit/afa281b2a802359c64b549e58c1d499792d28e29)
+
+영향받는 패키지
+- 📦 [@grape_design_react/stackflow@1.1.9](https://npmjs.com/package/@grape_design_react/stackflow/v/1.1.9)
+
+---
+
+## 2025.11.21
+
+List Item에 신규 active(pressed) 스타일을 적용하고, disabled 상태에서 detail 영역의 색상을 수정합니다. [`8752805`](https://github.com/daangn/grape_design_react/commit/87528054e18200ab6098abfe66186ee2cddaf9e0)
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.1.8](https://npmjs.com/package/@grape_design_react/css/v/1.1.8)
+- 📦 [@grape_design_react/react@1.1.8](https://npmjs.com/package/@grape_design_react/react/v/1.1.8)
+- 📦 [@grape_design_react/rootage-artifacts@1.1.4](https://npmjs.com/package/@grape_design_react/rootage-artifacts/v/1.1.4)
+
+---
+
+Help Bubble이 기본적으로 z-index 99를 가지도록 수정합니다. (HelpBubblePositioner 또는 HelpBubblePositionerPortal에 직접 인라인 스타일을 적용한 경우 인라인 스타일이 우선 적용됩니다.) [`ee98674`](https://github.com/daangn/grape_design_react/commit/ee98674aa0799515ead6e7c437aed8b8232c8798)
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.1.8](https://npmjs.com/package/@grape_design_react/css/v/1.1.8)
+
+---
+
+@grape_design_react/react에서 unicode-segmenter가 externalize되지 않는 문제를 수정합니다. [`8edbf00`](https://github.com/daangn/grape_design_react/commit/8edbf003d327a8aec36b51edee40345cbc9c1d98)
+
+영향받는 패키지
+- 📦 [@grape_design_react/react@1.1.8](https://npmjs.com/package/@grape_design_react/react/v/1.1.8)
+
+---
+
+BottomSheet에 handleOnly 옵션이 정상적으로 동작하지 않는 이슈를 수정합니다 [`e3806c1`](https://github.com/daangn/grape_design_react/commit/e3806c1ea1937ef0b19c9acf6293fd0a87645e7c)
+
+영향받는 패키지
+- 📦 [@grape_design_react/react@1.1.8](https://npmjs.com/package/@grape_design_react/react/v/1.1.8)
+- 📦 [@grape_design_react/react-drawer@1.0.4](https://npmjs.com/package/@grape_design_react/react-drawer/v/1.0.4)
+
+---
+
+## 2025.11.20
+
+Scroll Fog 컴포넌트가 항상 fog를 표시하게 변경하고 padding 가이드라인을 추가합니다 [`f4c62f6`](https://github.com/daangn/grape_design_react/commit/f4c62f6af1dc97627c818624a7359581a0f7cb40)
+
+영향받는 패키지
+- 📦 [@grape_design_react/react@1.1.7](https://npmjs.com/package/@grape_design_react/react/v/1.1.7)
+
+---
+
+스타일시트에서 logical property(padding-block 등)를 physical property(padding-left 및 padding-right 등)로 교체합니다. (브라우저 지원) [`bee919c`](https://github.com/daangn/grape_design_react/commit/bee919c028232078b4ba69c90e729bbd33508a11)
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.1.7](https://npmjs.com/package/@grape_design_react/css/v/1.1.7)
+
+---
+
+Slider Value Indicator가 표시되는 조건을 설정하는 `valueIndicatorTrigger` prop을 추가합니다. ("active"|"hover", 기본값: "active") [`1340675`](https://github.com/daangn/grape_design_react/commit/13406751def0ba4c7efd3cf2a8bfbd62c8b63fbd)
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.1.7](https://npmjs.com/package/@grape_design_react/css/v/1.1.7)
+- 📦 [@grape_design_react/react@1.1.7](https://npmjs.com/package/@grape_design_react/react/v/1.1.7)
+- 📦 [@grape_design_react/react-slider@1.0.1](https://npmjs.com/package/@grape_design_react/react-slider/v/1.0.1)
+
+---
+
+Slider Value Indicator가 Track 양 끝에 있을 때 Track 바깥 영역을 차지하지 않도록 수정합니다. [`1340675`](https://github.com/daangn/grape_design_react/commit/13406751def0ba4c7efd3cf2a8bfbd62c8b63fbd)
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.1.7](https://npmjs.com/package/@grape_design_react/css/v/1.1.7)
+- 📦 [@grape_design_react/react@1.1.7](https://npmjs.com/package/@grape_design_react/react/v/1.1.7)
+- 📦 [@grape_design_react/react-slider@1.0.1](https://npmjs.com/package/@grape_design_react/react-slider/v/1.0.1)
+
+---
+
+## 2025.11.18
+
+transparent 상태 컬러 추가, 컴포넌트 상태 컬러 변경, transition 추가 [`dfe6c1e`](https://github.com/daangn/grape_design_react/commit/dfe6c1e12f7b88b1ebdabbe54e4fc504b700489a)
+
+- `$color.bg.transparent-pressed` 컬러와 `$color.bg.transparent` 컬러가 추가되었습니다.
+- 다음 컴포넌트들의 색상이 transparent 관련 토큰으로 변경되었습니다.
+  - `Chip` (outlineStrong, outlineWeak)
+  - `Action Button` (neutralOutline, brandOutline, ghost)
+  - `Checkmark`
+  - `Tabs` (outline)
+  - `List Item`
+  - `Radiomark`
+  - `Reaction Button`
+  - `Select Box`
+- 다음 컴포넌트들의 color transition이 추가되었습니다. (duration: $duration.d3, timing-function: $timing-function.easing)
+  - `Checkmark`
+  - `Radiomark`
+  - `Reaction Button`
+  - `Select Box`
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.1.6](https://npmjs.com/package/@grape_design_react/css/v/1.1.6)
+- 📦 [@grape_design_react/rootage-artifacts@1.1.3](https://npmjs.com/package/@grape_design_react/rootage-artifacts/v/1.1.3)
+- 📦 [@grape_design_react/tailwind3-plugin@1.1.6](https://npmjs.com/package/@grape_design_react/tailwind3-plugin/v/1.1.6)
+- 📦 [@grape_design_react/tailwind4-theme@1.1.6](https://npmjs.com/package/@grape_design_react/tailwind4-theme/v/1.1.6)
+
+---
+
+다음 컴포넌트들의 color transition을 `$duration.color-transition` (d3) 토큰으로 변경합니다 [`a09e6b4`](https://github.com/daangn/grape_design_react/commit/a09e6b49f84e622f75563c85897992033301c3f3)
+
+- `Action Button`
+- `Bottom Sheet Handle`
+- `Checkmark`
+- `Tabs` (outline)
+- `Chip`
+- `Contextual Floating Button`
+- `Floating Action Button`
+- `Input Button`
+- `List Item`
+- `Radiomark`
+- `Reaction Button`
+- `Segmented Control Item`
+- `Select Box`
+- `Text Input`
+- `Toggle Button`
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.1.6](https://npmjs.com/package/@grape_design_react/css/v/1.1.6)
+- 📦 [@grape_design_react/rootage-artifacts@1.1.3](https://npmjs.com/package/@grape_design_react/rootage-artifacts/v/1.1.3)
+- 📦 [@grape_design_react/tailwind3-plugin@1.1.6](https://npmjs.com/package/@grape_design_react/tailwind3-plugin/v/1.1.6)
+- 📦 [@grape_design_react/tailwind4-theme@1.1.6](https://npmjs.com/package/@grape_design_react/tailwind4-theme/v/1.1.6)
+
+---
+
+## 2025.11.17
+
+BottomSheetBody에 제공한 style 관련 prop(`paddingX` 등)이 적용되지 않고 DOM으로 bleed되는 문제를 수정합니다. [`03ff678`](https://github.com/daangn/grape_design_react/commit/03ff678ce576d85a37185f4551bfa99927a9bea6)
+
+영향받는 패키지
+- 📦 [@grape_design_react/react@1.1.5](https://npmjs.com/package/@grape_design_react/react/v/1.1.5)
+
+---
+
+FieldButton에 Read Only 상태를 추가합니다. Disabled 상태인 FieldButton은 내부 `<input />`도 `disabled` 속성을 갖도록 수정합니다. [`53290ab`](https://github.com/daangn/grape_design_react/commit/53290abaeda978d623317efb425de42ed2becd7d)
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.1.5](https://npmjs.com/package/@grape_design_react/css/v/1.1.5)
+- 📦 [@grape_design_react/react-field-button@1.0.1](https://npmjs.com/package/@grape_design_react/react-field-button/v/1.0.1)
+- 📦 [@grape_design_react/rootage-artifacts@1.1.2](https://npmjs.com/package/@grape_design_react/rootage-artifacts/v/1.1.2)
+
+---
+
+@grape_design_react/stackflow 패키지에서 `useActivityZIndexBase` 훅을 제공합니다. [`7529e31`](https://github.com/daangn/grape_design_react/commit/7529e315c3c430b371ada6adf1d75f0ddb1badc0)
+
+영향받는 패키지
+- 📦 [@grape_design_react/stackflow@1.1.5](https://npmjs.com/package/@grape_design_react/stackflow/v/1.1.5)
+
+---
+
+use-prevent-scroll 로직을 삭제합니다 [`cc8864d`](https://github.com/daangn/grape_design_react/commit/cc8864d3cff5a7d4c06d56709d7eaffe6e11fc15)
+
+영향받는 패키지
+- 📦 [@grape_design_react/react-drawer@1.0.3](https://npmjs.com/package/@grape_design_react/react-drawer/v/1.0.3)
+
+---
+
+:focus-visible selector를 사용하기 전 브라우저에서 selector를 지원하는지 확인합니다. [`ae1b768`](https://github.com/daangn/grape_design_react/commit/ae1b76808dcc411fd34206195b517bc94035ecca)
+
+영향받는 패키지
+- 📦 [@grape_design_react/react@1.1.5](https://npmjs.com/package/@grape_design_react/react/v/1.1.5)
+- 📦 [@grape_design_react/react-checkbox@1.0.1](https://npmjs.com/package/@grape_design_react/react-checkbox/v/1.0.1)
+- 📦 [@grape_design_react/react-field@1.0.1](https://npmjs.com/package/@grape_design_react/react-field/v/1.0.1)
+- 📦 [@grape_design_react/react-field-button@1.0.1](https://npmjs.com/package/@grape_design_react/react-field-button/v/1.0.1)
+- 📦 [@grape_design_react/react-radio-group@1.0.1](https://npmjs.com/package/@grape_design_react/react-radio-group/v/1.0.1)
+- 📦 [@grape_design_react/react-segmented-control@1.0.1](https://npmjs.com/package/@grape_design_react/react-segmented-control/v/1.0.1)
+- 📦 [@grape_design_react/react-supports@0.0.1](https://npmjs.com/package/@grape_design_react/react-supports/v/0.0.1)
+- 📦 [@grape_design_react/react-switch@1.0.1](https://npmjs.com/package/@grape_design_react/react-switch/v/1.0.1)
+- 📦 [@grape_design_react/react-tabs@1.0.1](https://npmjs.com/package/@grape_design_react/react-tabs/v/1.0.1)
+- 📦 [@grape_design_react/react-text-field@1.1.1](https://npmjs.com/package/@grape_design_react/react-text-field/v/1.1.1)
+
+---
+
+telemetry 옵션을 추가합니다 [`a6ae76f`](https://github.com/daangn/grape_design_react/commit/a6ae76fde02f957e53b5dcfe57f32420cfb95a85)
+
+영향받는 패키지
+- 📦 [@grape_design_react/cli@1.1.0](https://npmjs.com/package/@grape_design_react/cli/v/1.1.0)
+
+---
+
+## 2025.11.13
+
+`@radix-ui/react-dialog` 의존성을 추가해 React 패키지를 Portable하게 수정합니다 [`77d304d`](https://github.com/daangn/grape_design_react/commit/77d304d3ddaed22cc247e3250390ecbe0309a8ba)
+
+영향받는 패키지
+- 📦 [@grape_design_react/react@1.1.4](https://npmjs.com/package/@grape_design_react/react/v/1.1.4)
+
+---
+
+Stackflow의 AppScreen에 있던 gradient 스타일을 AppBar로 이동합니다 [`795668c`](https://github.com/daangn/grape_design_react/commit/795668c57c76661222b6136b8d2e6a364da4ecbd)
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.1.4](https://npmjs.com/package/@grape_design_react/css/v/1.1.4)
+
+---
+
+## 2025.11.11
+
+일반적인 CSS Reset을 사용하지 않는 환경에서도 스타일이 의도한 대로 표시될 수 있도록 수정합니다. [`15c658b`](https://github.com/daangn/grape_design_react/commit/15c658b7cd78c2f4fe53b018f51f6770c5b6a02e)
+
+- `list-header`에 `box-sizing: border-box;` 추가
+- `button`으로 렌더링되는 컴포넌트 스타일 수정
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.1.3](https://npmjs.com/package/@grape_design_react/css/v/1.1.3)
+
+---
+
+PopoverPositionerPortal과 HelpBubblePositionerPortal을 추가합니다. [`2c302a5`](https://github.com/daangn/grape_design_react/commit/2c302a56459bb8e9c9be8d166cc73da2205b0707)
+
+영향받는 패키지
+- 📦 [@grape_design_react/react@1.1.3](https://npmjs.com/package/@grape_design_react/react/v/1.1.3)
+- 📦 [@grape_design_react/react-popover@1.0.3](https://npmjs.com/package/@grape_design_react/react-popover/v/1.0.3)
+
+---
+
+Release `@grape_design_react/react-scrollable` [`bc3cd6f`](https://github.com/daangn/grape_design_react/commit/bc3cd6fd1cdbf1d2c39fbe85ce6ecd735ee5b624)
+
+영향받는 패키지
+- 📦 [@grape_design_react/react-scrollable@1.0.0](https://npmjs.com/package/@grape_design_react/react-scrollable/v/1.0.0)
+
+---
+
+BottomSheetContent에 style 객체가 전달되지 않는 버그를 수정합니다. [`4102a4b`](https://github.com/daangn/grape_design_react/commit/4102a4b74fd89a007af590d2afa8866099cdc182)
+
+영향받는 패키지
+- 📦 [@grape_design_react/react-drawer@1.0.2](https://npmjs.com/package/@grape_design_react/react-drawer/v/1.0.2)
+
+---
+
+1.1 이전 버전과 호환 가능하도록 임시적으로 사용할 text-input size=medium variant를 추가합니다. [`f4e07bb`](https://github.com/daangn/grape_design_react/commit/f4e07bbed1a138d9864c966144f6655af7b062b1)
+
+- 영향 받는 React 컴포넌트: TextFieldInput, TextFieldTextarea
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.1.3](https://npmjs.com/package/@grape_design_react/css/v/1.1.3)
+- 📦 [@grape_design_react/rootage-artifacts@1.1.1](https://npmjs.com/package/@grape_design_react/rootage-artifacts/v/1.1.1)
+
+---
+
+Export 수정: `DialogProps` → `UseDrawerProps` [`e272ef8`](https://github.com/daangn/grape_design_react/commit/e272ef8d2df763e8a5c2ad4bbd644815e353890f)
+
+영향받는 패키지
+- 📦 [@grape_design_react/react-drawer@1.0.2](https://npmjs.com/package/@grape_design_react/react-drawer/v/1.0.2)
+
+---
+
+uncontrolled 상태에서 onOpenChange가 두번 호출되는 버그를 수정합니다
+
+영향받는 패키지
+- 📦 [@grape_design_react/react-drawer@1.0.2](https://npmjs.com/package/@grape_design_react/react-drawer/v/1.0.2)
+
+---
+
+body에 강제로 스타일을 주입하는 noBodyStyles 옵션의 기본값을 true로 변경합니다 [`4971dcc`](https://github.com/daangn/grape_design_react/commit/4971dcce69a3af0119a4321dd8d7221b1d519a92)
+
+영향받는 패키지
+- 📦 [@grape_design_react/react-drawer@1.0.2](https://npmjs.com/package/@grape_design_react/react-drawer/v/1.0.2)
+
+---
+
+Figma Codegen 컴포넌트 핸들러를 업데이트합니다. 레거시 Text Field에 대한 Codegen을 한시적으로 지원합니다. [`d986fd5`](https://github.com/daangn/grape_design_react/commit/d986fd5fb9e353b7acf8a9e080d24fe10920a22c)
+
+영향받는 패키지
+- 📦 [@grape_design_react/figma@1.1.3](https://npmjs.com/package/@grape_design_react/figma/v/1.1.3)
+
+---
+
+text-input의 readonly 스타일을 업데이트합니다. [`114dafd`](https://github.com/daangn/grape_design_react/commit/114dafdebb6aa0579b5543a4bfeb38b4439d641a)
+
+- 영향 받는 React 컴포넌트: TextFieldInput, TextFieldTextarea
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.1.3](https://npmjs.com/package/@grape_design_react/css/v/1.1.3)
+- 📦 [@grape_design_react/rootage-artifacts@1.1.1](https://npmjs.com/package/@grape_design_react/rootage-artifacts/v/1.1.1)
+
+---
+
+Scroll Fog 컴포넌트를 추가합니다 [`bc3cd6f`](https://github.com/daangn/grape_design_react/commit/bc3cd6fd1cdbf1d2c39fbe85ce6ecd735ee5b624)
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.1.3](https://npmjs.com/package/@grape_design_react/css/v/1.1.3)
+- 📦 [@grape_design_react/react@1.1.3](https://npmjs.com/package/@grape_design_react/react/v/1.1.3)
+- 📦 [@grape_design_react/rootage-artifacts@1.1.1](https://npmjs.com/package/@grape_design_react/rootage-artifacts/v/1.1.1)
+
+---
+
+## 2025.11.05
+
+Figma 토큰 정보 및 Codegen 핸들러를 최신화합니다. [`4c5d7c4`](https://github.com/daangn/grape_design_react/commit/4c5d7c4f2d14ae25041f8603d0389aa7a6cdd386)
+
+영향받는 패키지
+- 📦 [@grape_design_react/figma@1.1.2](https://npmjs.com/package/@grape_design_react/figma/v/1.1.2)
+
+---
+
+## 2025.11.04 #2
+
+@grape_design_react/react-drawer 패키지 배포 [`68b5eab`](https://github.com/daangn/grape_design_react/commit/68b5eab1849292f0ed5c286d22ac3fe1316c36c6)
+
+영향받는 패키지
+- 📦 [@grape_design_react/react-drawer@1.0.1](https://npmjs.com/package/@grape_design_react/react-drawer/v/1.0.1)
+
+---
+
+## 2025.11.04
+
+(BREAKING CHANGE: TextField snippet을 다시 설치해야 합니다.) Text Field 관련 컴포넌트를 업데이트합니다. [`6af6501`](https://github.com/daangn/grape_design_react/commit/6af6501e132c2c1c61f4c56f644a4d29e178ab89)
+
+- 스타일 업데이트
+- size 통일 및 variant (underline) 추가
+- 내부적으로 Field 컴포넌트를 사용하도록 변경하여 스타일 일관성 향상
+
+Field Button 컴포넌트를 추가합니다.
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.1.0](https://npmjs.com/package/@grape_design_react/css/v/1.1.0)
+- 📦 [@grape_design_react/react@1.1.0](https://npmjs.com/package/@grape_design_react/react/v/1.1.0)
+- 📦 [@grape_design_react/react-field-button@1.0.0](https://npmjs.com/package/@grape_design_react/react-field-button/v/1.0.0)
+- 📦 [@grape_design_react/react-text-field@1.1.0](https://npmjs.com/package/@grape_design_react/react-text-field/v/1.1.0)
+- 📦 [@grape_design_react/rootage-artifacts@1.1.0](https://npmjs.com/package/@grape_design_react/rootage-artifacts/v/1.1.0)
+
+---
+
+Slider 컴포넌트를 추가합니다. [`a55f584`](https://github.com/daangn/grape_design_react/commit/a55f584860439f373b50328c654d313d7f6dbb57)
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.1.0](https://npmjs.com/package/@grape_design_react/css/v/1.1.0)
+- 📦 [@grape_design_react/react@1.1.0](https://npmjs.com/package/@grape_design_react/react/v/1.1.0)
+- 📦 [@grape_design_react/react-field@1.0.0](https://npmjs.com/package/@grape_design_react/react-field/v/1.0.0)
+- 📦 [@grape_design_react/react-slider@1.0.0](https://npmjs.com/package/@grape_design_react/react-slider/v/1.0.0)
+- 📦 [@grape_design_react/rootage-artifacts@1.1.0](https://npmjs.com/package/@grape_design_react/rootage-artifacts/v/1.1.0)
+
+---
+
+Action Button 컴포넌트를 `variant=ghost`로 사용하는 경우 `fontWeight`를 사용자화할 수 있도록 업데이트합니다. [`6af6501`](https://github.com/daangn/grape_design_react/commit/6af6501e132c2c1c61f4c56f644a4d29e178ab89)
+
+(BREAKING CHANGE: Error State snippet을 다시 설치해야 합니다.) Error State 스니펫에서 Action Button을 활용하도록 업데이트합니다.
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.1.0](https://npmjs.com/package/@grape_design_react/css/v/1.1.0)
+- 📦 [@grape_design_react/figma@1.1.0](https://npmjs.com/package/@grape_design_react/figma/v/1.1.0)
+- 📦 [@grape_design_react/react@1.1.0](https://npmjs.com/package/@grape_design_react/react/v/1.1.0)
+
+---
+
+AppScreen에 `tone` 속성을 조절해 그라데이션이 들어간 투명한 배경을 사용할 수 있습니다. [`b131282`](https://github.com/daangn/grape_design_react/commit/b131282c00acb631486135896bcc598989afa15c)
+
+- AppBar에 있던 `tone` 속성을 AppScreen에서도 사용할 수 있도록 이동합니다.
+- AppScreen, AppBar 둘 다 `tone` 속성을 사용할 수 있도록 합니다.
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.1.0](https://npmjs.com/package/@grape_design_react/css/v/1.1.0)
+- 📦 [@grape_design_react/stackflow@1.1.0](https://npmjs.com/package/@grape_design_react/stackflow/v/1.1.0)
+
+---
+
+`@grape_design_react/react-drawer` 1.0.0 [`33def2d`](https://github.com/daangn/grape_design_react/commit/33def2d31449d484e08e1102a84cc31eb07175c4)
+
+영향받는 패키지
+- 📦 [@grape_design_react/react-drawer@1.0.0](https://npmjs.com/package/@grape_design_react/react-drawer/v/1.0.0)
+
+---
+
+(BREAKING CHANGE: PageBanner snippet을 다시 설치해야 합니다.) Page Banner 스니펫을 업데이트합니다. [`6af6501`](https://github.com/daangn/grape_design_react/commit/6af6501e132c2c1c61f4c56f644a4d29e178ab89)
+
+- Box를 사용하여 스타일링하던 부분을 `PageBanner.Body`로 교체합니다.
+- `PageBanner.TextContent`를 `PageBanner.Content`로 이름 변경합니다.
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.1.0](https://npmjs.com/package/@grape_design_react/css/v/1.1.0)
+- 📦 [@grape_design_react/react@1.1.0](https://npmjs.com/package/@grape_design_react/react/v/1.1.0)
+- 📦 [@grape_design_react/rootage-artifacts@1.1.0](https://npmjs.com/package/@grape_design_react/rootage-artifacts/v/1.1.0)
+
+---
+
+닫힌 HelpBubbleAnchor/HelpBubbleTrigger가 불필요하게 리렌더링되지 않도록 수정합니다. [`0c1ab6a`](https://github.com/daangn/grape_design_react/commit/0c1ab6abaf964e2d8041bf41ba816df19d19d027)
+
+영향받는 패키지
+- 📦 [@grape_design_react/react-popover@1.0.2](https://npmjs.com/package/@grape_design_react/react-popover/v/1.0.2)
+
+---
+
+(BREAKING CHANGE: BottomSheet snippet을 다시 설치해야 합니다.) BottomSheet에 드래그를 통해 닫는 기능을 추가합니다. [`33def2d`](https://github.com/daangn/grape_design_react/commit/33def2d31449d484e08e1102a84cc31eb07175c4)
+
+- vaul headless 코드 기반으로 seed에 맞게 커스텀하여 구현했습니다.
+- vaul과 동일한 인터페이스를 가지고 있습니다. (snap-points, fade-from-index, etc.)
+- `npx @grape_design_react/cli@latest add ui:bottom-sheet`로 snippet을 최신화하세요.
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.1.0](https://npmjs.com/package/@grape_design_react/css/v/1.1.0)
+- 📦 [@grape_design_react/react@1.1.0](https://npmjs.com/package/@grape_design_react/react/v/1.1.0)
+- 📦 [@grape_design_react/rootage-artifacts@1.1.0](https://npmjs.com/package/@grape_design_react/rootage-artifacts/v/1.1.0)
+
+---
+
+## 2025.10.27
+
+Article에서 selection 색상에 대한 정의를 제거합니다. [`e52d6d1`](https://github.com/daangn/grape_design_react/commit/e52d6d161cd466b16966dc1f9bbe02abfb63921d)
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.0.7](https://npmjs.com/package/@grape_design_react/css/v/1.0.7)
+
+---
+
+Tailwind Preflight 사용 시 Page Banner가 디자인 의도와 다르게 표시되는 문제를 수정합니다. [`97669bc`](https://github.com/daangn/grape_design_react/commit/97669bc06367ea20ba2f386eae2cdc558595532c)
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.0.7](https://npmjs.com/package/@grape_design_react/css/v/1.0.7)
+
+---
+
+List Item 컴포넌트의 상하 여백을 `$dimension.x2_5`에서 `$dimension.x3`로 늘립니다. [`15ab93a`](https://github.com/daangn/grape_design_react/commit/15ab93afc2b4df50f23561be6b0341afba89a341)
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.0.7](https://npmjs.com/package/@grape_design_react/css/v/1.0.7)
+- 📦 [@grape_design_react/rootage-artifacts@1.0.6](https://npmjs.com/package/@grape_design_react/rootage-artifacts/v/1.0.6)
+
+---
+
+Tailwind Preflight 사용 시 Text Field의 Header/Footer와 Callout이 디자인 의도와 다르게 표시되는 문제를 수정합니다. [`50366c0`](https://github.com/daangn/grape_design_react/commit/50366c08d502a6fe164d9dbd9b240a82d93aae41)
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.0.7](https://npmjs.com/package/@grape_design_react/css/v/1.0.7)
+
+---
+
+## 2025.10.23
+
+Tag Group 컴포넌트를 추가합니다. Tag Group은 아이콘 및 텍스트로 이루어진 태그를 구분 기호와 함께 수평 레이아웃으로 표시하는 컴포넌트입니다. [`6aafce0`](https://github.com/daangn/grape_design_react/commit/6aafce022144cee1db624cc3a7c88b71ced1d553)
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.0.6](https://npmjs.com/package/@grape_design_react/css/v/1.0.6)
+- 📦 [@grape_design_react/figma@1.0.6](https://npmjs.com/package/@grape_design_react/figma/v/1.0.6)
+- 📦 [@grape_design_react/react@1.0.6](https://npmjs.com/package/@grape_design_react/react/v/1.0.6)
+- 📦 [@grape_design_react/rootage-artifacts@1.0.5](https://npmjs.com/package/@grape_design_react/rootage-artifacts/v/1.0.5)
+
+---
+
+AppBar의 스타일을 업데이트합니다. [`1902dfa`](https://github.com/daangn/grape_design_react/commit/1902dfa9d3573976285f07475fa17fa778661f8f)
+
+- Top Navigation의 title 및 description에 `lineHeight` 값을 정의합니다. (React AppBar 컴포넌트에 반영됩니다.)
+- `<Icon />` 컴포넌트를 활용하여 `<AppBarIconButton />` 내부 아이콘을 커스터마이징할 수 있도록 수정합니다.
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.0.6](https://npmjs.com/package/@grape_design_react/css/v/1.0.6)
+- 📦 [@grape_design_react/rootage-artifacts@1.0.5](https://npmjs.com/package/@grape_design_react/rootage-artifacts/v/1.0.5)
+
+---
+
+Article 유틸리티 컴포넌트를 추가하고 Text 컴포넌트를 업데이트합니다. [`f2ddf29`](https://github.com/daangn/grape_design_react/commit/f2ddf294bb0dd8e78ab5cbe89b640db0843886a7)
+
+- Article 컴포넌트는 일관된 selection 스타일 및 줄바꿈 정책을 사용할 수 있게 돕습니다.
+- Text 컴포넌트에서 textDecorationLine="underline" 및 whiteSpace, userSelect prop을 지원합니다.
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.0.6](https://npmjs.com/package/@grape_design_react/css/v/1.0.6)
+- 📦 [@grape_design_react/react@1.0.6](https://npmjs.com/package/@grape_design_react/react/v/1.0.6)
+
+---
+
+Switch가 checked 상태가 아닐 때 thumb 크기를 줄여 상태를 인지하기 쉽도록 합니다. enabled-disabled 상태 간 트랜지션을 추가합니다. [`4c33f07`](https://github.com/daangn/grape_design_react/commit/4c33f072afb6f2e3be6b2268ab27a814eec8abe8)
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.0.6](https://npmjs.com/package/@grape_design_react/css/v/1.0.6)
+- 📦 [@grape_design_react/rootage-artifacts@1.0.5](https://npmjs.com/package/@grape_design_react/rootage-artifacts/v/1.0.5)
+
+---
+
+Switch와 Switch Mark의 disabled 상태를 더 잘 구별할 수 있도록 스타일을 수정합니다. [`3df657f`](https://github.com/daangn/grape_design_react/commit/3df657fee8f6f919315500b0b05b2e77a509c1b5)
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.0.6](https://npmjs.com/package/@grape_design_react/css/v/1.0.6)
+- 📦 [@grape_design_react/rootage-artifacts@1.0.5](https://npmjs.com/package/@grape_design_react/rootage-artifacts/v/1.0.5)
+
+---
+
+## 2025.10.17
+
+Text Field와 Multiline Text Field가 기본적으로 배경 색을 갖지 않도록 수정합니다. [`f1cf4cd`](https://github.com/daangn/grape_design_react/commit/f1cf4cdfa1c0ea90b5ca9b15bf8e42014e8336d1)
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.0.5](https://npmjs.com/package/@grape_design_react/css/v/1.0.5)
+- 📦 [@grape_design_react/rootage-artifacts@1.0.4](https://npmjs.com/package/@grape_design_react/rootage-artifacts/v/1.0.4)
+
+---
+
+`PullToRefresh.preventPull`을 활용하여 `PullToRefreshContent` 내부에서 당겨서 새로고침(PTR) 동작을 비활성화할 수 있습니다. [`687b261`](https://github.com/daangn/grape_design_react/commit/687b261e6b0ae7ac18457ffabe1c9c0717a73148)
+
+영향받는 패키지
+- 📦 [@grape_design_react/react@1.0.5](https://npmjs.com/package/@grape_design_react/react/v/1.0.5)
+- 📦 [@grape_design_react/react-pull-to-refresh@1.0.1](https://npmjs.com/package/@grape_design_react/react-pull-to-refresh/v/1.0.1)
+
+---
+
+실제 기본값을 표시하도록 JSDoc을 업데이트합니다. [`687b261`](https://github.com/daangn/grape_design_react/commit/687b261e6b0ae7ac18457ffabe1c9c0717a73148)
+
+영향받는 패키지
+- 📦 [@grape_design_react/react@1.0.5](https://npmjs.com/package/@grape_design_react/react/v/1.0.5)
+
+---
+
+AppScreen에서 스와이프로 pop할 때 AppScreen이 한번 깜빡거리고 닫히는 버그를 수정합니다. [`9b91751`](https://github.com/daangn/grape_design_react/commit/9b91751cae33f92463a12226ae4767bfea6f377f)
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.0.5](https://npmjs.com/package/@grape_design_react/css/v/1.0.5)
+- 📦 [@grape_design_react/stackflow@1.0.5](https://npmjs.com/package/@grape_design_react/stackflow/v/1.0.5)
+
+---
+
+매너온도 L9 전경 및 배경 색상의 채도를 낮춥니다. [`3898183`](https://github.com/daangn/grape_design_react/commit/3898183f9d0b536b1340ff1d21a529e933aa7975)
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.0.5](https://npmjs.com/package/@grape_design_react/css/v/1.0.5)
+- 📦 [@grape_design_react/rootage-artifacts@1.0.4](https://npmjs.com/package/@grape_design_react/rootage-artifacts/v/1.0.4)
+
+---
+
+## 2025.10.10
+
+closeOnInteractOutside를 false로 설정하여 Help Bubble 외부와 상호작용 시에도 닫히지 않도록 설정할 수 있습니다. (기본값: true) [`b10ff0b`](https://github.com/daangn/grape_design_react/commit/b10ff0b03fc0f0bed6df4313ec2c3d0507c56e20)
+
+영향받는 패키지
+- 📦 [@grape_design_react/react-popover@1.0.1](https://npmjs.com/package/@grape_design_react/react-popover/v/1.0.1)
+
+---
+
+## 2025.10.02
+
+HelpBubble의 스타일을 업데이트하고, 신규 기능을 지원합니다. [`0b8a02e`](https://github.com/daangn/grape_design_react/commit/0b8a02e1511766986a47a971dca51ecaa2745c02)
+
+- arrowTip이 content에서 떨어져 보이던 문제를 수정합니다.
+- title과 description에서 `\n`을 줄바꿈으로 렌더링하도록 수정합니다.
+- `closeOnInteractOutside`를 `false`로 설정하여 Help Bubble 외부와 상호작용 시에도 닫히지 않도록 설정할 수 있습니다. (기본값: `true`)
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.0.3](https://npmjs.com/package/@grape_design_react/css/v/1.0.3)
+
+---
+
+`@grape_design_react/docs-mcp` 패키지 추가 [`8661d79`](https://github.com/daangn/grape_design_react/commit/8661d796edd8400d02132c7090e5972f370f0f4b)
+
+Tools:
+- `get_react_component`
+- `get_breeze_component`
+- `get_react_changelog`
+- `list_react_components`
+- `list_breeze_components`
+- `get_react_changelog`
+
+영향받는 패키지
+- 📦 [@grape_design_react/docs-mcp@0.1.0](https://npmjs.com/package/@grape_design_react/docs-mcp/v/0.1.0)
+
+---
+
+Callout에 tone=positive variant를 추가합니다. [`6c6099d`](https://github.com/daangn/grape_design_react/commit/6c6099d0d01f5a8643d8e6580b2ff096acb2870f)
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.0.3](https://npmjs.com/package/@grape_design_react/css/v/1.0.3)
+- 📦 [@grape_design_react/rootage-artifacts@1.0.3](https://npmjs.com/package/@grape_design_react/rootage-artifacts/v/1.0.3)
+
+---
+
+Figma Codegen이 Bottom Sheet의 `hideCloseButton` prop을 사용하는 코드를 반환하도록 수정합니다. [`ac1fd00`](https://github.com/daangn/grape_design_react/commit/ac1fd00d865c94450edc3c010739a12666ef7b9e)
+
+영향받는 패키지
+- 📦 [@grape_design_react/figma@1.0.3](https://npmjs.com/package/@grape_design_react/figma/v/1.0.3)
+
+---
+
+Figma 아이콘 및 스타일 정보를 최신화합니다. [`8b07555`](https://github.com/daangn/grape_design_react/commit/8b07555547aaa14c549ffb735b5672ef4b0baa9c)
+
+영향받는 패키지
+- 📦 [@grape_design_react/figma@1.0.3](https://npmjs.com/package/@grape_design_react/figma/v/1.0.3)
+
+---
+
+## 2025.09.29
+
+[`6d2e13d`](https://github.com/daangn/grape_design_react/commit/6d2e13dda9180bae958885db1abf2000dae3f969) MannerTemp 컴포넌트가 레이아웃에서 너비를 덜 차지하도록 업데이트합니다.
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.0.2](https://npmjs.com/package/@grape_design_react/css/v/1.0.2)
+- 📦 [@grape_design_react/rootage-artifacts@1.0.2](https://npmjs.com/package/@grape_design_react/rootage-artifacts/v/1.0.2)
+
+---
+
+## 2025.09.26
+
+[`1420b68`](https://github.com/daangn/grape_design_react/commit/1420b68683c0669539b04208855eb7cf6d1961db) MannerTemp 컴포넌트가 레이아웃에서 높이를 덜 차지하도록 업데이트합니다.
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@1.0.1](https://npmjs.com/package/@grape_design_react/css/v/1.0.1)
+- 📦 [@grape_design_react/rootage-artifacts@1.0.1](https://npmjs.com/package/@grape_design_react/rootage-artifacts/v/1.0.1)
+
+---
+
+## 2025.09.25
+
+[`39a96f1`](https://github.com/daangn/grape_design_react/commit/39a96f1cb990c0d25605790f12bf1ab1b7060901) (**BREAKING CHANGE**: Snackbar Snippet을 다시 설치해야합니다) Snackbar 컴포넌트 변경
+- Snackbar의 배경색이 다크모드에서 흰색으로 변경됩니다.
+- Prefix 요소유무에 따라 여백이 변경됩니다.
+- `npx @grape_design_react/cli@latest add ui:snackbar` 명령어로 설치하세요.
+
+[`2cf90ac`](https://github.com/daangn/grape_design_react/commit/2cf90ac677e285fa313787d84f966a9d5769f37f) 🌱 SEED Design 패키지의 첫 메이저 버전을 출시합니다.
+
+[`e038490`](https://github.com/daangn/grape_design_react/commit/e0384908bca49e8fccadd01ede5ffb8977d61af2) (**BREAKING CHANGE**: Snippet을 다시 설치해야 합니다.) Manner Temp, Manner Temp Badge 컴포넌트를 업데이트합니다.
+
+- snippet 내 오타 수정
+- 신규 10단계 반영
+- 업데이트 가이드
+  1. `@grape_design_react/css@latest @grape_design_react/react@latest` 설치
+  2. `npx @grape_design_react/cli@latest add ui:manner-temp ui:manner-temp-badge`로 snippet 최신화
+  3. 온도 범위가 변경되었으므로, `<MannerTemp level="l1" />` 혹은 `<MannerTempBadge level="l1" />`과 같이 `level`을 직접 지정하여 사용하고 있는 경우가 있는지 확인
+
+[`4153ca5`](https://github.com/daangn/grape_design_react/commit/4153ca547353db4f77758e3b6de4ba011c76b9ce) HelpBubble 컴포넌트의 배경색이 다크모드에서 흰색으로 변경됩니다.
+
+[`a7d07f0`](https://github.com/daangn/grape_design_react/commit/a7d07f0160f8f0976580a7eaeef750862acf9e77) (**BREAKING CHANGE**: `SwitchMark` 사용을 위해서는 Snippet을 다시 설치해야 합니다.) Switch의 토글 영역만을 정의한 Switch Mark 컴포넌트를 추가합니다.
+
+- `npx @grape_design_react/cli@latest add ui:switch` 명령어로 설치하세요.
+
+(**BREAKING CHANGE**: `ListHeader` 사용을 위해서는 Snippet을 다시 설치해야 합니다.) List Header 컴포넌트를 추가합니다.
+
+- `npx @grape_design_react/cli@latest add ui:list` 명령어로 설치하세요.
+
+영향받는 패키지
+- 📦 [@grape_design_react/codemod@1.0.0](https://npmjs.com/package/@grape_design_react/codemod/v/1.0.0)
+- 📦 [@grape_design_react/css@1.0.0](https://npmjs.com/package/@grape_design_react/css/v/1.0.0)
+- 📦 [@grape_design_react/dom-utils@1.0.0](https://npmjs.com/package/@grape_design_react/dom-utils/v/1.0.0)
+- 📦 [@grape_design_react/figma@1.0.0](https://npmjs.com/package/@grape_design_react/figma/v/1.0.0)
+- 📦 [@grape_design_react/figma-extractor@1.0.0](https://npmjs.com/package/@grape_design_react/figma-extractor/v/1.0.0)
+- 📦 [@grape_design_react/mcp@1.0.0](https://npmjs.com/package/@grape_design_react/mcp/v/1.0.0)
+- 📦 [@grape_design_react/migration-index@1.0.0](https://npmjs.com/package/@grape_design_react/migration-index/v/1.0.0)
+- 📦 [@grape_design_react/react@1.0.0](https://npmjs.com/package/@grape_design_react/react/v/1.0.0)
+- 📦 [@grape_design_react/react-avatar@1.0.0](https://npmjs.com/package/@grape_design_react/react-avatar/v/1.0.0)
+- 📦 [@grape_design_react/react-checkbox@1.0.0](https://npmjs.com/package/@grape_design_react/react-checkbox/v/1.0.0)
+- 📦 [@grape_design_react/react-dialog@1.0.0](https://npmjs.com/package/@grape_design_react/react-dialog/v/1.0.0)
+- 📦 [@grape_design_react/react-popover@1.0.0](https://npmjs.com/package/@grape_design_react/react-popover/v/1.0.0)
+- 📦 [@grape_design_react/react-portal@1.0.0](https://npmjs.com/package/@grape_design_react/react-portal/v/1.0.0)
+- 📦 [@grape_design_react/react-primitive@1.0.0](https://npmjs.com/package/@grape_design_react/react-primitive/v/1.0.0)
+- 📦 [@grape_design_react/react-progress@1.0.0](https://npmjs.com/package/@grape_design_react/react-progress/v/1.0.0)
+- 📦 [@grape_design_react/react-pull-to-refresh@1.0.0](https://npmjs.com/package/@grape_design_react/react-pull-to-refresh/v/1.0.0)
+- 📦 [@grape_design_react/react-radio-group@1.0.0](https://npmjs.com/package/@grape_design_react/react-radio-group/v/1.0.0)
+- 📦 [@grape_design_react/react-segmented-control@1.0.0](https://npmjs.com/package/@grape_design_react/react-segmented-control/v/1.0.0)
+- 📦 [@grape_design_react/react-snackbar@1.0.0](https://npmjs.com/package/@grape_design_react/react-snackbar/v/1.0.0)
+- 📦 [@grape_design_react/react-switch@1.0.0](https://npmjs.com/package/@grape_design_react/react-switch/v/1.0.0)
+- 📦 [@grape_design_react/react-tabs@1.0.0](https://npmjs.com/package/@grape_design_react/react-tabs/v/1.0.0)
+- 📦 [@grape_design_react/react-text-field@1.0.0](https://npmjs.com/package/@grape_design_react/react-text-field/v/1.0.0)
+- 📦 [@grape_design_react/react-toggle@1.0.0](https://npmjs.com/package/@grape_design_react/react-toggle/v/1.0.0)
+- 📦 [@grape_design_react/rootage-artifacts@1.0.0](https://npmjs.com/package/@grape_design_react/rootage-artifacts/v/1.0.0)
+- 📦 [@grape_design_react/rsbuild-plugin@1.0.0](https://npmjs.com/package/@grape_design_react/rsbuild-plugin/v/1.0.0)
+- 📦 [@grape_design_react/stackflow@1.0.0](https://npmjs.com/package/@grape_design_react/stackflow/v/1.0.0)
+- 📦 [@grape_design_react/tailwind3-plugin@1.0.0](https://npmjs.com/package/@grape_design_react/tailwind3-plugin/v/1.0.0)
+- 📦 [@grape_design_react/tailwind4-theme@1.0.0](https://npmjs.com/package/@grape_design_react/tailwind4-theme/v/1.0.0)
+- 📦 [@grape_design_react/vite-plugin@1.0.0](https://npmjs.com/package/@grape_design_react/vite-plugin/v/1.0.0)
+- 📦 [@grape_design_react/webpack-plugin@1.0.0](https://npmjs.com/package/@grape_design_react/webpack-plugin/v/1.0.0)
+
+---
+
+## 2025.09.22
+
+[`0ca19c0`](https://github.com/daangn/grape_design_react/commit/0ca19c062d2a3a1f264f17e8ca75b10fd4768aba) Segmented Control 컴포넌트를 업데이트합니다.
+
+- Notification Badge를 표시하는 notification prop을 추가합니다.
+- `SegmentedControlItem`의 `children`을 `string`에서 `ReactNode`로 확대합니다.
+- 스타일을 업데이트합니다.
+
+[`950c9e1`](https://github.com/daangn/grape_design_react/commit/950c9e1ab112396e96bd7aa74d31f1bb23b0f683) **`add` 명령어 사용 방식을 변경합니다.**
+
+- 항목 추가
+
+```sh
+grape_design_react add ui:action-button breeze:animate-number # ui 이외 레지스트리의 항목도 추가할 수 있게 되었습니다.
+```
+
+- 특정 레지스트리에 있는 모든 항목 추가
+
+```sh
+grape_design_react add-all ui lib breeze
+```
+
+- 모든 레지스트리의 모든 항목 추가
+
+```sh
+grape_design_react add-all --all
+```
+
+패키지 의존성 및 스니펫 의존성 설치 방식을 최적화합니다.
+
+[`bef65a6`](https://github.com/daangn/grape_design_react/commit/bef65a6852ed272f9aadf336f89518b8ace77f2e) Figma Variable & Variable Collection 정보를 최신화합니다.
+
+[`11f5e76`](https://github.com/daangn/grape_design_react/commit/11f5e7699392858e6f02329070186dea08029bcd) Snackbar 헤드리스에서 닫기 버튼에 하드코딩된 `aria-label` 속성을 제거합니다.
+
+영향받는 패키지
+- 📦 [@grape_design_react/cli@1.0.0](https://npmjs.com/package/@grape_design_react/cli/v/1.0.0)
+- 📦 [@grape_design_react/css@0.2.5](https://npmjs.com/package/@grape_design_react/css/v/0.2.5)
+- 📦 [@grape_design_react/figma@0.2.5](https://npmjs.com/package/@grape_design_react/figma/v/0.2.5)
+- 📦 [@grape_design_react/react-snackbar@0.0.7](https://npmjs.com/package/@grape_design_react/react-snackbar/v/0.0.7)
+- 📦 [@grape_design_react/rootage-artifacts@0.1.4](https://npmjs.com/package/@grape_design_react/rootage-artifacts/v/0.1.4)
+
+---
+
+## 2025.09.12
+
+[`afdd1ee`](https://github.com/daangn/grape_design_react/commit/afdd1ee825168fbf76bd5a7b718d982cda36bcc9) Figma Codegen을 위한 컴포넌트 핸들러를 업데이트합니다.
+
+- List, Checkmark, RadioMark, Radio, Tabs, ChipTabs 지원
+- Chip, Divider, HelpBubble, Switch, Checkbox 업데이트
+
+[`8ebe8a5`](https://github.com/daangn/grape_design_react/commit/8ebe8a57d6ca64ec862e918d9be30dca94ec6643) Switch, Checkmark, Radio Mark의 스타일을 업데이트합니다.
+
+- tone=neutral variant를 추가합니다.
+- Switch의 thumb 크기를 조정합니다.
+
+Checkbox와 Radio의 weight variant를 default, stronger에서 regular, bold로 수정합니다.
+
+[`f61b80d`](https://github.com/daangn/grape_design_react/commit/f61b80d31f71524d29233b501be609350e5d3528) 다크 모드에서의 색상 대비 보장을 위해 시맨틱 색상을 수정하고 컴포넌트에서의 색상을 변경합니다.
+
+- **$color.bg.warning-solid**: theme-dark에서 $color.palette.yellow-600 → $color.palette.yellow-800
+- **$color.bg.warning-solid-pressed**: theme-dark에서 $color.palette.yellow-700 → $color.palette.yellow-900
+- Badge, Page Banner의 tone=warning, variant=solid variant에서 전경 항목 색상 변경: $color.fg.neutral → $color.palette.static-black-alpha-900
+
+[`ce047f5`](https://github.com/daangn/grape_design_react/commit/ce047f502d9ccff5cb48e94de47bfa0c5b60d29f) Tabs.Carousel의 reInit 이벤트 시 탭 인덱스가 변경되지 않는 문제를 수정합니다.
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@0.2.4](https://npmjs.com/package/@grape_design_react/css/v/0.2.4)
+- 📦 [@grape_design_react/figma@0.2.4](https://npmjs.com/package/@grape_design_react/figma/v/0.2.4)
+- 📦 [@grape_design_react/react@0.2.4](https://npmjs.com/package/@grape_design_react/react/v/0.2.4)
+- 📦 [@grape_design_react/react-tabs@0.0.9](https://npmjs.com/package/@grape_design_react/react-tabs/v/0.0.9)
+- 📦 [@grape_design_react/rootage-artifacts@0.1.3](https://npmjs.com/package/@grape_design_react/rootage-artifacts/v/0.1.3)
+
+---
+
+## 2025.09.08
+
+[`a22b8b9`](https://github.com/daangn/grape_design_react/commit/a22b8b9b21e0072220b78c604f17b86c06251b45) ChipTabs 컴포넌트 Variant, Size 변경 및 디자인 수정
+
+- variant `neutralOutline` 추가
+- variant `brandSolid` deprecated
+- size(`medium(default)` | `large`) 추가
+
+[`5836976`](https://github.com/daangn/grape_design_react/commit/583697689d0c1e6d6c1695411dee4c889eac5408) text-field의 value slot이 input의 size attribute로 인해 기본적으로 width를 가지는 문제를 해결합니다.
+
+[`12faf5a`](https://github.com/daangn/grape_design_react/commit/12faf5a50ea4fb109b90378d264e1301f0d61c29) List 컴포넌트를 추가하고, Checkbox 및 Radio 컴포넌트를 개선합니다.
+
+- List 컴포넌트를 제공하여, 정보를 구조화된 목록 형태로 표시할 수 있도록 합니다.
+- Checkbox와 Radio의 컨트롤 영역만을 표시하는 Checkmark와 RadioMark를 제공합니다.
+- Select Box에서 컨트롤 영역을 Checkmark와 RadioMark로 교체합니다.
+- RadioGroup 컴포넌트를 제공합니다.
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@0.2.3](https://npmjs.com/package/@grape_design_react/css/v/0.2.3)
+- 📦 [@grape_design_react/react@0.2.3](https://npmjs.com/package/@grape_design_react/react/v/0.2.3)
+- 📦 [@grape_design_react/rootage-artifacts@0.1.2](https://npmjs.com/package/@grape_design_react/rootage-artifacts/v/0.1.2)
+
+---
+
+## 2025.09.05
+
+[`9d93518`](https://github.com/daangn/grape_design_react/commit/9d935189cff6c528338d9a00b103a7be5366eb18) Text 컴포넌트의 fontSize, lineHeight, color 속성에 string도 사용 가능하도록 변경했습니다.
+
+[`91952e4`](https://github.com/daangn/grape_design_react/commit/91952e408d31d919b6c6f1a77739b04e7164e61b) `replace-semantic-stroke-color` transform을 추가합니다.
+
+- `@grape_design_react/css` v0.2.0에 맞춰 `replace-semantic-stroke-color` transform을 추가합니다.
+- `@grape_design_react/css/vars`에서 사용한 stroke 토큰을 업데이트하는 마이그레이션 코드모드를 추가합니다.
+
+영향받는 패키지
+- 📦 [@grape_design_react/codemod@0.0.31](https://npmjs.com/package/@grape_design_react/codemod/v/0.0.31)
+- 📦 [@grape_design_react/react@0.2.2](https://npmjs.com/package/@grape_design_react/react/v/0.2.2)
+
+---
+
+## 2025.09.04
+
+[`35984d0`](https://github.com/daangn/grape_design_react/commit/35984d05ac4cd9677526152e975d3daf2c4c345d) Chip 컴포넌트를 업데이트합니다.
+
+- 아이콘에 트랜지션 효과가 적용되지 않던 현상을 수정합니다.
+- Button, Toggle 등 사용되는 방식에 따라 적절한 data prop을 받도록 수정합니다.
+
+[`c5bed96`](https://github.com/daangn/grape_design_react/commit/c5bed9674a1c036bd0c84acf9e81ebed72215b79) Divider 컴포넌트가 `$color.stroke.neutral-muted` 색상을 기본값으로 사용하도록 수정합니다.
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@0.2.1](https://npmjs.com/package/@grape_design_react/css/v/0.2.1)
+- 📦 [@grape_design_react/react@0.2.1](https://npmjs.com/package/@grape_design_react/react/v/0.2.1)
+- 📦 [@grape_design_react/rootage-artifacts@0.1.1](https://npmjs.com/package/@grape_design_react/rootage-artifacts/v/0.1.1)
+
+---
+
+## 2025.09.03
+
+[`8448880`](https://github.com/daangn/grape_design_react/commit/8448880aa424edcd3af8e78a5c3ff5a0f142ae8d) 시맨틱 stroke 컬러 토큰을 업데이트합니다.
+
+**이름이 변경되는 stroke 토큰**
+
+- [Color Role 규칙](https://grape_design_react.io/docs/foundation/color/color-role)에 맞춰 일관적인 토큰 이름을 유지할 수 있도록 업데이트합니다.
+- 이름이 변경되는 stroke 토큰을 사용하고 있는 경우, 간단한 Find & Replace 마이그레이션이 필요합니다.
+
+| 기존                            | 신규                            | 비고                               |
+| ------------------------------- | ------------------------------- | ---------------------------------- |
+| **$color.stroke.neutral-muted** | $color.stroke.neutral-subtle    | 가장 먼저 마이그레이션해야 합니다. |
+| $color.stroke.on-image          | $color.stroke.neutral-subtle    |
+| $color.stroke.neutral           | **$color.stroke.neutral-muted** |
+| $color.stroke.field-focused     | $color.stroke.neutral-contrast  |
+| $color.stroke.control           | $color.stroke.neutral-weak      |
+| $color.stroke.field             | $color.stroke.neutral-weak      |
+| $color.stroke.brand             | $color.stroke.brand-weak        |
+| $color.stroke.positive          | $color.stroke.positive-weak     |
+| $color.stroke.informative       | $color.stroke.informative-weak  |
+| $color.stroke.warning           | $color.stroke.warning-weak      |
+| $color.stroke.critical          | $color.stroke.critical-weak     |
+
+**색상이 변경되는 stroke 토큰 (마이그레이션 불필요)**
+
+`$color.stroke.neutral-contrast` (이름 변경 전 `$color.stroke.field-focused`)
+
+모든 theme mode에서 `$color.palette.gray-800` → `$color.palette.gray-1000`로 변경되었습니다.
+
+**신규 stroke 토큰 (마이그레이션 불필요)**
+
+| 신규                            |
+| ------------------------------- |
+| $color.stroke.neutral-solid     |
+| $color.stroke.brand-solid       |
+| $color.stroke.positive-solid    |
+| $color.stroke.informative-solid |
+| $color.stroke.warning-solid     |
+| $color.stroke.critical-solid    |
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@0.2.0](https://npmjs.com/package/@grape_design_react/css/v/0.2.0)
+- 📦 [@grape_design_react/migration-index@0.0.31](https://npmjs.com/package/@grape_design_react/migration-index/v/0.0.31)
+- 📦 [@grape_design_react/rootage-artifacts@0.2.0](https://npmjs.com/package/@grape_design_react/rootage-artifacts/v/0.2.0)
+- 📦 [@grape_design_react/tailwind3-plugin@0.2.0](https://npmjs.com/package/@grape_design_react/tailwind3-plugin/v/0.2.0)
+- 📦 [@grape_design_react/tailwind4-theme@0.2.0](https://npmjs.com/package/@grape_design_react/tailwind4-theme/v/0.2.0)
+
+---
+
+## 2025.08.28
+
+[`c51a261`](https://github.com/daangn/grape_design_react/commit/c51a261858087bc4a7a572af52bd0ebcacc69d49) font-size, line-height 토큰에 static variant를 추가합니다.
+
+- `--seed-font-size-t1-static` ~ `--seed-font-size-t10-static`
+- `--seed-line-height-t1-static` ~ `--seed-line-height-t10-static`
+
+[`5f2ee39`](https://github.com/daangn/grape_design_react/commit/5f2ee39374372be285e6679e3aa08b822b0ef938) CSS 최적화 도구(e.g. cssnano)가 CSS variable로 정의된 longhand declaration을 병합하지 않도록 합니다. (workaround, [관련 issue](https://github.com/cssnano/cssnano/issues/1472))
+
+[`8299ba9`](https://github.com/daangn/grape_design_react/commit/8299ba91f2f77ee3a226b8059d56a7c1c2317232) Snackbar 컴포넌트를 업데이트합니다.
+
+- root 영역에 maxWidth 스펙을 추가합니다.
+- `pauseOnInteraction`의 기본값을 `false`에서 `true`로 변경합니다.
+
+[`d497166`](https://github.com/daangn/grape_design_react/commit/d497166f648952a68bfef445a39f9822f2cfa44d) 플랫폼별 조건부 폰트 스케일링 제한 (iOS: 135%, Android: 150%) 적용
+
+- CSS 변수 `--seed-{font-size|line-height}-limit-{min|max}` 도입
+- 빌드 타임 basePx 계산을 런타임 static 토큰 참조로 대체
+- global.ts에 폰트 스케일링 변수 통합
+
+[`9a3c76a`](https://github.com/daangn/grape_design_react/commit/9a3c76a74eec244736f8bc7807d3629b4d5328c5) Divider 컴포넌트를 업데이트합니다.
+
+- `orientation`을 지정할 수 있습니다.
+- Divider를 `li`로 렌더링하여 `ol`, `ul` 내부에서 사용할 수 있습니다.
+- Divider를 `div` 또는 `li`로 렌더링하는 경우에도 `role="separator"`를 지정하여 스크린 리더가 Divider를 읽도록 할 수 있습니다.
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@0.1.15](https://npmjs.com/package/@grape_design_react/css/v/0.1.15)
+- 📦 [@grape_design_react/react@0.1.15](https://npmjs.com/package/@grape_design_react/react/v/0.1.15)
+- 📦 [@grape_design_react/react-snackbar@0.0.6](https://npmjs.com/package/@grape_design_react/react-snackbar/v/0.0.6)
+- 📦 [@grape_design_react/rootage-artifacts@0.0.6](https://npmjs.com/package/@grape_design_react/rootage-artifacts/v/0.0.6)
+- 📦 [@grape_design_react/tailwind3-plugin@0.1.15](https://npmjs.com/package/@grape_design_react/tailwind3-plugin/v/0.1.15)
+- 📦 [@grape_design_react/tailwind4-theme@0.1.15](https://npmjs.com/package/@grape_design_react/tailwind4-theme/v/0.1.15)
+
+---
+
+## 2025.08.22
+
+[`f806356`](https://github.com/daangn/grape_design_react/commit/f806356f0ca5d419647c9672426e14ca3350f479) Page Banner 컴포넌트를 추가합니다. Inline Banner 컴포넌트를 deprecate합니다.
+
+- Inline Banner 컴포넌트 대비 모든 `tone`에서 모든 `variant`를 지원하며, 내부 Button의 충분한 터치 영역을 보장합니다.
+
+```tsx
+<PageBanner
+  tone="informative"
+  variant="weak"
+  description="사업자 정보를 등록해주세요."
+  suffix={
+    <PageBannerButton asChild>
+      <a href="https://www.daangn.com" target="_blank" rel="noreferrer">
+        새 탭에서 열기
+      </a>
+    </PageBannerButton>
+  }
+/>
+```
+
+시맨틱 색상 토큰을 추가하고 수정합니다.
+
+- `$color.bg.positive-solid-pressed`: theme-dark에서 `$color.palette.green-500` → `$color.palette.green-600`
+- `$color.bg.warning-solid-pressed` 추가
+
+[`1982494`](https://github.com/daangn/grape_design_react/commit/198249432e62bcc693c469aa233fabe6a6b23532) Badge 컴포넌트를 업데이트합니다.
+
+- `tone=warning` variant를 추가합니다.
+- `maxWidth` 스펙을 추가합니다.
+
+신규 시맨틱 색상 토큰을 추가합니다.
+
+- `$color.fg.warning`
+- `$color.stroke.warning`
+- `$color.fg.brand-contrast`
+- `$color.bg.brand-weak`
+- `$color.bg.brand-weak-pressed`
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@0.1.14](https://npmjs.com/package/@grape_design_react/css/v/0.1.14)
+- 📦 [@grape_design_react/figma@0.1.14](https://npmjs.com/package/@grape_design_react/figma/v/0.1.14)
+- 📦 [@grape_design_react/react@0.1.14](https://npmjs.com/package/@grape_design_react/react/v/0.1.14)
+- 📦 [@grape_design_react/rootage-artifacts@0.0.5](https://npmjs.com/package/@grape_design_react/rootage-artifacts/v/0.0.5)
+- 📦 [@grape_design_react/tailwind3-plugin@0.1.14](https://npmjs.com/package/@grape_design_react/tailwind3-plugin/v/0.1.14)
+- 📦 [@grape_design_react/tailwind4-theme@0.1.14](https://npmjs.com/package/@grape_design_react/tailwind4-theme/v/0.1.14)
+
+---
+
+## 2025.08.20
+
+[`0be9b00`](https://github.com/daangn/grape_design_react/commit/0be9b00baad2502eb4ea32e641c5c1d8c3f3eb4c) Avatar, Avatar Stack 컴포넌트에 `size=108` variant를 추가합니다.
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@0.1.13](https://npmjs.com/package/@grape_design_react/css/v/0.1.13)
+- 📦 [@grape_design_react/rootage-artifacts@0.0.4](https://npmjs.com/package/@grape_design_react/rootage-artifacts/v/0.0.4)
+
+---
+
+## 2025.08.12 #2
+
+[`62094b6`](https://github.com/daangn/grape_design_react/commit/62094b6e6d445edd1fbd7085f80a8e1cc4da03bf) Help Bubble의 스타일 문제를 수정합니다.
+
+- `placement=left-*` / `placement=right-*`에서 arrow가 content와 떨어져 표시되는 문제를 수정합니다.
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@0.1.12](https://npmjs.com/package/@grape_design_react/css/v/0.1.12)
+- 📦 [@grape_design_react/react@0.1.12](https://npmjs.com/package/@grape_design_react/react/v/0.1.12)
+- 📦 [@grape_design_react/react-popover@0.0.8](https://npmjs.com/package/@grape_design_react/react-popover/v/0.0.8)
+
+---
+
+## 2025.08.12
+
+[`9993e0e`](https://github.com/daangn/grape_design_react/commit/9993e0ea799258e88a5d81777ab7785e21cafa97) 레이아웃 컴포넌트를 사용할 때 `flexGrow`, `flexShrink`, `flexWrap`에도 `true`를 사용할 수 있도록 수정합니다.
+
+Figma 레이어가 이미지 Fill을 가지고 있는 경우 `<img />` 요소를 prepend합니다.
+
+영향받는 패키지
+- 📦 [@grape_design_react/figma@0.1.11](https://npmjs.com/package/@grape_design_react/figma/v/0.1.11)
+- 📦 [@grape_design_react/react@0.1.11](https://npmjs.com/package/@grape_design_react/react/v/0.1.11)
+
+---
+
+## 2025.08.11
+
+[`ef91c21`](https://github.com/daangn/grape_design_react/commit/ef91c21da109e74405fc57f0fd0246af63dcd1a9) Bottom Sheet의 스타일 문제를 수정해요.
+
+- Close Button에 브라우저 기본 스타일이 표시되는 문제를 수정해요.
+
+[`aa40f66`](https://github.com/daangn/grape_design_react/commit/aa40f66e33a6d050d4728cce4d749f56a79e7975) Figma 컴포넌트 정보 및 핸들러를 최신화하고 codegen을 업데이트합니다.
+
+- Instance에 오버라이드한 내용이 있는 경우 주석으로 알립니다.
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@0.1.10](https://npmjs.com/package/@grape_design_react/css/v/0.1.10)
+- 📦 [@grape_design_react/figma@0.1.10](https://npmjs.com/package/@grape_design_react/figma/v/0.1.10)
+
+---
+
+## 2025.08.07
+
+[`5a025b7`](https://github.com/daangn/grape_design_react/commit/5a025b7b12b7d288bc07dbea88e26cfb41d5b661) Switch 컴포넌트를 업데이트합니다.
+
+- size: medium → 32, small → 16으로 rename합니다.
+  - (React) `size="medium"`으로 `32`, `size="small"`로 `16`을 사용할 수 있습니다. (deprecated)
+- size: 24를 추가합니다.
+- 모든 size에 대해 레이블 스타일을 추가합니다. (기존: small에만 존재)
+
+[`f9379e0`](https://github.com/daangn/grape_design_react/commit/f9379e09d64d047136383ca4b16a704a5d82268e) Figma 컴포넌트 핸들러 정보를 최신화하고 정확한 prop을 생성하도록 수정합니다.
+
+- Chip, Progress Circle, Switch 컴포넌트 핸들러를 업데이트합니다.
+- `grow` 대신 `flexGrow`가 생성되도록, `borderWidth`가 `string`으로 생성되도록 수정합니다.
+
+[`ac35731`](https://github.com/daangn/grape_design_react/commit/ac35731de335a06b4aa2f87bf03ebce002e61e2b) Chip.Root `position: relative` 속성 추가
+
+- 이제 Chip.Toggle을 사용해도 예상치 못한 스크롤이 발생하지 않습니다.
+
+[`f9041e9`](https://github.com/daangn/grape_design_react/commit/f9041e9cf4ee90acef8e52be1dc483d01438e0e2) `CheckSelectBox`, `RadioSelectBox`의 `label`, `description` 영역을 수정합니다.
+
+- `span` 대신 `div`를 렌더링합니다.
+- 기본적으로 grow하도록 만들어 Badge 등 추가 요소를 넣기 쉽게 만듭니다.
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@0.1.9](https://npmjs.com/package/@grape_design_react/css/v/0.1.9)
+- 📦 [@grape_design_react/figma@0.1.9](https://npmjs.com/package/@grape_design_react/figma/v/0.1.9)
+- 📦 [@grape_design_react/react@0.1.9](https://npmjs.com/package/@grape_design_react/react/v/0.1.9)
+- 📦 [@grape_design_react/rootage-artifacts@0.0.3](https://npmjs.com/package/@grape_design_react/rootage-artifacts/v/0.0.3)
+
+---
+
+## 2025.08.04
+
+[`2e2cc53`](https://github.com/daangn/grape_design_react/commit/2e2cc530648f5d10432f23fa8169e3c4225f6315) - Figma 컴포넌트 핸들러 및 스타일 정보를 최신화합니다.
+- normalize 과정에서 그라디언트 정보를 포함하도록 수정합니다.
+
+[`609b8f3`](https://github.com/daangn/grape_design_react/commit/609b8f3b69bc98f0b3a2c971f17409559811f376) iOS의 `더 큰 텍스트` 기능에 제한을 둡니다.
+
+- iOS는 7단계(XS ~ XXXL)의 텍스트 크기 조절 이외에도, 보다 더 큰 텍스트를 위한 `더 큰 텍스트` 기능을 제공합니다.
+- iOS 네이티브에서는 `더 큰 텍스트`의 UI 레이아웃 대응이 어렵다고 결정하여, XXXL(135%) 이상의 텍스트 크기 조절을 지원하지 않습니다.
+- 웹뷰도 iOS와 동일한 제한을 위한 기능이 추가되었습니다.
+
+[`99e7f2c`](https://github.com/daangn/grape_design_react/commit/99e7f2c693ac2a4d433791719b25d4818bc41170) figma-extractor (Figma REST API 호출 결과를 파일로 저장하는 CLI 툴) 설정 파일 작성 방법을 개선합니다.
+
+- 사용자가 직접 API 호출부터 파일 저장까지의 파이프라인을 작성할 수 있습니다.
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@0.1.8](https://npmjs.com/package/@grape_design_react/css/v/0.1.8)
+- 📦 [@grape_design_react/figma@0.1.8](https://npmjs.com/package/@grape_design_react/figma/v/0.1.8)
+- 📦 [@grape_design_react/figma-extractor@0.0.5](https://npmjs.com/package/@grape_design_react/figma-extractor/v/0.0.5)
+
+---
+
+## 2025.08.01
+
+[`4afe80b`](https://github.com/daangn/grape_design_react/commit/4afe80b81e6845ec917426039ef8d7817e67e7ec) MultilineTextField의 스타일 문제를 수정합니다.
+
+- 스크롤바가 요소 끝에 표시되도록 수정합니다.
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@0.1.7](https://npmjs.com/package/@grape_design_react/css/v/0.1.7)
+
+---
+
+## 2025.07.31
+
+[`235147d`](https://github.com/daangn/grape_design_react/commit/235147def530d1d2ab6441f0e5b965efb1d67e43) action-button: `size=medium, layout=withText` variant에서 gap을 1 → 1.5로 수정합니다.
+
+[`3c13ad7`](https://github.com/daangn/grape_design_react/commit/3c13ad76a32bbf909b44f4ffbca1277d6d0f1d7a) `highlight-magic-pressed` 그라디언트 토큰을 추가합니다.
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@0.1.6](https://npmjs.com/package/@grape_design_react/css/v/0.1.6)
+- 📦 [@grape_design_react/rootage-artifacts@0.0.2](https://npmjs.com/package/@grape_design_react/rootage-artifacts/v/0.0.2)
+- 📦 [@grape_design_react/tailwind3-plugin@0.1.6](https://npmjs.com/package/@grape_design_react/tailwind3-plugin/v/0.1.6)
+- 📦 [@grape_design_react/tailwind4-theme@0.1.6](https://npmjs.com/package/@grape_design_react/tailwind4-theme/v/0.1.6)
+
+---
+
+## 2025.07.29
+
+[`a059fb0`](https://github.com/daangn/grape_design_react/commit/a059fb02b051fc4ca8fd0c79c5706dec90448097) Menu Sheet 컴포넌트를 추가하는 동시에 Action Sheet과 Extended Action Sheet 컴포넌트를 deprecate합니다.
+
+- [Menu Sheet React 문서](https://grape_design_react.io/react/components/menu-sheet)
+- Menu Sheet는 기존 Extended Action Sheet의 모든 기능을 포함하는 동시에, `labelAlign` prop으로 `MenuSheetItem`를 `left` 또는 `center`로 정렬할 수 있습니다.
+
+[`3889eb6`](https://github.com/daangn/grape_design_react/commit/3889eb6c82915c6ae4df05c815841f0ad54d27a6) Inline Banner의 스타일 문제를 수정합니다.
+
+- `title`과 `description`이 `inline-flex`로 레이아웃되던 문제를 해결합니다.
+- `title`과 `description` 간의 간격을 조정합니다.
+- 닫기 버튼(Dismissible)과 `suffix icon`, `link label`이 상단으로 레이아웃되던 문제를 해결합니다.
+
+Callout의 스타일 문제를 수정합니다.
+
+- `title`과 `description` 간의 간격을 조정합니다.
+
+Chip의 스타일 문제를 수정합니다.
+
+- `Chip.Button`의 `label`이 의도한 글꼴로 표시되도록 수정합니다.
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@0.1.5](https://npmjs.com/package/@grape_design_react/css/v/0.1.5)
+- 📦 [@grape_design_react/react@0.1.5](https://npmjs.com/package/@grape_design_react/react/v/0.1.5)
+- 📦 [@grape_design_react/rootage-artifacts@0.0.1](https://npmjs.com/package/@grape_design_react/rootage-artifacts/v/0.0.1)
+
+---
+
+## 2025.07.28
+
+[`9b271d6`](https://github.com/daangn/grape_design_react/commit/9b271d613f2067c8cc8cbc517cd1d334f4e04e92) snippet의 deprecated 여부를 기록합니다. cli add 명령 실행 시 snippet 목록에서 deprecate 여부를 표시하고, `--all`로 모든 스니펫 추가 시 기본적으로 deprecated snippet을 제외합니다.
+
+```sh
+grape_design_react add --all # deprecated snippet 제외
+```
+
+```sh
+grape_design_react add --all --include-deprecated # deprecated snippet 포함
+```
+
+영향받는 패키지
+- 📦 [@grape_design_react/cli@0.0.3](https://npmjs.com/package/@grape_design_react/cli/v/0.0.3)
+
+---
+
+## 2025.07.23
+
+[`0ffcd48`](https://github.com/daangn/grape_design_react/commit/0ffcd481d3be71cff6a7cfea6985a7c063086ff7) Chip 컴포넌트가 추가되고, ActionChip, ControlChip 컴포넌트가 Deprecated 되었습니다.
+
+- [Chip 컴포넌트](https://grape_design_react.io/react/components/chip)
+- Chip 컴포넌트는 버튼과 토글 컴포넌트를 모두 포함하고 있습니다.
+
+[`56e03ca`](https://github.com/daangn/grape_design_react/commit/56e03cad0841e4a77e284da12d63e81d412e84b9) Layout 컴포넌트 `pb`, `pt`, `paddingBottom`, `paddingTop` 속성에 `safeArea` 값을 지정할 수 있도록 지원
+  
+```tsx
+<Box pt="safeArea" paddingTop="safeArea" />
+<Box pb="safeArea" paddingBottom="safeArea" />
+```
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@0.1.4](https://npmjs.com/package/@grape_design_react/css/v/0.1.4)
+- 📦 [@grape_design_react/react@0.1.4](https://npmjs.com/package/@grape_design_react/react/v/0.1.4)
+
+---
+
+## 2025.07.11
+
+[`cdc0930`](https://github.com/daangn/grape_design_react/commit/cdc09303deb05db51455c779b72c148b975014c5) `@grape_design_react/stackflow` 백스와이프 애니메이션 개선
+
+- iOS 스타일 화면 전환 애니메이션의 지속 시간과 타이밍 함수가 `300ms`에서 `350ms`로 조정되어 더 부드러운 전환 효과를 제공합니다.
+- 스와이프 백 제스처 시 애니메이션이 보다 자연스럽고 일관되게 표현됩니다.
+- 스와이프 백 종료 시 CSS 변수를 활용해 전환 상태를 명확히 하여 사용자 경험이 개선되었습니다.
+
+[`946faf7`](https://github.com/daangn/grape_design_react/commit/946faf79c824b435da30e4cf6162b7ba4dba49ec) 그라디언트 토큰 추가 및 변경
+
+- `fade-layer-floating`, `fade-layer-default` 토큰이 추가되었습니다.
+- `$gradient.shimmer-magic` 토큰 stop color가 변경되었습니다.
+
+[`71c58fd`](https://github.com/daangn/grape_design_react/commit/71c58fd22901d6296f09a852082839e1b2888e31) iOS Font Scaling
+
+- iOS 기기에서 시스템 폰트 크기 설정에 따라 동적으로 폰트 크기와 줄 높이를 조정하는 폰트 스케일링 옵션이 추가되었습니다.
+- 플러그인(webpack, vite, rsbuild)에서 `fontScaling` 옵션을 통해 폰트 스케일링 기능을 활성화할 수 있습니다.
+- `data-seed-font-scaling='enabled'` 일 때, 폰트 크기를 조정합니다.
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@0.1.3](https://npmjs.com/package/@grape_design_react/css/v/0.1.3)
+- 📦 [@grape_design_react/rsbuild-plugin@0.1.3](https://npmjs.com/package/@grape_design_react/rsbuild-plugin/v/0.1.3)
+- 📦 [@grape_design_react/stackflow@0.1.3](https://npmjs.com/package/@grape_design_react/stackflow/v/0.1.3)
+- 📦 [@grape_design_react/tailwind3-plugin@0.1.3](https://npmjs.com/package/@grape_design_react/tailwind3-plugin/v/0.1.3)
+- 📦 [@grape_design_react/tailwind4-theme@0.1.3](https://npmjs.com/package/@grape_design_react/tailwind4-theme/v/0.1.3)
+- 📦 [@grape_design_react/vite-plugin@0.1.3](https://npmjs.com/package/@grape_design_react/vite-plugin/v/0.1.3)
+- 📦 [@grape_design_react/webpack-plugin@0.1.3](https://npmjs.com/package/@grape_design_react/webpack-plugin/v/0.1.3)
+
+---
+
+## 2025.07.01
+
+그라디언트 토큰 및 AI 관련 컴포넌트 업데이트
+
+- AI용 magic 테마와 중립적인 테마의 다양한 그라디언트(Shimmer, Fade, Glow, Highlight) 컬러 토큰이 추가되었습니다.
+- `<Callout />` 컴포넌트의 `tone="magic"` 스타일이 변경되었습니다.
+- `<Skeleton />` 컴포넌트에 `tone` prop이 추가되어 `neutral`과 `magic` 옵션을 제공합니다.
+- 모든 Layout 컴포넌트(Box, VStack, HStack 등)에서 `bg/bgGradient` 속성을 통해 그라디언트를 지정할 수 있습니다.
+- `<Text />` 컴포넌트에 `textDecorationLine` 옵션이 추가되었습니다.
+- `<HelpBubble />` 컴포넌트의 arrow가 상위 요소의 font-size에 영향받지 않도록 수정되었습니다.
+- `<BottomSheet />` 컴포넌트의 description font-size가 t6에서 t5로 변경되었습니다.
+- 기존 보라색 계열 magic 관련 시맨틱 색상들(`fg/magic`, `fg/magic-contrast`, `bg/magic-solid`)이 삭제되었습니다.
+
+영향받는 패키지
+- 📦 [@grape_design_react/css@0.1.0](https://npmjs.com/package/@grape_design_react/css/v/0.1.0)
+- 📦 [@grape_design_react/figma@0.1.0](https://npmjs.com/package/@grape_design_react/figma/v/0.1.0)
+- 📦 [@grape_design_react/mcp@0.1.0](https://npmjs.com/package/@grape_design_react/mcp/v/0.1.0)
+- 📦 [@grape_design_react/react@0.1.0](https://npmjs.com/package/@grape_design_react/react/v/0.1.0)
+- 📦 [@grape_design_react/rsbuild-plugin@0.1.0](https://npmjs.com/package/@grape_design_react/rsbuild-plugin/v/0.1.0)
+- 📦 [@grape_design_react/stackflow@0.1.0](https://npmjs.com/package/@grape_design_react/stackflow/v/0.1.0)
+- 📦 [@grape_design_react/vite-plugin@0.1.0](https://npmjs.com/package/@grape_design_react/vite-plugin/v/0.1.0)
+- 📦 [@grape_design_react/webpack-plugin@0.1.0](https://npmjs.com/package/@grape_design_react/webpack-plugin/v/0.1.0)
+
+---
+
+## 2025.06.24
+
+Alpha 컬러 업데이트
+
+- White와 black의 alpha 색상이 새롭게 추가되었습니다. (staticWhiteAlpha50 ~ staticWhiteAlpha1000, staticBlackAlpha100 ~ staticBlackAlpha1000)
+- stroke 색상에도 alpha 색상이 추가되었습니다.
+- 기존 alpha 색상 값들의 매핑이 변경되었습니다:
+  - `staticBlackAlpha500` → `staticBlackAlpha700`
+  - `staticBlackAlpha200` → `staticBlackAlpha500`
+  - `staticBlackAlpha50` → `staticBlackAlpha200`
+  - `staticWhiteAlpha200` → `staticWhiteAlpha300`
+- `npx @grape_design_react/codemod@latest replace-alpha-color` 코드모드를 제공합니다.
+
+영향받는 패키지
+- 📦 [@grape_design_react/codemod@0.0.28](https://npmjs.com/package/@grape_design_react/codemod/v/0.0.28)
+- 📦 [@grape_design_react/css@0.0.39](https://npmjs.com/package/@grape_design_react/css/v/0.0.39)
+- 📦 [@grape_design_react/figma@0.0.39](https://npmjs.com/package/@grape_design_react/figma/v/0.0.39)
+- 📦 [@grape_design_react/mcp@0.0.39](https://npmjs.com/package/@grape_design_react/mcp/v/0.0.39)
+- 📦 [@grape_design_react/migration-index@0.0.28](https://npmjs.com/package/@grape_design_react/migration-index/v/0.0.28)
+- 📦 [@grape_design_react/react@0.0.39](https://npmjs.com/package/@grape_design_react/react/v/0.0.39)
+- 📦 [@grape_design_react/rsbuild-plugin@0.0.39](https://npmjs.com/package/@grape_design_react/rsbuild-plugin/v/0.0.39)
+- 📦 [@grape_design_react/stackflow@0.0.39](https://npmjs.com/package/@grape_design_react/stackflow/v/0.0.39)
+- 📦 [@grape_design_react/tailwind3-plugin@0.0.39](https://npmjs.com/package/@grape_design_react/tailwind3-plugin/v/0.0.39)
+- 📦 [@grape_design_react/tailwind4-theme@0.0.39](https://npmjs.com/package/@grape_design_react/tailwind4-theme/v/0.0.39)
+- 📦 [@grape_design_react/vite-plugin@0.0.39](https://npmjs.com/package/@grape_design_react/vite-plugin/v/0.0.39)
+- 📦 [@grape_design_react/webpack-plugin@0.0.39](https://npmjs.com/package/@grape_design_react/webpack-plugin/v/0.0.39)
+
+---
+

@@ -1,0 +1,24 @@
+{
+  "id": "contextual-floating-button",
+  "dependencies": [
+    "@grape_design_react/react"
+  ],
+  "innerDependencies": [
+    {
+      "registryId": "ui",
+      "itemIds": [
+        "loading-indicator"
+      ]
+    }
+  ],
+  "snippets": [
+    {
+      "path": "contextual-floating-button.tsx",
+      "content": "/**\n * @file ui:contextual-floating-button\n * @requires @grape_design_react/react@~1.0.0\n * @requires @grape_design_react/css@~1.0.0\n **/\n\n\"use client\";\n\nimport {\n  ContextualFloatingButton as SeedContextualFloatingButton,\n  type ContextualFloatingButtonProps as SeedContextualFloatingButtonProps,\n} from \"@grape_design_react/react\";\nimport * as React from \"react\";\nimport { LoadingIndicator } from \"./loading-indicator\";\n\nexport interface ContextualFloatingButtonProps extends SeedContextualFloatingButtonProps {}\n\n/**\n * @see https://grape_design_react.io/react/components/contextual-floating-button\n * If `asChild` is enabled, manual handling of `LoadingIndicator` is required.\n */\nexport const ContextualFloatingButton = React.forwardRef<\n  React.ElementRef<typeof SeedContextualFloatingButton>,\n  ContextualFloatingButtonProps\n>(({ loading = false, children, ...otherProps }, ref) => {\n  return (\n    <SeedContextualFloatingButton ref={ref} loading={loading} {...otherProps}>\n      {loading && !otherProps.asChild ? <LoadingIndicator>{children}</LoadingIndicator> : children}\n    </SeedContextualFloatingButton>\n  );\n});\nContextualFloatingButton.displayName = \"ContextualFloatingButton\";\n\n/**\n * This file is a snippet from SEED Design, helping you get started quickly with @grape_design_react/* packages.\n * You can extend this snippet however you want.\n */\n",
+      "dependencies": {
+        "@grape_design_react/react": "~1.0.0",
+        "@grape_design_react/css": "~1.0.0"
+      }
+    }
+  ]
+}

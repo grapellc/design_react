@@ -1,0 +1,18 @@
+import "./reset.css";
+import "./global.css";
+import "@grape_design_react/stylesheet/global.css";
+import "@grape_design_react/css/base.css";
+import "@stackflow/plugin-basic-ui/index.css";
+
+import React, { StrictMode } from "react";
+import ReactDOM from "react-dom/client";
+
+import App from "./App";
+
+// biome-ignore lint/style/noNonNullAssertion: <explanation>
+const root = ReactDOM.createRoot(document.getElementById("root")!);
+root.render(
+  <StrictMode>
+    <App />
+  </StrictMode>,
+);

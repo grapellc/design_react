@@ -1,0 +1,39 @@
+{
+  "name": "@grape_design_react/tailwind4-theme",
+  "version": "1.1.17",
+  "description": "SEED 디자인 토큰을 Tailwind CSS 4.0에서 사용하기 위한 플러그인",
+  "main": "index.css",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daangn/grape_design_react.git",
+    "directory": "packages/tailwind4-theme"
+  },
+  "files": [
+    "index.css",
+    "README.md"
+  ],
+  "scripts": {
+    "rootage:generate": "rootage tailwind4 ./ --prefix seed"
+  },
+  "exports": {
+    ".": "./index.css"
+  },
+  "keywords": [
+    "tailwindcss",
+    "tailwind",
+    "css",
+    "plugin",
+    "grape_design_react",
+    "design-system"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "tailwindcss": "^4.1.4"
+  },
+  "peerDependencies": {
+    "tailwindcss": "4"
+  }
+}

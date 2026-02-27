@@ -1,0 +1,52 @@
+import { vars } from "@grape_design_react/design-token";
+
+const scaleColors = {
+  // Gray scale
+  gray00: vars.$scale.color.gray00,
+  gray50: vars.$scale.color.gray50,
+  gray100: vars.$scale.color.gray100,
+  gray200: vars.$scale.color.gray200,
+  gray300: vars.$scale.color.gray300,
+  gray400: vars.$scale.color.gray400,
+  gray500: vars.$scale.color.gray500,
+  gray600: vars.$scale.color.gray600,
+  gray700: vars.$scale.color.gray700,
+  gray800: vars.$scale.color.gray800,
+  gray900: vars.$scale.color.gray900,
+  grayAlpha50: vars.$scale.color.grayAlpha50,
+  grayAlpha100: vars.$scale.color.grayAlpha100,
+  grayAlpha200: vars.$scale.color.grayAlpha200,
+  grayAlpha500: vars.$scale.color.grayAlpha500,
+
+  // Carrot scale
+  orange50: vars.$scale.color.orange50,
+  orange100: vars.$scale.color.orange100,
+  orange200: vars.$scale.color.orange200,
+  orange300: vars.$scale.color.orange300,
+  orange400: vars.$scale.color.orange400,
+  orange500: vars.$scale.color.orange500,
+  orange600: vars.$scale.color.orange600,
+  orange700: vars.$scale.color.orange700,
+  orange800: vars.$scale.color.orange800,
+  orange900: vars.$scale.color.orange900,
+  orange950: vars.$scale.color.orange950,
+  carrotAlpha50: vars.$scale.color.carrotAlpha50,
+  carrotAlpha100: vars.$scale.color.carrotAlpha100,
+  carrotAlpha200: vars.$scale.color.carrotAlpha200,
+
+  // Blue scale
+  blue50: vars.$scale.color.blue50,
+  blue100: vars.$scale.color.blue100,
+  blue200: vars.$scale.color.blue200,
+  blue300: vars.$scale.color.blue300,
+  blue400: vars.$scale.color.blue400,
+  blue500: vars.$scale.color.blue500,
+  blue600: vars.$scale.color.blue600,
+  blue700: vars.$scale.color.blue700,
+  blue800: vars.$scale.color.blue800,
+  blue900: vars.$scale.color.blue900,
+  blue950: vars.$scale.color.blue950,
+  blueAlpha50: vars.$scale.color.blueAlpha50,
+  blueAlpha100: vars.$scale.color.blueAlpha100,
+  blueAlpha200: vars.$scale.color.blueAlpha200,
+};

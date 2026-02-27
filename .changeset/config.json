@@ -1,0 +1,22 @@
+{
+  "$schema": "https://unpkg.com/@changesets/config@3.0.3/schema.json",
+  "changelog": "@changesets/cli/changelog",
+  "commit": false,
+  "___experimentalUnsafeOptions_WILL_CHANGE_IN_PATCH": {
+    "onlyUpdatePeerDependentsWhenOutOfRange": true
+  },
+  "linked": [
+    ["@grape_design_react/figma", "@grape_design_react/mcp"],
+    ["@grape_design_react/codemod", "@grape_design_react/migration-index"]
+  ],
+  "access": "public",
+  "baseBranch": "dev",
+  "updateInternalDependencies": "patch",
+  "snapshot": {
+    "useCalculatedVersion": true
+  },
+  "privatePackages": {
+    "tag": false,
+    "version": false
+  }
+}

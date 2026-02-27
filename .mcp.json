@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "grape_design_react": {
+      "type": "stdio",
+      "command": "bunx",
+      "args": ["-y", "@grape_design_react/mcp@latest"]
+    },
+    "playwright": {
+      "command": "bunx",
+      "args": ["@playwright/mcp@latest"]
+    }
+  }
+}
