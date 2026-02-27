@@ -28,6 +28,9 @@ coverage/
 *.swp
 *.swo
 
+# Vendor (seed-design not included in this repo)
+vendor/
+
 # Misc
 .vercel
 .pnp
