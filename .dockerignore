@@ -1,0 +1,18 @@
+.git
+.gitignore
+**/.DS_Store
+**/*.iml
+**/.idea
+**/.metadata
+
+# React/Node specific
+node_modules
+dist
+.next
+.turbo
+out
+
+# Dart/Flutter specific
+grape_design_dart/docs/build
+grape_design_dart/docs/.dart_tool
+grape_design_dart/.dart_tool
