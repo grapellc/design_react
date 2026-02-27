@@ -1,5 +1,13 @@
 # @grape_design_react/react
 
+## 1.2.6
+
+### Patch Changes
+
+- Updated dependencies [285e892]
+- Updated dependencies [285e892]
+  - @grape_design_react/css@1.2.4
+
 ## 1.2.5
 
 ### Patch Changes
@@ -80,7 +88,10 @@
     ```tsx
     // 전
     import { VStack } from "@grape_design_react/react";
-    import { RadioGroup, RadioGroupItem } from "grape_design_react/ui/radio-group";
+    import {
+      RadioGroup,
+      RadioGroupItem,
+    } from "grape_design_react/ui/radio-group";
 
     <RadioGroup defaultValue="apple" aria-label="Fruit selection">
       <VStack>
@@ -92,7 +103,10 @@
 
     ```tsx
     // 후
-    import { RadioGroup, RadioGroupItem } from "grape_design_react/ui/radio-group";
+    import {
+      RadioGroup,
+      RadioGroupItem,
+    } from "grape_design_react/ui/radio-group";
 
     {
       /* aria-label 대신 label을 사용하여 시각적으로 레이블을 표시할 수도 있습니다. */
@@ -265,7 +279,10 @@
     // 후 (snippet API로 교체)
     // snippet 없는 경우, `npx @grape_design_react/cli@latest add ui:tag-group`
 
-    import { TagGroupRoot, TagGroupItem } from "grape_design_react/ui/tag-group";
+    import {
+      TagGroupRoot,
+      TagGroupItem,
+    } from "grape_design_react/ui/tag-group";
     import {
       TagGroupRoot as SeedTagGroupRoot,
       TagGroupItem as SeedTagGroupItem,

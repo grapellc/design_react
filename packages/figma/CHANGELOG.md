@@ -1,5 +1,13 @@
 # @grape_design_react/figma
 
+## 1.3.5
+
+### Patch Changes
+
+- Updated dependencies [285e892]
+- Updated dependencies [285e892]
+  - @grape_design_react/css@1.2.4
+
 ## 1.3.4
 
 ### Patch Changes
@@ -149,7 +157,10 @@
     // 후 (snippet API로 교체)
     // snippet 없는 경우, `npx @grape_design_react/cli@latest add ui:tag-group`
 
-    import { TagGroupRoot, TagGroupItem } from "grape_design_react/ui/tag-group";
+    import {
+      TagGroupRoot,
+      TagGroupItem,
+    } from "grape_design_react/ui/tag-group";
     import {
       TagGroupRoot as SeedTagGroupRoot,
       TagGroupItem as SeedTagGroupItem,

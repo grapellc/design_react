@@ -1,5 +1,11 @@
 # @grape_design_react/rootage-artifacts
 
+## 1.2.4
+
+### Patch Changes
+
+- 285e892: List Item의 title fontWeight를 `$font-weight.medium`에서 `$font-weight.regular`로 변경합니다.
+
 ## 1.2.3
 
 ### Patch Changes
@@ -106,7 +112,10 @@
     ```tsx
     // 전
     import { VStack } from "@grape_design_react/react";
-    import { RadioGroup, RadioGroupItem } from "grape_design_react/ui/radio-group";
+    import {
+      RadioGroup,
+      RadioGroupItem,
+    } from "grape_design_react/ui/radio-group";
 
     <RadioGroup defaultValue="apple" aria-label="Fruit selection">
       <VStack>
@@ -118,7 +127,10 @@
 
     ```tsx
     // 후
-    import { RadioGroup, RadioGroupItem } from "grape_design_react/ui/radio-group";
+    import {
+      RadioGroup,
+      RadioGroupItem,
+    } from "grape_design_react/ui/radio-group";
 
     {
       /* aria-label 대신 label을 사용하여 시각적으로 레이블을 표시할 수도 있습니다. */

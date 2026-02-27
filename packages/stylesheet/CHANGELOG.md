@@ -1,5 +1,11 @@
 # @grape_design_react/stylesheet
 
+## 1.1.2
+
+### Patch Changes
+
+- 285e892: color-scheme의 light-only와 dark-only에 `only` 키워드를 추가합니다
+
 ## 1.1.1
 
 ### Patch Changes

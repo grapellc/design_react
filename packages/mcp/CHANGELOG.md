@@ -1,5 +1,11 @@
 # @grape_design_react/mcp
 
+## 1.3.5
+
+### Patch Changes
+
+- @grape_design_react/figma@1.3.5
+
 ## 1.3.4
 
 ### Patch Changes

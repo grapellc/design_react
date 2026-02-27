@@ -1,5 +1,6 @@
 {
   "lockfileVersion": 1,
+  "configVersion": 0,
   "workspaces": {
     "": {
       "name": "@grape_design_react/project",
@@ -348,7 +349,7 @@
     },
     "packages/css": {
       "name": "@grape_design_react/css",
-      "version": "1.2.3",
+      "version": "1.2.4",
       "devDependencies": {
         "@grape_design_react/qvism-cli": "workspace:*",
         "@grape_design_react/qvism-preset": "workspace:*",
@@ -381,7 +382,7 @@
     },
     "packages/figma": {
       "name": "@grape_design_react/figma",
-      "version": "1.3.4",
+      "version": "1.3.5",
       "dependencies": {
         "@grape_design_react/css": "1.2.2",
         "change-case": "^5.4.4",
@@ -397,7 +398,7 @@
     },
     "packages/mcp": {
       "name": "@grape_design_react/mcp",
-      "version": "1.3.4",
+      "version": "1.3.5",
       "bin": "./bin/index.mjs",
       "dependencies": {
         "@grape_design_react/figma": "1.2.1",
@@ -433,7 +434,7 @@
     },
     "packages/react": {
       "name": "@grape_design_react/react",
-      "version": "1.2.5",
+      "version": "1.2.6",
       "dependencies": {
         "@grape_design_react/dom-utils": "workspace:*",
         "@grape_design_react/react-avatar": "workspace:*",
@@ -966,11 +967,11 @@
     },
     "packages/rootage": {
       "name": "@grape_design_react/rootage-artifacts",
-      "version": "1.2.3",
+      "version": "1.2.4",
     },
     "packages/rsbuild-plugin": {
       "name": "@grape_design_react/rsbuild-plugin",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "devDependencies": {
         "@grape_design_react/css": "workspace:*",
         "@rsbuild/core": "^1.3.11",
@@ -982,7 +983,7 @@
     },
     "packages/stackflow": {
       "name": "@grape_design_react/stackflow",
-      "version": "1.1.17",
+      "version": "1.1.18",
       "dependencies": {
         "@grape_design_react/dom-utils": "workspace:*",
         "@grape_design_react/react-primitive": "workspace:*",
@@ -1015,7 +1016,7 @@
     },
     "packages/stylesheet": {
       "name": "@grape_design_react/stylesheet",
-      "version": "1.1.1",
+      "version": "1.1.2",
     },
     "packages/tailwind3-plugin": {
       "name": "@grape_design_react/tailwind3-plugin",
@@ -1055,7 +1056,7 @@
     },
     "packages/vite-plugin": {
       "name": "@grape_design_react/vite-plugin",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "devDependencies": {
         "@grape_design_react/css": "workspace:*",
         "vite": "^7.0.0",
@@ -1067,7 +1068,7 @@
     },
     "packages/webpack-plugin": {
       "name": "@grape_design_react/webpack-plugin",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "devDependencies": {
         "@grape_design_react/css": "workspace:*",
         "@rspack/core": "^1.3.6",

@@ -1,5 +1,13 @@
 # @grape_design_react/rsbuild-plugin
 
+## 1.1.1
+
+### Patch Changes
+
+- Updated dependencies [285e892]
+- Updated dependencies [285e892]
+  - @grape_design_react/css@1.2.4
+
 ## 1.1.0
 
 ### Patch Changes
