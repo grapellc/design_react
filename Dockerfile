@@ -3,13 +3,18 @@ FROM oven/bun:latest AS builder
 
 WORKDIR /app
 
+# Avoid OOM / "Premature close" when Next.js builds docs (MDX/search)
+ENV NODE_OPTIONS="--max-old-space-size=8192"
+ENV NEXT_TELEMETRY_DISABLED=1
+
 # Copy the entire mono-repo structure
 COPY . .
 
-# Install dependencies and build
+# Install dependencies
 RUN bun install
-RUN bun run build
-RUN bun run docs:build
+
+# Build only docs and its workspace dependencies (not full monorepo) to reduce memory use
+RUN bun run --filter "@grape_design_react/docs..." build
 
 # Stage 2: Serve with nginx
 FROM nginx:alpine

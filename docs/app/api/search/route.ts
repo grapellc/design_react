@@ -1,7 +1,12 @@
-import { breezeSource, reactSource, docsSource, lynxSource } from "@/app/source";
-import { AdvancedIndex, createSearchAPI } from "fumadocs-core/search/server";
-import { tokenize } from "@/components/search/tokenizer";
 import { TAGS } from "@/app/api/search/constants";
+import {
+  breezeSource,
+  docsSource,
+  lynxSource,
+  reactSource,
+} from "@/app/source";
+import { tokenize } from "@/components/search/tokenizer";
+import { AdvancedIndex, createSearchAPI } from "fumadocs-core/search/server";
 
 // it should be cached forever
 export const revalidate = false;
