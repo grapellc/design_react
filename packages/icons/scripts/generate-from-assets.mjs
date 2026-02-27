@@ -55,10 +55,14 @@ const MONOCHROME_NAMES = [
 
 const MULTICOLOR_NAMES = ['IconCheckFill', 'IconDiamond', 'IconIcecreamcone', 'IconSparkle2'];
 
+let assetsMissingLogged = false;
 function generateFile(variant, names) {
   const dir = path.join(ASSETS_ROOT, variant);
   if (!fs.existsSync(dir)) {
-    console.warn(`[icons] Assets dir not found: ${dir}. Set ICONS_ASSETS_PATH if assets are elsewhere.`);
+    if (!assetsMissingLogged) {
+      assetsMissingLogged = true;
+      console.warn('[icons] Asset dirs not found (set ICONS_ASSETS_PATH if needed); using existing generated files.');
+    }
     return null;
   }
 
@@ -131,6 +135,6 @@ if (multicolorOut) {
   generatePerIconReexports('multicolor', MULTICOLOR_NAMES);
 }
 
-if (!monochromeOut && !multicolorOut) {
-  console.warn('[icons] No assets found at', ASSETS_ROOT, '- using existing generated files if present.');
+if (!monochromeOut && !multicolorOut && !assetsMissingLogged) {
+  console.warn('[icons] No assets found; using existing generated files if present.');
 }
