@@ -34,6 +34,7 @@
     "@grape_design_react/css": "workspace:*",
     "@grape_design_react/migration-index": "workspace:*",
     "@grape_design_react/react": "workspace:*",
+    "@grape_design_react/react-icon": "workspace:*",
     "@grape_design_react/rootage-core": "workspace:*",
     "@grape_design_react/stackflow": "workspace:*",
     "@grape_design_react/tailwind4-theme": "workspace:*",

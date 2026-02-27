@@ -7,25 +7,25 @@ The React implementation of the Grape Design System.
 ## Packages
 
 **Definitions**
-- [@grape-design/rootage](./packages/rootage)
-- [@grape-design/qvism-preset](./packages/qvism-preset)
+- [@grape_design_react/rootage](./packages/rootage)
+- [@grape_design_react/qvism-preset](./packages/qvism-preset)
 
 **Base Libraries**
-- [@grape-design/css](./packages/css)
+- [@grape_design_react/css](./packages/css)
 
 **React Libraries**
-- [@grape-design/react-headless](./packages/react-headless)
-- [@grape-design/react](./packages/react)
-- [@grape-design/stackflow](./packages/stackflow)
+- [@grape_design_react/react-headless](./packages/react-headless)
+- [@grape_design_react/react](./packages/react)
+- [@grape_design_react/stackflow](./packages/stackflow)
 
 **Integrations**
-- [@grape-design/figma](./packages/figma)
-- [@grape-design/mcp](./packages/mcp)
+- [@grape_design_react/figma](./packages/figma)
+- [@grape_design_react/mcp](./packages/mcp)
 
 **Ecosystem**
-- [@grape-design/ecosystem/rootage](./ecosystem/rootage)
-- [@grape-design/ecosystem/qvism](./ecosystem/qvism)
-- [@grape-design/ecosystem/figma-extractor](./ecosystem/figma-extractor)
+- [@grape_design_react/ecosystem/rootage](./ecosystem/rootage)
+- [@grape_design_react/ecosystem/qvism](./ecosystem/qvism)
+- [@grape_design_react/ecosystem/figma-extractor](./ecosystem/figma-extractor)
 
 **Documentation**
-- [@grape-design/docs](./docs)
+- [@grape_design_react/docs](./docs)
