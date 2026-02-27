@@ -1,4 +1,4 @@
-name: 'Setup Seed Design'
+name: 'Setup Grape Design'
 description: 'Setup Bun, install dependencies, and optionally build packages'
 
 inputs:

@@ -32,8 +32,3 @@ jobs:
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/grape-design-docs:latest
           cache-from: type=gha
           cache-to: type=gha,mode=max
-
-      - name: Deploy to Grape
-        run: |
-          # curl -X POST https://deploy.grape.mn/api/deploy/compose/YOUR_DEPLOY_ID
-        if: github.ref == 'refs/heads/main'
