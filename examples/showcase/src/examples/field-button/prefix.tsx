@@ -1,4 +1,4 @@
-import { HStack } from "@seed-design/react";
+import { HStack } from "@grape-design/react";
 import { FieldButton, FieldButtonPlaceholder } from "seed-design/ui/field-button";
 import { IconMagnifyingglassLine } from "@karrotmarket/react-monochrome-icon";
 

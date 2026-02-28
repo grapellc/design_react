@@ -1,7 +1,7 @@
 import { basicRendererPlugin } from "@stackflow/plugin-renderer-basic";
 import { type ActivityComponentType, stackflow } from "@stackflow/react/future";
 import { defineConfig, type RegisteredActivityName } from "@stackflow/config";
-import { seedPlugin } from "@seed-design/stackflow";
+import { seedPlugin } from "@grape-design/stackflow";
 
 interface MakeStackProps {
   activities: {

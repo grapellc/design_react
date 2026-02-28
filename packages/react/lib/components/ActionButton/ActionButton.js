@@ -1,7 +1,7 @@
 'use client';
 import { jsx } from 'react/jsx-runtime';
 import { actionButton } from '@grape-design/css/recipes/action-button';
-import { Primitive } from '@seed-design/react-primitive';
+import { Primitive } from '@grape-design/react-primitive';
 import clsx from 'clsx';
 import * as React from 'react';
 import { useStyleProps, handleColor } from '../../utils/styled.js';

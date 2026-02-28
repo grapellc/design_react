@@ -1,6 +1,6 @@
 "use client";
 
-import { VStack } from "@seed-design/react";
+import { VStack } from "@grape-design/react";
 import { ActionButton } from "seed-design/ui/action-button";
 import {
   AlertDialogAction,

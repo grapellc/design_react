@@ -1,4 +1,4 @@
-import { elementProps } from "@seed-design/dom-utils";
+import { elementProps } from "@grape-design/dom-utils";
 import * as React from "react";
 
 export interface UsePendingButtonProps {

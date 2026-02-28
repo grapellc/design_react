@@ -1,4 +1,4 @@
-import { ResponsivePair } from "@seed-design/react";
+import { ResponsivePair } from "@grape-design/react";
 import { ActionButton } from "seed-design/ui/action-button";
 import {
   AlertDialogAction,

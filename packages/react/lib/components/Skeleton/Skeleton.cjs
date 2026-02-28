@@ -3,7 +3,7 @@
 
 Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
 
-const reactPrimitive = require('@seed-design/react-primitive');
+const reactPrimitive = require('@grape-design/react-primitive');
 const skeleton = require('@grape-design/css/recipes/skeleton');
 const createRecipeContext = require('../../utils/createRecipeContext.cjs');
 const styled = require('../../utils/styled.cjs');

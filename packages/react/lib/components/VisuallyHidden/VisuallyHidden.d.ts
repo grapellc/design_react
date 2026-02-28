@@ -1,4 +1,4 @@
-import { PrimitiveProps } from '@seed-design/react-primitive';
+import { PrimitiveProps } from '@grape-design/react-primitive';
 import type * as React from "react";
 export interface VisuallyHiddenProps extends PrimitiveProps, React.HTMLAttributes<HTMLDivElement> {
 }

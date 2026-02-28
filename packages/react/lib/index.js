@@ -84,12 +84,12 @@ export { NotificationBadge, NotificationBadgePositioner } from './components/Not
 export { PageBannerBody, PageBannerButton, PageBannerCloseButton, PageBannerContent, PageBannerDescription, PageBannerRoot, PageBannerTitle } from './components/PageBanner/PageBanner.js';
 import * as PageBanner_namespace from './components/PageBanner/PageBanner.namespace.js';
 export { PageBanner_namespace as PageBanner };
-export { Portal } from '@seed-design/react-portal';
+export { Portal } from '@grape-design/react-portal';
 export { ProgressCircleRange, ProgressCircleRoot, ProgressCircleTrack } from './components/ProgressCircle/ProgressCircle.js';
 import * as ProgressCircle_namespace from './components/ProgressCircle/ProgressCircle.namespace.js';
 export { ProgressCircle_namespace as ProgressCircle };
 export { PullToRefreshContent, PullToRefreshIndicator, PullToRefreshRoot } from './components/PullToRefresh/PullToRefresh.js';
-export { pullToRefreshPreventPull } from '@seed-design/react-pull-to-refresh';
+export { pullToRefreshPreventPull } from '@grape-design/react-pull-to-refresh';
 import * as PullToRefresh_namespace from './components/PullToRefresh/PullToRefresh.namespace.js';
 export { PullToRefresh_namespace as PullToRefresh };
 export { RadioGroupItem, RadioGroupItemControl, RadioGroupItemHiddenInput, RadioGroupItemIndicator, RadioGroupItemLabel, RadioGroupRoot } from './components/RadioGroup/RadioGroup.js';
@@ -115,7 +115,7 @@ export { SliderControl, SliderHiddenInput, SliderMarker, SliderMarkers, SliderRa
 import * as Slider_namespace from './components/Slider/Slider.namespace.js';
 export { Slider_namespace as Slider };
 export { SnackbarActionButton, SnackbarAvoidOverlap, SnackbarHiddenCloseButton, SnackbarMessage, SnackbarPrefixIcon, SnackbarRegion, SnackbarRenderer, SnackbarRoot, SnackbarRootProvider } from './components/Snackbar/Snackbar.js';
-export { useSnackbarContext } from '@seed-design/react-snackbar';
+export { useSnackbarContext } from '@grape-design/react-snackbar';
 export { useSnackbarAdapter } from './components/Snackbar/useSnackbarAdapter.js';
 import * as Snackbar_namespace from './components/Snackbar/Snackbar.namespace.js';
 export { Snackbar_namespace as Snackbar };
@@ -124,7 +124,7 @@ export { SwitchControl, SwitchHiddenInput, SwitchLabel, SwitchRoot, SwitchThumb 
 import * as Switch_namespace from './components/Switch/Switch.namespace.js';
 export { Switch_namespace as Switch };
 export { TabsCarousel, TabsCarouselCamera, TabsContent, TabsIndicator, TabsList, TabsRoot, TabsTrigger } from './components/Tabs/Tabs.js';
-export { tabsCarouselPreventDrag } from '@seed-design/react-tabs';
+export { tabsCarouselPreventDrag } from '@grape-design/react-tabs';
 import * as Tabs_namespace from './components/Tabs/Tabs.namespace.js';
 export { Tabs_namespace as Tabs };
 export { TagGroupItem, TagGroupItemLabel, TagGroupRoot } from './components/TagGroup/TagGroup.js';

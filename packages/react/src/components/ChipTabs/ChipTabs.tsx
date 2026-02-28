@@ -1,5 +1,5 @@
 import { chipTabs, type ChipTabsVariantProps } from "@grape-design/css/recipes/chip-tabs";
-import { Tabs as TabsPrimitive } from "@seed-design/react-tabs";
+import { Tabs as TabsPrimitive } from "@grape-design/react-tabs";
 import { createSlotRecipeContext } from "../../utils/createSlotRecipeContext";
 import { forwardRef } from "react";
 import clsx from "clsx";

@@ -1,5 +1,5 @@
 'use client';
-import { Primitive } from '@seed-design/react-primitive';
+import { Primitive } from '@grape-design/react-primitive';
 import { extendedFab } from '@grape-design/css/recipes/extended-fab';
 import { createRecipeContext } from '../../utils/createRecipeContext.js';
 

@@ -11,15 +11,15 @@ import {
   AppBarLeft,
 } from "seed-design/ui/app-bar";
 import type { AppBarProps } from "seed-design/ui/app-bar";
-import { VStack, HStack, Box, Article as SeedArticle } from "@seed-design/react";
+import { VStack, HStack, Box, Article as SeedArticle } from "@grape-design/react";
 import { TagGroupRoot, TagGroupItem } from "seed-design/ui/tag-group";
-import { Text } from "@seed-design/react";
-import { Badge } from "@seed-design/react";
+import { Text } from "@grape-design/react";
+import { Badge } from "@grape-design/react";
 import { SegmentedControl, SegmentedControlItem } from "seed-design/ui/segmented-control";
 import { Callout } from "seed-design/ui/callout";
 import { TextField, TextFieldTextarea } from "seed-design/ui/text-field";
 import { ActionButton } from "seed-design/ui/action-button";
-import { Skeleton } from "@seed-design/react";
+import { Skeleton } from "@grape-design/react";
 import { IconILowercaseSerifCircleFill } from "@grape-design/icons";
 import { ResultSection } from "seed-design/ui/result-section";
 import { CATEGORIES, type Article, ARTICLES } from "./demo-data";

@@ -1,8 +1,8 @@
 import { SelectBoxVariantProps } from '@grape-design/css/recipes/select-box';
 import { SelectBoxCheckmarkVariantProps } from '@grape-design/css/recipes/selectBoxCheckmark';
 import { SelectBoxGroupVariantProps } from '@grape-design/css/recipes/select-box-group';
-import { Checkbox as CheckboxPrimitive } from '@seed-design/react-checkbox';
-import { PrimitiveProps } from '@seed-design/react-primitive';
+import { Checkbox as CheckboxPrimitive } from '@grape-design/react-checkbox';
+import { PrimitiveProps } from '@grape-design/react-primitive';
 import { InternalIconProps } from '../private/Icon';
 import { ForwardRefExoticComponent, RefAttributes } from 'react';
 export interface CheckSelectBoxGroupProps extends SelectBoxGroupVariantProps, PrimitiveProps, React.HTMLAttributes<HTMLDivElement> {

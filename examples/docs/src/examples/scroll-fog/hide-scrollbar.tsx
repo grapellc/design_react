@@ -1,6 +1,6 @@
 "use client";
 
-import { ScrollFog } from "@seed-design/react";
+import { ScrollFog } from "@grape-design/react";
 
 export default function ScrollFogHideScrollbar() {
   return (

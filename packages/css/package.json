@@ -52,5 +52,6 @@
     "theming",
     "utils",
     "*.css"
-  ]
+  ],
+  "devDependencies": {}
 }

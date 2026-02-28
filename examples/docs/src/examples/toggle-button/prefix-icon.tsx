@@ -1,7 +1,7 @@
 "use client";
 
 import { IconCheckmarkLine, IconPlusLine } from "@karrotmarket/react-monochrome-icon";
-import { PrefixIcon } from "@seed-design/react";
+import { PrefixIcon } from "@grape-design/react";
 import { useState } from "react";
 import { ToggleButton } from "seed-design/ui/toggle-button";
 

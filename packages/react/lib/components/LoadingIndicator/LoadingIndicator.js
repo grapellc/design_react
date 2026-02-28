@@ -1,7 +1,7 @@
 'use client';
 import { jsxs, Fragment, jsx } from 'react/jsx-runtime';
-import { mergeProps } from '@seed-design/dom-utils';
-import { Primitive } from '@seed-design/react-primitive';
+import { mergeProps } from '@grape-design/dom-utils';
+import { Primitive } from '@grape-design/react-primitive';
 import { forwardRef } from 'react';
 import { usePendingButtonContext } from './usePendingButton.js';
 

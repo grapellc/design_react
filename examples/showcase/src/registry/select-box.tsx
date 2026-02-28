@@ -15,10 +15,10 @@ import {
 import {
   selectBoxGroup,
   type SelectBoxGroupVariantProps,
-} from "@seed-design/css/recipes/select-box-group";
+} from "@grape-design/css/recipes/select-box-group";
 import { Radiomark, type RadiomarkProps } from "./radio-group";
 import * as React from "react";
-import type { FieldLabelVariantProps } from "@seed-design/css/recipes/field-label";
+import type { FieldLabelVariantProps } from "@grape-design/css/recipes/field-label";
 
 export interface RadioSelectBoxRootProps
   extends SeedRadioGroupField.RootProps,

@@ -31,7 +31,8 @@ const resolveAliases = {
   '@karrotmarket/react-monochrome-icon/IconPlusLine': '@grape-design/icons/monochrome/IconPlusLine',
   '@karrotmarket/react-monochrome-icon/IconXmarkLine': '@grape-design/icons/monochrome/IconXmarkLine',
   '@karrotmarket/react-multicolor-icon': '@grape-design/icons/multicolor',
-  '@seed-design/react-icon': '@grape-design/icons/multicolor',
+  '@seed-design/react-icon': '@grape-design/icons/react-icon',
+  '@grape-design/react-icon': '@grape-design/icons/react-icon',
   '@seed-design/stackflow': '@grape-design/stackflow',
 };
 const turbopackAliases = {
@@ -46,7 +47,8 @@ const turbopackAliases = {
   '@karrotmarket/react-monochrome-icon/IconPlusLine': '@grape-design/icons/monochrome/IconPlusLine',
   '@karrotmarket/react-monochrome-icon/IconXmarkLine': '@grape-design/icons/monochrome/IconXmarkLine',
   '@karrotmarket/react-multicolor-icon': '@grape-design/icons/multicolor',
-  '@seed-design/react-icon': '@grape-design/icons/multicolor',
+  '@seed-design/react-icon': '@grape-design/icons/react-icon',
+  '@grape-design/react-icon': '@grape-design/icons/react-icon',
   '@seed-design/stackflow': '@grape-design/stackflow',
 };
 
@@ -76,7 +78,7 @@ const config = {
     };
     return config;
   },
-  transpilePackages: ['@grape-design/icons', '@grape-design/react', '@seed-design/css', '@seed-design/stackflow'],
+  transpilePackages: ['@grape-design/icons', '@grape-design/react', '@grape-design/css', '@grape-design/stackflow'],
 };
 
 export default withMDX(config);

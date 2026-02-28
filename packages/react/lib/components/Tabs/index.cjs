@@ -3,7 +3,7 @@
 Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
 
 const Tabs = require('./Tabs.cjs');
-const reactTabs = require('@seed-design/react-tabs');
+const reactTabs = require('@grape-design/react-tabs');
 const Tabs_namespace = require('./Tabs.namespace.cjs');
 
 

@@ -1,5 +1,5 @@
 import { controlChip, type ControlChipVariantProps } from "@grape-design/css/recipes/control-chip";
-import { Primitive, type PrimitiveProps } from "@seed-design/react-primitive";
+import { Primitive, type PrimitiveProps } from "@grape-design/react-primitive";
 import type * as React from "react";
 import { createRecipeContext } from "../../utils/createRecipeContext";
 import { withIconRequired } from "../Icon/Icon";

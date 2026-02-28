@@ -1,7 +1,7 @@
 "use client";
 
 import { IconFaceSmileCircleFill } from "@karrotmarket/react-monochrome-icon";
-import { PrefixIcon } from "@seed-design/react";
+import { PrefixIcon } from "@grape-design/react";
 import { ReactionButton } from "seed-design/ui/reaction-button";
 
 export default function ReactionButtonDisabled() {

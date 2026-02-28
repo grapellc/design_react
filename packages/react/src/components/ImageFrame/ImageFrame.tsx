@@ -12,8 +12,8 @@ import {
 } from "@grape-design/css/recipes/image-frame-indicator";
 import { imageFrameReactionButton } from "@grape-design/css/recipes/image-frame-reaction-button";
 import { imageFrameFloater as floaterVars } from "@grape-design/css/vars/component";
-import { Image } from "@seed-design/react-image";
-import { Toggle as TogglePrimitive } from "@seed-design/react-toggle";
+import { Image } from "@grape-design/react-image";
+import { Toggle as TogglePrimitive } from "@grape-design/react-toggle";
 import clsx from "clsx";
 import * as React from "react";
 import { AspectRatio, type AspectRatioProps } from "../AspectRatio/AspectRatio";

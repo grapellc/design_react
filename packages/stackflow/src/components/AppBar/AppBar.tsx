@@ -1,8 +1,8 @@
 import { Slot } from "@radix-ui/react-slot";
-import { appBar, type AppBarVariantProps } from "@seed-design/css/recipes/app-bar";
-import { appBarMain, type AppBarMainVariantProps } from "@seed-design/css/recipes/app-bar-main";
-import { mergeProps } from "@seed-design/dom-utils";
-import { Primitive, type PrimitiveProps } from "@seed-design/react-primitive";
+import { appBar, type AppBarVariantProps } from "@grape-design/css/recipes/app-bar";
+import { appBarMain, type AppBarMainVariantProps } from "@grape-design/css/recipes/app-bar-main";
+import { mergeProps } from "@grape-design/dom-utils";
+import { Primitive, type PrimitiveProps } from "@grape-design/react-primitive";
 import clsx from "clsx";
 import { forwardRef } from "react";
 import { AppBar as AppBarPrimitive } from "../../primitive";
@@ -25,7 +25,11 @@ export const AppBarPropsProvider = PropsProvider;
 export interface AppBarProps
   extends AppBarVariantProps,
     AppBarPrimitive.RootProps,
-    BoxBackgroundProps {}
+    BoxBackgroundProps {
+  layerOffsetTop?: number;
+  gradient?: boolean;
+  preventSwipeBack?: boolean;
+}
 
 export const AppBarRoot = forwardRef<HTMLDivElement, AppBarProps>((props, ref) => {
   const { style: boxStyle, restProps: propsWithoutBoxProps } = useBoxBackgroundProps(props);

@@ -1,6 +1,6 @@
 "use client";
 
-import { Badge, HStack } from "@seed-design/react";
+import { Badge, HStack } from "@grape-design/react";
 import {
   CheckSelectBox,
   CheckSelectBoxCheckmark,

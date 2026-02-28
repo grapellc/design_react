@@ -1,6 +1,6 @@
 import { BottomSheetVariantProps } from '@grape-design/css/recipes/bottom-sheet';
-import { Drawer } from '@seed-design/react-drawer';
-import { PrimitiveProps } from '@seed-design/react-primitive';
+import { Drawer } from '@grape-design/react-drawer';
+import { PrimitiveProps } from '@grape-design/react-primitive';
 import { StyleProps } from '../../utils/styled';
 import { ForwardRefExoticComponent, RefAttributes } from 'react';
 import { DialogTriggerProps } from '@radix-ui/react-dialog';

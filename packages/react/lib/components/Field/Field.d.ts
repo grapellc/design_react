@@ -1,5 +1,5 @@
-import { PrimitiveProps } from '@seed-design/react-primitive';
-import { Field } from '@seed-design/react-field';
+import { PrimitiveProps } from '@grape-design/react-primitive';
+import { Field } from '@grape-design/react-field';
 import { FieldVariantProps } from '@grape-design/css/recipes/field';
 import { FieldLabelVariantProps } from '@grape-design/css/recipes/field-label';
 import type * as React from "react";

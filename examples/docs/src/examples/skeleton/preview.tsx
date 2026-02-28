@@ -1,6 +1,6 @@
 "use client";
 
-import { Skeleton, VStack } from "@seed-design/react";
+import { Skeleton, VStack } from "@grape-design/react";
 
 export default function SkeletonPreview() {
   return (

@@ -1,5 +1,5 @@
 import { ControlChipVariantProps } from '@grape-design/css/recipes/control-chip';
-import { PrimitiveProps } from '@seed-design/react-primitive';
+import { PrimitiveProps } from '@grape-design/react-primitive';
 import type * as React from "react";
 /**
  * @deprecated ControlChipBaseProps is deprecated. Use ChipBaseProps from Chip instead.

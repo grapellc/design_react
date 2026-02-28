@@ -11,7 +11,7 @@ import {
   Flex,
   VStack,
   Text,
-} from "@seed-design/react";
+} from "@grape-design/react";
 import { useState } from "react";
 
 export default function ImageFrameOverlayExample() {

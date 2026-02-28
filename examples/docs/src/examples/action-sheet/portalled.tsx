@@ -1,6 +1,6 @@
 "use client";
 
-import { Portal } from "@seed-design/react";
+import { Portal } from "@grape-design/react";
 import { ActionButton } from "seed-design/ui/action-button";
 import {
   ActionSheetContent,

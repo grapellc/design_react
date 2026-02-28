@@ -1,8 +1,8 @@
-import { Switch as SwitchPrimitive, useSwitchContext } from "@seed-design/react-switch";
+import { Switch as SwitchPrimitive, useSwitchContext } from "@grape-design/react-switch";
 import { switchStyle, type SwitchVariantProps } from "@grape-design/css/recipes/switch";
 import { switchmark, type SwitchmarkVariantProps } from "@grape-design/css/recipes/switchmark";
 import { createSlotRecipeContext } from "../../utils/createSlotRecipeContext";
-import { Primitive, type PrimitiveProps } from "@seed-design/react-primitive";
+import { Primitive, type PrimitiveProps } from "@grape-design/react-primitive";
 import { createWithStateProps } from "../../utils/createWithStateProps";
 import React from "react";
 import clsx from "clsx";

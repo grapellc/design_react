@@ -1,4 +1,4 @@
-import { PullToRefresh as PullToRefreshPrimitive } from '@seed-design/react-pull-to-refresh';
+import { PullToRefresh as PullToRefreshPrimitive } from '@grape-design/react-pull-to-refresh';
 import { PullToRefreshVariantProps } from '@grape-design/css/recipes/pull-to-refresh';
 import { ForwardRefExoticComponent, RefAttributes } from 'react';
 export interface PullToRefreshRootProps extends PullToRefreshVariantProps, PullToRefreshPrimitive.RootProps {

@@ -1,5 +1,5 @@
 import IconPlusLine from "@karrotmarket/react-monochrome-icon/IconPlusLine";
-import { Fab, Icon } from "@seed-design/react";
+import { Fab, Icon } from "@grape-design/react";
 
 export default function FabPreview() {
   return (

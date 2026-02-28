@@ -1,7 +1,7 @@
 "use client";
 
 import { IconPersonCircleLine } from "@karrotmarket/react-monochrome-icon";
-import { Text, HStack, Box } from "@seed-design/react";
+import { Text, HStack, Box } from "@grape-design/react";
 import {
   CheckSelectBox,
   CheckSelectBoxCheckmark,

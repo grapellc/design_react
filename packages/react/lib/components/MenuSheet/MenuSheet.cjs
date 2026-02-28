@@ -4,8 +4,8 @@
 Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
 
 const jsxRuntime = require('react/jsx-runtime');
-const reactDialog = require('@seed-design/react-dialog');
-const reactPrimitive = require('@seed-design/react-primitive');
+const reactDialog = require('@grape-design/react-dialog');
+const reactPrimitive = require('@grape-design/react-primitive');
 const menuSheet = require('@grape-design/css/recipes/menu-sheet');
 const menuSheetItem = require('@grape-design/css/recipes/menu-sheet-item');
 const React = require('react');

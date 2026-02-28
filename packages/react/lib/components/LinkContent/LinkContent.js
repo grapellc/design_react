@@ -1,6 +1,6 @@
 'use client';
 import { linkContent } from '@grape-design/css/recipes/link-content';
-import { Primitive } from '@seed-design/react-primitive';
+import { Primitive } from '@grape-design/react-primitive';
 import { createRecipeContext } from '../../utils/createRecipeContext.js';
 import { withStyleProps } from '../../utils/styled.js';
 

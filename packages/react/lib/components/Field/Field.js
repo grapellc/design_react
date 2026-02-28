@@ -1,7 +1,7 @@
 'use client';
 import { jsxs, jsx } from 'react/jsx-runtime';
-import { Primitive } from '@seed-design/react-primitive';
-import { useFieldContext, Field } from '@seed-design/react-field';
+import { Primitive } from '@grape-design/react-primitive';
+import { useFieldContext, Field } from '@grape-design/react-field';
 import { forwardRef } from 'react';
 import { createSlotRecipeContext } from '../../utils/createSlotRecipeContext.js';
 import { createWithStateProps } from '../../utils/createWithStateProps.js';

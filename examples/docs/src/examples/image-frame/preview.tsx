@@ -1,6 +1,6 @@
 "use client";
 
-import { ImageFrame } from "@seed-design/react";
+import { ImageFrame } from "@grape-design/react";
 
 export default function ImageFramePreview() {
   return (

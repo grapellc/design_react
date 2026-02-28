@@ -2,7 +2,7 @@ import type * as React from "react";
 import { forwardRef } from "react";
 
 import { pageBanner, type PageBannerVariantProps } from "@grape-design/css/recipes/page-banner";
-import { Primitive, type PrimitiveProps } from "@seed-design/react-primitive";
+import { Primitive, type PrimitiveProps } from "@grape-design/react-primitive";
 import { createSlotRecipeContext } from "../../utils/createSlotRecipeContext";
 import {
   DismissibleCloseButton,

@@ -1,6 +1,6 @@
 "use client";
 
-import { Flex, Grid } from "@seed-design/react";
+import { Flex, Grid } from "@grape-design/react";
 
 export default function GridPreview() {
   return (

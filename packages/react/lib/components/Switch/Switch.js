@@ -1,10 +1,10 @@
 'use client';
 import { jsx } from 'react/jsx-runtime';
-import { Switch, useSwitchContext } from '@seed-design/react-switch';
+import { Switch, useSwitchContext } from '@grape-design/react-switch';
 import { switchStyle } from '@grape-design/css/recipes/switch';
 import { switchmark } from '@grape-design/css/recipes/switchmark';
 import { createSlotRecipeContext } from '../../utils/createSlotRecipeContext.js';
-import { Primitive } from '@seed-design/react-primitive';
+import { Primitive } from '@grape-design/react-primitive';
 import { createWithStateProps } from '../../utils/createWithStateProps.js';
 import React__default from 'react';
 import clsx from 'clsx';

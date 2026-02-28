@@ -1,11 +1,11 @@
 import { chip, type ChipVariantProps } from "@grape-design/css/recipes/chip";
-import { Primitive, type PrimitiveProps } from "@seed-design/react-primitive";
+import { Primitive, type PrimitiveProps } from "@grape-design/react-primitive";
 import type * as React from "react";
 import { createSlotRecipeContext } from "../../utils/createSlotRecipeContext";
 import { withIconRequired } from "../Icon/Icon";
 import { createWithStateProps } from "../../utils/createWithStateProps";
-import { useCheckboxContext } from "@seed-design/react-checkbox";
-import { useRadioGroupItemContext } from "@seed-design/react-radio-group";
+import { useCheckboxContext } from "@grape-design/react-checkbox";
+import { useRadioGroupItemContext } from "@grape-design/react-radio-group";
 
 const { withProvider, withContext } = createSlotRecipeContext(chip);
 const withStateProps = createWithStateProps([

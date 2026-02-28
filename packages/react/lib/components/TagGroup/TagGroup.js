@@ -1,6 +1,6 @@
 'use client';
 import { jsx, jsxs } from 'react/jsx-runtime';
-import { Primitive } from '@seed-design/react-primitive';
+import { Primitive } from '@grape-design/react-primitive';
 import { tagGroup } from '@grape-design/css/recipes/tag-group';
 import { tagGroupItem } from '@grape-design/css/recipes/tag-group-item';
 import { forwardRef, Children, Fragment } from 'react';

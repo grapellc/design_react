@@ -1,4 +1,4 @@
-import { ImageFrame, ImageFrameFloater } from "@seed-design/react";
+import { ImageFrame, ImageFrameFloater } from "@grape-design/react";
 
 export default function ImageFrameOverlayCustomExample() {
   return (

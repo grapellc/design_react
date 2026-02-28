@@ -1,7 +1,7 @@
 'use client';
 import { jsx } from 'react/jsx-runtime';
-import { Image } from '@seed-design/react-image';
-import { Primitive } from '@seed-design/react-primitive';
+import { Image } from '@grape-design/react-image';
+import { Primitive } from '@grape-design/react-primitive';
 import { avatar } from '@grape-design/css/recipes/avatar';
 import { avatarStack } from '@grape-design/css/recipes/avatar-stack';
 import clsx from 'clsx';

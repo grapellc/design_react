@@ -4,8 +4,8 @@
 Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
 
 const jsxRuntime = require('react/jsx-runtime');
-const reactPrimitive = require('@seed-design/react-primitive');
-const reactField = require('@seed-design/react-field');
+const reactPrimitive = require('@grape-design/react-primitive');
+const reactField = require('@grape-design/react-field');
 const React = require('react');
 const createSlotRecipeContext = require('../../utils/createSlotRecipeContext.cjs');
 const createWithStateProps = require('../../utils/createWithStateProps.cjs');

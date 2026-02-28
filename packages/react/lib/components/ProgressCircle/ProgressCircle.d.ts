@@ -1,4 +1,4 @@
-import { ProgressCircle as ProgressCirclePrimitive } from '@seed-design/react-progress';
+import { ProgressCircle as ProgressCirclePrimitive } from '@grape-design/react-progress';
 import { ProgressCircleVariantProps } from '@grape-design/css/recipes/progress-circle';
 import { ForwardRefExoticComponent, RefAttributes } from 'react';
 export interface ProgressCircleRootProps extends ProgressCirclePrimitive.RootProps, Omit<ProgressCircleVariantProps, "indeterminate"> {

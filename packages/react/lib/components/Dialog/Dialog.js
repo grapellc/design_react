@@ -1,6 +1,6 @@
 'use client';
-import { Dialog, useDialogContext } from '@seed-design/react-dialog';
-import { Primitive } from '@seed-design/react-primitive';
+import { Dialog, useDialogContext } from '@grape-design/react-dialog';
+import { Primitive } from '@grape-design/react-primitive';
 import { dialog } from '@grape-design/css/recipes/dialog';
 import { createSlotRecipeContext } from '../../utils/createSlotRecipeContext.js';
 import { createWithStateProps } from '../../utils/createWithStateProps.js';

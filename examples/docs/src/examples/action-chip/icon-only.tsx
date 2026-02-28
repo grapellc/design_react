@@ -1,7 +1,7 @@
 "use client";
 
 import { IconPlusFill } from "@karrotmarket/react-monochrome-icon";
-import { ActionChip, Icon } from "@seed-design/react";
+import { ActionChip, Icon } from "@grape-design/react";
 
 export default function ActionChipIconOnly() {
   return (

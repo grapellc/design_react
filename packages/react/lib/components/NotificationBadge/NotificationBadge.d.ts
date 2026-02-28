@@ -1,6 +1,6 @@
 import { NotificationBadgeVariantProps } from '@grape-design/css/recipes/notification-badge';
 import { NotificationBadgePositionerVariantProps } from '@grape-design/css/recipes/notification-badge-positioner';
-import { PrimitiveProps } from '@seed-design/react-primitive';
+import { PrimitiveProps } from '@grape-design/react-primitive';
 import * as React from "react";
 export interface NotificationBadgeProps extends NotificationBadgeVariantProps, PrimitiveProps, React.HTMLAttributes<HTMLSpanElement> {
 }

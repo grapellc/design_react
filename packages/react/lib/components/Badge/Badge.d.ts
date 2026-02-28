@@ -1,4 +1,4 @@
-import { PrimitiveProps } from '@seed-design/react-primitive';
+import { PrimitiveProps } from '@grape-design/react-primitive';
 import { BadgeVariantProps } from '@grape-design/css/recipes/badge';
 import type * as React from "react";
 export interface BadgeProps extends BadgeVariantProps, PrimitiveProps, React.HTMLAttributes<HTMLSpanElement> {

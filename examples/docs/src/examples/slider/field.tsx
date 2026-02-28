@@ -1,6 +1,6 @@
 "use client";
 
-import { Divider, VStack } from "@seed-design/react";
+import { Divider, VStack } from "@grape-design/react";
 import { Slider } from "seed-design/ui/slider";
 
 const markers = [

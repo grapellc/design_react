@@ -1,5 +1,5 @@
-import { PrimitiveProps } from '@seed-design/react-primitive';
-import { FieldButton } from '@seed-design/react-field-button';
+import { PrimitiveProps } from '@grape-design/react-primitive';
+import { FieldButton } from '@grape-design/react-field-button';
 import { FieldVariantProps } from '@grape-design/css/recipes/field';
 import { FieldLabelVariantProps } from '@grape-design/css/recipes/field-label';
 import { InternalIconProps } from '../private/Icon';

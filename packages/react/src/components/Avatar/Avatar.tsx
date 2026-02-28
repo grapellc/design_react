@@ -1,5 +1,5 @@
-import { Image } from "@seed-design/react-image";
-import { Primitive, type PrimitiveProps } from "@seed-design/react-primitive";
+import { Image } from "@grape-design/react-image";
+import { Primitive, type PrimitiveProps } from "@grape-design/react-primitive";
 import { avatar, type AvatarVariantProps } from "@grape-design/css/recipes/avatar";
 import { avatarStack, type AvatarStackVariantProps } from "@grape-design/css/recipes/avatar-stack";
 import clsx from "clsx";

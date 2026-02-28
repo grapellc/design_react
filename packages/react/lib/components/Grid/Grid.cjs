@@ -4,7 +4,7 @@
 Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
 
 const jsxRuntime = require('react/jsx-runtime');
-const domUtils = require('@seed-design/dom-utils');
+const domUtils = require('@grape-design/dom-utils');
 const React = require('react');
 const Box = require('../Box/Box.cjs');
 

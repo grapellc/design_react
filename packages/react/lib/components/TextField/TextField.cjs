@@ -5,9 +5,9 @@ Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
 
 const jsxRuntime = require('react/jsx-runtime');
 const reactUseLayoutEffect = require('@radix-ui/react-use-layout-effect');
-const reactPrimitive = require('@seed-design/react-primitive');
-const reactTextField = require('@seed-design/react-text-field');
-const reactField = require('@seed-design/react-field');
+const reactPrimitive = require('@grape-design/react-primitive');
+const reactTextField = require('@grape-design/react-text-field');
+const reactField = require('@grape-design/react-field');
 const textInput = require('@grape-design/css/recipes/text-input');
 const clsx = require('clsx');
 const React = require('react');
@@ -15,7 +15,7 @@ const createSlotRecipeContext = require('../../utils/createSlotRecipeContext.cjs
 const createWithStateProps = require('../../utils/createWithStateProps.cjs');
 const Icon = require('../private/Icon.cjs');
 const reactComposeRefs = require('@radix-ui/react-compose-refs');
-const domUtils = require('@seed-design/dom-utils');
+const domUtils = require('@grape-design/dom-utils');
 
 const { withProvider, withContext, useClassNames } = createSlotRecipeContext.createSlotRecipeContext(textInput.textInput);
 const withFieldStateProps = createWithStateProps.createWithStateProps([{ useContext: reactField.useFieldContext, strict: false }]);

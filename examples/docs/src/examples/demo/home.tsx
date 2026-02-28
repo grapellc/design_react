@@ -18,7 +18,7 @@ import {
   IconSquare2StackedFill,
   IconChevronDownFill,
 } from "@grape-design/icons";
-import { Flex, HStack, VStack, Icon, Box, Text, Badge, Portal } from "@seed-design/react";
+import { Flex, HStack, VStack, Icon, Box, Text, Badge, Portal } from "@grape-design/react";
 import { TagGroupRoot, TagGroupItem } from "seed-design/ui/tag-group";
 import { Chip } from "seed-design/ui/chip";
 import {
@@ -34,8 +34,8 @@ import { ARTICLES, CATEGORIES, type Article, type Category } from "./demo-data";
 import { Avatar } from "seed-design/ui/avatar";
 import { IdentityPlaceholder } from "seed-design/ui/identity-placeholder";
 import { formatDate } from "./utils/date";
-import { useActivityZIndexBase } from "@seed-design/stackflow";
-import { tabsCarouselPreventDrag } from "@seed-design/react";
+import { useActivityZIndexBase } from "@grape-design/stackflow";
+import { tabsCarouselPreventDrag } from "@grape-design/react";
 
 declare module "@stackflow/config" {
   interface Register {

@@ -1,6 +1,6 @@
 "use client";
 
-import { VStack } from "@seed-design/react";
+import { VStack } from "@grape-design/react";
 import { MannerTemp } from "seed-design/ui/manner-temp";
 
 export default function MannerTempPreview() {

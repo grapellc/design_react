@@ -1,6 +1,6 @@
 "use client";
 
-import { Box, VStack } from "@seed-design/react";
+import { Box, VStack } from "@grape-design/react";
 
 export default function BoxGradient() {
   return (

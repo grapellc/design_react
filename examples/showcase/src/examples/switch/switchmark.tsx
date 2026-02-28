@@ -1,5 +1,5 @@
-import { HStack, Text, VStack } from "@seed-design/react";
-import { Switch } from "@seed-design/react/primitive";
+import { HStack, Text, VStack } from "@grape-design/react";
+import { Switch } from "@grape-design/react/primitive";
 import { Switchmark } from "seed-design/ui/switch";
 
 function CustomSwitch({ children, ...props }: Switch.RootProps) {

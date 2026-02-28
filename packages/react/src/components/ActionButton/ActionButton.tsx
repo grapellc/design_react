@@ -2,7 +2,7 @@ import {
   actionButton,
   type ActionButtonVariantProps,
 } from "@grape-design/css/recipes/action-button";
-import { Primitive, type PrimitiveProps } from "@seed-design/react-primitive";
+import { Primitive, type PrimitiveProps } from "@grape-design/react-primitive";
 import clsx from "clsx";
 import * as React from "react";
 import { handleColor, useStyleProps, type StyleProps } from "../../utils/styled";

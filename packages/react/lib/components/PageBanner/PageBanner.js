@@ -2,7 +2,7 @@
 import { jsx } from 'react/jsx-runtime';
 import { forwardRef } from 'react';
 import { pageBanner } from '@grape-design/css/recipes/page-banner';
-import { Primitive } from '@seed-design/react-primitive';
+import { Primitive } from '@grape-design/react-primitive';
 import { createSlotRecipeContext } from '../../utils/createSlotRecipeContext.js';
 import { DismissibleCloseButton, DismissibleRoot } from '../private/useDismissible.js';
 import clsx from 'clsx';

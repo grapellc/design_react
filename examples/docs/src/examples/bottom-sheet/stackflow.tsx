@@ -1,6 +1,6 @@
 "use client";
 
-import { Divider, HStack, VStack } from "@seed-design/react";
+import { Divider, HStack, VStack } from "@grape-design/react";
 import { useActivity, useFlow, type StaticActivityComponentType } from "@stackflow/react/future";
 import { useRef, useState } from "react";
 import { ActionButton } from "seed-design/ui/action-button";
@@ -13,7 +13,7 @@ import {
 import { Checkbox } from "seed-design/ui/checkbox";
 import { TextField, TextFieldInput } from "seed-design/ui/text-field";
 import { Switch } from "seed-design/ui/switch";
-import { useActivityZIndexBase } from "@seed-design/stackflow";
+import { useActivityZIndexBase } from "@grape-design/stackflow";
 
 declare module "@stackflow/config" {
   interface Register {

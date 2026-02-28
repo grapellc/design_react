@@ -9,12 +9,12 @@ import {
   PrefixIcon,
   VisuallyHidden,
 } from "@grape-design/react";
-import type { FieldLabelVariantProps } from "@seed-design/css/recipes/field-label";
+import type { FieldLabelVariantProps } from "@grape-design/css/recipes/field-label";
 import * as React from "react";
 import {
   checkboxGroup,
   type CheckboxGroupVariantProps,
-} from "@seed-design/css/recipes/checkbox-group";
+} from "@grape-design/css/recipes/checkbox-group";
 
 export interface CheckboxGroupProps extends SeedFieldset.RootProps, CheckboxGroupVariantProps {
   label?: React.ReactNode;

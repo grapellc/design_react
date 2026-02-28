@@ -5,8 +5,8 @@ Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
 
 const jsxRuntime = require('react/jsx-runtime');
 const identityPlaceholder = require('@grape-design/css/recipes/identity-placeholder');
-const domUtils = require('@seed-design/dom-utils');
-const reactPrimitive = require('@seed-design/react-primitive');
+const domUtils = require('@grape-design/dom-utils');
+const reactPrimitive = require('@grape-design/react-primitive');
 const React = require('react');
 const createSlotRecipeContext = require('../../utils/createSlotRecipeContext.cjs');
 

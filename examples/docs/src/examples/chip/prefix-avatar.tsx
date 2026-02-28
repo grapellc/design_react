@@ -1,6 +1,6 @@
 "use client";
 
-import { HStack, VStack } from "@seed-design/react";
+import { HStack, VStack } from "@grape-design/react";
 import { Chip } from "seed-design/ui/chip";
 import { Avatar } from "seed-design/ui/avatar";
 import { IdentityPlaceholder } from "seed-design/ui/identity-placeholder";

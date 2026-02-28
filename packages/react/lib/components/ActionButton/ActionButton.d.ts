@@ -1,5 +1,5 @@
 import { ActionButtonVariantProps } from '@grape-design/css/recipes/action-button';
-import { PrimitiveProps } from '@seed-design/react-primitive';
+import { PrimitiveProps } from '@grape-design/react-primitive';
 import { StyleProps } from '../../utils/styled';
 import { UsePendingButtonProps } from '../LoadingIndicator/usePendingButton';
 import { ScopedColorFg, ScopedColorPalette, FontWeight } from '@grape-design/css/vars';

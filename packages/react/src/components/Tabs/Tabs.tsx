@@ -1,5 +1,5 @@
 import { tabs, type TabsVariantProps } from "@grape-design/css/recipes/tabs";
-import { Tabs as TabsPrimitive } from "@seed-design/react-tabs";
+import { Tabs as TabsPrimitive } from "@grape-design/react-tabs";
 import { createSlotRecipeContext } from "../../utils/createSlotRecipeContext";
 
 const { withProvider, withContext } = createSlotRecipeContext(tabs);

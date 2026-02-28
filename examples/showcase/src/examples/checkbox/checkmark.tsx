@@ -1,5 +1,5 @@
-import { HStack, Text, VStack } from "@seed-design/react";
-import { Checkbox } from "@seed-design/react/primitive";
+import { HStack, Text, VStack } from "@grape-design/react";
+import { Checkbox } from "@grape-design/react/primitive";
 import { Checkmark } from "seed-design/ui/checkbox";
 
 function CustomCheckbox({ children, ...props }: Checkbox.RootProps) {

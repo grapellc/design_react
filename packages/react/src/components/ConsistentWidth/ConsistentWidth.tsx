@@ -1,4 +1,4 @@
-import { Primitive, type PrimitiveProps } from "@seed-design/react-primitive";
+import { Primitive, type PrimitiveProps } from "@grape-design/react-primitive";
 import clsx from "clsx";
 import { forwardRef } from "react";
 

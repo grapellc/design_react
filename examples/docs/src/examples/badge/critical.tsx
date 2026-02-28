@@ -1,6 +1,6 @@
 "use client";
 
-import { Badge, HStack, VStack } from "@seed-design/react";
+import { Badge, HStack, VStack } from "@grape-design/react";
 
 export default function BadgeCritical() {
   return (

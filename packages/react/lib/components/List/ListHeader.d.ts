@@ -1,5 +1,5 @@
 import { ListHeaderVariantProps } from '@grape-design/css/recipes/list-header';
-import { PrimitiveProps } from '@seed-design/react-primitive';
+import { PrimitiveProps } from '@grape-design/react-primitive';
 import { ForwardRefExoticComponent, RefAttributes } from 'react';
 export interface ListHeaderProps extends PrimitiveProps, React.HTMLAttributes<HTMLDivElement>, ListHeaderVariantProps {
     /**

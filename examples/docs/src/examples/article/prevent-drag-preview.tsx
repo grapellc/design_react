@@ -1,6 +1,6 @@
 "use client";
 
-import { VStack, Icon, Text, Article, Divider, Tabs } from "@seed-design/react";
+import { VStack, Icon, Text, Article, Divider, Tabs } from "@grape-design/react";
 import { TabsCarousel, TabsContent, TabsList, TabsRoot, TabsTrigger } from "seed-design/ui/tabs";
 import { IconExclamationmarkCircleFill } from "@karrotmarket/react-monochrome-icon";
 import { PageBanner } from "seed-design/ui/page-banner";

@@ -1,8 +1,8 @@
 import { RadioVariantProps } from '@grape-design/css/recipes/radio';
 import { RadioGroupVariantProps } from '@grape-design/css/recipes/radio-group';
 import { RadiomarkVariantProps } from '@grape-design/css/recipes/radiomark';
-import { RadioGroup as RadioGroupPrimitive } from '@seed-design/react-radio-group';
-import { PrimitiveProps } from '@seed-design/react-primitive';
+import { RadioGroup as RadioGroupPrimitive } from '@grape-design/react-radio-group';
+import { PrimitiveProps } from '@grape-design/react-primitive';
 import { ForwardRefExoticComponent, RefAttributes } from 'react';
 export interface RadioGroupRootProps extends RadioGroupVariantProps, PrimitiveProps, React.HTMLAttributes<HTMLDivElement> {
 }

@@ -1,5 +1,5 @@
 import { IconDiamond, IconIcecreamcone } from "@karrotmarket/react-multicolor-icon";
-import { VStack } from "@seed-design/react";
+import { VStack } from "@grape-design/react";
 import {
   CheckSelectBox,
   CheckSelectBoxCheckmark,

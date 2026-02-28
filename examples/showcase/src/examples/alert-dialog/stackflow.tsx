@@ -1,4 +1,4 @@
-import { useActivityZIndexBase } from "@seed-design/stackflow";
+import { useActivityZIndexBase } from "@grape-design/stackflow";
 import { ActivityComponentType, useFlow } from "@stackflow/react/future";
 import {
   AlertDialogAction,

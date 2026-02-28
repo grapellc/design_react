@@ -1,5 +1,5 @@
 import { FloatingActionButtonVariantProps } from '@grape-design/css/recipes/floating-action-button';
-import { PrimitiveProps } from '@seed-design/react-primitive';
+import { PrimitiveProps } from '@grape-design/react-primitive';
 import { InternalIconProps } from '../private/Icon';
 import type * as React from "react";
 export interface FloatingActionButtonRootProps extends FloatingActionButtonVariantProps, PrimitiveProps, React.ButtonHTMLAttributes<HTMLButtonElement> {

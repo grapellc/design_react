@@ -2,8 +2,8 @@
 import { jsx } from 'react/jsx-runtime';
 import { field } from '@grape-design/css/recipes/field';
 import { fieldLabel } from '@grape-design/css/recipes/field-label';
-import { Primitive } from '@seed-design/react-primitive';
-import { RadioGroup } from '@seed-design/react-radio-group';
+import { Primitive } from '@grape-design/react-primitive';
+import { RadioGroup } from '@grape-design/react-radio-group';
 import { forwardRef } from 'react';
 import clsx from 'clsx';
 import { createSlotRecipeContext } from '../../utils/createSlotRecipeContext.js';

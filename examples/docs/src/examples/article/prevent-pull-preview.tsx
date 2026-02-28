@@ -7,7 +7,7 @@ import {
   Article,
   Divider,
   PullToRefresh,
-} from "@seed-design/react";
+} from "@grape-design/react";
 import {
   PullToRefreshContent,
   PullToRefreshIndicator,

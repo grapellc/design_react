@@ -1,5 +1,5 @@
 import { MannerTempVariantProps } from '@grape-design/css/recipes/manner-temp';
-import { PrimitiveProps } from '@seed-design/react-primitive';
+import { PrimitiveProps } from '@grape-design/react-primitive';
 import type * as React from "react";
 export interface MannerTempProps extends MannerTempVariantProps, PrimitiveProps, React.HTMLAttributes<HTMLSpanElement> {
 }

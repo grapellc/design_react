@@ -1,7 +1,7 @@
 'use client';
 import { jsx } from 'react/jsx-runtime';
-import { Popover, usePopoverContext } from '@seed-design/react-popover';
-import { Primitive } from '@seed-design/react-primitive';
+import { Popover, usePopoverContext } from '@grape-design/react-popover';
+import { Primitive } from '@grape-design/react-primitive';
 import { helpBubble } from '@grape-design/css/recipes/help-bubble';
 import { forwardRef } from 'react';
 import { createSlotRecipeContext } from '../../utils/createSlotRecipeContext.js';

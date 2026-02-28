@@ -1,4 +1,4 @@
-import { HStack } from "@seed-design/react";
+import { HStack } from "@grape-design/react";
 import { ActionButton } from "seed-design/ui/action-button";
 import {
   BottomSheetBody,

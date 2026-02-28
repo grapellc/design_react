@@ -1,7 +1,7 @@
 'use client';
 import { jsx } from 'react/jsx-runtime';
 import { reactionButton } from '@grape-design/css/recipes/reaction-button';
-import { Toggle } from '@seed-design/react-toggle';
+import { Toggle } from '@grape-design/react-toggle';
 import clsx from 'clsx';
 import * as React from 'react';
 import { usePendingButton, PendingButtonProvider } from '../LoadingIndicator/usePendingButton.js';

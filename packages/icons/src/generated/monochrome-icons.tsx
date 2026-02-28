@@ -7,7 +7,7 @@ function InlineSvgIcon({ name, size, svg, ...rest }: InlineSvgIconProps) {
   const sizeStyle = size != null ? size : CONTEXTUAL_ICON_SIZE;
   return (
     <span
-      style={{ width: sizeStyle, height: sizeStyle, display: "inline-flex", color: "inherit" }}
+      style={{ width: sizeStyle, height: sizeStyle, display: "inline-flex" }}
       {...rest}
     >
       <span style={{ width: "100%", height: "100%" }} dangerouslySetInnerHTML={{ __html: svg }} />

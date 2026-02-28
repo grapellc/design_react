@@ -17,13 +17,16 @@
     },
     "./package.json": "./package.json"
   },
-  "files": ["lib", "src"],
+  "files": [
+    "lib",
+    "src"
+  ],
   "scripts": {
     "build": "tsc",
     "clean": "rm -rf lib"
   },
   "dependencies": {
-    "@seed-design/css": ">=1.1.17"
+    "@grape-design/css": "workspace:*"
   },
   "peerDependencies": {},
   "devDependencies": {

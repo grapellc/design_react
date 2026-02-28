@@ -1,4 +1,4 @@
-import { PrimitiveProps } from '@seed-design/react-primitive';
+import { PrimitiveProps } from '@grape-design/react-primitive';
 import { CalloutVariantProps } from '@grape-design/css/recipes/callout';
 import { DismissibleRootProps } from '../private/useDismissible';
 import type * as React from "react";

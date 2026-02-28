@@ -1,7 +1,7 @@
 import { SelectBoxVariantProps } from '@grape-design/css/recipes/select-box';
 import { SelectBoxGroupVariantProps } from '@grape-design/css/recipes/select-box-group';
-import { PrimitiveProps } from '@seed-design/react-primitive';
-import { RadioGroup as RadioGroupPrimitive } from '@seed-design/react-radio-group';
+import { PrimitiveProps } from '@grape-design/react-primitive';
+import { RadioGroup as RadioGroupPrimitive } from '@grape-design/react-radio-group';
 import { ForwardRefExoticComponent, RefAttributes } from 'react';
 export interface RadioSelectBoxGroupProps extends SelectBoxGroupVariantProps, PrimitiveProps, React.HTMLAttributes<HTMLDivElement> {
     /**

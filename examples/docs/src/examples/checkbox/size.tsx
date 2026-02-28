@@ -1,6 +1,6 @@
 "use client";
 
-import { HStack } from "@seed-design/react";
+import { HStack } from "@grape-design/react";
 import { Checkbox, CheckboxGroup } from "seed-design/ui/checkbox";
 
 export default function CheckboxSize() {

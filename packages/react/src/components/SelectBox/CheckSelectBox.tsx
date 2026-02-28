@@ -8,14 +8,14 @@ import {
   selectBoxGroup,
   type SelectBoxGroupVariantProps,
 } from "@grape-design/css/recipes/select-box-group";
-import { Checkbox as CheckboxPrimitive, useCheckboxContext } from "@seed-design/react-checkbox";
+import { Checkbox as CheckboxPrimitive, useCheckboxContext } from "@grape-design/react-checkbox";
 import {
   Collapsible,
   CollapsibleProvider,
   useCollapsible,
   useCollapsibleContext,
-} from "@seed-design/react-collapsible";
-import { Primitive, type PrimitiveProps } from "@seed-design/react-primitive";
+} from "@grape-design/react-collapsible";
+import { Primitive, type PrimitiveProps } from "@grape-design/react-primitive";
 import clsx from "clsx";
 import {
   createContext,

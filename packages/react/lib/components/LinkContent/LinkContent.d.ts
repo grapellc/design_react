@@ -1,5 +1,5 @@
 import { LinkContentVariantProps } from '@grape-design/css/recipes/link-content';
-import { PrimitiveProps } from '@seed-design/react-primitive';
+import { PrimitiveProps } from '@grape-design/react-primitive';
 import { StyleProps } from '../../utils/styled';
 import type * as React from "react";
 /**

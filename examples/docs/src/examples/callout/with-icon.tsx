@@ -1,7 +1,7 @@
 "use client";
 
 import { IconCalendarFill } from "@karrotmarket/react-monochrome-icon";
-import { VStack } from "@seed-design/react";
+import { VStack } from "@grape-design/react";
 import { ActionableCallout, Callout, DismissibleCallout } from "seed-design/ui/callout";
 
 export default function CalloutWithIcon() {

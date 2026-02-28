@@ -1,5 +1,5 @@
-import { Popover as PopoverPrimitive } from '@seed-design/react-popover';
-import { PrimitiveProps } from '@seed-design/react-primitive';
+import { Popover as PopoverPrimitive } from '@grape-design/react-popover';
+import { PrimitiveProps } from '@grape-design/react-primitive';
 import { HelpBubbleVariantProps } from '@grape-design/css/recipes/help-bubble';
 import { StyleProps } from '../../utils/styled';
 import { ForwardRefExoticComponent, RefAttributes } from 'react';

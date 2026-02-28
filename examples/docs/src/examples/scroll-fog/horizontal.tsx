@@ -1,6 +1,6 @@
 "use client";
 
-import { HStack, ScrollFog } from "@seed-design/react";
+import { HStack, ScrollFog } from "@grape-design/react";
 
 export default function ScrollFogHorizontal() {
   return (

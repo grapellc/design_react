@@ -4,8 +4,8 @@
 Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
 
 const jsxRuntime = require('react/jsx-runtime');
-const reactImage = require('@seed-design/react-image');
-const reactPrimitive = require('@seed-design/react-primitive');
+const reactImage = require('@grape-design/react-image');
+const reactPrimitive = require('@grape-design/react-primitive');
 const avatar = require('@grape-design/css/recipes/avatar');
 const avatarStack = require('@grape-design/css/recipes/avatar-stack');
 const clsx = require('clsx');

@@ -1,7 +1,7 @@
 import { FieldVariantProps } from '@grape-design/css/recipes/field';
 import { FieldLabelVariantProps } from '@grape-design/css/recipes/field-label';
-import { PrimitiveProps } from '@seed-design/react-primitive';
-import { RadioGroup as RadioGroupPrimitive } from '@seed-design/react-radio-group';
+import { PrimitiveProps } from '@grape-design/react-primitive';
+import { RadioGroup as RadioGroupPrimitive } from '@grape-design/react-radio-group';
 import type * as React from "react";
 export interface RadioGroupFieldRootProps extends FieldVariantProps, RadioGroupPrimitive.RootProps {
 }

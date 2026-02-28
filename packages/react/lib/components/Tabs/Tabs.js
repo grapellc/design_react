@@ -1,6 +1,6 @@
 'use client';
 import { tabs } from '@grape-design/css/recipes/tabs';
-import { Tabs } from '@seed-design/react-tabs';
+import { Tabs } from '@grape-design/react-tabs';
 import { createSlotRecipeContext } from '../../utils/createSlotRecipeContext.js';
 
 const { withProvider, withContext } = createSlotRecipeContext(tabs);

@@ -2,7 +2,7 @@
 
 Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
 
-const reactPortal = require('@seed-design/react-portal');
+const reactPortal = require('@grape-design/react-portal');
 
 
 

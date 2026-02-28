@@ -4,7 +4,7 @@
 Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
 
 const jsxRuntime = require('react/jsx-runtime');
-const reactPrimitive = require('@seed-design/react-primitive');
+const reactPrimitive = require('@grape-design/react-primitive');
 const tagGroup = require('@grape-design/css/recipes/tag-group');
 const tagGroupItem = require('@grape-design/css/recipes/tag-group-item');
 const React = require('react');

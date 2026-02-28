@@ -1,4 +1,4 @@
-import { VStack, HStack, Text } from "@seed-design/react";
+import { VStack, HStack, Text } from "@grape-design/react";
 
 export default function TailwindSpacing() {
   return (

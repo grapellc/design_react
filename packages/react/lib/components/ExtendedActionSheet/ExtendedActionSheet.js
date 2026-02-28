@@ -1,6 +1,6 @@
 'use client';
-import { Dialog, useDialogContext } from '@seed-design/react-dialog';
-import { Primitive } from '@seed-design/react-primitive';
+import { Dialog, useDialogContext } from '@grape-design/react-dialog';
+import { Primitive } from '@grape-design/react-primitive';
 import { extendedActionSheet } from '@grape-design/css/recipes/extended-action-sheet';
 import { extendedActionSheetItem } from '@grape-design/css/recipes/extended-action-sheet-item';
 import { createRecipeContext } from '../../utils/createRecipeContext.js';

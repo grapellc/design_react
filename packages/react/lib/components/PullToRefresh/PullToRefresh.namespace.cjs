@@ -3,7 +3,7 @@
 Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
 
 const PullToRefresh = require('./PullToRefresh.cjs');
-const reactPullToRefresh = require('@seed-design/react-pull-to-refresh');
+const reactPullToRefresh = require('@grape-design/react-pull-to-refresh');
 
 
 

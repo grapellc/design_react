@@ -1,6 +1,6 @@
 "use client";
 
-import { VStack } from "@seed-design/react";
+import { VStack } from "@grape-design/react";
 import { TagGroupRoot, TagGroupItem } from "seed-design/ui/tag-group";
 
 export default function TagGroupWeights() {

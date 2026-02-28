@@ -1,7 +1,7 @@
 "use client";
 
 import { IconPlusFill } from "@karrotmarket/react-monochrome-icon";
-import { PrefixIcon } from "@seed-design/react";
+import { PrefixIcon } from "@grape-design/react";
 import { ControlChip } from "seed-design/ui/control-chip";
 
 export default function ControlChipPrefixIcon() {

@@ -1,8 +1,8 @@
 "use client";
 
 import { ActionButton } from "seed-design/ui/action-button";
-import { actionButtonVariantMap } from "@seed-design/css/recipes/action-button";
-import { Text, VStack } from "@seed-design/react";
+import { actionButtonVariantMap } from "@grape-design/css/recipes/action-button";
+import { Text, VStack } from "@grape-design/react";
 
 function Demo() {
   return (

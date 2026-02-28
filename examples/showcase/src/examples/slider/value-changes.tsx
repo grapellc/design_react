@@ -1,4 +1,4 @@
-import { VStack, Text, HStack } from "@seed-design/react";
+import { VStack, Text, HStack } from "@grape-design/react";
 import { Slider } from "seed-design/ui/slider";
 import { useState } from "react";
 

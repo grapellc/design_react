@@ -1,9 +1,9 @@
 import { checkbox, type CheckboxVariantProps } from "@grape-design/css/recipes/checkbox";
 import { checkmark, type CheckmarkVariantProps } from "@grape-design/css/recipes/checkmark";
 import { splitMultipleVariantsProps } from "../../utils/splitMultipleVariantsProps";
-import { mergeProps } from "@seed-design/dom-utils";
-import { Checkbox as CheckboxPrimitive, useCheckboxContext } from "@seed-design/react-checkbox";
-import { Primitive, type PrimitiveProps } from "@seed-design/react-primitive";
+import { mergeProps } from "@grape-design/dom-utils";
+import { Checkbox as CheckboxPrimitive, useCheckboxContext } from "@grape-design/react-checkbox";
+import { Primitive, type PrimitiveProps } from "@grape-design/react-primitive";
 import clsx from "clsx";
 import { forwardRef } from "react";
 import { createSlotRecipeContext } from "../../utils/createSlotRecipeContext";

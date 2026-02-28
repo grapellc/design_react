@@ -3,8 +3,8 @@
 
 Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
 
-const reactDialog = require('@seed-design/react-dialog');
-const reactPrimitive = require('@seed-design/react-primitive');
+const reactDialog = require('@grape-design/react-dialog');
+const reactPrimitive = require('@grape-design/react-primitive');
 const extendedActionSheet = require('@grape-design/css/recipes/extended-action-sheet');
 const extendedActionSheetItem = require('@grape-design/css/recipes/extended-action-sheet-item');
 const createRecipeContext = require('../../utils/createRecipeContext.cjs');

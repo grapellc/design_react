@@ -1,8 +1,8 @@
 import { snackbar, type SnackbarVariantProps } from "@grape-design/css/recipes/snackbar";
 import { snackbarRegion } from "@grape-design/css/recipes/snackbar-region";
-import { visuallyHidden } from "@seed-design/dom-utils";
-import { Primitive, type PrimitiveProps } from "@seed-design/react-primitive";
-import { Snackbar as SnackbarPrimitive } from "@seed-design/react-snackbar";
+import { visuallyHidden } from "@grape-design/dom-utils";
+import { Primitive, type PrimitiveProps } from "@grape-design/react-primitive";
+import { Snackbar as SnackbarPrimitive } from "@grape-design/react-snackbar";
 import { forwardRef } from "react";
 import { createRecipeContext } from "../../utils/createRecipeContext";
 import { createSlotRecipeContext } from "../../utils/createSlotRecipeContext";

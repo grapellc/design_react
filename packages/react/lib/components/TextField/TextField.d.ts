@@ -1,5 +1,5 @@
-import { PrimitiveProps } from '@seed-design/react-primitive';
-import { TextField } from '@seed-design/react-text-field';
+import { PrimitiveProps } from '@grape-design/react-primitive';
+import { TextField } from '@grape-design/react-text-field';
 import { TextInputVariantProps } from '@grape-design/css/recipes/text-input';
 import { InternalIconProps } from '../private/Icon';
 import type * as React from "react";

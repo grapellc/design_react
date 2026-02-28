@@ -1,7 +1,7 @@
 "use client";
 
 import dynamic from "next/dynamic";
-import { VStack, Box } from "@seed-design/react";
+import { VStack, Box } from "@grape-design/react";
 import { ResultSection } from "seed-design/ui/result-section";
 import { useTheme } from "@/hooks/useTheme";
 

@@ -1,4 +1,4 @@
-import { PrimitiveProps } from '@seed-design/react-primitive';
+import { PrimitiveProps } from '@grape-design/react-primitive';
 import { TagGroupVariantProps } from '@grape-design/css/recipes/tag-group';
 import { TagGroupItemVariantProps } from '@grape-design/css/recipes/tag-group-item';
 import { StyleProps } from '../../utils/styled';

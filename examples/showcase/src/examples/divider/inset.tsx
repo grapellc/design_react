@@ -1,4 +1,4 @@
-import { Box, Divider, HStack, VStack } from "@seed-design/react";
+import { Box, Divider, HStack, VStack } from "@grape-design/react";
 
 export default function DividerInset() {
   return (

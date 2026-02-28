@@ -1,5 +1,5 @@
 import { IconEyeSlashLine } from "@karrotmarket/react-monochrome-icon";
-import { PrefixIcon } from "@seed-design/react";
+import { PrefixIcon } from "@grape-design/react";
 import { ActionButton } from "seed-design/ui/action-button";
 import {
   ExtendedActionSheetContent,

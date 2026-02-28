@@ -5,7 +5,7 @@ Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
 
 const jsxRuntime = require('react/jsx-runtime');
 const chipTabs = require('@grape-design/css/recipes/chip-tabs');
-const reactTabs = require('@seed-design/react-tabs');
+const reactTabs = require('@grape-design/react-tabs');
 const createSlotRecipeContext = require('../../utils/createSlotRecipeContext.cjs');
 const React = require('react');
 const clsx = require('clsx');

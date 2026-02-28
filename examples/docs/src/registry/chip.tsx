@@ -2,7 +2,7 @@
 
 import { Chip as SeedChip } from "@grape-design/react";
 import { Checkbox, RadioGroup } from "@grape-design/react/primitive";
-import { chip } from "@seed-design/css/recipes/chip";
+import { chip } from "@grape-design/css/recipes/chip";
 import * as React from "react";
 
 // Create a base props interface that doesn't include DOM attributes to avoid conflicts

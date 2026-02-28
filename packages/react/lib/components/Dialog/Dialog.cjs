@@ -3,8 +3,8 @@
 
 Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
 
-const reactDialog = require('@seed-design/react-dialog');
-const reactPrimitive = require('@seed-design/react-primitive');
+const reactDialog = require('@grape-design/react-dialog');
+const reactPrimitive = require('@grape-design/react-primitive');
 const dialog = require('@grape-design/css/recipes/dialog');
 const createSlotRecipeContext = require('../../utils/createSlotRecipeContext.cjs');
 const createWithStateProps = require('../../utils/createWithStateProps.cjs');

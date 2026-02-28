@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useCallback } from "react";
-import { Box, HStack, VStack } from "@seed-design/react";
+import { Box, HStack, VStack } from "@grape-design/react";
 import { useFieldArray, useForm } from "react-hook-form";
 import { FieldButton, FieldButtonValue, FieldButtonPlaceholder } from "seed-design/ui/field-button";
 import { ActionButton } from "seed-design/ui/action-button";
@@ -12,7 +12,7 @@ import {
   BottomSheetFooter,
 } from "seed-design/ui/bottom-sheet";
 import { TextField, TextFieldInput } from "seed-design/ui/text-field";
-import { Portal } from "@seed-design/react";
+import { Portal } from "@grape-design/react";
 
 interface ProductFormData {
   tags: { value: string }[];

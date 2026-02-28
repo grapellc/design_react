@@ -2,9 +2,9 @@
 import { jsx } from 'react/jsx-runtime';
 import { snackbar } from '@grape-design/css/recipes/snackbar';
 import { snackbarRegion } from '@grape-design/css/recipes/snackbar-region';
-import { visuallyHidden } from '@seed-design/dom-utils';
-import { Primitive } from '@seed-design/react-primitive';
-import { Snackbar } from '@seed-design/react-snackbar';
+import { visuallyHidden } from '@grape-design/dom-utils';
+import { Primitive } from '@grape-design/react-primitive';
+import { Snackbar } from '@grape-design/react-snackbar';
 import { forwardRef } from 'react';
 import { createRecipeContext } from '../../utils/createRecipeContext.js';
 import { createSlotRecipeContext } from '../../utils/createSlotRecipeContext.js';

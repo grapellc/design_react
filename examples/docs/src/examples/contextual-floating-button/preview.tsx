@@ -1,7 +1,7 @@
 "use client";
 
 import { IconBellFill } from "@karrotmarket/react-monochrome-icon";
-import { PrefixIcon } from "@seed-design/react";
+import { PrefixIcon } from "@grape-design/react";
 import { ContextualFloatingButton } from "seed-design/ui/contextual-floating-button";
 
 export default function ContextualFloatingButtonPreview() {

@@ -1,4 +1,4 @@
-import { VStack, Text } from "@seed-design/react";
+import { VStack, Text } from "@grape-design/react";
 
 export default function TailwindGradient() {
   return (

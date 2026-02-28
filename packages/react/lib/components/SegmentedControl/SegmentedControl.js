@@ -1,7 +1,7 @@
 'use client';
 import { segmentedControl } from '@grape-design/css/recipes/segmented-control';
-import { Primitive } from '@seed-design/react-primitive';
-import { SegmentedControl } from '@seed-design/react-segmented-control';
+import { Primitive } from '@grape-design/react-primitive';
+import { SegmentedControl } from '@grape-design/react-segmented-control';
 import { createSlotRecipeContext } from '../../utils/createSlotRecipeContext.js';
 
 const { withProvider, withContext } = createSlotRecipeContext(segmentedControl);

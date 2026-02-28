@@ -1,5 +1,5 @@
-import { PrefixIcon, ResponsivePair } from "@seed-design/react";
-import { IconCheckFill } from "@seed-design/react-icon";
+import { PrefixIcon, ResponsivePair } from "@grape-design/react";
+import { IconCheckFill } from "@grape-design/react-icon";
 import { ActionButton } from "seed-design/ui/action-button";
 import {
   AlertDialogAction,

@@ -1,9 +1,9 @@
 'use client';
 import { jsx } from 'react/jsx-runtime';
 import { useLayoutEffect } from '@radix-ui/react-use-layout-effect';
-import { Primitive } from '@seed-design/react-primitive';
-import { useTextFieldContext, TextField } from '@seed-design/react-text-field';
-import { useFieldContext } from '@seed-design/react-field';
+import { Primitive } from '@grape-design/react-primitive';
+import { useTextFieldContext, TextField } from '@grape-design/react-text-field';
+import { useFieldContext } from '@grape-design/react-field';
 import { textInput } from '@grape-design/css/recipes/text-input';
 import clsx from 'clsx';
 import { forwardRef, useRef, useCallback } from 'react';
@@ -11,7 +11,7 @@ import { createSlotRecipeContext } from '../../utils/createSlotRecipeContext.js'
 import { createWithStateProps } from '../../utils/createWithStateProps.js';
 import { InternalIcon } from '../private/Icon.js';
 import { composeRefs } from '@radix-ui/react-compose-refs';
-import { mergeProps } from '@seed-design/dom-utils';
+import { mergeProps } from '@grape-design/dom-utils';
 
 const { withProvider, withContext, useClassNames } = createSlotRecipeContext(textInput);
 const withFieldStateProps = createWithStateProps([{ useContext: useFieldContext, strict: false }]);

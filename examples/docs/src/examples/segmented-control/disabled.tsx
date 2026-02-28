@@ -1,6 +1,6 @@
 "use client";
 
-import { VStack } from "@seed-design/react";
+import { VStack } from "@grape-design/react";
 import { SegmentedControl, SegmentedControlItem } from "seed-design/ui/segmented-control";
 
 export default function SegmentedControlPreview() {

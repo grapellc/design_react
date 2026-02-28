@@ -1,4 +1,4 @@
-import { Box, Tabs } from "@seed-design/react";
+import { Box, Tabs } from "@grape-design/react";
 import { TabsCarousel, TabsContent, TabsList, TabsRoot, TabsTrigger } from "seed-design/ui/tabs";
 
 export default function TabsCarouselPreventDrag() {

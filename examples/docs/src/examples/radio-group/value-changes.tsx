@@ -1,6 +1,6 @@
 "use client";
 
-import { VStack, Text } from "@seed-design/react";
+import { VStack, Text } from "@grape-design/react";
 import { RadioGroup, RadioGroupItem } from "seed-design/ui/radio-group";
 import { useState } from "react";
 

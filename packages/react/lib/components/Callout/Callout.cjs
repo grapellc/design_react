@@ -3,7 +3,7 @@
 
 Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
 
-const reactPrimitive = require('@seed-design/react-primitive');
+const reactPrimitive = require('@grape-design/react-primitive');
 const callout = require('@grape-design/css/recipes/callout');
 const createSlotRecipeContext = require('../../utils/createSlotRecipeContext.cjs');
 const useDismissible = require('../private/useDismissible.cjs');

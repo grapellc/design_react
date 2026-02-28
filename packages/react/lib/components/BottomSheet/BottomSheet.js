@@ -1,9 +1,9 @@
 'use client';
 import { jsx } from 'react/jsx-runtime';
 import { bottomSheet } from '@grape-design/css/recipes/bottom-sheet';
-import { dataAttr } from '@seed-design/dom-utils';
-import { Drawer, useDrawerContext } from '@seed-design/react-drawer';
-import { Primitive } from '@seed-design/react-primitive';
+import { dataAttr } from '@grape-design/dom-utils';
+import { Drawer, useDrawerContext } from '@grape-design/react-drawer';
+import { Primitive } from '@grape-design/react-primitive';
 import { forwardRef } from 'react';
 import { createSlotRecipeContext } from '../../utils/createSlotRecipeContext.js';
 import { withStyleProps } from '../../utils/styled.js';

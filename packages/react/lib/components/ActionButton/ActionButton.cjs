@@ -5,7 +5,7 @@ Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
 
 const jsxRuntime = require('react/jsx-runtime');
 const actionButton = require('@grape-design/css/recipes/action-button');
-const reactPrimitive = require('@seed-design/react-primitive');
+const reactPrimitive = require('@grape-design/react-primitive');
 const clsx = require('clsx');
 const React = require('react');
 const styled = require('../../utils/styled.cjs');

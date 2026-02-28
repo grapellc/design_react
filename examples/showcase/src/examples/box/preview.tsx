@@ -1,4 +1,4 @@
-import { Box } from "@seed-design/react";
+import { Box } from "@grape-design/react";
 
 export default function BoxPreview() {
   return (

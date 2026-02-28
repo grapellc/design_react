@@ -1,0 +1,49 @@
+{
+  "name": "@grape-design/react-dialog",
+  "version": "1.0.2",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daangn/seed-design.git",
+    "directory": "packages/react-headless/dialog"
+  },
+  "sideEffects": false,
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./lib/index.d.ts",
+      "import": "./lib/index.js",
+      "require": "./lib/index.cjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "main": "./lib/index.cjs",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "scripts": {
+    "clean": "rm -rf lib",
+    "build": "bunchee",
+    "lint:publish": "bun publint"
+  },
+  "dependencies": {
+    "@radix-ui/react-dismissable-layer": "^1.1.7",
+    "@radix-ui/react-focus-scope": "^1.1.4",
+    "@grape-design/react-use-controllable-state": "workspace:*",
+    "@radix-ui/react-use-layout-effect": "^1.1.1",
+    "@grape-design/dom-utils": "workspace:*",
+    "@grape-design/react-primitive": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.6",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

@@ -1,4 +1,4 @@
-import { AspectRatio, Box, HStack } from "@seed-design/react";
+import { AspectRatio, Box, HStack } from "@grape-design/react";
 
 export default function AspectRatioRatio() {
   return (

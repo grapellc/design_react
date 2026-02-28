@@ -1,4 +1,4 @@
-import { Primitive, type PrimitiveProps } from "@seed-design/react-primitive";
+import { Primitive, type PrimitiveProps } from "@grape-design/react-primitive";
 import { badge, type BadgeVariantProps } from "@grape-design/css/recipes/badge";
 import type * as React from "react";
 import { forwardRef } from "react";

@@ -1,6 +1,6 @@
 import { SegmentedControlVariantProps } from '@grape-design/css/recipes/segmented-control';
-import { PrimitiveProps } from '@seed-design/react-primitive';
-import { SegmentedControl as SegmentedControlPrimitive } from '@seed-design/react-segmented-control';
+import { PrimitiveProps } from '@grape-design/react-primitive';
+import { SegmentedControl as SegmentedControlPrimitive } from '@grape-design/react-segmented-control';
 import { ForwardRefExoticComponent, RefAttributes } from 'react';
 export interface SegmentedControlRootProps extends SegmentedControlVariantProps, SegmentedControlPrimitive.RootProps {
 }

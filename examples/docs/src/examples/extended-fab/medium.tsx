@@ -1,7 +1,7 @@
 "use client";
 
 import { IconBellFill } from "@karrotmarket/react-monochrome-icon";
-import { ExtendedFab, PrefixIcon } from "@seed-design/react";
+import { ExtendedFab, PrefixIcon } from "@grape-design/react";
 
 export default function ExtendedFabMedium() {
   return (

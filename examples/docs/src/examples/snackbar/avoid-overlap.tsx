@@ -1,6 +1,6 @@
 "use client";
 
-import { Flex, VStack } from "@seed-design/react";
+import { Flex, VStack } from "@grape-design/react";
 import { ActionButton } from "seed-design/ui/action-button";
 import {
   Snackbar,

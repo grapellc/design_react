@@ -1,5 +1,5 @@
 import { ActionChipVariantProps } from '@grape-design/css/recipes/action-chip';
-import { PrimitiveProps } from '@seed-design/react-primitive';
+import { PrimitiveProps } from '@grape-design/react-primitive';
 import type * as React from "react";
 /**
  * @deprecated ActionChip is deprecated. Use Chip.Button with variant="solid" instead.

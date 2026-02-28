@@ -6,7 +6,7 @@ Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
 const jsxRuntime = require('react/jsx-runtime');
 const notificationBadge = require('@grape-design/css/recipes/notification-badge');
 const notificationBadgePositioner = require('@grape-design/css/recipes/notification-badge-positioner');
-const reactPrimitive = require('@seed-design/react-primitive');
+const reactPrimitive = require('@grape-design/react-primitive');
 const clsx = require('clsx');
 const React = require('react');
 const createRecipeContext = require('../../utils/createRecipeContext.cjs');

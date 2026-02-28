@@ -1,6 +1,6 @@
 'use client';
 import { actionChip } from '@grape-design/css/recipes/action-chip';
-import { Primitive } from '@seed-design/react-primitive';
+import { Primitive } from '@grape-design/react-primitive';
 import { createRecipeContext } from '../../utils/createRecipeContext.js';
 import { withIconRequired } from '../Icon/Icon.js';
 

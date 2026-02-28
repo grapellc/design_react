@@ -1,4 +1,4 @@
-import { Article, Divider, VStack, Text } from "@seed-design/react";
+import { Article, Divider, VStack, Text } from "@grape-design/react";
 
 export default function ArticleAs() {
   return (

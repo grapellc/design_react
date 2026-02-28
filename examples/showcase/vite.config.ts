@@ -15,6 +15,7 @@ export default defineConfig({
         replacement: "@grape-design/icons/monochrome/$1",
       },
       { find: "@karrotmarket/react-multicolor-icon", replacement: "@grape-design/icons/multicolor" },
+      { find: "@grape-design/react-icon", replacement: "@grape-design/icons/react-icon" },
     ],
   },
   server: {

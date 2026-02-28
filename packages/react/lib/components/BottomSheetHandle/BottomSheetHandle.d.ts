@@ -1,4 +1,4 @@
-import { PrimitiveProps } from '@seed-design/react-primitive';
+import { PrimitiveProps } from '@grape-design/react-primitive';
 import { default as React } from 'react';
 export interface BottomSheetHandleProps extends PrimitiveProps, React.HTMLAttributes<HTMLDivElement> {
 }

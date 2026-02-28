@@ -1,8 +1,8 @@
 import { SnackbarVariantProps } from '@grape-design/css/recipes/snackbar';
-import { PrimitiveProps } from '@seed-design/react-primitive';
-import { Snackbar as SnackbarPrimitive } from '@seed-design/react-snackbar';
+import { PrimitiveProps } from '@grape-design/react-primitive';
+import { Snackbar as SnackbarPrimitive } from '@grape-design/react-snackbar';
 import { InternalIconProps } from '../private/Icon';
-import { ForwardRefExoticComponent, RefAttributes, ReactNode, DetailedReactHTMLElement, HTMLAttributes } from 'react';
+import { ForwardRefExoticComponent, RefAttributes, ReactNode, ReactElement, JSXElementConstructor } from 'react';
 export interface SnackbarRootProviderProps extends SnackbarPrimitive.RootProviderProps {
 }
 export declare const SnackbarRootProvider: ({ children, pauseOnInteraction, }: SnackbarPrimitive.RootProviderProps) => import("react/jsx-runtime").JSX.Element;
@@ -35,5 +35,5 @@ export interface SnackbarRendererProps extends SnackbarPrimitive.RendererProps {
 export declare const SnackbarRenderer: (_props: SnackbarPrimitive.RendererProps) => ReactNode;
 export interface SnackbarAvoidOverlapProps extends SnackbarPrimitive.AvoidOverlapProps {
 }
-export declare const SnackbarAvoidOverlap: (props: SnackbarPrimitive.AvoidOverlapProps) => DetailedReactHTMLElement<HTMLAttributes<HTMLElement>, HTMLElement>;
+export declare const SnackbarAvoidOverlap: (props: SnackbarPrimitive.AvoidOverlapProps) => ReactElement<any, string | JSXElementConstructor<any>>;
 //# sourceMappingURL=Snackbar.d.ts.map

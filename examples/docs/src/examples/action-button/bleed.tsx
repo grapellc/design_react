@@ -1,6 +1,6 @@
 "use client";
 
-import { HStack, Text, VStack } from "@seed-design/react";
+import { HStack, Text, VStack } from "@grape-design/react";
 import { ActionButton } from "seed-design/ui/action-button";
 
 export default function ActionButtonBleed() {

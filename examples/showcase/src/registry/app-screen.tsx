@@ -1,7 +1,7 @@
 "use client";
 
 import { PullToRefreshRoot, PullToRefreshContent, PullToRefreshIndicator } from "./pull-to-refresh";
-import { AppScreen as SeedAppScreen } from "@seed-design/stackflow";
+import { AppScreen as SeedAppScreen } from "@grape-design/stackflow";
 import { useActions, useActivity } from "@stackflow/react";
 import { forwardRef, useContext } from "react";
 import { StandalonePreviewContext } from "../StandalonePreviewContext";

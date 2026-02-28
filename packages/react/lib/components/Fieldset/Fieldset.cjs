@@ -4,12 +4,12 @@
 Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
 
 const jsxRuntime = require('react/jsx-runtime');
-const reactPrimitive = require('@seed-design/react-primitive');
+const reactPrimitive = require('@grape-design/react-primitive');
 const React = require('react');
 const createSlotRecipeContext = require('../../utils/createSlotRecipeContext.cjs');
 const field = require('@grape-design/css/recipes/field');
 const fieldLabel = require('@grape-design/css/recipes/field-label');
-const reactFieldset = require('@seed-design/react-fieldset');
+const reactFieldset = require('@grape-design/react-fieldset');
 const Icon = require('../private/Icon.cjs');
 const clsx = require('clsx');
 

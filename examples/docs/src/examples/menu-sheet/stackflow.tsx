@@ -1,6 +1,6 @@
 "use client";
 
-import { Flex, VStack } from "@seed-design/react";
+import { Flex, VStack } from "@grape-design/react";
 import { useActivity, useFlow, type StaticActivityComponentType } from "@stackflow/react/future";
 import { useState } from "react";
 import {
@@ -15,7 +15,7 @@ import {
   MenuSheetRoot,
 } from "seed-design/ui/menu-sheet";
 import { Switch } from "seed-design/ui/switch";
-import { useActivityZIndexBase } from "@seed-design/stackflow";
+import { useActivityZIndexBase } from "@grape-design/stackflow";
 
 declare module "@stackflow/config" {
   interface Register {

@@ -1,1 +1,1 @@
-export { Portal } from '@seed-design/react-portal';
+export { Portal } from '@grape-design/react-portal';

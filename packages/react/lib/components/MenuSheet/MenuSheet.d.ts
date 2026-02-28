@@ -1,5 +1,5 @@
-import { Dialog as DialogPrimitive } from '@seed-design/react-dialog';
-import { PrimitiveProps } from '@seed-design/react-primitive';
+import { Dialog as DialogPrimitive } from '@grape-design/react-dialog';
+import { PrimitiveProps } from '@grape-design/react-primitive';
 import { MenuSheetVariantProps } from '@grape-design/css/recipes/menu-sheet';
 import { MenuSheetItemVariantProps } from '@grape-design/css/recipes/menu-sheet-item';
 import * as React from "react";

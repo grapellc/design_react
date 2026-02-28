@@ -2,7 +2,7 @@ import {
   contextualFloatingButton,
   type ContextualFloatingButtonVariantProps,
 } from "@grape-design/css/recipes/contextual-floating-button";
-import { Primitive, type PrimitiveProps } from "@seed-design/react-primitive";
+import { Primitive, type PrimitiveProps } from "@grape-design/react-primitive";
 import clsx from "clsx";
 import * as React from "react";
 import { IconRequired } from "../Icon/Icon";

@@ -3,7 +3,7 @@
 
 Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
 
-const domUtils = require('@seed-design/dom-utils');
+const domUtils = require('@grape-design/dom-utils');
 const React = require('react');
 
 function _interopNamespaceDefault(e) {

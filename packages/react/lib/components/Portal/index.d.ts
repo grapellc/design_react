@@ -1,2 +1,2 @@
-export { type PortalProps, Portal, } from '@seed-design/react-portal';
+export { type PortalProps, Portal, } from '@grape-design/react-portal';
 //# sourceMappingURL=index.d.ts.map

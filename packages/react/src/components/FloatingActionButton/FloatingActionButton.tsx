@@ -2,7 +2,7 @@ import {
   floatingActionButton,
   type FloatingActionButtonVariantProps,
 } from "@grape-design/css/recipes/floating-action-button";
-import { Primitive, type PrimitiveProps } from "@seed-design/react-primitive";
+import { Primitive, type PrimitiveProps } from "@grape-design/react-primitive";
 import type * as React from "react";
 import { createSlotRecipeContext } from "../../utils/createSlotRecipeContext";
 import { InternalIcon, type InternalIconProps } from "../private/Icon";

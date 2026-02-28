@@ -1,11 +1,11 @@
 'use client';
 import { jsx } from 'react/jsx-runtime';
-import { Primitive } from '@seed-design/react-primitive';
+import { Primitive } from '@grape-design/react-primitive';
 import { forwardRef } from 'react';
 import { createSlotRecipeContext } from '../../utils/createSlotRecipeContext.js';
 import { field } from '@grape-design/css/recipes/field';
 import { fieldLabel } from '@grape-design/css/recipes/field-label';
-import { Fieldset } from '@seed-design/react-fieldset';
+import { Fieldset } from '@grape-design/react-fieldset';
 import { InternalIcon } from '../private/Icon.js';
 import clsx from 'clsx';
 

@@ -1,7 +1,7 @@
 'use client';
 import { jsx } from 'react/jsx-runtime';
 import { chipTabs } from '@grape-design/css/recipes/chip-tabs';
-import { Tabs } from '@seed-design/react-tabs';
+import { Tabs } from '@grape-design/react-tabs';
 import { createSlotRecipeContext } from '../../utils/createSlotRecipeContext.js';
 import { forwardRef } from 'react';
 import clsx from 'clsx';

@@ -1,6 +1,6 @@
 "use client";
 
-import { VStack } from "@seed-design/react";
+import { VStack } from "@grape-design/react";
 import { ActivityComponentType } from "@stackflow/react/future";
 import { AppBar, AppBarMain } from "seed-design/ui/app-bar";
 import { AppScreen, AppScreenContent } from "seed-design/ui/app-screen";

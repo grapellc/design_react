@@ -1,7 +1,7 @@
 "use client";
 
 import { IconEyeSlashLine } from "@karrotmarket/react-monochrome-icon";
-import { HStack, Text, VStack } from "@seed-design/react";
+import { HStack, Text, VStack } from "@grape-design/react";
 import { useState } from "react";
 import { ActionButton } from "seed-design/ui/action-button";
 import {

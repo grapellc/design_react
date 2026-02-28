@@ -1,6 +1,6 @@
 "use client";
 
-import { VStack, Text } from "@seed-design/react";
+import { VStack, Text } from "@grape-design/react";
 import { Switch } from "seed-design/ui/switch";
 import { useState } from "react";
 

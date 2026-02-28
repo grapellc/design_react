@@ -5,7 +5,7 @@ import type { RegisteredActivityName } from "@stackflow/config";
 import type { ActivityComponentType } from "@stackflow/react/future";
 import { useEffect, useState, useMemo } from "react";
 import type * as React from "react";
-import { Box, Flex } from "@seed-design/react";
+import { Box, Flex } from "@grape-design/react";
 import { makeStack } from "./Stack";
 
 const usePreventScroll = (ref: React.RefObject<HTMLElement>) => {

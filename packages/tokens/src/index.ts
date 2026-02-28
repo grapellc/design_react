@@ -26,4 +26,4 @@ export {
   type Duration,
   type TimingFunction,
   type TokenObject,
-} from "@seed-design/css/vars";
+} from "@grape-design/css/vars";

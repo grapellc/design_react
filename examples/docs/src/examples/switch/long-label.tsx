@@ -1,6 +1,6 @@
 "use client";
 
-import { VStack } from "@seed-design/react";
+import { VStack } from "@grape-design/react";
 import { Switch } from "seed-design/ui/switch";
 
 export default function SwitchLongLabel() {

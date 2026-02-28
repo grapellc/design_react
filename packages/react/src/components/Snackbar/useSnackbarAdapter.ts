@@ -1,4 +1,4 @@
-import { useSnackbarContext, type CreateSnackbarOptions } from "@seed-design/react-snackbar";
+import { useSnackbarContext, type CreateSnackbarOptions } from "@grape-design/react-snackbar";
 import { useMemo } from "react";
 
 export type UseSnackbarAdapterReturn = ReturnType<typeof useSnackbarAdapter>;

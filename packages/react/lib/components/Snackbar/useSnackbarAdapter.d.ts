@@ -1,4 +1,4 @@
-import { CreateSnackbarOptions } from '@seed-design/react-snackbar';
+import { CreateSnackbarOptions } from '@grape-design/react-snackbar';
 export type UseSnackbarAdapterReturn = ReturnType<typeof useSnackbarAdapter>;
 /**
  * wraps the snackbar context to provide a more user-friendly API

@@ -7,8 +7,8 @@ import {
   PrefixIcon,
   VisuallyHidden,
 } from "@grape-design/react";
-import type { FieldLabelVariantProps } from "@seed-design/css/recipes/field-label";
-import { radioGroup, type RadioGroupVariantProps } from "@seed-design/css/recipes/radio-group";
+import type { FieldLabelVariantProps } from "@grape-design/css/recipes/field-label";
+import { radioGroup, type RadioGroupVariantProps } from "@grape-design/css/recipes/radio-group";
 import * as React from "react";
 
 export interface RadioGroupProps extends SeedRadioGroupField.RootProps, RadioGroupVariantProps {

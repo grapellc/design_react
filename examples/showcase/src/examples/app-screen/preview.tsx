@@ -1,5 +1,5 @@
 import { IconBellFill } from "@karrotmarket/react-monochrome-icon";
-import { Flex } from "@seed-design/react";
+import { Flex } from "@grape-design/react";
 import type { ActivityComponentType } from "@stackflow/react/future";
 import {
   AppBar,

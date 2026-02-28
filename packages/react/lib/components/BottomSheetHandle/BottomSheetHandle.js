@@ -1,7 +1,7 @@
 'use client';
 import { jsx } from 'react/jsx-runtime';
-import { Primitive } from '@seed-design/react-primitive';
-import { Drawer } from '@seed-design/react-drawer';
+import { Primitive } from '@grape-design/react-primitive';
+import { Drawer } from '@grape-design/react-drawer';
 import { bottomSheetHandle } from '@grape-design/css/recipes/bottom-sheet-handle';
 import React__default from 'react';
 import clsx from 'clsx';

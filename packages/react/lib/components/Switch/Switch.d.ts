@@ -1,7 +1,7 @@
-import { Switch as SwitchPrimitive } from '@seed-design/react-switch';
+import { Switch as SwitchPrimitive } from '@grape-design/react-switch';
 import { SwitchVariantProps } from '@grape-design/css/recipes/switch';
 import { SwitchmarkVariantProps } from '@grape-design/css/recipes/switchmark';
-import { PrimitiveProps } from '@seed-design/react-primitive';
+import { PrimitiveProps } from '@grape-design/react-primitive';
 import { default as React } from 'react';
 /**
  * @deprecated Use `16` or `32` instead of `small` or `medium`.

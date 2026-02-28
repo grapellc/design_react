@@ -1,4 +1,4 @@
-import { HStack, VStack } from "@seed-design/react";
+import { HStack, VStack } from "@grape-design/react";
 import { TextField, TextFieldInput } from "seed-design/ui/text-field";
 
 export default function TextFieldInputReadOnly() {

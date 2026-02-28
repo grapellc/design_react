@@ -1,4 +1,4 @@
-import { ResponsivePair, Portal } from "@seed-design/react";
+import { ResponsivePair, Portal } from "@grape-design/react";
 import { ActionButton } from "seed-design/ui/action-button";
 import {
   AlertDialogAction,

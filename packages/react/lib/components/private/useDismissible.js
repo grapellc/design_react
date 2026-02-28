@@ -1,8 +1,8 @@
 'use client';
 import { jsx } from 'react/jsx-runtime';
 import { useControllableState } from '@radix-ui/react-use-controllable-state';
-import { mergeProps, buttonProps, elementProps } from '@seed-design/dom-utils';
-import { Primitive } from '@seed-design/react-primitive';
+import { mergeProps, buttonProps, elementProps } from '@grape-design/dom-utils';
+import { Primitive } from '@grape-design/react-primitive';
 import * as React from 'react';
 
 function useDismissible(props) {

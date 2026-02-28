@@ -1,7 +1,7 @@
 "use client";
 
 import { TextField, TextFieldInput } from "seed-design/ui/text-field";
-import { HStack } from "@seed-design/react";
+import { HStack } from "@grape-design/react";
 
 export default function TextFieldInputGraphemeCount() {
   return (

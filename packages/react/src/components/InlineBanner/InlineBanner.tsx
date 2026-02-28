@@ -4,7 +4,7 @@ import {
   inlineBanner,
   type InlineBannerVariantProps,
 } from "@grape-design/css/recipes/inline-banner";
-import { Primitive, type PrimitiveProps } from "@seed-design/react-primitive";
+import { Primitive, type PrimitiveProps } from "@grape-design/react-primitive";
 import { createSlotRecipeContext } from "../../utils/createSlotRecipeContext";
 import {
   DismissibleCloseButton,

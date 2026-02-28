@@ -1,6 +1,6 @@
 import type * as React from "react";
 
-import { Primitive, type PrimitiveProps } from "@seed-design/react-primitive";
+import { Primitive, type PrimitiveProps } from "@grape-design/react-primitive";
 import { callout, type CalloutVariantProps } from "@grape-design/css/recipes/callout";
 import { createSlotRecipeContext } from "../../utils/createSlotRecipeContext";
 import {

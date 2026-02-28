@@ -2,7 +2,7 @@
 import { jsx } from 'react/jsx-runtime';
 import { notificationBadge } from '@grape-design/css/recipes/notification-badge';
 import { notificationBadgePositioner } from '@grape-design/css/recipes/notification-badge-positioner';
-import { Primitive } from '@seed-design/react-primitive';
+import { Primitive } from '@grape-design/react-primitive';
 import clsx from 'clsx';
 import * as React from 'react';
 import { useMemo } from 'react';

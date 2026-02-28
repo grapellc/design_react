@@ -3,7 +3,7 @@
 
 Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
 
-const reactSnackbar = require('@seed-design/react-snackbar');
+const reactSnackbar = require('@grape-design/react-snackbar');
 const React = require('react');
 
 function useSnackbarAdapter() {

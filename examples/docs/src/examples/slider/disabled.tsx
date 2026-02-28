@@ -1,6 +1,6 @@
 "use client";
 
-import { VStack } from "@seed-design/react";
+import { VStack } from "@grape-design/react";
 import { Slider } from "seed-design/ui/slider";
 
 export default function SliderDisabled() {

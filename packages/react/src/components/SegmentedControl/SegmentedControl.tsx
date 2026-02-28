@@ -2,8 +2,8 @@ import {
   segmentedControl,
   type SegmentedControlVariantProps,
 } from "@grape-design/css/recipes/segmented-control";
-import { Primitive, type PrimitiveProps } from "@seed-design/react-primitive";
-import { SegmentedControl as SegmentedControlPrimitive } from "@seed-design/react-segmented-control";
+import { Primitive, type PrimitiveProps } from "@grape-design/react-primitive";
+import { SegmentedControl as SegmentedControlPrimitive } from "@grape-design/react-segmented-control";
 import { createSlotRecipeContext } from "../../utils/createSlotRecipeContext";
 
 const { withProvider, withContext } = createSlotRecipeContext(segmentedControl);

@@ -1,4 +1,4 @@
-import { PrimitiveProps } from '@seed-design/react-primitive';
+import { PrimitiveProps } from '@grape-design/react-primitive';
 import { ExtendedFabVariantProps } from '@grape-design/css/recipes/extended-fab';
 import { ForwardRefExoticComponent, RefAttributes } from 'react';
 /**

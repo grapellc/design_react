@@ -1,6 +1,6 @@
 "use client";
 
-import { VStack, Text } from "@seed-design/react";
+import { VStack, Text } from "@grape-design/react";
 import { SegmentedControl, SegmentedControlItem } from "seed-design/ui/segmented-control";
 import { useState } from "react";
 

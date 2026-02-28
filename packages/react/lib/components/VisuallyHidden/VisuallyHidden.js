@@ -1,7 +1,7 @@
 'use client';
 import { jsx } from 'react/jsx-runtime';
-import { visuallyHidden } from '@seed-design/dom-utils';
-import { Primitive } from '@seed-design/react-primitive';
+import { visuallyHidden } from '@grape-design/dom-utils';
+import { Primitive } from '@grape-design/react-primitive';
 import { forwardRef } from 'react';
 
 const VisuallyHidden = forwardRef((props, ref) => {

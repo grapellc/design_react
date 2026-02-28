@@ -1,6 +1,6 @@
 import { composeRefs } from "@radix-ui/react-compose-refs";
-import { mergeProps } from "@seed-design/dom-utils";
-import { Primitive, type PrimitiveProps } from "@seed-design/react-primitive";
+import { mergeProps } from "@grape-design/dom-utils";
+import { Primitive, type PrimitiveProps } from "@grape-design/react-primitive";
 import { forwardRef } from "react";
 import { useAppBar, type UseAppBarProps } from "./useAppBar";
 import { AppBarProvider, useAppBarContext } from "./useAppBarContext";
@@ -8,7 +8,11 @@ import { AppBarProvider, useAppBarContext } from "./useAppBarContext";
 export interface AppBarRootProps
   extends PrimitiveProps,
     UseAppBarProps,
-    React.HTMLAttributes<HTMLDivElement> {}
+    React.HTMLAttributes<HTMLDivElement> {
+  layerOffsetTop?: number;
+  gradient?: boolean;
+  preventSwipeBack?: boolean;
+}
 
 const NON_DOM_APP_BAR_KEYS = new Set([
   "layerOffsetTop",

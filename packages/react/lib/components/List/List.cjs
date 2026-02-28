@@ -5,15 +5,15 @@ Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
 
 const jsxRuntime = require('react/jsx-runtime');
 const listItem = require('@grape-design/css/recipes/list-item');
-const reactPrimitive = require('@seed-design/react-primitive');
+const reactPrimitive = require('@grape-design/react-primitive');
 const React = require('react');
 const createSlotRecipeContext = require('../../utils/createSlotRecipeContext.cjs');
 const styled = require('../../utils/styled.cjs');
 const Stack = require('../Stack/Stack.cjs');
-const reactCheckbox = require('@seed-design/react-checkbox');
+const reactCheckbox = require('@grape-design/react-checkbox');
 const createWithStateProps = require('../../utils/createWithStateProps.cjs');
-const reactRadioGroup = require('@seed-design/react-radio-group');
-const reactSwitch = require('@seed-design/react-switch');
+const reactRadioGroup = require('@grape-design/react-radio-group');
+const reactSwitch = require('@grape-design/react-switch');
 
 const { withContext, withProvider } = createSlotRecipeContext.createSlotRecipeContext(listItem.listItem);
 const withStateProps = createWithStateProps.createWithStateProps([

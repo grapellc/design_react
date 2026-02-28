@@ -1,5 +1,5 @@
-import { appScreen, type AppScreenVariantProps } from "@seed-design/css/recipes/app-screen";
-import { mergeProps } from "@seed-design/dom-utils";
+import { appScreen, type AppScreenVariantProps } from "@grape-design/css/recipes/app-screen";
+import { mergeProps } from "@grape-design/dom-utils";
 import { forwardRef, useMemo } from "react";
 import { AppScreen as AppScreenPrimitive } from "../../primitive";
 import { createStyleContext } from "../../utils/createStyleContext";

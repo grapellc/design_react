@@ -1,4 +1,4 @@
-import { ActionButton, HStack, VStack, Box, Text } from "@seed-design/react";
+import { ActionButton, HStack, VStack, Box, Text } from "@grape-design/react";
 import { useState } from "react";
 import {
   CheckSelectBox,

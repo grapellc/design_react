@@ -1,6 +1,6 @@
 "use client";
 
-import { Flex, Text } from "@seed-design/react";
+import { Flex, Text } from "@grape-design/react";
 
 export default function TextFontWeights() {
   return (

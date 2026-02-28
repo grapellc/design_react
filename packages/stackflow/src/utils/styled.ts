@@ -1,5 +1,5 @@
-import type { ScopedColorBg, ScopedColorPalette, ScopedColorBanner } from "@seed-design/css/vars";
-import { vars } from "@seed-design/css/vars";
+import type { ScopedColorBg, ScopedColorPalette, ScopedColorBanner } from "@grape-design/css/vars";
+import { vars } from "@grape-design/css/vars";
 
 /**
  * A minimal subset of `StyleProps` from `@seed-design/react`.

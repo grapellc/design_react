@@ -2,7 +2,7 @@ import {
   reactionButton,
   type ReactionButtonVariantProps,
 } from "@grape-design/css/recipes/reaction-button";
-import { Toggle as TogglePrimitive } from "@seed-design/react-toggle";
+import { Toggle as TogglePrimitive } from "@grape-design/react-toggle";
 import clsx from "clsx";
 import * as React from "react";
 import {

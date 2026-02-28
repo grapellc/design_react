@@ -1,4 +1,4 @@
-import { ActionButton, VStack } from "@seed-design/react";
+import { ActionButton, VStack } from "@grape-design/react";
 import { useState } from "react";
 import { SegmentedControl, SegmentedControlItem } from "seed-design/ui/segmented-control";
 

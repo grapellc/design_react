@@ -1,4 +1,4 @@
-import { Column, Columns } from "@seed-design/react";
+import { Column, Columns } from "@grape-design/react";
 
 /**
  * @deprecated use `HStack` instead.

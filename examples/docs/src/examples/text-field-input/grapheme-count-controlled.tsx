@@ -2,7 +2,7 @@
 
 import { TextField, TextFieldInput } from "seed-design/ui/text-field";
 import { useState } from "react";
-import { Text, VStack } from "@seed-design/react";
+import { Text, VStack } from "@grape-design/react";
 
 export default function TextFieldInputGraphemeControlled() {
   const [value, setValue] = useState("");

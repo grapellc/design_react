@@ -1,6 +1,6 @@
 "use client";
 
-import { Box, VStack } from "@seed-design/react";
+import { Box, VStack } from "@grape-design/react";
 import { useState } from "react";
 import { ActionButton } from "seed-design/ui/action-button";
 import {

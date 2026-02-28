@@ -5,19 +5,28 @@
   "packageManager": "bun@1.2.20",
   "workspaces": [
     "packages/*",
+    "packages/react-headless/*",
+    "packages/utils/*",
     "examples/*"
   ],
   "scripts": {
-    "build": "bun run --cwd packages/tokens build && bun run --cwd packages/react build && bun run --cwd packages/react-native build && bun run --cwd packages/icons build",
-    "build:tokens": "bun run --cwd packages/tokens build",
+    "build": "bun run build:utils && bun run build:headless && bun run build:primitive && bun run build:react && bun run build:stackflow && bun run build:tokens && bun run build:icons && bun run build:react-native",
+    "build:utils": "bun run --cwd packages/utils/dom-utils build && bun run --cwd packages/utils/react-use-controllable-state build && bun run --cwd packages/utils/react-supports build",
+    "build:headless": "for d in packages/react-headless/avatar packages/react-headless/checkbox packages/react-headless/collapsible packages/react-headless/dialog packages/react-headless/drawer packages/react-headless/field packages/react-headless/field-button packages/react-headless/fieldset packages/react-headless/image packages/react-headless/popover packages/react-headless/portal packages/react-headless/progress packages/react-headless/pull-to-refresh packages/react-headless/radio-group packages/react-headless/segmented-control packages/react-headless/slider packages/react-headless/snackbar packages/react-headless/switch packages/react-headless/tabs packages/react-headless/text-field packages/react-headless/toggle; do bun run --cwd $d build; done",
+    "build:primitive": "bun run --cwd packages/react-primitive build",
     "build:react": "bun run --cwd packages/react build",
+    "build:stackflow": "bun run --cwd packages/stackflow build",
+    "build:tokens": "bun run --cwd packages/tokens build",
+    "build:icons": "bun run --cwd packages/icons build",
     "build:react-native": "bun run --cwd packages/react-native build",
+    "build:docs": "bun run build && bun run --cwd examples/docs build",
+    "build:showcase": "bun run build && bun run --cwd examples/showcase build",
     "showcase": "bun run --cwd examples/showcase dev",
-    "docs": "bun run --cwd examples/docs dev",
-    "build:docs": "bun run build && bun run --cwd examples/docs build"
+    "docs": "bun run --cwd examples/docs dev"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",
+    "bunchee": "^6.9.4",
     "typescript": "^5.6.0"
   },
   "engines": {

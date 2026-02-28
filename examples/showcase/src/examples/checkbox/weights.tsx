@@ -1,4 +1,4 @@
-import { VStack } from "@seed-design/react";
+import { VStack } from "@grape-design/react";
 import { Checkbox, CheckboxGroup } from "seed-design/ui/checkbox";
 
 export default function CheckboxWeights() {

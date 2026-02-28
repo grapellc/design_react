@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Grid, type GridProps, GridItem, VStack } from "@seed-design/react";
+import { Grid, type GridProps, GridItem, VStack } from "@grape-design/react";
 import { SegmentedControl, SegmentedControlItem } from "seed-design/ui/segmented-control";
 
 type AutoFlow = NonNullable<GridProps["autoFlow"]>;

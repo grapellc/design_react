@@ -1,4 +1,4 @@
-import { HStack, VStack, Icon } from "@seed-design/react";
+import { HStack, VStack, Icon } from "@grape-design/react";
 import { Chip } from "seed-design/ui/chip";
 import {
   IconArrowClockwiseCircularLine,

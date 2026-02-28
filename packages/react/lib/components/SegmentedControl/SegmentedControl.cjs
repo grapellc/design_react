@@ -4,8 +4,8 @@
 Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
 
 const segmentedControl = require('@grape-design/css/recipes/segmented-control');
-const reactPrimitive = require('@seed-design/react-primitive');
-const reactSegmentedControl = require('@seed-design/react-segmented-control');
+const reactPrimitive = require('@grape-design/react-primitive');
+const reactSegmentedControl = require('@grape-design/react-segmented-control');
 const createSlotRecipeContext = require('../../utils/createSlotRecipeContext.cjs');
 
 const { withProvider, withContext } = createSlotRecipeContext.createSlotRecipeContext(segmentedControl.segmentedControl);

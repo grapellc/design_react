@@ -30,6 +30,11 @@
       "types": "./lib/multicolor/*.d.ts",
       "import": "./lib/multicolor/*.js",
       "default": "./lib/multicolor/*.js"
+    },
+    "./react-icon": {
+      "types": "./lib/react-icon.d.ts",
+      "import": "./lib/react-icon.js",
+      "default": "./lib/react-icon.js"
     }
   },
   "files": [

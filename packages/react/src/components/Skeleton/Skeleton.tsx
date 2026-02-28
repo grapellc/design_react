@@ -1,4 +1,4 @@
-import { Primitive, type PrimitiveProps } from "@seed-design/react-primitive";
+import { Primitive, type PrimitiveProps } from "@grape-design/react-primitive";
 import { skeleton, type SkeletonVariantProps } from "@grape-design/css/recipes/skeleton";
 import type * as React from "react";
 import { createRecipeContext } from "../../utils/createRecipeContext";

@@ -1,4 +1,4 @@
-import { PrimitiveProps } from '@seed-design/react-primitive';
+import { PrimitiveProps } from '@grape-design/react-primitive';
 import { SkeletonVariantProps } from '@grape-design/css/recipes/skeleton';
 import { StyleProps } from '../../utils/styled';
 import type * as React from "react";

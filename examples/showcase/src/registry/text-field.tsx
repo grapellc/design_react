@@ -9,7 +9,7 @@ import {
   VisuallyHidden,
   PrefixIcon,
 } from "@grape-design/react";
-import type { FieldLabelVariantProps } from "@seed-design/css/recipes/field-label";
+import type { FieldLabelVariantProps } from "@grape-design/css/recipes/field-label";
 import { IconExclamationmarkCircleFill } from "@karrotmarket/react-monochrome-icon";
 
 export interface TextFieldProps

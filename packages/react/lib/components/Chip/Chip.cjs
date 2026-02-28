@@ -4,12 +4,12 @@
 Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
 
 const chip = require('@grape-design/css/recipes/chip');
-const reactPrimitive = require('@seed-design/react-primitive');
+const reactPrimitive = require('@grape-design/react-primitive');
 const createSlotRecipeContext = require('../../utils/createSlotRecipeContext.cjs');
 const Icon = require('../Icon/Icon.cjs');
 const createWithStateProps = require('../../utils/createWithStateProps.cjs');
-const reactCheckbox = require('@seed-design/react-checkbox');
-const reactRadioGroup = require('@seed-design/react-radio-group');
+const reactCheckbox = require('@grape-design/react-checkbox');
+const reactRadioGroup = require('@grape-design/react-radio-group');
 
 const { withProvider, withContext } = createSlotRecipeContext.createSlotRecipeContext(chip.chip);
 const withStateProps = createWithStateProps.createWithStateProps([

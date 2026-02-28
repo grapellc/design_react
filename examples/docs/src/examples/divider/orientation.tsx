@@ -1,6 +1,6 @@
 "use client";
 
-import { Box, Divider, HStack, VStack } from "@seed-design/react";
+import { Box, Divider, HStack, VStack } from "@grape-design/react";
 
 export default function DividerOrientation() {
   return (

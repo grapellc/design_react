@@ -1,5 +1,5 @@
 'use client';
-import { ProgressCircle } from '@seed-design/react-progress';
+import { ProgressCircle } from '@grape-design/react-progress';
 import { progressCircle } from '@grape-design/css/recipes/progress-circle';
 import { createSlotRecipeContext } from '../../utils/createSlotRecipeContext.js';
 

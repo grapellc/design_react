@@ -1,11 +1,11 @@
 'use client';
 import { chip } from '@grape-design/css/recipes/chip';
-import { Primitive } from '@seed-design/react-primitive';
+import { Primitive } from '@grape-design/react-primitive';
 import { createSlotRecipeContext } from '../../utils/createSlotRecipeContext.js';
 import { withIconRequired } from '../Icon/Icon.js';
 import { createWithStateProps } from '../../utils/createWithStateProps.js';
-import { useCheckboxContext } from '@seed-design/react-checkbox';
-import { useRadioGroupItemContext } from '@seed-design/react-radio-group';
+import { useCheckboxContext } from '@grape-design/react-checkbox';
+import { useRadioGroupItemContext } from '@grape-design/react-radio-group';
 
 const { withProvider, withContext } = createSlotRecipeContext(chip);
 const withStateProps = createWithStateProps([

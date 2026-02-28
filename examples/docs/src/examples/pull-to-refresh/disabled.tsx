@@ -1,6 +1,6 @@
 "use client";
 
-import { Box, HStack, Text } from "@seed-design/react";
+import { Box, HStack, Text } from "@grape-design/react";
 import { useState } from "react";
 import {
   PullToRefreshContent,

@@ -1,5 +1,5 @@
 'use client';
-import { useSnackbarContext } from '@seed-design/react-snackbar';
+import { useSnackbarContext } from '@grape-design/react-snackbar';
 import { useMemo } from 'react';
 
 function useSnackbarAdapter() {

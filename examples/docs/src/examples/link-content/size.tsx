@@ -1,7 +1,7 @@
 "use client";
 
 import { IconChevronRightLine } from "@karrotmarket/react-monochrome-icon";
-import { LinkContent, SuffixIcon, VStack } from "@seed-design/react";
+import { LinkContent, SuffixIcon, VStack } from "@grape-design/react";
 
 export default function LinkContentSize() {
   return (

@@ -5,7 +5,7 @@ Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
 
 const jsxRuntime = require('react/jsx-runtime');
 const mannerTemp = require('@grape-design/css/recipes/manner-temp');
-const reactPrimitive = require('@seed-design/react-primitive');
+const reactPrimitive = require('@grape-design/react-primitive');
 const React = require('react');
 const createRecipeContext = require('../../utils/createRecipeContext.cjs');
 const MannerTempEmote = require('./MannerTempEmote.cjs');

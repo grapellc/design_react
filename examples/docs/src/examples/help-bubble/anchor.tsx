@@ -1,6 +1,6 @@
 "use client";
 
-import { VStack } from "@seed-design/react";
+import { VStack } from "@grape-design/react";
 import { useState } from "react";
 import { Avatar } from "seed-design/ui/avatar";
 import { HelpBubbleAnchor } from "seed-design/ui/help-bubble";

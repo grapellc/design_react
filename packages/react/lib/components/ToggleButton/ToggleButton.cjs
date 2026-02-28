@@ -5,7 +5,7 @@ Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
 
 const jsxRuntime = require('react/jsx-runtime');
 const toggleButton = require('@grape-design/css/recipes/toggle-button');
-const reactToggle = require('@seed-design/react-toggle');
+const reactToggle = require('@grape-design/react-toggle');
 const clsx = require('clsx');
 const React = require('react');
 const usePendingButton = require('../LoadingIndicator/usePendingButton.cjs');

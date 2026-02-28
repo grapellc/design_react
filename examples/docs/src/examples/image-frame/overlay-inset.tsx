@@ -1,6 +1,6 @@
 "use client";
 
-import { ImageFrame, ImageFrameFloater, ImageFrameIndicator } from "@seed-design/react";
+import { ImageFrame, ImageFrameFloater, ImageFrameIndicator } from "@grape-design/react";
 
 export default function ImageFrameOverlayInsetExample() {
   return (

@@ -1,8 +1,8 @@
 'use client';
 import { actionSheet } from '@grape-design/css/recipes/action-sheet';
 import { actionSheetItem } from '@grape-design/css/recipes/action-sheet-item';
-import { Dialog, useDialogContext } from '@seed-design/react-dialog';
-import { Primitive } from '@seed-design/react-primitive';
+import { Dialog, useDialogContext } from '@grape-design/react-dialog';
+import { Primitive } from '@grape-design/react-primitive';
 import { createRecipeContext } from '../../utils/createRecipeContext.js';
 import { createSlotRecipeContext } from '../../utils/createSlotRecipeContext.js';
 import { createWithStateProps } from '../../utils/createWithStateProps.js';

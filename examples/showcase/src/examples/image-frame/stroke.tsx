@@ -1,4 +1,4 @@
-import { ImageFrame, Flex, VStack, Text } from "@seed-design/react";
+import { ImageFrame, Flex, VStack, Text } from "@grape-design/react";
 
 export default function ImageFrameStroke() {
   return (

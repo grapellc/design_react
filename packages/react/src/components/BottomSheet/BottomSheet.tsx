@@ -1,7 +1,7 @@
 import { bottomSheet, type BottomSheetVariantProps } from "@grape-design/css/recipes/bottom-sheet";
-import { dataAttr } from "@seed-design/dom-utils";
-import { Drawer, useDrawerContext } from "@seed-design/react-drawer";
-import { Primitive, type PrimitiveProps } from "@seed-design/react-primitive";
+import { dataAttr } from "@grape-design/dom-utils";
+import { Drawer, useDrawerContext } from "@grape-design/react-drawer";
+import { Primitive, type PrimitiveProps } from "@grape-design/react-primitive";
 import { forwardRef } from "react";
 import { createSlotRecipeContext } from "../../utils/createSlotRecipeContext";
 import { withStyleProps, type StyleProps } from "../../utils/styled";

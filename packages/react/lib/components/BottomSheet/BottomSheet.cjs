@@ -5,9 +5,9 @@ Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
 
 const jsxRuntime = require('react/jsx-runtime');
 const bottomSheet = require('@grape-design/css/recipes/bottom-sheet');
-const domUtils = require('@seed-design/dom-utils');
-const reactDrawer = require('@seed-design/react-drawer');
-const reactPrimitive = require('@seed-design/react-primitive');
+const domUtils = require('@grape-design/dom-utils');
+const reactDrawer = require('@grape-design/react-drawer');
+const reactPrimitive = require('@grape-design/react-primitive');
 const React = require('react');
 const createSlotRecipeContext = require('../../utils/createSlotRecipeContext.cjs');
 const styled = require('../../utils/styled.cjs');

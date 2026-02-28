@@ -1,7 +1,7 @@
-import { PrimitiveProps } from '@seed-design/react-primitive';
+import { PrimitiveProps } from '@grape-design/react-primitive';
 import { FieldVariantProps } from '@grape-design/css/recipes/field';
 import { FieldLabelVariantProps } from '@grape-design/css/recipes/field-label';
-import { Fieldset } from '@seed-design/react-fieldset';
+import { Fieldset } from '@grape-design/react-fieldset';
 import type * as React from "react";
 export interface FieldsetRootProps extends FieldVariantProps, Fieldset.RootProps {
 }

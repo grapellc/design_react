@@ -3,7 +3,7 @@
 
 Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
 
-const reactProgress = require('@seed-design/react-progress');
+const reactProgress = require('@grape-design/react-progress');
 const progressCircle = require('@grape-design/css/recipes/progress-circle');
 const createSlotRecipeContext = require('../../utils/createSlotRecipeContext.cjs');
 

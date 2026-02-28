@@ -10,7 +10,7 @@ import {
   RadioGroup as RadioGroupPrimitive,
   Switch as SwitchPrimitive,
 } from "@grape-design/react/primitive";
-import { listItem } from "@seed-design/css/recipes/list-item";
+import { listItem } from "@grape-design/css/recipes/list-item";
 import * as React from "react";
 
 export interface ListProps extends SeedList.RootProps {}

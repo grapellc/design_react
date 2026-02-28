@@ -1,8 +1,8 @@
 import { SliderVariantProps } from '@grape-design/css/recipes/slider';
 import { SliderTickVariantProps } from '@grape-design/css/recipes/slider-tick';
 import { SliderMarkerVariantProps } from '@grape-design/css/recipes/slider-marker';
-import { PrimitiveProps } from '@seed-design/react-primitive';
-import { Slider } from '@seed-design/react-slider';
+import { PrimitiveProps } from '@grape-design/react-primitive';
+import { Slider } from '@grape-design/react-slider';
 import { HTMLAttributes, ForwardRefExoticComponent, RefAttributes } from 'react';
 export interface SliderRootProps extends SliderVariantProps, Slider.RootProps {
 }

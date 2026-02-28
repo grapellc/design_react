@@ -2,18 +2,18 @@
 
 Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
 
-const reactAvatar = require('@seed-design/react-avatar');
-const reactCheckbox = require('@seed-design/react-checkbox');
-const reactDialog = require('@seed-design/react-dialog');
-const reactPopover = require('@seed-design/react-popover');
-const reactProgress = require('@seed-design/react-progress');
-const reactPullToRefresh = require('@seed-design/react-pull-to-refresh');
-const reactRadioGroup = require('@seed-design/react-radio-group');
-const reactSlider = require('@seed-design/react-slider');
-const reactSnackbar = require('@seed-design/react-snackbar');
-const reactSwitch = require('@seed-design/react-switch');
-const reactTabs = require('@seed-design/react-tabs');
-const reactToggle = require('@seed-design/react-toggle');
+const reactAvatar = require('@grape-design/react-avatar');
+const reactCheckbox = require('@grape-design/react-checkbox');
+const reactDialog = require('@grape-design/react-dialog');
+const reactPopover = require('@grape-design/react-popover');
+const reactProgress = require('@grape-design/react-progress');
+const reactPullToRefresh = require('@grape-design/react-pull-to-refresh');
+const reactRadioGroup = require('@grape-design/react-radio-group');
+const reactSlider = require('@grape-design/react-slider');
+const reactSnackbar = require('@grape-design/react-snackbar');
+const reactSwitch = require('@grape-design/react-switch');
+const reactTabs = require('@grape-design/react-tabs');
+const reactToggle = require('@grape-design/react-toggle');
 
 
 

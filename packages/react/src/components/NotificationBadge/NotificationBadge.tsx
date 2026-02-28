@@ -6,7 +6,7 @@ import {
   notificationBadgePositioner,
   type NotificationBadgePositionerVariantProps,
 } from "@grape-design/css/recipes/notification-badge-positioner";
-import { Primitive, type PrimitiveProps } from "@seed-design/react-primitive";
+import { Primitive, type PrimitiveProps } from "@grape-design/react-primitive";
 import clsx from "clsx";
 import * as React from "react";
 import { useMemo } from "react";

@@ -1,6 +1,6 @@
 "use client";
 
-import { Flex } from "@seed-design/react";
+import { Flex } from "@grape-design/react";
 
 export default function FlexPreview() {
   return (

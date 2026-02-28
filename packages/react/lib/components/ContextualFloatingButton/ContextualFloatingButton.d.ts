@@ -1,5 +1,5 @@
 import { ContextualFloatingButtonVariantProps } from '@grape-design/css/recipes/contextual-floating-button';
-import { PrimitiveProps } from '@seed-design/react-primitive';
+import { PrimitiveProps } from '@grape-design/react-primitive';
 import { UsePendingButtonProps } from '../LoadingIndicator/usePendingButton';
 import * as React from "react";
 export interface ContextualFloatingButtonProps extends ContextualFloatingButtonVariantProps, UsePendingButtonProps, PrimitiveProps, React.ButtonHTMLAttributes<HTMLButtonElement> {

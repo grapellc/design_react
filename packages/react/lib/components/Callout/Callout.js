@@ -1,5 +1,5 @@
 'use client';
-import { Primitive } from '@seed-design/react-primitive';
+import { Primitive } from '@grape-design/react-primitive';
 import { callout } from '@grape-design/css/recipes/callout';
 import { createSlotRecipeContext } from '../../utils/createSlotRecipeContext.js';
 import { DismissibleCloseButton, DismissibleRoot } from '../private/useDismissible.js';

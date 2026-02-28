@@ -1,4 +1,4 @@
-import { Box, Flex } from "@seed-design/react";
+import { Box, Flex } from "@grape-design/react";
 import { Avatar, AvatarBadge } from "seed-design/ui/avatar";
 import { IdentityPlaceholder } from "seed-design/ui/identity-placeholder";
 

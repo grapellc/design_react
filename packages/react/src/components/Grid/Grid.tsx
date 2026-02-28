@@ -1,4 +1,4 @@
-import { mergeProps } from "@seed-design/dom-utils";
+import { mergeProps } from "@grape-design/dom-utils";
 import * as React from "react";
 import { Box, type BoxProps } from "../Box/Box";
 

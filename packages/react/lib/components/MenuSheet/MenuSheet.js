@@ -1,7 +1,7 @@
 'use client';
 import { jsx } from 'react/jsx-runtime';
-import { Dialog, useDialogContext } from '@seed-design/react-dialog';
-import { Primitive } from '@seed-design/react-primitive';
+import { Dialog, useDialogContext } from '@grape-design/react-dialog';
+import { Primitive } from '@grape-design/react-primitive';
 import { menuSheet } from '@grape-design/css/recipes/menu-sheet';
 import { menuSheetItem } from '@grape-design/css/recipes/menu-sheet-item';
 import * as React from 'react';

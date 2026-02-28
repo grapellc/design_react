@@ -1,5 +1,5 @@
 import { TabsVariantProps } from '@grape-design/css/recipes/tabs';
-import { Tabs as TabsPrimitive } from '@seed-design/react-tabs';
+import { Tabs as TabsPrimitive } from '@grape-design/react-tabs';
 import { ForwardRefExoticComponent, RefAttributes } from 'react';
 export interface TabsRootProps extends TabsVariantProps, TabsPrimitive.RootProps {
 }

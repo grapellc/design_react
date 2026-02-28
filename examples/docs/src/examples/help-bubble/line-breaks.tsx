@@ -1,9 +1,9 @@
 "use client";
 
 import { IconSparkle2 } from "@karrotmarket/react-multicolor-icon";
-import { Icon } from "@seed-design/react";
+import { Icon } from "@grape-design/react";
 import { HelpBubbleAnchor } from "seed-design/ui/help-bubble";
-import { HStack } from "@seed-design/react";
+import { HStack } from "@grape-design/react";
 
 export default function HelpBubbleLineBreaks() {
   return (

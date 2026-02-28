@@ -1,7 +1,7 @@
 "use client";
 
 import { IconDiamond } from "@karrotmarket/react-multicolor-icon";
-import { VStack, Icon, Box } from "@seed-design/react";
+import { VStack, Icon, Box } from "@grape-design/react";
 import { ResultSection } from "seed-design/ui/result-section";
 
 export default function ResultSectionPreview() {

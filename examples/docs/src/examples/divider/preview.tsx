@@ -1,6 +1,6 @@
 "use client";
 
-import { Box, Divider, VStack } from "@seed-design/react";
+import { Box, Divider, VStack } from "@grape-design/react";
 
 export default function DividerPreview() {
   return (

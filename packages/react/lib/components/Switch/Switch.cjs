@@ -4,11 +4,11 @@
 Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
 
 const jsxRuntime = require('react/jsx-runtime');
-const reactSwitch = require('@seed-design/react-switch');
+const reactSwitch = require('@grape-design/react-switch');
 const _switch = require('@grape-design/css/recipes/switch');
 const switchmark = require('@grape-design/css/recipes/switchmark');
 const createSlotRecipeContext = require('../../utils/createSlotRecipeContext.cjs');
-const reactPrimitive = require('@seed-design/react-primitive');
+const reactPrimitive = require('@grape-design/react-primitive');
 const createWithStateProps = require('../../utils/createWithStateProps.cjs');
 const React = require('react');
 const clsx = require('clsx');

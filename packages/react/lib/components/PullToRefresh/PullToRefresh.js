@@ -1,5 +1,5 @@
 'use client';
-import { PullToRefresh } from '@seed-design/react-pull-to-refresh';
+import { PullToRefresh } from '@grape-design/react-pull-to-refresh';
 import { pullToRefresh } from '@grape-design/css/recipes/pull-to-refresh';
 import { createSlotRecipeContext } from '../../utils/createSlotRecipeContext.js';
 

@@ -1,5 +1,5 @@
-import { Dialog as DialogPrimitive } from '@seed-design/react-dialog';
-import { PrimitiveProps } from '@seed-design/react-primitive';
+import { Dialog as DialogPrimitive } from '@grape-design/react-dialog';
+import { PrimitiveProps } from '@grape-design/react-primitive';
 import { DialogVariantProps } from '@grape-design/css/recipes/dialog';
 import { ForwardRefExoticComponent, RefAttributes } from 'react';
 export interface DialogRootProps extends DialogVariantProps, DialogPrimitive.RootProps {
