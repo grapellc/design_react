@@ -3,6 +3,7 @@
 @import 'tailwindcss';
 @import 'fumadocs-ui/css/neutral.css';
 @import 'fumadocs-ui/css/preset.css';
+@import 'simple-reveal/index.css';
 
 /* Fumadocs UI theme – match seed-design docs (slightly whiter, no seed tokens on shell) */
 :root {
