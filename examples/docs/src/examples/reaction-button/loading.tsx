@@ -3,7 +3,7 @@
 import { IconFaceSmileCircleFill } from "@karrotmarket/react-monochrome-icon";
 import { PrefixIcon } from "@grape-design/react";
 import { useState } from "react";
-import { ReactionButton } from "seed-design/ui/reaction-button";
+import { ReactionButton } from "grape-design/ui/reaction-button";
 
 export default function ReactionButtonLoading() {
   const [pressed, setPressed] = useState(false);

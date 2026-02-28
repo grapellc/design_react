@@ -1,7 +1,7 @@
 "use client";
 
 import { VStack, Text, HStack } from "@grape-design/react";
-import { Slider } from "seed-design/ui/slider";
+import { Slider } from "grape-design/ui/slider";
 import { useState } from "react";
 
 export default function SliderOnValuesCommit() {

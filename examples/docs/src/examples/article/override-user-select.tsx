@@ -2,7 +2,7 @@
 
 import { IconExclamationmarkCircleFill } from "@karrotmarket/react-monochrome-icon";
 import { Article, Divider, Icon, Text, VStack } from "@grape-design/react";
-import { PageBanner } from "seed-design/ui/page-banner";
+import { PageBanner } from "grape-design/ui/page-banner";
 
 export default function ArticleSelectable() {
   return (

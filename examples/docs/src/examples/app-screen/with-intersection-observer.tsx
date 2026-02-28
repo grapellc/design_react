@@ -12,8 +12,8 @@ import {
   AppBarMain,
   AppBarProps,
   AppBarRight,
-} from "seed-design/ui/app-bar";
-import { AppScreen, AppScreenContent } from "seed-design/ui/app-screen";
+} from "grape-design/ui/app-bar";
+import { AppScreen, AppScreenContent } from "grape-design/ui/app-screen";
 
 declare module "@stackflow/config" {
   interface Register {

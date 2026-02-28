@@ -65,7 +65,7 @@ function handleDisplay(display) {
   if (process.env.NODE_ENV !== "production") {
     if (display === "inlineFlex" || display === "inlineBlock") {
       console.warn(
-        `[SEED Design System] display='${display}' is deprecated and will be removed in @seed-design/react@1.3.0. Use display='${display === "inlineFlex" ? "inline-flex" : "inline-block"}' instead.`
+        `[Grape Design] display='${display}' is deprecated and will be removed in @grape-design/react@1.3.0. Use display='${display === "inlineFlex" ? "inline-flex" : "inline-block"}' instead.`
       );
     }
   }
@@ -85,7 +85,7 @@ function handleFlexDirection(flexDirection) {
   if (process.env.NODE_ENV !== "production") {
     if (flexDirection === "rowReverse" || flexDirection === "columnReverse") {
       console.warn(
-        `[SEED Design System] flexDirection='${flexDirection}' is deprecated and will be removed in @seed-design/react@1.3.0. Use flexDirection='${flexDirection === "rowReverse" ? "row-reverse" : "column-reverse"}' instead.`
+        `[Grape Design] flexDirection='${flexDirection}' is deprecated and will be removed in @grape-design/react@1.3.0. Use flexDirection='${flexDirection === "rowReverse" ? "row-reverse" : "column-reverse"}' instead.`
       );
     }
   }
@@ -105,12 +105,12 @@ function handleJustifyContent(justifyContent) {
   if (process.env.NODE_ENV !== "production") {
     if (justifyContent === "flexStart" || justifyContent === "flexEnd") {
       console.warn(
-        `[SEED Design System] justifyContent='${justifyContent}' is deprecated and will be removed in @seed-design/react@1.3.0. Use justifyContent='${justifyContent === "flexStart" ? "flex-start" : "flex-end"}' instead.`
+        `[Grape Design] justifyContent='${justifyContent}' is deprecated and will be removed in @grape-design/react@1.3.0. Use justifyContent='${justifyContent === "flexStart" ? "flex-start" : "flex-end"}' instead.`
       );
     }
     if (justifyContent === "spaceBetween" || justifyContent === "spaceAround") {
       console.warn(
-        `[SEED Design System] justifyContent='${justifyContent}' is deprecated and will be removed in @seed-design/react@1.3.0. Use justifyContent='${justifyContent === "spaceBetween" ? "space-between" : "space-around"}' instead.`
+        `[Grape Design] justifyContent='${justifyContent}' is deprecated and will be removed in @grape-design/react@1.3.0. Use justifyContent='${justifyContent === "spaceBetween" ? "space-between" : "space-around"}' instead.`
       );
     }
   }
@@ -133,7 +133,7 @@ function handleAlignItems(alignItems) {
   if (process.env.NODE_ENV !== "production") {
     if (alignItems === "flexStart" || alignItems === "flexEnd") {
       console.warn(
-        `[SEED Design System] alignItems='${alignItems}' is deprecated and will be removed in @seed-design/react@1.3.0. Use alignItems='${alignItems === "flexStart" ? "flex-start" : "flex-end"}' instead.`
+        `[Grape Design] alignItems='${alignItems}' is deprecated and will be removed in @grape-design/react@1.3.0. Use alignItems='${alignItems === "flexStart" ? "flex-start" : "flex-end"}' instead.`
       );
     }
   }

@@ -15,7 +15,7 @@ export interface ControlChipBaseProps extends PrimitiveProps, ControlChipVariant
  * <ControlChip size="medium">Label</ControlChip>
  *
  * // After
- * import { Chip } from "@seed-design/react";
+ * import { Chip } from "@grape-design/react";
  * <Chip.Toggle size="medium" variant="outlineStrong">Label</Chip.Toggle>
  * ```
  */

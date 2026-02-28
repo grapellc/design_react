@@ -1,7 +1,7 @@
 "use client";
 
 import { VStack } from "@grape-design/react";
-import { Callout, DismissibleCallout } from "seed-design/ui/callout";
+import { Callout, DismissibleCallout } from "grape-design/ui/callout";
 
 export default function CalloutLinkLabelAsChild() {
   return (

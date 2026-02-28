@@ -1,7 +1,7 @@
 "use client";
 
 import { VStack } from "@grape-design/react";
-import { Slider } from "seed-design/ui/slider";
+import { Slider } from "grape-design/ui/slider";
 
 export default function SliderRtl() {
   return (

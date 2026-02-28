@@ -5,7 +5,7 @@ import {
   ActionableInlineBanner,
   DismissibleInlineBanner,
   InlineBanner,
-} from "seed-design/ui/inline-banner";
+} from "grape-design/ui/inline-banner";
 
 export default function InlineBannerPreview() {
   return (

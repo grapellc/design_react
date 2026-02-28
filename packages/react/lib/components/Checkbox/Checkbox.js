@@ -27,7 +27,7 @@ const CheckboxRoot = Object.assign(
   forwardRef(({ className, ...props }, ref) => {
     if (process.env.NODE_ENV !== "production" && (props.weight === "default" || props.weight === "stronger")) {
       console.warn(
-        `[SEED Design System] Checkbox weight='${props.weight}' is deprecated and will be removed in @seed-design/react@1.3.0. Use weight='${props.weight === "default" ? "regular" : "bold"}' instead.`
+        `[Grape Design] Checkbox weight='${props.weight}' is deprecated and will be removed in @grape-design/react@1.3.0. Use weight='${props.weight === "default" ? "regular" : "bold"}' instead.`
       );
     }
     const [{ checkbox: checkboxVariantProps, checkmark: checkmarkVariantProps }, otherProps] = splitMultipleVariantsProps(

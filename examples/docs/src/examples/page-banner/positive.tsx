@@ -6,7 +6,7 @@ import {
   DismissiblePageBanner,
   PageBanner,
   PageBannerButton,
-} from "seed-design/ui/page-banner";
+} from "grape-design/ui/page-banner";
 
 export default function PageBannerPositive() {
   return (

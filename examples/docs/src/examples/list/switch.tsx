@@ -3,8 +3,8 @@
 import { IconTrashcanLine } from "@karrotmarket/react-monochrome-icon";
 import { IconSparkle2 } from "@karrotmarket/react-multicolor-icon";
 import { Icon } from "@grape-design/react";
-import { List, ListDivider, ListSwitchItem } from "seed-design/ui/list";
-import { Switchmark } from "seed-design/ui/switch";
+import { List, ListDivider, ListSwitchItem } from "grape-design/ui/list";
+import { Switchmark } from "grape-design/ui/switch";
 
 export default function ListSwitch() {
   return (

@@ -6,7 +6,7 @@ import {
   ChipTabsList,
   ChipTabsRoot,
   ChipTabsTrigger,
-} from "seed-design/ui/chip-tabs";
+} from "grape-design/ui/chip-tabs";
 
 export default function ChipTabsWithScrollFog() {
   return (

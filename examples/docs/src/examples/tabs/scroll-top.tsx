@@ -1,7 +1,7 @@
 "use client";
 
 import React, { RefObject, useRef, useState } from "react";
-import { TabsCarousel, TabsContent, TabsList, TabsRoot, TabsTrigger } from "seed-design/ui/tabs";
+import { TabsCarousel, TabsContent, TabsList, TabsRoot, TabsTrigger } from "grape-design/ui/tabs";
 
 export default function TabsScrollTop() {
   const [currentTab, setCurrentTab] = useState("1");

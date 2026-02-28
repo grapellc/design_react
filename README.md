@@ -6,21 +6,21 @@ A design system that mirrors [seed-design](https://github.com/daangn/seed-design
 
 | Package | Description |
 |--------|-------------|
-| `@grape-design/tokens` | Shared design tokens. Web: re-exports from `@seed-design/css`. Native: resolved values for React Native. |
-| `@grape-design/react` | Web components. Re-exports all seed-design React components (same API). |
+| `@grape-design/tokens` | Shared design tokens. Web: re-exports from `@grape-design/css`. Native: resolved values for React Native. |
+| `@grape-design/react` | Web components. Same API as Seed Design; built and maintained as Grape Design. |
 | `@grape-design/react-native` | React Native components with the same API surface (Box, Text, ActionButton, Flex, Divider). |
 
 ## React (web)
 
 ```bash
-bun add @grape-design/react @seed-design/css
+bun add @grape-design/react @grape-design/css
 ```
 
-Import base and recipe CSS from seed-design, then use Grape components:
+Import base and recipe CSS from Grape Design, then use the components:
 
 ```tsx
-import "@seed-design/css/base.css";
-import "@seed-design/css/recipes/box.css";
+import "@grape-design/css/base.css";
+import "@grape-design/css/recipes/box.css";
 // ... other recipe CSS you need
 
 import { Box, Text, ActionButton } from "@grape-design/react";
@@ -35,7 +35,7 @@ export function App() {
 }
 ```
 
-All component names and props match seed-design’s [React documentation](https://seed-design.io).
+Component names and props follow the same patterns as [Seed Design](https://seed-design.io); see the docs app for Grape Design usage.
 
 ## React Native
 
@@ -83,7 +83,7 @@ Then open **http://localhost:5174/** to see Layout, Typography, Buttons, Chips, 
 
 ## Docs (Fumadocs)
 
-Component documentation and live examples (seed-design–style):
+Component documentation and live examples:
 
 ```bash
 bun install
@@ -106,4 +106,4 @@ Build order: `tokens` → `react` and `react-native` (react-native depends on to
 
 ## License
 
-Same as seed-design where components are derived; see NOTICE and seed-design license for details.
+See NOTICE and repository license for details.

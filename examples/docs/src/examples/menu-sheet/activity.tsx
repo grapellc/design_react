@@ -9,9 +9,9 @@ import {
   AppBarLeft,
   AppBarMain,
   AppBarRight,
-} from "seed-design/ui/app-bar";
-import { AppScreen, AppScreenContent } from "seed-design/ui/app-screen";
-import { ActionButton } from "seed-design/ui/action-button";
+} from "grape-design/ui/app-bar";
+import { AppScreen, AppScreenContent } from "grape-design/ui/app-screen";
+import { ActionButton } from "grape-design/ui/action-button";
 import { IconHouseLine } from "@grape-design/icons";
 
 declare module "@stackflow/config" {

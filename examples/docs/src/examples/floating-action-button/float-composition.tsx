@@ -1,6 +1,6 @@
 "use client";
 
-import { FloatingActionButton } from "seed-design/ui/floating-action-button";
+import { FloatingActionButton } from "grape-design/ui/floating-action-button";
 import { IconBellFill } from "@karrotmarket/react-monochrome-icon";
 import { Box, Float } from "@grape-design/react";
 

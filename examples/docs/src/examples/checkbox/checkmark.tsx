@@ -2,7 +2,7 @@
 
 import { HStack, Text, VStack } from "@grape-design/react";
 import { Checkbox } from "@grape-design/react/primitive";
-import { Checkmark } from "seed-design/ui/checkbox";
+import { Checkmark } from "grape-design/ui/checkbox";
 
 function CustomCheckbox({ children, ...props }: Checkbox.RootProps) {
   return (

@@ -7,7 +7,7 @@ import {
   IconStarFill,
 } from "@karrotmarket/react-monochrome-icon";
 import { Icon, VStack } from "@grape-design/react";
-import { TagGroupRoot, TagGroupItem } from "seed-design/ui/tag-group";
+import { TagGroupRoot, TagGroupItem } from "grape-design/ui/tag-group";
 import { TagGroup as SeedTagGroup } from "@grape-design/react";
 
 export default function TagGroupCustomizingItem() {

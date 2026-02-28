@@ -1,6 +1,6 @@
 "use client";
 
-import { InlineBanner } from "seed-design/ui/inline-banner";
+import { InlineBanner } from "grape-design/ui/inline-banner";
 
 export default function InlineBannerLinkLabelAsChild() {
   return (

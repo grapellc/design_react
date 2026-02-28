@@ -2,8 +2,8 @@
 
 import { HStack, VStack } from "@grape-design/react";
 import { useCallback, useState, type FormEvent } from "react";
-import { ActionButton } from "seed-design/ui/action-button";
-import { TextField, TextFieldTextarea } from "seed-design/ui/text-field";
+import { ActionButton } from "grape-design/ui/action-button";
+import { TextField, TextFieldTextarea } from "grape-design/ui/text-field";
 
 type FieldErrors = {
   bio?: string;

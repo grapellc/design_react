@@ -1,7 +1,7 @@
 "use client";
 
 import { HStack, VStack } from "@grape-design/react";
-import { Chip } from "seed-design/ui/chip";
+import { Chip } from "grape-design/ui/chip";
 
 export default function ChipMedium() {
   return (

@@ -1,13 +1,13 @@
 "use client";
 
-import { ActionButton } from "seed-design/ui/action-button";
+import { ActionButton } from "grape-design/ui/action-button";
 import {
   BottomSheetBody,
   BottomSheetContent,
   BottomSheetFooter,
   BottomSheetRoot,
   BottomSheetTrigger,
-} from "seed-design/ui/bottom-sheet";
+} from "grape-design/ui/bottom-sheet";
 
 const BottomSheetBottomInset = () => {
   return (

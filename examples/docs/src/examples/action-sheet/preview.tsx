@@ -5,8 +5,8 @@ import {
   ActionSheetItem,
   ActionSheetRoot,
   ActionSheetTrigger,
-} from "seed-design/ui/action-sheet";
-import { ActionButton } from "seed-design/ui/action-button";
+} from "grape-design/ui/action-sheet";
+import { ActionButton } from "grape-design/ui/action-button";
 
 const ActionSheetPreview = () => {
   return (

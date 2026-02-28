@@ -1137,7 +1137,6 @@ declare function useTabs(props: UseTabsProps): {
             onTransitionEndCapture?: React.TransitionEventHandler<HTMLButtonElement>;
             value?: string | readonly string[] | number | undefined;
             disabled?: boolean | undefined;
-            name?: string | undefined;
             form?: string | undefined;
             type?: "submit" | "reset" | "button" | undefined;
             formAction?: string | React.DO_NOT_USE_OR_YOU_WILL_BE_FIRED_EXPERIMENTAL_FORM_ACTIONS[keyof React.DO_NOT_USE_OR_YOU_WILL_BE_FIRED_EXPERIMENTAL_FORM_ACTIONS] | undefined;
@@ -1145,6 +1144,7 @@ declare function useTabs(props: UseTabsProps): {
             formMethod?: string | undefined;
             formNoValidate?: boolean | undefined;
             formTarget?: string | undefined;
+            name?: string | undefined;
         };
         isDisabled: boolean;
         isSelected: boolean;

@@ -1,10 +1,10 @@
 "use client";
 
-import { ActionButton } from "seed-design/ui/action-button";
-import { AppBar, AppBarMain } from "seed-design/ui/app-bar";
-import { AppScreen, AppScreenContent } from "seed-design/ui/app-screen";
-import { ProgressCircle } from "seed-design/ui/progress-circle";
-import { ResultSection } from "seed-design/ui/result-section";
+import { ActionButton } from "grape-design/ui/action-button";
+import { AppBar, AppBarMain } from "grape-design/ui/app-bar";
+import { AppScreen, AppScreenContent } from "grape-design/ui/app-screen";
+import { ProgressCircle } from "grape-design/ui/progress-circle";
+import { ResultSection } from "grape-design/ui/result-section";
 import { IconExclamationmarkCircleFill } from "@karrotmarket/react-monochrome-icon";
 import { Box, Flex, Icon, VStack } from "@grape-design/react";
 import { ActivityComponentType } from "@stackflow/react/future";

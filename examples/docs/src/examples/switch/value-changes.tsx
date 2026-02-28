@@ -1,7 +1,7 @@
 "use client";
 
 import { VStack, Text } from "@grape-design/react";
-import { Switch } from "seed-design/ui/switch";
+import { Switch } from "grape-design/ui/switch";
 import { useState } from "react";
 
 export default function SwitchValueChanges() {

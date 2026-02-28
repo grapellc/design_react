@@ -13,8 +13,8 @@ import {
   MenuSheetGroup,
   MenuSheetItem,
   MenuSheetRoot,
-} from "seed-design/ui/menu-sheet";
-import { Switch } from "seed-design/ui/switch";
+} from "grape-design/ui/menu-sheet";
+import { Switch } from "grape-design/ui/switch";
 import { useActivityZIndexBase } from "@grape-design/stackflow";
 
 declare module "@stackflow/config" {

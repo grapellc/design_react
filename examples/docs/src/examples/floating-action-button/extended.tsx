@@ -1,7 +1,7 @@
 "use client";
 
-import { FloatingActionButton } from "seed-design/ui/floating-action-button";
-import { Switch } from "seed-design/ui/switch";
+import { FloatingActionButton } from "grape-design/ui/floating-action-button";
+import { Switch } from "grape-design/ui/switch";
 import IconPlusLine from "@karrotmarket/react-monochrome-icon/IconPlusLine";
 import { Flex, VStack } from "@grape-design/react";
 import { useState } from "react";

@@ -2,8 +2,8 @@
 
 import { HStack, VStack } from "@grape-design/react";
 import { useCallback, useState, type FormEvent } from "react";
-import { ActionButton } from "seed-design/ui/action-button";
-import { Slider } from "seed-design/ui/slider";
+import { ActionButton } from "grape-design/ui/action-button";
+import { Slider } from "grape-design/ui/slider";
 
 type FieldErrors = {
   rating?: string;

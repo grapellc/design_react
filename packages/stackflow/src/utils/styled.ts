@@ -2,7 +2,7 @@ import type { ScopedColorBg, ScopedColorPalette, ScopedColorBanner } from "@grap
 import { vars } from "@grape-design/css/vars";
 
 /**
- * A minimal subset of `StyleProps` from `@seed-design/react`.
+ * A minimal subset of `StyleProps` from `@grape-design/react`.
  * Copied here to avoid package dependency. May be extracted to a shared package later.
  */
 export interface BoxBackgroundProps {

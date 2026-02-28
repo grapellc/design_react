@@ -2,7 +2,7 @@
 
 import { IconSparkle2 } from "@karrotmarket/react-multicolor-icon";
 import { VStack } from "@grape-design/react";
-import { ActionableCallout, Callout, DismissibleCallout } from "seed-design/ui/callout";
+import { ActionableCallout, Callout, DismissibleCallout } from "grape-design/ui/callout";
 
 export default function CalloutMagic() {
   return (

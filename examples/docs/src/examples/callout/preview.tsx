@@ -1,7 +1,7 @@
 "use client";
 
 import { VStack } from "@grape-design/react";
-import { ActionableCallout, Callout, DismissibleCallout } from "seed-design/ui/callout";
+import { ActionableCallout, Callout, DismissibleCallout } from "grape-design/ui/callout";
 
 export default function CalloutPreview() {
   return (

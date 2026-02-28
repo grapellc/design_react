@@ -1,6 +1,6 @@
 "use client";
 
-import { FloatingActionButton } from "seed-design/ui/floating-action-button";
+import { FloatingActionButton } from "grape-design/ui/floating-action-button";
 import IconPlusLine from "@karrotmarket/react-monochrome-icon/IconPlusLine";
 
 export default function FloatingActionButtonPreview() {

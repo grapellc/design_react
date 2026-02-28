@@ -1,7 +1,7 @@
 "use client";
 
-import { ActionButton } from "seed-design/ui/action-button";
-import { HelpBubbleTrigger } from "seed-design/ui/help-bubble";
+import { ActionButton } from "grape-design/ui/action-button";
+import { HelpBubbleTrigger } from "grape-design/ui/help-bubble";
 
 export default function HelpBubbleCloseButton() {
   return (

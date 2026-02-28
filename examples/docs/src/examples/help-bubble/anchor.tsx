@@ -2,9 +2,9 @@
 
 import { VStack } from "@grape-design/react";
 import { useState } from "react";
-import { Avatar } from "seed-design/ui/avatar";
-import { HelpBubbleAnchor } from "seed-design/ui/help-bubble";
-import { Switch } from "seed-design/ui/switch";
+import { Avatar } from "grape-design/ui/avatar";
+import { HelpBubbleAnchor } from "grape-design/ui/help-bubble";
+import { Switch } from "grape-design/ui/switch";
 
 export default function () {
   const [isControlledHelpBubbleOpen, setIsControlledHelpBubbleOpen] = useState(true);

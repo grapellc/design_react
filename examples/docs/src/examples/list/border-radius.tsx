@@ -1,9 +1,9 @@
 "use client";
 
-import { List, ListCheckItem, ListRadioItem } from "seed-design/ui/list";
-import { ListHeader } from "seed-design/ui/list-header";
-import { Checkmark } from "seed-design/ui/checkbox";
-import { Radiomark } from "seed-design/ui/radio-group";
+import { List, ListCheckItem, ListRadioItem } from "grape-design/ui/list";
+import { ListHeader } from "grape-design/ui/list-header";
+import { Checkmark } from "grape-design/ui/checkbox";
+import { Radiomark } from "grape-design/ui/radio-group";
 import { HStack, VStack } from "@grape-design/react";
 import { RadioGroup } from "@grape-design/react/primitive";
 

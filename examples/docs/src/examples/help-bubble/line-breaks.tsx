@@ -2,7 +2,7 @@
 
 import { IconSparkle2 } from "@karrotmarket/react-multicolor-icon";
 import { Icon } from "@grape-design/react";
-import { HelpBubbleAnchor } from "seed-design/ui/help-bubble";
+import { HelpBubbleAnchor } from "grape-design/ui/help-bubble";
 import { HStack } from "@grape-design/react";
 
 export default function HelpBubbleLineBreaks() {

@@ -1,7 +1,7 @@
 "use client";
 
 import { VStack } from "@grape-design/react";
-import { Checkbox } from "seed-design/ui/checkbox";
+import { Checkbox } from "grape-design/ui/checkbox";
 
 export default function CheckboxIndeterminate() {
   return (

@@ -3,8 +3,8 @@
 import { HStack, VStack } from "@grape-design/react";
 import { useCallback, type FormEvent, type KeyboardEvent } from "react";
 import { useController, useForm } from "react-hook-form";
-import { ActionButton } from "seed-design/ui/action-button";
-import { TextField, TextFieldTextarea } from "seed-design/ui/text-field";
+import { ActionButton } from "grape-design/ui/action-button";
+import { TextField, TextFieldTextarea } from "grape-design/ui/text-field";
 
 interface FormValues {
   bio: string;

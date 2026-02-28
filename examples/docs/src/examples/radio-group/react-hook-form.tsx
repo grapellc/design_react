@@ -3,8 +3,8 @@
 import { HStack, VStack } from "@grape-design/react";
 import { useCallback, type FormEvent } from "react";
 import { useController, useForm } from "react-hook-form";
-import { ActionButton } from "seed-design/ui/action-button";
-import { RadioGroup, RadioGroupItem } from "seed-design/ui/radio-group";
+import { ActionButton } from "grape-design/ui/action-button";
+import { RadioGroup, RadioGroupItem } from "grape-design/ui/radio-group";
 
 const POSSIBLE_COLORS = ["red", "blue", "green"] as const;
 

@@ -2,7 +2,7 @@
 
 import { ActionButton, HStack, VStack } from "@grape-design/react";
 import { useState } from "react";
-import { Checkbox, CheckboxGroup } from "seed-design/ui/checkbox";
+import { Checkbox, CheckboxGroup } from "grape-design/ui/checkbox";
 
 export default function CheckboxFieldset() {
   const [firstErrors, setFirstErrors] = useState<Record<string, string | undefined>>({});

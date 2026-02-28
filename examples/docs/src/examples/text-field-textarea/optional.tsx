@@ -1,6 +1,6 @@
 "use client";
 
-import { TextField, TextFieldTextarea } from "seed-design/ui/text-field";
+import { TextField, TextFieldTextarea } from "grape-design/ui/text-field";
 
 export default function TextFieldTextareaIndicator() {
   return (

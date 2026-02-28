@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { ToggleButton } from "seed-design/ui/toggle-button";
+import { ToggleButton } from "grape-design/ui/toggle-button";
 
 export default function ToggleButtonPreview() {
   const [pressed, setPressed] = useState(false);

@@ -1,6 +1,6 @@
 "use client";
 
-import { Slider } from "seed-design/ui/slider";
+import { Slider } from "grape-design/ui/slider";
 
 const formatter = new Intl.NumberFormat("ko-KR", { style: "decimal" });
 

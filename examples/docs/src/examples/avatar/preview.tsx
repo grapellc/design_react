@@ -1,8 +1,8 @@
 "use client";
 
 import { Box, Flex } from "@grape-design/react";
-import { Avatar, AvatarBadge } from "seed-design/ui/avatar";
-import { IdentityPlaceholder } from "seed-design/ui/identity-placeholder";
+import { Avatar, AvatarBadge } from "grape-design/ui/avatar";
+import { IdentityPlaceholder } from "grape-design/ui/identity-placeholder";
 
 export default function AvatarPreview() {
   return (

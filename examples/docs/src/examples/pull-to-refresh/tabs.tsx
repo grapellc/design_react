@@ -2,14 +2,14 @@
 
 import { VStack } from "@grape-design/react";
 import { ActivityComponentType } from "@stackflow/react/future";
-import { AppBar, AppBarMain } from "seed-design/ui/app-bar";
-import { AppScreen, AppScreenContent } from "seed-design/ui/app-screen";
+import { AppBar, AppBarMain } from "grape-design/ui/app-bar";
+import { AppScreen, AppScreenContent } from "grape-design/ui/app-screen";
 import {
   PullToRefreshContent,
   PullToRefreshIndicator,
   PullToRefreshRoot,
-} from "seed-design/ui/pull-to-refresh";
-import { TabsContent, TabsList, TabsRoot, TabsTrigger } from "seed-design/ui/tabs";
+} from "grape-design/ui/pull-to-refresh";
+import { TabsContent, TabsList, TabsRoot, TabsTrigger } from "grape-design/ui/tabs";
 
 declare module "@stackflow/config" {
   interface Register {

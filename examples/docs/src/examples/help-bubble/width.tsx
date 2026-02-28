@@ -1,7 +1,7 @@
 "use client";
 
-import { HelpBubbleAnchor } from "seed-design/ui/help-bubble";
-import { SegmentedControl, SegmentedControlItem } from "seed-design/ui/segmented-control";
+import { HelpBubbleAnchor } from "grape-design/ui/help-bubble";
+import { SegmentedControl, SegmentedControlItem } from "grape-design/ui/segmented-control";
 import { VStack } from "@grape-design/react";
 import { useState } from "react";
 

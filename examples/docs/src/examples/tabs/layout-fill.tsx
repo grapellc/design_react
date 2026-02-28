@@ -1,6 +1,6 @@
 "use client";
 
-import { TabsContent, TabsList, TabsRoot, TabsTrigger } from "seed-design/ui/tabs";
+import { TabsContent, TabsList, TabsRoot, TabsTrigger } from "grape-design/ui/tabs";
 
 export default function TabsLayoutFill() {
   return (

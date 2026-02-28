@@ -1,6 +1,6 @@
 "use client";
 
-import { PageBanner, PageBannerButton } from "seed-design/ui/page-banner";
+import { PageBanner, PageBannerButton } from "grape-design/ui/page-banner";
 
 export default function PageBannerWithButton() {
   return (

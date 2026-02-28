@@ -3,7 +3,7 @@
 import { IconPlusLine } from "@karrotmarket/react-monochrome-icon";
 import { PrefixIcon } from "@grape-design/react";
 import { useState } from "react";
-import { ContextualFloatingButton } from "seed-design/ui/contextual-floating-button";
+import { ContextualFloatingButton } from "grape-design/ui/contextual-floating-button";
 
 export default function ContextualFloatingButtonLoading() {
   const [loading, setLoading] = useState(false);

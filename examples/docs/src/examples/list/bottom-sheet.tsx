@@ -6,10 +6,10 @@ import {
   BottomSheetFooter,
   BottomSheetRoot,
   BottomSheetTrigger,
-} from "seed-design/ui/bottom-sheet";
-import { ActionButton } from "seed-design/ui/action-button";
-import { Checkmark } from "seed-design/ui/checkbox";
-import { List, ListCheckItem } from "seed-design/ui/list";
+} from "grape-design/ui/bottom-sheet";
+import { ActionButton } from "grape-design/ui/action-button";
+import { Checkmark } from "grape-design/ui/checkbox";
+import { List, ListCheckItem } from "grape-design/ui/list";
 import { PrefixIcon, VStack } from "@grape-design/react";
 import { useState } from "react";
 import { IconArrowClockwiseCircularFill } from "@karrotmarket/react-monochrome-icon";

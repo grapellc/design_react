@@ -1,7 +1,7 @@
 "use client";
 
 import { ResponsivePair } from "@grape-design/react";
-import { ActionButton } from "seed-design/ui/action-button";
+import { ActionButton } from "grape-design/ui/action-button";
 import {
   AlertDialogAction,
   AlertDialogContent,
@@ -11,7 +11,7 @@ import {
   AlertDialogRoot,
   AlertDialogTitle,
   AlertDialogTrigger,
-} from "seed-design/ui/alert-dialog";
+} from "grape-design/ui/alert-dialog";
 
 const AlertDialogSingle = () => {
   return (

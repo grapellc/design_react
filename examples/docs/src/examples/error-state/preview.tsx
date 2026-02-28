@@ -1,7 +1,7 @@
 "use client";
 
 import { VStack } from "@grape-design/react";
-import { ErrorState } from "seed-design/ui/error-state";
+import { ErrorState } from "grape-design/ui/error-state";
 
 export default function ErrorStatePreview() {
   return (

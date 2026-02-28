@@ -3,36 +3,36 @@
 import { useState, useMemo } from "react";
 import type { ActivityComponentType } from "@stackflow/react/future";
 import { useActions } from "@stackflow/react";
-import { AppBar, AppBarMain } from "seed-design/ui/app-bar";
-import { AppScreen, AppScreenContent } from "seed-design/ui/app-screen";
+import { AppBar, AppBarMain } from "grape-design/ui/app-bar";
+import { AppScreen, AppScreenContent } from "grape-design/ui/app-screen";
 import {
   TabsRoot,
   TabsTrigger,
   TabsList,
   TabsCarousel,
   TabsContent,
-} from "seed-design/ui/tabs";
-import { SnackbarProvider } from "seed-design/ui/snackbar";
-import { ResultSection } from "seed-design/ui/result-section";
+} from "grape-design/ui/tabs";
+import { SnackbarProvider } from "grape-design/ui/snackbar";
+import { ResultSection } from "grape-design/ui/result-section";
 import {
   IconSquare2StackedFill,
   IconChevronDownFill,
 } from "@grape-design/icons";
 import { Flex, HStack, VStack, Icon, Box, Text, Badge, Portal } from "@grape-design/react";
-import { TagGroupRoot, TagGroupItem } from "seed-design/ui/tag-group";
-import { Chip } from "seed-design/ui/chip";
+import { TagGroupRoot, TagGroupItem } from "grape-design/ui/tag-group";
+import { Chip } from "grape-design/ui/chip";
 import {
   BottomSheetBody,
   BottomSheetRoot,
   BottomSheetContent,
   BottomSheetFooter,
   BottomSheetTrigger,
-} from "seed-design/ui/bottom-sheet";
-import { ActionButton } from "seed-design/ui/action-button";
-import { Snackbar, useSnackbarAdapter } from "seed-design/ui/snackbar";
+} from "grape-design/ui/bottom-sheet";
+import { ActionButton } from "grape-design/ui/action-button";
+import { Snackbar, useSnackbarAdapter } from "grape-design/ui/snackbar";
 import { ARTICLES, CATEGORIES, type Article, type Category } from "./demo-data";
-import { Avatar } from "seed-design/ui/avatar";
-import { IdentityPlaceholder } from "seed-design/ui/identity-placeholder";
+import { Avatar } from "grape-design/ui/avatar";
+import { IdentityPlaceholder } from "grape-design/ui/identity-placeholder";
 import { formatDate } from "./utils/date";
 import { useActivityZIndexBase } from "@grape-design/stackflow";
 import { tabsCarouselPreventDrag } from "@grape-design/react";

@@ -1,7 +1,7 @@
 "use client";
 
 import { VStack, Text } from "@grape-design/react";
-import { Slider } from "seed-design/ui/slider";
+import { Slider } from "grape-design/ui/slider";
 import { useState } from "react";
 
 const ALLOWED_VALUES = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29];

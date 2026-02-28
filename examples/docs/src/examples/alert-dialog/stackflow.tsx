@@ -3,7 +3,7 @@
 import { ResponsivePair, VStack } from "@grape-design/react";
 import { useActivity, useFlow, type StaticActivityComponentType } from "@stackflow/react/future";
 import { useState } from "react";
-import { ActionButton } from "seed-design/ui/action-button";
+import { ActionButton } from "grape-design/ui/action-button";
 import {
   AlertDialogAction,
   AlertDialogContent,
@@ -12,8 +12,8 @@ import {
   AlertDialogHeader,
   AlertDialogRoot,
   AlertDialogTitle,
-} from "seed-design/ui/alert-dialog";
-import { Switch } from "seed-design/ui/switch";
+} from "grape-design/ui/alert-dialog";
+import { Switch } from "grape-design/ui/switch";
 import { useActivityZIndexBase } from "@grape-design/stackflow";
 
 declare module "@stackflow/config" {

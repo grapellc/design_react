@@ -44,17 +44,13 @@ Compound components는 뛰어난 유연성을 제공하지만, 매번 이렇게 
 
 ### CLI 실행
 
-다음 명령어를 통해 필요한 컴포넌트의 snippet을 프로젝트에 추가할 수 있습니다:
+Install Grape Design and use snippets from the docs registry. From your app:
 
 ```bash
-npx @seed-design/cli add
+bun add @grape-design/react @grape-design/css
 ```
 
-<Card title="CLI Commands" href="/react/getting-started/cli/commands" icon={<IconTerminal/>}>
-
-CLI 명령어에 대해 더 알아봅니다.
-
-</Card>
+Then copy component snippets from the docs (e.g. `grape-design/ui/checkbox`) or import from `@grape-design/react`.
 
 </Step>
 
@@ -62,24 +58,24 @@ CLI 명령어에 대해 더 알아봅니다.
 
 ### 생성된 Snippet 활용
 
-CLI 실행 후, `seed-design/ui/*` 디렉토리에 snippet이 생성됩니다. 예를 들어:
+CLI 실행 후, `grape-design/ui/*` 디렉토리에 snippet이 생성됩니다. 예를 들어:
 
 ```tsx
-// seed-design/ui/checkbox.tsx
+// grape-design/ui/checkbox.tsx
 
 export const Checkbox = React.forwardRef<HTMLInputElement, CheckboxProps>(
   ({ inputProps, rootRef, label, variant = "square", ...otherProps }, ref) => {
     return (
-      <SeedCheckbox.Root ref={rootRef} variant={variant} {...otherProps}>
-        <SeedCheckbox.Control>
-          <SeedCheckbox.Indicator
+      <Checkbox.Root ref={rootRef} variant={variant} {...otherProps}>
+        <Checkbox.Control>
+          <Checkbox.Indicator
             unchecked={variant === "ghost" ? <IconCheckmarkFatFill /> : null}
             checked={<IconCheckmarkFatFill />}
             indeterminate={<IconMinusFatFill />}
           />
-        </SeedCheckbox.Control>
-        <SeedCheckbox.Label>{label}</SeedCheckbox.Label>
-        <SeedCheckbox.HiddenInput ref={ref} {...inputProps} />
+        </Checkbox.Control>
+        <Checkbox.Label>{label}</Checkbox.Label>
+        <Checkbox.HiddenInput ref={ref} {...inputProps} />
       </SeedCheckbox.Root>
     );
   }
@@ -94,7 +90,7 @@ export const Checkbox = React.forwardRef<HTMLInputElement, CheckboxProps>(
 Snippet을 통해 복잡한 compound components를 간단하게 사용할 수 있습니다:
 
 ```tsx
-import { Checkbox } from "@/seed-design/ui/checkbox";
+import { Checkbox } from "@/grape-design/ui/checkbox";
 
 const Demo = () => <Checkbox>Click me</Checkbox>;
 ```

@@ -22,6 +22,8 @@ const registryRelative = 'src/registry';
 const resolveAliases = {
   'seed-design/ui': registryPath,
   ...Object.fromEntries(REGISTRY_MODULES.map((m) => [`seed-design/ui/${m}`, path.join(registryPath, `${m}.tsx`)])),
+  'grape-design/ui': registryPath,
+  ...Object.fromEntries(REGISTRY_MODULES.map((m) => [`grape-design/ui/${m}`, path.join(registryPath, `${m}.tsx`)])),
   '@seed-design/react': '@grape-design/react',
   '@karrotmarket/react-monochrome-icon': '@grape-design/icons/monochrome',
   '@karrotmarket/react-monochrome-icon/IconCheckmarkCircleFill': '@grape-design/icons/monochrome/IconCheckmarkCircleFill',
@@ -38,6 +40,8 @@ const resolveAliases = {
 const turbopackAliases = {
   'seed-design/ui': registryRelative,
   ...Object.fromEntries(REGISTRY_MODULES.map((m) => [`seed-design/ui/${m}`, `${registryRelative}/${m}.tsx`])),
+  'grape-design/ui': registryRelative,
+  ...Object.fromEntries(REGISTRY_MODULES.map((m) => [`grape-design/ui/${m}`, `${registryRelative}/${m}.tsx`])),
   '@seed-design/react': '@grape-design/react',
   '@karrotmarket/react-monochrome-icon': '@grape-design/icons/monochrome',
   '@karrotmarket/react-monochrome-icon/IconCheckmarkCircleFill': '@grape-design/icons/monochrome/IconCheckmarkCircleFill',

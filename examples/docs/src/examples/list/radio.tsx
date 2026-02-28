@@ -1,8 +1,8 @@
 "use client";
 
 import { RadioGroup } from "@grape-design/react/primitive";
-import { List, ListDivider, ListRadioItem } from "seed-design/ui/list";
-import { Radiomark } from "seed-design/ui/radio-group";
+import { List, ListDivider, ListRadioItem } from "grape-design/ui/list";
+import { Radiomark } from "grape-design/ui/radio-group";
 
 export default function ListRadio() {
   return (

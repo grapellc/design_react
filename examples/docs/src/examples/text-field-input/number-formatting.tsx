@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { TextField, TextFieldInput } from "seed-design/ui/text-field";
+import { TextField, TextFieldInput } from "grape-design/ui/text-field";
 
 export default function TextFieldInputNumberFormatting() {
   const [value, setValue] = useState("1000");

@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { TabsList, TabsRoot, TabsTrigger } from "seed-design/ui/tabs";
+import { TabsList, TabsRoot, TabsTrigger } from "grape-design/ui/tabs";
 
 export default function TabsStandalone() {
   const [activeTab, setActiveTab] = useState("1");

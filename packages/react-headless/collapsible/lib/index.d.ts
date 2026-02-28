@@ -15,8 +15,8 @@ declare function useCollapsible(props: UseCollapsibleProps): {
     setOpen: (value: react.SetStateAction<boolean>) => void;
     disabled: boolean;
     stateProps: {
-        defaultChecked?: boolean | undefined;
         defaultValue?: string | number | readonly string[] | undefined;
+        defaultChecked?: boolean | undefined;
         suppressContentEditableWarning?: boolean | undefined;
         suppressHydrationWarning?: boolean | undefined;
         accessKey?: string | undefined;
@@ -283,8 +283,8 @@ declare function useCollapsible(props: UseCollapsibleProps): {
         onTransitionEndCapture?: react.TransitionEventHandler<HTMLElement>;
     };
     triggerAriaProps: {
-        defaultChecked?: boolean | undefined;
         defaultValue?: string | number | readonly string[] | undefined;
+        defaultChecked?: boolean | undefined;
         suppressContentEditableWarning?: boolean | undefined;
         suppressHydrationWarning?: boolean | undefined;
         accessKey?: string | undefined;
@@ -551,8 +551,8 @@ declare function useCollapsible(props: UseCollapsibleProps): {
         onTransitionEndCapture?: react.TransitionEventHandler<HTMLElement>;
     };
     triggerHandlers: {
-        defaultChecked?: boolean | undefined;
         defaultValue?: string | number | readonly string[] | undefined;
+        defaultChecked?: boolean | undefined;
         suppressContentEditableWarning?: boolean | undefined;
         suppressHydrationWarning?: boolean | undefined;
         accessKey?: string | undefined;
@@ -819,8 +819,8 @@ declare function useCollapsible(props: UseCollapsibleProps): {
         onTransitionEndCapture?: react.TransitionEventHandler<HTMLElement>;
     };
     contentProps: {
-        defaultChecked?: boolean | undefined;
         defaultValue?: string | number | readonly string[] | undefined;
+        defaultChecked?: boolean | undefined;
         suppressContentEditableWarning?: boolean | undefined;
         suppressHydrationWarning?: boolean | undefined;
         accessKey?: string | undefined;

@@ -1,7 +1,7 @@
 "use client";
 
 import { HStack, VStack, Icon } from "@grape-design/react";
-import { Chip } from "seed-design/ui/chip";
+import { Chip } from "grape-design/ui/chip";
 import { IconHeartFill } from "@karrotmarket/react-monochrome-icon";
 
 export default function ChipPrefixIcon() {

@@ -1,7 +1,7 @@
 "use client";
 
 import { HStack } from "@grape-design/react";
-import { FieldButton, FieldButtonValue, FieldButtonPlaceholder } from "seed-design/ui/field-button";
+import { FieldButton, FieldButtonValue, FieldButtonPlaceholder } from "grape-design/ui/field-button";
 import { useCallback, useState } from "react";
 
 export default function FieldButtonValuePlaceholder() {

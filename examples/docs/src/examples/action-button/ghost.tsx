@@ -1,7 +1,7 @@
 "use client";
 
 import { HStack, PrefixIcon, VStack } from "@grape-design/react";
-import { ActionButton } from "seed-design/ui/action-button";
+import { ActionButton } from "grape-design/ui/action-button";
 import { IconTagLine } from "@karrotmarket/react-monochrome-icon";
 
 export default function ActionButtonGhost() {

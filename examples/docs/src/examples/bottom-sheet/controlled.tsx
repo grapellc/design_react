@@ -1,13 +1,13 @@
 "use client";
 
 import { useState } from "react";
-import { ActionButton } from "seed-design/ui/action-button";
+import { ActionButton } from "grape-design/ui/action-button";
 import {
   BottomSheetBody,
   BottomSheetContent,
   BottomSheetFooter,
   BottomSheetRoot,
-} from "seed-design/ui/bottom-sheet";
+} from "grape-design/ui/bottom-sheet";
 
 const BottomSheetControlled = () => {
   const [open, setOpen] = useState(false);

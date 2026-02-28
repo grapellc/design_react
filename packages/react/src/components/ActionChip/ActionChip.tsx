@@ -15,7 +15,7 @@ const { withContext } = createRecipeContext(actionChip);
  * <ActionChip size="medium">Label</ActionChip>
  *
  * // After
- * import { Chip } from "@seed-design/react";
+ * import { Chip } from "@grape-design/react";
  * <Chip.Button size="medium" variant="solid">Label</Chip.Button>
  * ```
  */

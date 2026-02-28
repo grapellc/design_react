@@ -1,13 +1,13 @@
 "use client";
 
-import { ActionButton } from "seed-design/ui/action-button";
+import { ActionButton } from "grape-design/ui/action-button";
 import {
   MenuSheetContent,
   MenuSheetGroup,
   MenuSheetItem,
   MenuSheetRoot,
   MenuSheetTrigger,
-} from "seed-design/ui/menu-sheet";
+} from "grape-design/ui/menu-sheet";
 
 const MenuSheetWithoutPrefixIcon = () => {
   return (

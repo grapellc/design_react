@@ -54,7 +54,7 @@ export const CheckboxRoot = Object.assign(
       (props.weight === "default" || props.weight === "stronger")
     ) {
       console.warn(
-        `[SEED Design System] Checkbox weight='${props.weight}' is deprecated and will be removed in @seed-design/react@1.3.0. Use weight='${props.weight === "default" ? "regular" : "bold"}' instead.`,
+        `[Grape Design] Checkbox weight='${props.weight}' is deprecated and will be removed in @grape-design/react@1.3.0. Use weight='${props.weight === "default" ? "regular" : "bold"}' instead.`,
       );
     }
 

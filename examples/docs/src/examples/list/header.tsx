@@ -1,8 +1,8 @@
 "use client";
 
-import { List, ListButtonItem } from "seed-design/ui/list";
-import { ListHeader } from "seed-design/ui/list-header";
-import { ActionButton } from "seed-design/ui/action-button";
+import { List, ListButtonItem } from "grape-design/ui/list";
+import { ListHeader } from "grape-design/ui/list-header";
+import { ActionButton } from "grape-design/ui/action-button";
 import {
   IconChevronRightLine,
   IconLockLine,

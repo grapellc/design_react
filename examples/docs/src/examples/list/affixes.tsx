@@ -6,11 +6,11 @@ import {
 } from "@karrotmarket/react-monochrome-icon";
 import { Icon } from "@grape-design/react";
 import { useState } from "react";
-import { ActionButton } from "seed-design/ui/action-button";
-import { Avatar } from "seed-design/ui/avatar";
-import { IdentityPlaceholder } from "seed-design/ui/identity-placeholder";
-import { List, ListDivider, ListItem } from "seed-design/ui/list";
-import { ToggleButton } from "seed-design/ui/toggle-button";
+import { ActionButton } from "grape-design/ui/action-button";
+import { Avatar } from "grape-design/ui/avatar";
+import { IdentityPlaceholder } from "grape-design/ui/identity-placeholder";
+import { List, ListDivider, ListItem } from "grape-design/ui/list";
+import { ToggleButton } from "grape-design/ui/toggle-button";
 
 export default function ListAffixes() {
   const [isToggleButtonPressed, setIsToggleButtonPressed] = useState(false);

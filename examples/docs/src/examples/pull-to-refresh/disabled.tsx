@@ -6,8 +6,8 @@ import {
   PullToRefreshContent,
   PullToRefreshIndicator,
   PullToRefreshRoot,
-} from "seed-design/ui/pull-to-refresh";
-import { Switch } from "seed-design/ui/switch";
+} from "grape-design/ui/pull-to-refresh";
+import { Switch } from "grape-design/ui/switch";
 
 const PullToRefreshDisabled = () => {
   const [disabled, setDisabled] = useState(false);

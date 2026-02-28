@@ -1,7 +1,7 @@
 "use client";
 
-import { List, ListDivider, ListItem } from "seed-design/ui/list";
-import { ListHeader } from "seed-design/ui/list-header";
+import { List, ListDivider, ListItem } from "grape-design/ui/list";
+import { ListHeader } from "grape-design/ui/list-header";
 import {
   IconILowercaseSerifCircleLine,
   IconPersonCircleLine,

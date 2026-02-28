@@ -2,29 +2,29 @@
 
 import { useState, useLayoutEffect, useRef } from "react";
 import type { ActivityComponentType } from "@stackflow/react/future";
-import { AppScreen, AppScreenContent } from "seed-design/ui/app-screen";
+import { AppScreen, AppScreenContent } from "grape-design/ui/app-screen";
 import {
   AppBar,
   AppBarBackButton,
   AppBarCloseButton,
   AppBarRight,
   AppBarLeft,
-} from "seed-design/ui/app-bar";
-import type { AppBarProps } from "seed-design/ui/app-bar";
+} from "grape-design/ui/app-bar";
+import type { AppBarProps } from "grape-design/ui/app-bar";
 import { VStack, HStack, Box, Article as SeedArticle } from "@grape-design/react";
-import { TagGroupRoot, TagGroupItem } from "seed-design/ui/tag-group";
+import { TagGroupRoot, TagGroupItem } from "grape-design/ui/tag-group";
 import { Text } from "@grape-design/react";
 import { Badge } from "@grape-design/react";
-import { SegmentedControl, SegmentedControlItem } from "seed-design/ui/segmented-control";
-import { Callout } from "seed-design/ui/callout";
-import { TextField, TextFieldTextarea } from "seed-design/ui/text-field";
-import { ActionButton } from "seed-design/ui/action-button";
+import { SegmentedControl, SegmentedControlItem } from "grape-design/ui/segmented-control";
+import { Callout } from "grape-design/ui/callout";
+import { TextField, TextFieldTextarea } from "grape-design/ui/text-field";
+import { ActionButton } from "grape-design/ui/action-button";
 import { Skeleton } from "@grape-design/react";
 import { IconILowercaseSerifCircleFill } from "@grape-design/icons";
-import { ResultSection } from "seed-design/ui/result-section";
+import { ResultSection } from "grape-design/ui/result-section";
 import { CATEGORIES, type Article, ARTICLES } from "./demo-data";
-import { Avatar } from "seed-design/ui/avatar";
-import { IdentityPlaceholder } from "seed-design/ui/identity-placeholder";
+import { Avatar } from "grape-design/ui/avatar";
+import { IdentityPlaceholder } from "grape-design/ui/identity-placeholder";
 import { formatDate } from "./utils/date";
 
 const DEMO_IMAGE_URL = "https://picsum.photos/400/400";

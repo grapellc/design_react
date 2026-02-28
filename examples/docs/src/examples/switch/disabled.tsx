@@ -2,7 +2,7 @@
 
 import { VStack } from "@grape-design/react";
 import { useState } from "react";
-import { Switch } from "seed-design/ui/switch";
+import { Switch } from "grape-design/ui/switch";
 
 export default function SwitchDisabled() {
   const [disabled, setDisabled] = useState(true);

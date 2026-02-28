@@ -7,7 +7,7 @@ import {
   PullToRefreshContent,
   PullToRefreshIndicator,
   PullToRefreshRoot,
-} from "seed-design/ui/pull-to-refresh";
+} from "grape-design/ui/pull-to-refresh";
 
 declare module "@stackflow/config" {
   interface Register {

@@ -2,15 +2,15 @@
 
 import React, { useState, useCallback } from "react";
 import { Box, HStack, VStack } from "@grape-design/react";
-import { FieldButton, FieldButtonValue, FieldButtonPlaceholder } from "seed-design/ui/field-button";
-import { ActionButton } from "seed-design/ui/action-button";
+import { FieldButton, FieldButtonValue, FieldButtonPlaceholder } from "grape-design/ui/field-button";
+import { ActionButton } from "grape-design/ui/action-button";
 import {
   BottomSheetRoot,
   BottomSheetContent,
   BottomSheetBody,
   BottomSheetFooter,
-} from "seed-design/ui/bottom-sheet";
-import { TextField, TextFieldInput } from "seed-design/ui/text-field";
+} from "grape-design/ui/bottom-sheet";
+import { TextField, TextFieldInput } from "grape-design/ui/text-field";
 import { Portal } from "@grape-design/react";
 
 export default function FieldButtonMultipleValues() {

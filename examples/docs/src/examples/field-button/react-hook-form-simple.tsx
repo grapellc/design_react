@@ -1,9 +1,9 @@
 "use client";
 
 import { VStack, HStack } from "@grape-design/react";
-import { FieldButton, FieldButtonValue } from "seed-design/ui/field-button";
-import { ActionButton } from "seed-design/ui/action-button";
-import { TextField, TextFieldInput } from "seed-design/ui/text-field";
+import { FieldButton, FieldButtonValue } from "grape-design/ui/field-button";
+import { ActionButton } from "grape-design/ui/action-button";
+import { TextField, TextFieldInput } from "grape-design/ui/text-field";
 import { useCallback, type FormEvent } from "react";
 import { useController, useForm } from "react-hook-form";
 

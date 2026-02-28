@@ -2,7 +2,7 @@
 
 import { Box, VStack } from "@grape-design/react";
 import { useState } from "react";
-import { ActionButton } from "seed-design/ui/action-button";
+import { ActionButton } from "grape-design/ui/action-button";
 import {
   AlertDialogAction,
   AlertDialogContent,
@@ -12,8 +12,8 @@ import {
   AlertDialogRoot,
   AlertDialogTitle,
   AlertDialogTrigger,
-} from "seed-design/ui/alert-dialog";
-import { Switch } from "seed-design/ui/switch";
+} from "grape-design/ui/alert-dialog";
+import { Switch } from "grape-design/ui/switch";
 
 export default function AlertDialogPreventClose() {
   const [preventClose, setPreventClose] = useState(true);

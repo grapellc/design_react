@@ -3,8 +3,8 @@
 import { IconPersonCircleLine } from "@karrotmarket/react-monochrome-icon";
 import { Box, Icon, VStack } from "@grape-design/react";
 import { useState } from "react";
-import { List, ListDivider, ListItem, ListButtonItem } from "seed-design/ui/list";
-import { Switch } from "seed-design/ui/switch";
+import { List, ListDivider, ListItem, ListButtonItem } from "grape-design/ui/list";
+import { Switch } from "grape-design/ui/switch";
 
 export default function ListHighlighted() {
   const [highlighted, setHighlighted] = useState(true);

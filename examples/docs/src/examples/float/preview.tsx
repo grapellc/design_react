@@ -1,7 +1,7 @@
 "use client";
 
 import { Box, Float } from "@grape-design/react";
-import { ContextualFloatingButton } from "seed-design/ui/contextual-floating-button";
+import { ContextualFloatingButton } from "grape-design/ui/contextual-floating-button";
 
 export default function FloatPreview() {
   return (

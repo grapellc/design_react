@@ -2,7 +2,7 @@
 
 import { VStack, Text, type SliderRootProps } from "@grape-design/react";
 import { useState } from "react";
-import { Slider } from "seed-design/ui/slider";
+import { Slider } from "grape-design/ui/slider";
 
 const getAriaLabel: NonNullable<SliderRootProps["getAriaLabel"]> = (thumbIndex) =>
   thumbIndex === 0 ? "최소값" : "최대값";

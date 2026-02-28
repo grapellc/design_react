@@ -8,7 +8,7 @@ import {
   RadioSelectBoxItem,
   RadioSelectBoxRadiomark,
   RadioSelectBoxRoot,
-} from "seed-design/ui/select-box";
+} from "grape-design/ui/select-box";
 
 export default function SelectBoxPreview() {
   return (

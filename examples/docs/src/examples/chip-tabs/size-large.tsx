@@ -1,7 +1,7 @@
 "use client";
 
 import * as React from "react";
-import { ChipTabsList, ChipTabsRoot, ChipTabsTrigger } from "seed-design/ui/chip-tabs";
+import { ChipTabsList, ChipTabsRoot, ChipTabsTrigger } from "grape-design/ui/chip-tabs";
 
 export default function ChipTabsSizeLarge() {
   const [value, setValue] = React.useState("1");

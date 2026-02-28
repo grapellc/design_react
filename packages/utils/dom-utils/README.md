@@ -1,3 +1,3 @@
-# @seed-design/dom-utils
+# @grape-design/dom-utils
 
-This package is a internal utility, not intended for public use.
+Internal utility package, not intended for direct public use.

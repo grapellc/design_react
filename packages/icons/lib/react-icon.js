@@ -1,5 +1,5 @@
 /**
- * Single namespace export for all icons – same pattern as @seed-design/react-icon.
+ * Single namespace export for all icons – same pattern as Seed Design react-icon.
  * Use: import * as Icons from "@grape-design/icons/react-icon" or from "@grape-design/react-icon"
  */
 export * from "./generated/monochrome-icons";

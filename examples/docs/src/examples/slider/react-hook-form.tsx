@@ -3,8 +3,8 @@
 import { HStack, VStack } from "@grape-design/react";
 import { useCallback, type FormEvent } from "react";
 import { useController, useForm } from "react-hook-form";
-import { ActionButton } from "seed-design/ui/action-button";
-import { Slider } from "seed-design/ui/slider";
+import { ActionButton } from "grape-design/ui/action-button";
+import { Slider } from "grape-design/ui/slider";
 
 interface FormValues {
   rating: number;

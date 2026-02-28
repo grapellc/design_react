@@ -2,11 +2,11 @@
 
 import * as React from "react";
 
-import { ActionButton } from "seed-design/ui/action-button";
-import { InlineBanner, type InlineBannerProps } from "seed-design/ui/inline-banner";
+import { ActionButton } from "grape-design/ui/action-button";
+import { InlineBanner, type InlineBannerProps } from "grape-design/ui/inline-banner";
 import type { ActivityComponentType } from "@stackflow/react/future";
-import { AppScreen, AppScreenContent } from "seed-design/ui/app-screen";
-import { AppBar, AppBarMain } from "seed-design/ui/app-bar";
+import { AppScreen, AppScreenContent } from "grape-design/ui/app-screen";
+import { AppBar, AppBarMain } from "grape-design/ui/app-bar";
 
 declare module "@stackflow/config" {
   interface Register {

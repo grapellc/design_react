@@ -1,7 +1,7 @@
 "use client";
 
 import { VStack, Text } from "@grape-design/react";
-import { SegmentedControl, SegmentedControlItem } from "seed-design/ui/segmented-control";
+import { SegmentedControl, SegmentedControlItem } from "grape-design/ui/segmented-control";
 import { useState } from "react";
 
 export default function SegmentedControlValueChanges() {

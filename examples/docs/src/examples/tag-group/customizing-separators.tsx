@@ -1,7 +1,7 @@
 "use client";
 
 import { VStack } from "@grape-design/react";
-import { TagGroupRoot, TagGroupItem } from "seed-design/ui/tag-group";
+import { TagGroupRoot, TagGroupItem } from "grape-design/ui/tag-group";
 
 export default function TagGroupCustomizingSeparators() {
   return (

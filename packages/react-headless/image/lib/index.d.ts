@@ -551,7 +551,6 @@ declare function useImage(props: UseImageProps): {
     getContentProps: ({ src }: {
         src?: string;
     }) => {
-        loading?: "eager" | "lazy" | undefined;
         defaultChecked?: boolean | undefined;
         defaultValue?: string | number | readonly string[] | undefined;
         suppressContentEditableWarning?: boolean | undefined;
@@ -818,14 +817,15 @@ declare function useImage(props: UseImageProps): {
         onAnimationIterationCapture?: react.AnimationEventHandler<HTMLImageElement>;
         onTransitionEnd?: react.TransitionEventHandler<HTMLImageElement>;
         onTransitionEndCapture?: react.TransitionEventHandler<HTMLImageElement>;
-        src?: string | undefined;
         alt?: string | undefined;
         crossOrigin?: "" | "anonymous" | "use-credentials";
         decoding?: "async" | "auto" | "sync" | undefined;
         fetchPriority?: "high" | "low" | "auto";
         height?: number | string | undefined;
+        loading?: "eager" | "lazy" | undefined;
         referrerPolicy?: react.HTMLAttributeReferrerPolicy | undefined;
         sizes?: string | undefined;
+        src?: string | undefined;
         srcSet?: string | undefined;
         useMap?: string | undefined;
         width?: number | string | undefined;

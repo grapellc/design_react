@@ -3,8 +3,8 @@
 import { Flex, Icon } from "@grape-design/react";
 import { IconBellFill } from "@karrotmarket/react-monochrome-icon";
 import type { ActivityComponentType } from "@stackflow/react/future";
-import { AppBar, AppBarIconButton, AppBarMain, AppBarRight } from "seed-design/ui/app-bar";
-import { AppScreen, AppScreenContent } from "seed-design/ui/app-screen";
+import { AppBar, AppBarIconButton, AppBarMain, AppBarRight } from "grape-design/ui/app-bar";
+import { AppScreen, AppScreenContent } from "grape-design/ui/app-screen";
 
 declare module "@stackflow/config" {
   interface Register {

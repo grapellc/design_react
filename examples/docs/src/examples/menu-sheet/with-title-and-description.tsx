@@ -1,14 +1,14 @@
 "use client";
 
 import { IconEyeSlashLine } from "@karrotmarket/react-monochrome-icon";
-import { ActionButton } from "seed-design/ui/action-button";
+import { ActionButton } from "grape-design/ui/action-button";
 import {
   MenuSheetContent,
   MenuSheetGroup,
   MenuSheetItem,
   MenuSheetRoot,
   MenuSheetTrigger,
-} from "seed-design/ui/menu-sheet";
+} from "grape-design/ui/menu-sheet";
 
 export default function MenuSheetWithTitleAndDescription() {
   return (

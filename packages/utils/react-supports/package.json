@@ -3,8 +3,8 @@
   "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/daangn/seed-design.git",
-    "directory": "packages/react-headless/supports"
+    "url": "git+https://github.com/grape-design/designsystem.git",
+    "directory": "grape_design_react/packages/utils/react-supports"
   },
   "main": "./lib/index.cjs",
   "devDependencies": {

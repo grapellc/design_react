@@ -11,7 +11,7 @@ description: Renders content in horizontal rows.
 ## Installation
 
 ```package-install
-npx @seed-design/cli@latest add ui:list
+bun add @grape-design/react @grape-design/css
 ```
 
 <ManualInstallation name="list" />
@@ -19,8 +19,8 @@ npx @seed-design/cli@latest add ui:list
 ## Usage
 
 ```tsx
-import { ListHeader } from "seed-design/ui/list-header";
-import { List, ListItem } from "seed-design/ui/list";
+import { ListHeader } from "grape-design/ui/list-header";
+import { List, ListItem } from "grape-design/ui/list";
 
 <VStack>
   <ListHeader as="h2">리스트 헤더</ListHeader>
@@ -301,7 +301,7 @@ import { List as SeedList } from "@grape-design/react";
 [Snippet](/react/components/concepts/snippet)으로 제공되는 `ListButtonItem` 및 `ListLinkItem`는 이 패턴을 쉽게 구현할 수 있도록 돕습니다.
 
 ```tsx
-import { ListButtonItem } from "seed-design/ui/list";
+import { ListButtonItem } from "grape-design/ui/list";
 
 <ListButtonItem
   onClick={() => alert("사용자 클릭됨")}
@@ -347,7 +347,7 @@ import { Checkbox } from "@grape-design/react/primitive";
 [Snippet](/react/components/concepts/snippet)으로 제공되는 `ListSwitchItem`, `ListCheckItem` 및 `ListRadioItem`는 이 패턴을 쉽게 구현할 수 있도록 돕습니다.
 
 ```tsx
-import { ListCheckItem } from "seed-design/ui/list";
+import { ListCheckItem } from "grape-design/ui/list";
 
 <ListCheckItem
   defaultChecked

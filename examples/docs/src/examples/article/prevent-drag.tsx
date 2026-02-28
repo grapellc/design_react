@@ -2,11 +2,11 @@
 
 import { VStack, Icon, Text, Article, Divider, Tabs } from "@grape-design/react";
 import { ActivityComponentType } from "@stackflow/react/future";
-import { AppBar, AppBarMain } from "seed-design/ui/app-bar";
-import { AppScreen, AppScreenContent } from "seed-design/ui/app-screen";
-import { TabsCarousel, TabsContent, TabsList, TabsRoot, TabsTrigger } from "seed-design/ui/tabs";
+import { AppBar, AppBarMain } from "grape-design/ui/app-bar";
+import { AppScreen, AppScreenContent } from "grape-design/ui/app-screen";
+import { TabsCarousel, TabsContent, TabsList, TabsRoot, TabsTrigger } from "grape-design/ui/tabs";
 import { IconExclamationmarkCircleFill } from "@karrotmarket/react-monochrome-icon";
-import { PageBanner } from "seed-design/ui/page-banner";
+import { PageBanner } from "grape-design/ui/page-banner";
 
 declare module "@stackflow/config" {
   interface Register {

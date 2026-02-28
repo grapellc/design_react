@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/daangn/seed-design.git",
+    "url": "git+https://github.com/grape-design/designsystem.git",
     "directory": "packages/react-headless/collapsible"
   },
   "sideEffects": false,

@@ -1,6 +1,6 @@
 "use client";
 
-import { TextField, TextFieldInput } from "seed-design/ui/text-field";
+import { TextField, TextFieldInput } from "grape-design/ui/text-field";
 import { useState } from "react";
 import { Text, VStack } from "@grape-design/react";
 

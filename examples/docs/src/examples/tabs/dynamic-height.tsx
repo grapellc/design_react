@@ -1,6 +1,6 @@
 "use client";
 
-import { TabsCarousel, TabsContent, TabsList, TabsRoot, TabsTrigger } from "seed-design/ui/tabs";
+import { TabsCarousel, TabsContent, TabsList, TabsRoot, TabsTrigger } from "grape-design/ui/tabs";
 
 export default function TabsDynamicHeight() {
   return (

@@ -3,14 +3,14 @@
 import { IconEyeSlashLine } from "@karrotmarket/react-monochrome-icon";
 import { HStack, Text, VStack } from "@grape-design/react";
 import { useState } from "react";
-import { ActionButton } from "seed-design/ui/action-button";
+import { ActionButton } from "grape-design/ui/action-button";
 import {
   MenuSheetContent,
   MenuSheetGroup,
   MenuSheetItem,
   MenuSheetRoot,
   MenuSheetTrigger,
-} from "seed-design/ui/menu-sheet";
+} from "grape-design/ui/menu-sheet";
 
 export default function MenuSheetOnOpenChangeReason() {
   const [open, setOpen] = useState(false);

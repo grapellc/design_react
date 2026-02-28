@@ -2,7 +2,7 @@
 
 import { IconWonLine } from "@karrotmarket/react-monochrome-icon";
 import { HStack, VStack } from "@grape-design/react";
-import { TextField, TextFieldInput } from "seed-design/ui/text-field";
+import { TextField, TextFieldInput } from "grape-design/ui/text-field";
 
 export default function TextFieldInputSuffix() {
   return (
