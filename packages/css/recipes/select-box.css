@@ -46,6 +46,7 @@
 .seed-select-box__content {
     display: flex;
     --seed-prefix-icon-size: 22px;
+    --seed-icon-size: 22px;
     --seed-prefix-icon-color: var(--seed-color-fg-neutral);
 }
 .seed-select-box__content:is(:disabled, [disabled], [data-disabled]) {

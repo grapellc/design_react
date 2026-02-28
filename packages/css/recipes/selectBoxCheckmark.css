@@ -17,6 +17,7 @@
     overflow: initial;
     width: 15px;
     height: 15px;
+    --seed-icon-size: 15px;
     color: var(--seed-color-fg-placeholder);
     transition: color var(--seed-duration-color-transition) var(--seed-timing-function-easing);
 }

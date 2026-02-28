@@ -95,16 +95,20 @@
 .seed-checkmark__icon--size_medium-variant_ghost {
     width: 14px;
     height: 14px;
+    --seed-icon-size: 14px;
 }
 .seed-checkmark__icon--size_large-variant_ghost {
     width: 18px;
     height: 18px;
+    --seed-icon-size: 18px;
 }
 .seed-checkmark__icon--size_medium-variant_square {
     width: 12px;
     height: 12px;
+    --seed-icon-size: 12px;
 }
 .seed-checkmark__icon--size_large-variant_square {
     width: 14px;
     height: 14px;
+    --seed-icon-size: 14px;
 }

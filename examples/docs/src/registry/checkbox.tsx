@@ -1,8 +1,10 @@
 "use client";
 
-import IconCheckmarkFatFill from "@karrotmarket/react-monochrome-icon/IconCheckmarkFatFill";
-import IconMinusFatFill from "@karrotmarket/react-monochrome-icon/IconMinusFatFill";
-import IconExclamationmarkCircleFill from "@karrotmarket/react-monochrome-icon/IconExclamationmarkCircleFill";
+import {
+  IconCheckmarkFatFill,
+  IconMinusFatFill,
+  IconExclamationmarkCircleFill,
+} from "@grape-design/icons";
 import {
   Checkbox as SeedCheckbox,
   Fieldset as SeedFieldset,

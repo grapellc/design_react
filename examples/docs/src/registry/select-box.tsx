@@ -3,7 +3,7 @@
 import {
   IconCheckmarkFatFill,
   IconExclamationmarkCircleFill,
-} from "@karrotmarket/react-monochrome-icon";
+} from "@grape-design/icons";
 import {
   RadioSelectBox as SeedRadioSelectBox,
   CheckSelectBox as SeedCheckSelectBox,
