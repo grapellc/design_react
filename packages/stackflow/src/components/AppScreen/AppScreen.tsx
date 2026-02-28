@@ -9,6 +9,8 @@ import { useActivity } from "@stackflow/react";
 
 const { ClassNamesProvider, PropsProvider, withContext, useProps } = createStyleContext(appScreen);
 
+const APP_BAR_VARIANT_KEYS = new Set(["theme", "transitionStyle", "tone", "divider"]);
+
 export const AppScreenPropsProvider = PropsProvider;
 
 export interface AppScreenRootProps extends AppScreenVariantProps, AppScreenPrimitive.RootProps {
@@ -36,14 +38,16 @@ export const AppScreenRoot = forwardRef<HTMLDivElement, AppScreenRootProps>((pro
       : (topActivityTransitionStyle as NonNullable<AppScreenVariantProps["transitionStyle"]>),
   });
 
+  const appBarContextValue = useMemo(() => {
+    const filtered = Object.fromEntries(
+      Object.entries(variantProps).filter(([key]) => APP_BAR_VARIANT_KEYS.has(key)),
+    );
+    return { ...filtered, transitionStyle };
+  }, [variantProps, transitionStyle]);
+
   return (
     <ClassNamesProvider value={classNames}>
-      <AppBarPropsProvider
-        value={useMemo(
-          () => ({ ...variantProps, transitionStyle }),
-          [variantProps, transitionStyle],
-        )}
-      >
+      <AppBarPropsProvider value={appBarContextValue}>
         <AppScreenPrimitive.Root
           ref={ref}
           data-transition-style={transitionStyle}

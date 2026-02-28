@@ -107,7 +107,7 @@ export const DismissiblePageBanner = React.forwardRef<
         </SeedPageBanner.Body>
       </SeedPageBanner.Content>
       {/* You may implement your own i18n for dismiss label */}
-      <SeedPageBanner.CloseButton aria-label="닫기">
+      <SeedPageBanner.CloseButton aria-label="Close">
         <SuffixIcon svg={<IconXmarkLine />} />
       </SeedPageBanner.CloseButton>
     </SeedPageBanner.Root>

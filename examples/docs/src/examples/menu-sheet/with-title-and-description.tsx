@@ -16,7 +16,7 @@ export default function MenuSheetWithTitleAndDescription() {
       <MenuSheetTrigger asChild>
         <ActionButton variant="neutralSolid">Open</ActionButton>
       </MenuSheetTrigger>
-      <MenuSheetContent title="Menu Sheet" description="부가적인 설명이 여기에 표시됩니다.">
+      <MenuSheetContent title="Menu Sheet" description="부가적인 설명이 여기에 Show됩니다.">
         <MenuSheetGroup>
           <MenuSheetItem label="Action 1" prefixIcon={<IconEyeSlashLine />} />
           <MenuSheetItem

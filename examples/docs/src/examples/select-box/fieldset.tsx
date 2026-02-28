@@ -22,7 +22,7 @@ export default function SelectBoxFieldset() {
     const fruits = formData.getAll("fruit");
 
     if (fruits.includes("apple")) {
-      setCheckErrors({ apple: "Apple은 선택할 수 없습니다." });
+      setCheckErrors({ apple: "Apple은 Select할 수 없습니다." });
 
       return;
     }
@@ -39,7 +39,7 @@ export default function SelectBoxFieldset() {
     const color = formData.get("color");
 
     if (color === "red") {
-      setRadioErrorMessage("Red는 선택할 수 없습니다.");
+      setRadioErrorMessage("Red는 Select할 수 없습니다.");
 
       return;
     }
@@ -54,9 +54,9 @@ export default function SelectBoxFieldset() {
       <VStack asChild gap="spacingY.componentDefault" style={{ flex: 1 }}>
         <form onSubmit={handleCheckSubmit}>
           <CheckSelectBoxGroup
-            label="선호하는 과일을 선택하세요"
-            indicator="선택"
-            description="Apple을 선택하고 제출해보세요."
+            label="선호하는 과일을 Select하세요"
+            indicator="Select"
+            description="Apple을 Select하고 제출해보세요."
             errorMessage={Object.values(checkErrors).filter(Boolean).join(", ")}
           >
             <CheckSelectBox
@@ -69,7 +69,7 @@ export default function SelectBoxFieldset() {
               footer={
                 <Box px="x5" pb="x4">
                   <Text textStyle="t4Medium">
-                    Apple을 선택하고 제출하면 에러 메시지가 표시됩니다.
+                    Apple을 Select하고 제출하면 에러 메시지가 Show됩니다.
                   </Text>
                 </Box>
               }
@@ -96,10 +96,10 @@ export default function SelectBoxFieldset() {
       <VStack asChild gap="spacingY.componentDefault" style={{ flex: 1 }}>
         <form onSubmit={handleRadioSubmit}>
           <RadioSelectBoxRoot
-            label="선호하는 색상을 선택하세요"
+            label="선호하는 색상을 Select하세요"
             labelWeight="bold"
             showRequiredIndicator
-            description="Red를 선택하고 제출해보세요."
+            description="Red를 Select하고 제출해보세요."
             name="color"
             defaultValue="red"
             invalid={!!radioErrorMessage}
@@ -112,7 +112,7 @@ export default function SelectBoxFieldset() {
               footer={
                 <Box px="x5" pb="x4">
                   <Text textStyle="t4Medium">
-                    Red를 선택하고 제출하면 에러 메시지가 표시됩니다.
+                    Red를 Select하고 제출하면 에러 메시지가 Show됩니다.
                   </Text>
                 </Box>
               }

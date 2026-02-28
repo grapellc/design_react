@@ -20,14 +20,14 @@ const BottomSheetShowCloseButton = () => {
       </BottomSheetTrigger>
       <BottomSheetContent
         title="제목"
-        description="설명을 작성할 수 있어요"
+        description="Description 작성할 수 있어요"
         showCloseButton={false}
       >
         {/* If you need to omit padding, pass px={0}. */}
         <BottomSheetBody minHeight="x16">Content</BottomSheetBody>
         <BottomSheetFooter>
           <ActionButton variant="neutralSolid" onClick={() => setIsSheetOpen(false)}>
-            닫기
+            Close
           </ActionButton>
         </BottomSheetFooter>
       </BottomSheetContent>

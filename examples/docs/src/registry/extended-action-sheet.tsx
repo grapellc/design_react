@@ -74,7 +74,7 @@ export const ExtendedActionSheetContent = forwardRef<
         <SeedExtendedActionSheet.List>{children}</SeedExtendedActionSheet.List>
         <SeedExtendedActionSheet.Footer>
           {/* You may implement your own i18n for dismiss label */}
-          <SeedExtendedActionSheet.CloseButton>취소</SeedExtendedActionSheet.CloseButton>
+          <SeedExtendedActionSheet.CloseButton>Cancel</SeedExtendedActionSheet.CloseButton>
         </SeedExtendedActionSheet.Footer>
       </SeedExtendedActionSheet.Content>
     </SeedExtendedActionSheet.Positioner>

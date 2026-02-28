@@ -14,7 +14,7 @@ export default function ListHighlighted() {
       <List>
         <ListButtonItem
           prefix={<Icon svg={<IconPersonCircleLine />} />}
-          title="버튼"
+          title="Button"
           detail="Enim aute duis magna mollit aute sit aliquip duis ut tempor sunt."
           onClick={() => {}}
         />
@@ -22,7 +22,7 @@ export default function ListHighlighted() {
         <ListButtonItem
           highlighted
           prefix={<Icon svg={<IconPersonCircleLine />} />}
-          title="하이라이트된 버튼"
+          title="하이라이트된 Button"
           detail="Enim aute duis magna mollit aute sit aliquip duis ut tempor sunt."
           onClick={() => {}}
         />
@@ -31,7 +31,7 @@ export default function ListHighlighted() {
           highlighted
           disabled
           prefix={<Icon svg={<IconPersonCircleLine />} />}
-          title="하이라이트 및 비활성화된 버튼"
+          title="하이라이트 및 비활성화된 Button"
           detail="Enim aute duis magna mollit aute sit aliquip duis ut tempor sunt."
           onClick={() => {}}
         />

@@ -22,9 +22,9 @@ const BottomSheetSnapPoints = () => {
       </BottomSheetTrigger>
       <BottomSheetContent
         title="제목"
-        description="설명을 작성할 수 있어요"
+        description="Description 작성할 수 있어요"
         /**
-         * snap points를 사용할 때는 handle을 표시해야 합니다.
+         * snap points를 사용할 때는 handle을 Show해야 합니다.
          */
         showHandle
         /**
@@ -34,7 +34,7 @@ const BottomSheetSnapPoints = () => {
       >
         <BottomSheetBody>Content</BottomSheetBody>
         <BottomSheetFooter>
-          <ActionButton variant="neutralSolid">확인</ActionButton>
+          <ActionButton variant="neutralSolid">OK</ActionButton>
         </BottomSheetFooter>
       </BottomSheetContent>
     </BottomSheetRoot>

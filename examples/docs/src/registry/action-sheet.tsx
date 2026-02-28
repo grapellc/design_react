@@ -75,7 +75,7 @@ export const ActionSheetContent = forwardRef<HTMLDivElement, ActionSheetContentP
           )}
           <SeedActionSheet.List>{children}</SeedActionSheet.List>
           {/* You may implement your own i18n for dismiss label */}
-          <SeedActionSheet.CloseButton>취소</SeedActionSheet.CloseButton>
+          <SeedActionSheet.CloseButton>Cancel</SeedActionSheet.CloseButton>
         </SeedActionSheet.Content>
       </SeedActionSheet.Positioner>
     );

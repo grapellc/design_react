@@ -18,7 +18,7 @@ const BottomSheetTriggerExample = () => {
       <BottomSheetContent title="제목">
         <BottomSheetBody minHeight="x16">Content</BottomSheetBody>
         <BottomSheetFooter>
-          <ActionButton variant="neutralSolid">확인</ActionButton>
+          <ActionButton variant="neutralSolid">OK</ActionButton>
         </BottomSheetFooter>
       </BottomSheetContent>
     </BottomSheetRoot>

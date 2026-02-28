@@ -10,11 +10,11 @@ export default function ListCheckbox() {
       <ListCheckItem
         title={
           <HStack gap="x1_5">
-            <span>알림 수신 동의</span>
+            <span>Notice 수신 동의</span>
             <Badge variant="weak">권장</Badge>
           </HStack>
         }
-        detail="푸시 알림을 받으시겠습니까?"
+        detail="푸시 Notice을 받으시겠습니까?"
         suffix={<Checkmark tone="neutral" size="large" />}
         defaultChecked
       />

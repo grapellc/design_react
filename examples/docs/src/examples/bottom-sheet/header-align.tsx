@@ -17,10 +17,10 @@ const BottomSheetHeaderAlign = () => {
         <BottomSheetTrigger asChild>
           <ActionButton variant="neutralSolid">Left (기본값)</ActionButton>
         </BottomSheetTrigger>
-        <BottomSheetContent title="제목" description="설명을 작성할 수 있어요">
+        <BottomSheetContent title="제목" description="Description 작성할 수 있어요">
           <BottomSheetBody>Content</BottomSheetBody>
           <BottomSheetFooter>
-            <ActionButton variant="neutralSolid">확인</ActionButton>
+            <ActionButton variant="neutralSolid">OK</ActionButton>
           </BottomSheetFooter>
         </BottomSheetContent>
       </BottomSheetRoot>
@@ -29,10 +29,10 @@ const BottomSheetHeaderAlign = () => {
         <BottomSheetTrigger asChild>
           <ActionButton variant="neutralSolid">Center</ActionButton>
         </BottomSheetTrigger>
-        <BottomSheetContent title="제목" description="설명을 작성할 수 있어요">
+        <BottomSheetContent title="제목" description="Description 작성할 수 있어요">
           <BottomSheetBody>Content</BottomSheetBody>
           <BottomSheetFooter>
-            <ActionButton variant="neutralSolid">확인</ActionButton>
+            <ActionButton variant="neutralSolid">OK</ActionButton>
           </BottomSheetFooter>
         </BottomSheetContent>
       </BottomSheetRoot>

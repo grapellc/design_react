@@ -1,0 +1,137 @@
+---
+title: Alert Dialog
+description: How to use Alert Dialog with Stackflow.
+---
+
+<Card title="Alert Dialog" href="/react/components/alert-dialog">
+
+Learn more about the Alert Dialog component.
+
+</Card>
+
+## Making an Alert Dialog Activity
+
+**In most cases we recommend implementing Alert Dialog as an [Activity](https://stackflow.so/docs/get-started/activity).**
+
+- Managed as an activity, so z-index is easier to control (above child activities, below parent).
+- Enables deep linking (e.g. open Alert Dialog via URL).
+- Eases migration from [@stackflow/plugin-basic-ui](https://www.npmjs.com/package/@stackflow/plugin-basic-ui) `Modal`.
+
+<StackflowExample names={["react/alert-dialog/activity", "react/alert-dialog/stackflow"]}>
+  ```json doc-gen:file
+  {
+    "file": "../../../src/examples/alert-dialog/activity.tsx",
+    "codeblock": { "meta": "title='AlertDialogActivity.tsx'" }
+  }
+  ```
+  ```json doc-gen:file
+  {
+    "file": "../../../src/examples/alert-dialog/stackflow.tsx",
+    "codeblock": { "meta": "title='AlertDialogStackflow.tsx'" }
+  }
+  ```
+</StackflowExample>
+
+### Usage
+
+```tsx
+import { useActivityZIndexBase } from "@seed-design/stackflow";
+import { useActivity, useFlow, type ActivityComponentType } from "@stackflow/react/future";
+// ... Alert Dialog and other imports
+
+const ActivityAlertDialog: ActivityComponentType<"ActivityAlertDialog"> = () => {
+  const { pop } = useFlow();
+
+  return (
+    <AlertDialogRoot open={useActivity().isActive} onOpenChange={(open) => !open && pop()}>
+      <AlertDialogContent layerIndex={useActivityZIndexBase()}>
+        <AlertDialogHeader>
+          <AlertDialogTitle>Title</AlertDialogTitle>
+          <AlertDialogDescription>Description text.</AlertDialogDescription>
+        </AlertDialogHeader>
+        <AlertDialogFooter>
+          <VStack gap="x2">
+            <AlertDialogAction asChild>
+              <ActionButton>Confirm</ActionButton>
+            </AlertDialogAction>
+            <ActionButton variant="neutralSolid" onClick={() => push("AnotherActivity", {})}>
+              Go to other screen
+            </ActionButton>
+          </VStack>
+        </AlertDialogFooter>
+      </AlertDialogContent>
+    </AlertDialogRoot>
+  );
+};
+```
+
+1. Pass `useActivity().isActive` to the `open` prop so the dialog opens when the activity is active.
+2. In `onOpenChange`, call `pop()` when the dialog closes to end the activity.
+3. Pass `layerIndex={useActivityZIndexBase()}` so the Alert Dialog activity has the correct z-index base.
+
+- [Learn more about `useActivityZIndexBase`](#about-useactivityzindexbase)
+
+#### Keeping Alert Dialog Mounted
+
+To keep the Alert Dialog mounted when another activity is pushed on top (e.g. nested overlay activities), keep `open` in sync with `transitionState` and only call `pop()` from `onOpenChange` when appropriate:
+
+```tsx
+const { isActive, transitionState } = useActivity();
+
+return (
+  <AlertDialogRoot
+    open={
+      transitionState === "enter-active" || transitionState === "enter-done"
+    }
+    onOpenChange={(open) => !open && isActive && pop()}
+  >
+    {/* ... */}
+  </AlertDialogRoot>
+);
+```
+
+## Syncing Alert Dialog State with a Step
+
+When you cannot implement Alert Dialog as its own activity, you can represent the “dialog open” state as a [Step](https://stackflow.so/docs/get-started/navigating-step).
+
+- The current activity stays on screen; back or overlay dismiss can close the dialog.
+- Use `AlertDialogTrigger` to open and close the dialog.
+
+<Callout type="warn" title="Constraint">
+
+**Close the Alert Dialog before pushing another activity from a non-activity Alert Dialog to avoid z-index issues.**
+
+If the dialog must stay open when returning to the activity that opened it, or cannot be closed by the user, prefer [Making an Alert Dialog Activity](#making-an-alert-dialog-activity).
+
+</Callout>
+
+### Usage
+
+Use step params to sync dialog open state, and `useActivityZIndexBase({ activityOffset: 1 })` so the dialog layers above the current activity. See the [Alert Dialog component docs](/react/components/alert-dialog) for a full Step-pattern example.
+
+## About `useActivityZIndexBase`
+
+`useActivityZIndexBase` returns the z-index base for the current activity.
+
+<Accordions>
+<Accordion title="What does useActivityZIndexBase return?">
+
+- It returns `useActivity().zIndex * 5`. `useActivity().zIndex` is the index of the current activity among entered activities.
+- AppScreen elements (layer, appbar, dim, edge) use z-indices derived from this value.
+
+</Accordion>
+<Accordion title="What is the activityOffset option?">
+
+- Use `activityOffset` when you want the z-index base of the *next* activity (e.g. one step ahead).
+- For example, `useActivityZIndexBase({ activityOffset: 1 })` returns the next activity’s base.
+- This is useful in the Step pattern when showing an Alert Dialog above the current activity.
+
+</Accordion>
+<Accordion title="useActivityZIndexBase vs @stackflow/react-ui-core useZIndexBase">
+
+- Both return a value based on the current activity’s index for z-index styling.
+- When using SEED components (not [@stackflow/plugin-basic-ui](https://www.npmjs.com/package/@stackflow/plugin-basic-ui)), use `@seed-design/stackflow`’s `useActivityZIndexBase`.
+- `useActivityZIndexBase` supports the `activityOffset` option; `useZIndexBase` does not.
+
+</Accordion>
+</Accordions>

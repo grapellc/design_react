@@ -7,7 +7,7 @@ export default function ExtendedFabPreview() {
   return (
     <ExtendedFab>
       <PrefixIcon svg={<IconBellFill />} />
-      알림 설정
+      Notice 설정
     </ExtendedFab>
   );
 }

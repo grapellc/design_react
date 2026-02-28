@@ -17,13 +17,13 @@ export default function SelectBoxColumns() {
       <CheckSelectBoxGroup columns={2} aria-label="Grid 레이아웃 예제">
         <CheckSelectBox
           prefixIcon={<IconIcecreamcone />}
-          label="옵션 1"
+          label="Option 1"
           description="layout=vertical"
           suffix={<CheckSelectBoxCheckmark />}
         />
         <CheckSelectBox
           prefixIcon={<IconIcecreamcone />}
-          label="옵션 2"
+          label="Option 2"
           description="layout=vertical"
           suffix={<CheckSelectBoxCheckmark />}
         />
@@ -37,7 +37,7 @@ export default function SelectBoxColumns() {
         />
         <CheckSelectBox
           prefixIcon={<IconIcecreamcone />}
-          label="옵션 4"
+          label="Option 4"
           description="layout=vertical"
           suffix={<CheckSelectBoxCheckmark />}
         />
@@ -47,13 +47,13 @@ export default function SelectBoxColumns() {
         <RadioSelectBoxItem
           value="option1"
           prefixIcon={<IconDiamond />}
-          label="옵션 1"
+          label="Option 1"
           suffix={<RadioSelectBoxRadiomark />}
         />
         <RadioSelectBoxItem
           value="option2"
           prefixIcon={<IconDiamond />}
-          label="옵션 2"
+          label="Option 2"
           suffix={<RadioSelectBoxRadiomark />}
         />
         <RadioSelectBoxItem
@@ -67,19 +67,19 @@ export default function SelectBoxColumns() {
         <RadioSelectBoxItem
           value="option4"
           prefixIcon={<IconDiamond />}
-          label="옵션 4"
+          label="Option 4"
           suffix={<RadioSelectBoxRadiomark />}
         />
         <RadioSelectBoxItem
           value="option5"
           prefixIcon={<IconDiamond />}
-          label="옵션 5"
+          label="Option 5"
           suffix={<RadioSelectBoxRadiomark />}
         />
         <RadioSelectBoxItem
           value="option6"
           prefixIcon={<IconDiamond />}
-          label="옵션 6"
+          label="Option 6"
           suffix={<RadioSelectBoxRadiomark />}
         />
       </RadioSelectBoxRoot>

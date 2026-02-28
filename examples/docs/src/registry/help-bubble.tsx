@@ -52,7 +52,7 @@ export const HelpBubbleTrigger = forwardRef<HTMLButtonElement, HelpBubbleTrigger
             </SeedHelpBubble.Body>
             {showCloseButton ? (
               // You may implement your own i18n for dismiss label
-              <SeedHelpBubble.CloseButton aria-label="닫기">
+              <SeedHelpBubble.CloseButton aria-label="Close">
                 <Icon svg={<IconXmarkLine />} />
               </SeedHelpBubble.CloseButton>
             ) : null}
@@ -110,7 +110,7 @@ export const HelpBubbleAnchor = forwardRef<HTMLDivElement, HelpBubbleAnchorProps
             </SeedHelpBubble.Body>
             {showCloseButton ? (
               // You may implement your own i18n for dismiss label
-              <SeedHelpBubble.CloseButton aria-label="닫기">
+              <SeedHelpBubble.CloseButton aria-label="Close">
                 <Icon svg={<IconXmarkLine />} />
               </SeedHelpBubble.CloseButton>
             ) : null}

@@ -64,6 +64,9 @@ export declare function IconFaceSmileCircleFill({ size, ...rest }: {
 export declare function IconHeartFill({ size, ...rest }: {
     size?: number;
 }): import("react/jsx-runtime").JSX.Element;
+export declare function IconHouseLine({ size, ...rest }: {
+    size?: number;
+}): import("react/jsx-runtime").JSX.Element;
 export declare function IconILowercaseSerifCircleFill({ size, ...rest }: {
     size?: number;
 }): import("react/jsx-runtime").JSX.Element;

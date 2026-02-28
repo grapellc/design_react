@@ -15,18 +15,18 @@ export default function TagGroupCustomizingItem() {
     <VStack gap="spacingY.componentDefault" align="center">
       <TagGroupRoot>
         {/* You can use the compound components to customize the items */}
-        <SeedTagGroup.Item weight="bold" tone="neutral" aria-label="평점 4.5">
+        <SeedTagGroup.Item weight="bold" tone="neutral" aria-label="Rating 4.5">
           <Icon svg={<IconStarFill />} color="fg.brand" />
           <SeedTagGroup.ItemLabel>4.5</SeedTagGroup.ItemLabel>
         </SeedTagGroup.Item>
-        <TagGroupItem label="후기 37" />
-        <TagGroupItem label="단골 12" />
+        <TagGroupItem label="37 reviews" />
+        <TagGroupItem label="12 regulars" />
       </TagGroupRoot>
       <TagGroupRoot tone="neutral">
-        <TagGroupItem tone="brand" suffixIcon={<IconCheckmarkCircleFill />} label="인증됨" />
-        <TagGroupItem aria-label="관심 10개" prefixIcon={<IconHeartFill />} label="10" />
+        <TagGroupItem tone="brand" suffixIcon={<IconCheckmarkCircleFill />} label="Verified" />
+        <TagGroupItem aria-label="10 likes" prefixIcon={<IconHeartFill />} label="10" />
         <TagGroupItem
-          aria-label="댓글 3개"
+          aria-label="3 comments"
           prefixIcon={<IconHorizline2VerticalChatbubbleRectangularRightFill />}
           label="3"
         />

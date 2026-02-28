@@ -25,21 +25,21 @@ export default function TagGroupWrappingBehavior() {
       >
         <Wrapper title="default (wrap)">
           <TagGroupRoot>
-            <TagGroupItem prefixIcon={<IconLocationpinFill />} label="부산광역시 해운대구" />
+            <TagGroupItem prefixIcon={<IconLocationpinFill />} label="Busan, Haeundae-gu" />
             <TagGroupItem prefixIcon={<IconBellFill />} label="123 456 789 012 345" />
             <TagGroupItem label="Ut minim laboris enim" />
           </TagGroupRoot>
         </Wrapper>
         <Wrapper title="truncate">
           <TagGroupRoot truncate>
-            <TagGroupItem prefixIcon={<IconLocationpinFill />} label="부산광역시 해운대구" />
+            <TagGroupItem prefixIcon={<IconLocationpinFill />} label="Busan, Haeundae-gu" />
             <TagGroupItem prefixIcon={<IconBellFill />} label="123 456 789 012 345" />
             <TagGroupItem label="Ut minim laboris enim" />
           </TagGroupRoot>
         </Wrapper>
         <Wrapper title="truncate, keep one fixed">
           <TagGroupRoot truncate>
-            <TagGroupItem prefixIcon={<IconLocationpinFill />} label="부산광역시 해운대구" />
+            <TagGroupItem prefixIcon={<IconLocationpinFill />} label="Busan, Haeundae-gu" />
             <TagGroupItem
               flexShrink={0}
               prefixIcon={<IconBellFill />}
@@ -53,7 +53,7 @@ export default function TagGroupWrappingBehavior() {
             <TagGroupItem
               prefixIcon={<IconLocationpinFill />}
               flexShrink={1}
-              label="부산광역시 해운대구"
+              label="Busan, Haeundae-gu"
             />
             <TagGroupItem
               flexShrink={100}

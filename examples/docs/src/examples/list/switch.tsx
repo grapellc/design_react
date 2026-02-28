@@ -10,14 +10,14 @@ export default function ListSwitch() {
   return (
     <List width="360px">
       <ListSwitchItem
-        title="삭제하기 전에 확인"
+        title="Delete하기 전에 확인"
         prefix={<Icon svg={<IconTrashcanLine />} />}
         suffix={<Switchmark tone="neutral" />}
       />
       <ListDivider />
       <ListSwitchItem
         title="메시지 요약"
-        detail="핵심 내용만 빠르게 확인해보세요."
+        detail="핵심 Content만 빠르게 확인해보세요."
         prefix={<Icon svg={<IconSparkle2 />} />}
         suffix={<Switchmark tone="neutral" />}
         defaultChecked

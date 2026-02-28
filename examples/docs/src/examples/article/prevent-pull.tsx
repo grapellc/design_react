@@ -46,9 +46,9 @@ const ArticlePreventPull: ActivityComponentType<"react/article/prevent-pull"> = 
                     Article
                   </Text>
                   <Text textStyle="articleBody" as="p">
-                    이 요소는 Article 내부에 있으므로 텍스트 선택이 가능합니다. 이 Article은 PTR
+                    이 요소는 Article 내부에 있으므로 텍스트 Select이 가능합니다. 이 Article은 PTR
                     제스처를 호출하지 않도록 설정되어 있습니다. 여기를 아래로 끌어 당기면 PTR이
-                    작동하는 대신 텍스트가 선택됩니다.
+                    작동하는 대신 텍스트가 Select됩니다.
                   </Text>
                 </Article>
               </VStack>
@@ -58,7 +58,7 @@ const ArticlePreventPull: ActivityComponentType<"react/article/prevent-pull"> = 
                   Article 외부
                 </Text>
                 <Text textStyle="articleBody" as="p">
-                  이 요소는 Article 외부에 있으므로 텍스트 선택이 불가능합니다. 이 요소는 PTR을
+                  이 요소는 Article 외부에 있으므로 텍스트 Select이 불가능합니다. 이 요소는 PTR을
                   호출할 수 있습니다. 여기를 아래로 끌어 당겨보세요.
                 </Text>
               </VStack>

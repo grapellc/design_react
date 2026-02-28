@@ -23,11 +23,11 @@ export default function TextFieldTextareaForm() {
     const newFieldErrors: FieldErrors = {};
 
     if (!bio) {
-      newFieldErrors.bio = "필수 입력 항목입니다";
+      newFieldErrors.bio = "Required 입력 Item입니다";
     }
 
     if (!address) {
-      newFieldErrors.address = "필수 입력 항목입니다";
+      newFieldErrors.address = "Required 입력 Item입니다";
     }
 
     if (address && !address.startsWith("대한민국")) {

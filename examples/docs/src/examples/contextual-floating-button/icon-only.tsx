@@ -6,7 +6,7 @@ import { ContextualFloatingButton } from "seed-design/ui/contextual-floating-but
 
 export default function ContextualFloatingButtonIconOnly() {
   return (
-    <ContextualFloatingButton layout="iconOnly" aria-label="추가">
+    <ContextualFloatingButton layout="iconOnly" aria-label="Add">
       <Icon svg={<IconPlusFill />} />
     </ContextualFloatingButton>
   );

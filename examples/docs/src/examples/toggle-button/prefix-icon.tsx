@@ -11,7 +11,7 @@ export default function ToggleButtonPrefixIcon() {
   return (
     <ToggleButton pressed={pressed} onPressedChange={setPressed}>
       <PrefixIcon svg={pressed ? <IconPlusLine /> : <IconCheckmarkLine />} />
-      {pressed ? "선택됨" : "미선택"}
+      {pressed ? "Select됨" : "미Select"}
     </ToggleButton>
   );
 }

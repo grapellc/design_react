@@ -1,0 +1,46 @@
+---
+title: Getting Started
+description: Set up the Stackflow plugin to use AppScreen with Grape Design React.
+---
+
+# Getting started with Stackflow
+
+To use the [`AppScreen`](/react/stackflow/app-screen) component with [Stackflow](https://stackflow.so/), add the Stackflow plugin to your app.
+
+<Card title="App Screen" href="/react/stackflow/app-screen">
+
+Learn more about the AppScreen component.
+
+</Card>
+
+The plugin provides:
+
+- **Theme context** — Passes `theme` to all `AppScreen` components.
+- **Global interactions** — Manages swipe-back gesture and transition state.
+
+## Installation
+
+Install the Stackflow integration package:
+
+```bash
+pnpm add @seed-design/stackflow @stackflow/react
+```
+
+## Usage
+
+Add the plugin when configuring Stackflow:
+
+```tsx
+import { stackflow } from "@stackflow/react/future";
+import { seedPlugin } from "@seed-design/stackflow";
+
+export const { Stack, actions } = stackflow({
+  plugins: [
+    seedPlugin({ theme: "cupertino" }),
+    // ...
+  ],
+  // ...
+});
+```
+
+Options such as `theme` (`"android" | "cupertino"`) are passed to all `AppScreen` components by default.

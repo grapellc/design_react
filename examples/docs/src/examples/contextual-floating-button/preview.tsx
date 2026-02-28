@@ -8,7 +8,7 @@ export default function ContextualFloatingButtonPreview() {
   return (
     <ContextualFloatingButton>
       <PrefixIcon svg={<IconBellFill />} />
-      알림 설정
+      Notice 설정
     </ContextualFloatingButton>
   );
 }

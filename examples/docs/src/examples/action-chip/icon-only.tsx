@@ -5,7 +5,7 @@ import { ActionChip, Icon } from "@seed-design/react";
 
 export default function ActionChipIconOnly() {
   return (
-    <ActionChip layout="iconOnly" aria-label="추가">
+    <ActionChip layout="iconOnly" aria-label="Add">
       <Icon svg={<IconPlusFill />} />
     </ActionChip>
   );

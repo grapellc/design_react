@@ -85,7 +85,7 @@ export const BottomSheetContent = forwardRef<HTMLDivElement, BottomSheetContentP
           {children}
           {showCloseButton && (
             // You may implement your own i18n for dismiss label
-            <SeedBottomSheet.CloseButton aria-label="닫기">
+            <SeedBottomSheet.CloseButton aria-label="Close">
               <Icon svg={<IconXmarkLine />} />
             </SeedBottomSheet.CloseButton>
           )}

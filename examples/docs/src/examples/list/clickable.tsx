@@ -37,17 +37,17 @@ export default function ListClickable() {
             variant="ghost"
             size="xsmall"
             color="fg.neutralMuted"
-            onClick={() => alert("편집 클릭됨")}
+            onClick={() => alert("Edit 클릭됨")}
           >
             <PrefixIcon svg={<IconPenHorizlineFill />} />
-            편집
+            Edit
           </ActionButton>
         }
       />
       <ListDivider />
       <ListButtonItem
         title="ListButtonItem은 클릭할 수 있어요. 눌러보세요."
-        detail="리스트 항목 전체와 우측의 Toggle Button 각각을 클릭할 수 있어요"
+        detail="리스트 Item 전체와 우측의 Toggle Button 각각을 클릭할 수 있어요"
         onClick={() => alert("리스트 아이템 클릭됨")}
         suffix={
           <>
@@ -62,17 +62,17 @@ export default function ListClickable() {
       <ListDivider />
       <ListButtonItem
         title="ListButtonItem은 클릭할 수 있어요. 눌러보세요."
-        detail="리스트 항목 전체와 우측의 커스텀 버튼 각각을 클릭할 수 있어요"
+        detail="리스트 Item 전체와 우측의 커스텀 Button 각각을 클릭할 수 있어요"
         onClick={() => alert("리스트 아이템 클릭됨")}
         suffix={
           <>
             <Box asChild bg="bg.brandSolid" color="palette.staticWhite" p="x1" borderRadius="r1_5">
               <button
                 type="button"
-                onClick={() => alert("커스텀 버튼 클릭됨")}
+                onClick={() => alert("커스텀 Button 클릭됨")}
                 style={{ zIndex: 1 }}
               >
-                커스텀 버튼
+                커스텀 Button
               </button>
             </Box>
             <Icon svg={<IconChevronRightLine />} />
@@ -82,7 +82,7 @@ export default function ListClickable() {
       <ListDivider />
       <ListLinkItem
         title="ListLinkItem도 클릭할 수 있어요. 눌러보세요."
-        detail="리스트 항목 전체와 우측의 Action Button 각각을 클릭할 수 있어요"
+        detail="리스트 Item 전체와 우측의 Action Button 각각을 클릭할 수 있어요"
         suffix={
           <>
             <ActionButton variant="neutralWeak" size="xsmall" onClick={onCopyClick}>

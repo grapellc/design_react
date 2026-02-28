@@ -30,7 +30,7 @@ export default function ListDisabled() {
         />
       </List>
       <List asChild>
-        <RadioGroup.Root defaultValue="foo" aria-label="옵션 선택">
+        <RadioGroup.Root defaultValue="foo" aria-label="Option Select">
           <ListRadioItem
             prefix={<Icon svg={<IconPersonCircleLine />} />}
             title="활성화된 ListRadioItem"
@@ -58,7 +58,7 @@ export default function ListDisabled() {
         />
       </List>
       <List asChild>
-        <RadioGroup.Root defaultValue="foo" aria-label="옵션 선택">
+        <RadioGroup.Root defaultValue="foo" aria-label="Option Select">
           <ListRadioItem
             disabled
             prefix={<Icon svg={<IconSlashCircleLine />} />}

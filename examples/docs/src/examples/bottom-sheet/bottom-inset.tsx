@@ -17,14 +17,14 @@ const BottomSheetBottomInset = () => {
       </BottomSheetTrigger>
       <BottomSheetContent
         title="제목"
-        description="설명을 작성할 수 있어요"
+        description="Description 작성할 수 있어요"
         // 모바일 브라우저에서 아래 여백을 주기 위해 사용
         style={{ paddingBottom: "var(--seed-safe-area-bottom)" }}
       >
         {/* If you need to omit padding, pass px={0}. */}
         <BottomSheetBody minHeight="x16">Content</BottomSheetBody>
         <BottomSheetFooter>
-          <ActionButton variant="neutralSolid">확인</ActionButton>
+          <ActionButton variant="neutralSolid">OK</ActionButton>
         </BottomSheetFooter>
       </BottomSheetContent>
     </BottomSheetRoot>

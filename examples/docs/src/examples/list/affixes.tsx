@@ -40,7 +40,7 @@ export default function ListAffixes() {
         detail="Veniam non est non ut consequat."
         suffix={
           <ActionButton variant="neutralWeak" size="xsmall">
-            액션 버튼
+            액션 Button
           </ActionButton>
         }
       />
@@ -64,7 +64,7 @@ export default function ListAffixes() {
             pressed={isToggleButtonPressed}
             onPressedChange={setIsToggleButtonPressed}
           >
-            {isToggleButtonPressed ? "선택됨" : "토글 버튼"}
+            {isToggleButtonPressed ? "Select됨" : "토글 Button"}
           </ToggleButton>
         }
       />

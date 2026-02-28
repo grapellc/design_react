@@ -1,0 +1,176 @@
+---
+title: App Screen
+description: Component for building individual screens in Stackflow navigation. Use it when you need a mobile-style screen transition experience.
+---
+
+<StackflowExample names={["react/app-screen/preview"]}>
+  ```json doc-gen:file
+  {
+    "file": "examples/react/app-screen/preview.tsx",
+    "codeblock": true
+  }
+  ```
+</StackflowExample>
+
+## Installation
+
+```package-install
+npx @seed-design/cli@latest add ui:app-screen
+```
+
+<ManualInstallation name="app-screen" />
+
+## Usage
+
+```tsx
+import {
+  AppBar,
+  AppBarBackButton,
+  AppBarCloseButton,
+  AppBarIconButton,
+  AppBarLeft,
+  AppBarMain,
+  AppBarRight,
+} from "seed-design/ui/app-bar";
+import { AppScreen, AppScreenContent } from "seed-design/ui/app-screen";
+```
+
+```tsx
+<AppScreen theme="cupertino">
+  <AppBar>
+    <AppBarLeft>
+      <AppBarBackButton />
+    </AppBarLeft>
+    <AppBarMain>Title</AppBarMain>
+    <AppBarRight>{/* actions */}</AppBarRight>
+  </AppBar>
+  <AppScreenContent>{/* content */}</AppScreenContent>
+</AppScreen>
+```
+
+## Props
+
+### App Screen
+
+#### `AppScreen`
+
+<react-type-table path="./registry/ui/app-screen.tsx" name="AppScreenProps" />
+
+#### `AppScreenContent`
+
+<react-type-table path="./registry/ui/app-screen.tsx" name="AppScreenContentProps" />
+
+### App Bar
+
+#### `AppBar`
+
+<react-type-table path="./registry/ui/app-bar.tsx" name="AppBarProps" />
+
+#### `AppBarLeft`
+
+<react-type-table path="./registry/ui/app-bar.tsx" name="AppBarLeftProps" />
+
+#### `AppBarMain`
+
+<react-type-table path="./registry/ui/app-bar.tsx" name="AppBarMainProps" />
+
+#### `AppBarRight`
+
+<react-type-table path="./registry/ui/app-bar.tsx" name="AppBarRightProps" />
+
+#### `AppBarIconButton`, `AppBarBackButton`, `AppBarCloseButton`
+
+<react-type-table path="./registry/ui/app-bar.tsx" name="AppBarIconButtonProps" />
+
+## Examples
+
+### Tones
+
+Set `tone="transparent"` on AppScreen to use a transparent background.
+
+- The AppBar background becomes transparent.
+- A gradient is shown at the top of the AppScreen (including the mobile OS status bar area).
+  - Set the `gradient` prop to `false` to hide it.
+
+<StackflowExample names={["react/app-screen/transparent"]}>
+  ```json doc-gen:file
+  {
+    "file": "examples/react/app-screen/transparent.tsx",
+    "codeblock": true
+  }
+  ```
+</StackflowExample>
+
+#### With Intersection Observer
+
+Use Intersection Observer to change the AppBar `tone` dynamically.
+
+<StackflowExample names={["react/app-screen/with-intersection-observer"]}>
+  ```json doc-gen:file
+  {
+    "file": "examples/react/app-screen/with-intersection-observer.tsx",
+    "codeblock": true
+  }
+  ```
+</StackflowExample>
+
+### Layer Offset Top
+
+Use the `layerOffsetTop` prop to adjust the top offset of `AppScreenContent`.
+
+When using `tone="transparent"` and `gradient`, you typically set `layerOffsetTop="none"` so the content area extends into the mobile OS status bar area.
+
+<Callout type="info">
+
+Use a `viewport` meta tag that includes `viewport-fit=cover` to handle safe areas (e.g. display cutout / notch) correctly.
+
+```html
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1, viewport-fit=cover"
+/>
+```
+
+</Callout>
+
+### Customizing App Bar
+
+When `tone="layer"`, you can change the AppBar color.
+
+Use the `Icon` component inside `AppBarIconButton` to customize icons.
+
+<Card href="/react/components/concepts/composition" title="Icon">
+
+Learn more about the Icon component.
+
+</Card>
+
+<StackflowExample names={["react/app-screen/app-bar-customization"]}>
+  ```json doc-gen:file
+  {
+    "file": "examples/react/app-screen/app-bar-customization.tsx",
+    "codeblock": true
+  }
+  ```
+</StackflowExample>
+
+### Preventing Swipe Back
+
+Use the `preventSwipeBack` prop to disable the swipe-back gesture on AppScreens with `theme="cupertino"` by not rendering the edge region.
+
+### Transition Styles
+
+Use the `transitionStyle` prop to specify the transition when an AppScreen is pushed to the top or popped from the top.
+
+<Callout type="info">
+
+**Top** means the AppScreen created from an activity where `useActivity().isTop === true`.
+
+</Callout>
+
+If not specified, `transitionStyle` defaults by `theme`:
+
+- `theme="cupertino"`: `slideFromRightIOS`
+- `theme="android"`: `fadeFromBottomAndroid`
+
+When the top AppScreen is pushed or popped, non-top AppScreens also play the transition.

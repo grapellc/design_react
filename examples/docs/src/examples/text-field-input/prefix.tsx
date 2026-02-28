@@ -16,8 +16,8 @@ export default function TextFieldInputPrefix() {
           <TextFieldInput placeholder="example.com" />
         </TextField>
         <TextField
-          label="검색"
-          description="글 제목 또는 내용으로 검색할 수 있습니다."
+          label="Search"
+          description="글 제목 또는 Content으로 Search할 수 있습니다."
           prefixIcon={<IconMagnifyingglassLine />}
         >
           <TextFieldInput placeholder="레모네이드 레시피" />
@@ -33,10 +33,10 @@ export default function TextFieldInputPrefix() {
         </TextField>
         <TextField
           variant="underline"
-          description="글 제목 또는 내용으로 검색할 수 있습니다."
+          description="글 제목 또는 Content으로 Search할 수 있습니다."
           prefixIcon={<IconMagnifyingglassLine />}
         >
-          <TextFieldInput aria-label="검색" placeholder="레모네이드 레시피" />
+          <TextFieldInput aria-label="Search" placeholder="레모네이드 레시피" />
         </TextField>
       </HStack>
     </VStack>

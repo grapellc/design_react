@@ -15,16 +15,16 @@ export default function FieldButtonValuePlaceholder() {
     <HStack width="full" gap="x3">
       <FieldButton
         buttonProps={{
-          onClick: () => window.alert("버튼 클릭됨"),
-          "aria-label": "알림 표시",
+          onClick: () => window.alert("Button 클릭됨"),
+          "aria-label": "Notice Show",
         }}
       >
         <FieldButtonValue>FieldButtonValue</FieldButtonValue>
       </FieldButton>
       <FieldButton
         buttonProps={{
-          onClick: () => window.alert("버튼 클릭됨"),
-          "aria-label": "알림 표시",
+          onClick: () => window.alert("Button 클릭됨"),
+          "aria-label": "Notice Show",
         }}
       >
         <FieldButtonPlaceholder>FieldButtonPlaceholder</FieldButtonPlaceholder>

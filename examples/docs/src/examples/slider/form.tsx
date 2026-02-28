@@ -46,7 +46,7 @@ export default function SliderForm() {
         <HStack gap="x3">
           <Slider
             label="최소 평점"
-            description="원하는 최소 평점을 선택하세요"
+            description="원하는 최소 평점을 Select하세요"
             name="rating"
             min={0}
             max={5}
@@ -66,7 +66,7 @@ export default function SliderForm() {
           />
           <Slider
             label="가격 범위"
-            description="원하는 가격 범위를 선택하세요"
+            description="원하는 가격 범위를 Select하세요"
             name="price-range"
             min={0}
             max={100}

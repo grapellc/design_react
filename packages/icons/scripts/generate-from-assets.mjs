@@ -45,7 +45,7 @@ const MONOCHROME_NAMES = [
   'IconCarrotFill', 'IconCheckmarkCircleFill', 'IconCheckmarkFatFill', 'IconCheckmarkFill',
   'IconCheckmarkLine', 'IconChevronDownFill', 'IconChevronDownLine', 'IconChevronLeftLine',
   'IconChevronRightFill', 'IconChevronRightLine', 'IconExclamationmarkCircleFill', 'IconEyeSlashLine',
-  'IconFaceSmileCircleFill', 'IconHeartFill', 'IconILowercaseSerifCircleFill', 'IconILowercaseSerifCircleLine',
+  'IconFaceSmileCircleFill', 'IconHeartFill', 'IconHouseLine', 'IconILowercaseSerifCircleFill', 'IconILowercaseSerifCircleLine',
   'IconLocationpinFill', 'IconLockLine', 'IconMagnifyingglassLine', 'IconMegaphoneFill', 'IconMinusFatFill',
   'IconPenHorizlineFill', 'IconPersonCircleLine', 'IconPlusCircleLine', 'IconPlusFill', 'IconPlusLine',
   'IconQuestionmarkCircleFill', 'IconSlashCircleLine', 'IconSquare2StackedFill', 'IconStarFill',

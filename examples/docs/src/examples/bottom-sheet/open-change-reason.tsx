@@ -33,9 +33,9 @@ export default function BottomSheetOnOpenChangeReason() {
         setActiveSnapPoint={setSnap}
       >
         <BottomSheetTrigger asChild>
-          <ActionButton variant="neutralSolid">열기</ActionButton>
+          <ActionButton variant="neutralSolid">Open</ActionButton>
         </BottomSheetTrigger>
-        <BottomSheetContent title="알림" showHandle style={{ height: "100%", maxHeight: "97%" }}>
+        <BottomSheetContent title="Notice" showHandle style={{ height: "100%", maxHeight: "97%" }}>
           <BottomSheetBody minHeight="x16">
             <Text textStyle="t4Medium" color="fg.neutralMuted">
               ESC 키를 누르거나, 외부 영역을 클릭하거나, 아래로 스와이프하거나, 핸들을 탭하여 snap
@@ -47,7 +47,7 @@ export default function BottomSheetOnOpenChangeReason() {
 
       <HStack gap="x4">
         <Text fontSize="t3" color="fg.neutralMuted">
-          마지막 닫힘 이유: {closeReason ?? "-"}
+          Last close reason: {closeReason ?? "-"}
         </Text>
       </HStack>
     </VStack>

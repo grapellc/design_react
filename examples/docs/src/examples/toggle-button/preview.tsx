@@ -8,7 +8,7 @@ export default function ToggleButtonPreview() {
 
   return (
     <ToggleButton pressed={pressed} onPressedChange={setPressed}>
-      {pressed ? "선택됨" : "미선택"}
+      {pressed ? "Select됨" : "미Select"}
     </ToggleButton>
   );
 }

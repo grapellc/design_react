@@ -30,19 +30,19 @@ export default function AlertDialogOnOpenChangeReason() {
         }}
       >
         <AlertDialogTrigger asChild>
-          <ActionButton variant="neutralSolid">열기</ActionButton>
+          <ActionButton variant="neutralSolid">Open</ActionButton>
         </AlertDialogTrigger>
         <AlertDialogContent>
           <AlertDialogHeader>
-            <AlertDialogTitle>알림</AlertDialogTitle>
+            <AlertDialogTitle>Notice</AlertDialogTitle>
             <AlertDialogDescription>
-              ESC 키를 누르거나 버튼을 클릭하여 닫아보세요.
+              Press ESC or click the button to close.
             </AlertDialogDescription>
           </AlertDialogHeader>
           <AlertDialogFooter>
             <ResponsivePair gap="x2">
-              <AlertDialogAction variant="neutralWeak">취소</AlertDialogAction>
-              <AlertDialogAction variant="neutralSolid">확인</AlertDialogAction>
+              <AlertDialogAction variant="neutralWeak">Cancel</AlertDialogAction>
+              <AlertDialogAction variant="neutralSolid">OK</AlertDialogAction>
             </ResponsivePair>
           </AlertDialogFooter>
         </AlertDialogContent>
@@ -50,10 +50,10 @@ export default function AlertDialogOnOpenChangeReason() {
 
       <HStack gap="x4">
         <Text fontSize="t3" color="fg.neutralMuted">
-          마지막 열림 이유: {openReason ?? "-"}
+          Last open reason: {openReason ?? "-"}
         </Text>
         <Text fontSize="t3" color="fg.neutralMuted">
-          마지막 닫힘 이유: {closeReason ?? "-"}
+          Last close reason: {closeReason ?? "-"}
         </Text>
       </HStack>
     </VStack>

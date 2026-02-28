@@ -23,10 +23,10 @@ export default function ArticleSelectable() {
       />
       <VStack as="article" gap="x4" px="spacingX.globalGutter" py="x4">
         <Text as="h1" textStyle="t7Bold">
-          Article 밖은 선택할 수 없습니다.
+          Article 밖은 Select할 수 없습니다.
         </Text>
         <Text as="p" textStyle="articleBody">
-          상위 요소에 `user-select: none;` 스타일이 적용되어 있어 이 영역의 텍스트는 선택할 수
+          상위 요소에 `user-select: none;` 스타일이 적용되어 있어 이 영역의 텍스트는 Select할 수
           없습니다. 길게 탭하거나 더블 클릭해보세요.
         </Text>
       </VStack>
@@ -37,18 +37,18 @@ export default function ArticleSelectable() {
             Article 안
           </Text>
           <Text as="p" textStyle="articleBody">
-            상위 요소에 `user-select: none;` 스타일이 적용되었지만 Article 내부는 선택할 수
-            있습니다. 길게 탭하거나 더블 클릭해서 텍스트를 선택해보세요.
+            상위 요소에 `user-select: none;` 스타일이 적용되었지만 Article 내부는 Select할 수
+            있습니다. 길게 탭하거나 더블 클릭해서 텍스트를 Select해보세요.
           </Text>
           <Text as="p" textStyle="articleBody" userSelect="none">
-            이 요소는 Article 내부에 있지만 선택할 수 없습니다.
+            이 요소는 Article 내부에 있지만 Select할 수 없습니다.
           </Text>
         </Article>
       </VStack>
       <Divider color="stroke.neutralWeak" />
       <VStack as="article" gap="x4" px="spacingX.globalGutter" py="x4">
         <Text as="h1" textStyle="t7Bold">
-          Article 밖은 선택할 수 없습니다.
+          Article 밖은 Select할 수 없습니다.
         </Text>
         <Text as="p" textStyle="articleBody">
           길게 탭하거나 더블 클릭해보세요.

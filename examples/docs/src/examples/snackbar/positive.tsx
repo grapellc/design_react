@@ -15,8 +15,8 @@ function Component() {
           render: () => (
             <Snackbar
               variant="positive"
-              message="알림 메세지"
-              actionLabel="확인"
+              message="Notice 메세지"
+              actionLabel="OK"
               onAction={() => {}}
             />
           ),

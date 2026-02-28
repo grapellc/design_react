@@ -30,7 +30,7 @@ export default function ArticlePreventPullPreview() {
           <VStack gap="x8" style={{ userSelect: "none" }}>
             <PageBanner
               prefixIcon={<Icon svg={<IconExclamationmarkCircleFill />} />}
-              description="상위 요소에 `user-select: none;` 스타일 적용됨"
+              description="Parent has `user-select: none;` style applied"
               tone="warning"
               variant="solid"
             />
@@ -40,20 +40,20 @@ export default function ArticlePreventPullPreview() {
                   Article
                 </Text>
                 <Text textStyle="articleBody" as="p">
-                  이 요소는 Article 내부에 있으므로 텍스트 선택이 가능합니다. 이 Article은 PTR
-                  제스처를 호출하지 않도록 설정되어 있습니다. 여기를 아래로 끌어 당기면 PTR이
-                  작동하는 대신 텍스트가 선택됩니다.
+                  This element is inside Article, so text selection is enabled. This Article is set so it
+                  does not trigger PTR gestures. Pulling down here will select text instead of
+                  triggering PTR.
                 </Text>
               </Article>
             </VStack>
             <Divider />
             <VStack gap="spacingY.componentDefault" px="spacingX.globalGutter">
               <Text textStyle="t6Bold" as="h1">
-                Article 외부
+                Outside Article
               </Text>
               <Text textStyle="articleBody" as="p">
-                이 요소는 Article 외부에 있으므로 텍스트 선택이 불가능합니다. 이 요소는 PTR을
-                호출할 수 있습니다. 여기를 아래로 끌어 당겨보세요.
+                This element is outside Article, so text selection is disabled. This element can trigger
+                PTR. Try pulling down here.
               </Text>
             </VStack>
           </VStack>

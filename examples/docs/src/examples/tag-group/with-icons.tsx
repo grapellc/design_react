@@ -8,14 +8,14 @@ export default function TagGroupWithIcons() {
   return (
     <VStack gap="spacingY.componentDefault" align="center">
       <TagGroupRoot>
-        <TagGroupItem label="광고" suffixIcon={<IconMegaphoneFill />} />
-        <TagGroupItem label="끌올 3시간 전" />
-        <TagGroupItem label="서초4동" />
+        <TagGroupItem label="Ad" suffixIcon={<IconMegaphoneFill />} />
+        <TagGroupItem label="Bumped 3 hours ago" />
+        <TagGroupItem label="District 4" />
       </TagGroupRoot>
       <TagGroupRoot>
-        <TagGroupItem prefixIcon={<IconLocationpinFill />} label="서초4동" />
-        <TagGroupItem label="인증 5회" />
-        <TagGroupItem label="3분 전" />
+        <TagGroupItem prefixIcon={<IconLocationpinFill />} label="District 4" />
+        <TagGroupItem label="Verified 5" />
+        <TagGroupItem label="3 min ago" />
       </TagGroupRoot>
     </VStack>
   );

@@ -36,7 +36,7 @@ export default function FieldButtonReactHookForm() {
     name: "category",
     control,
     rules: {
-      required: "카테고리를 선택해주세요",
+      required: "카테고리를 Select해주세요",
     },
   });
 
@@ -90,7 +90,7 @@ export default function FieldButtonReactHookForm() {
             onValuesChange={([value]) => categoryOnChange(value)}
             buttonProps={{
               onClick: () => setIsCategorySheetOpen(true),
-              "aria-label": "카테고리 선택",
+              "aria-label": "카테고리 Select",
               "aria-haspopup": "dialog",
             }}
             {...categoryField}
@@ -98,7 +98,7 @@ export default function FieldButtonReactHookForm() {
             {categoryField.value ? (
               <FieldButtonValue>{categoryField.value}</FieldButtonValue>
             ) : (
-              <FieldButtonPlaceholder>카테고리를 선택해주세요</FieldButtonPlaceholder>
+              <FieldButtonPlaceholder>카테고리를 Select해주세요</FieldButtonPlaceholder>
             )}
           </FieldButton>
           <Portal>
@@ -159,7 +159,7 @@ function CategoryInputSheet({ value, onSubmit }: CategoryInputSheetProps) {
   };
 
   return (
-    <BottomSheetContent title="카테고리 선택">
+    <BottomSheetContent title="카테고리 Select">
       <form onSubmit={handleSubmit}>
         <BottomSheetBody minHeight="x16">
           <TextField

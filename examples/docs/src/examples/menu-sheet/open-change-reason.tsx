@@ -28,7 +28,7 @@ export default function MenuSheetOnOpenChangeReason() {
         }}
       >
         <MenuSheetTrigger asChild>
-          <ActionButton variant="neutralSolid">열기</ActionButton>
+          <ActionButton variant="neutralSolid">Open</ActionButton>
         </MenuSheetTrigger>
         <MenuSheetContent title="메뉴" aria-label="Menu Sheet">
           <MenuSheetGroup>
@@ -41,10 +41,10 @@ export default function MenuSheetOnOpenChangeReason() {
 
       <HStack gap="x4">
         <Text fontSize="t3" color="fg.neutralMuted">
-          마지막 열림 이유: {openReason ?? "-"}
+          Last open reason: {openReason ?? "-"}
         </Text>
         <Text fontSize="t3" color="fg.neutralMuted">
-          마지막 닫힘 이유: {closeReason ?? "-"}
+          Last close reason: {closeReason ?? "-"}
         </Text>
       </HStack>
     </VStack>

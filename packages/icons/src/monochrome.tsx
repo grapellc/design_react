@@ -25,6 +25,7 @@ export {
   IconEyeSlashLine,
   IconFaceSmileCircleFill,
   IconHeartFill,
+  IconHouseLine,
   IconILowercaseSerifCircleFill,
   IconILowercaseSerifCircleLine,
   IconLocationpinFill,

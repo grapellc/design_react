@@ -7,7 +7,7 @@ export default function ExtendedFabMedium() {
   return (
     <ExtendedFab size="medium">
       <PrefixIcon svg={<IconBellFill />} />
-      알림 설정
+      Notice 설정
     </ExtendedFab>
   );
 }

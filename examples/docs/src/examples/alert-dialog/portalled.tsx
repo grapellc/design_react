@@ -18,18 +18,18 @@ const AlertDialogPortalled = () => {
     // You can set z-index dialog with "--layer-index" custom property. useful for stackflow integration.
     <AlertDialogRoot>
       <AlertDialogTrigger asChild>
-        <ActionButton variant="neutralSolid">열기</ActionButton>
+        <ActionButton variant="neutralSolid">Open</ActionButton>
       </AlertDialogTrigger>
       <Portal>
         <AlertDialogContent layerIndex={50}>
           <AlertDialogHeader>
-            <AlertDialogTitle>주의</AlertDialogTitle>
-            <AlertDialogDescription>이 작업은 되돌릴 수 없습니다.</AlertDialogDescription>
+            <AlertDialogTitle>Warning</AlertDialogTitle>
+            <AlertDialogDescription>This action cannot be undone.</AlertDialogDescription>
           </AlertDialogHeader>
           <AlertDialogFooter>
             <ResponsivePair gap="x2">
-              <AlertDialogAction variant="neutralWeak">취소</AlertDialogAction>
-              <AlertDialogAction variant="neutralSolid">확인</AlertDialogAction>
+              <AlertDialogAction variant="neutralWeak">Cancel</AlertDialogAction>
+              <AlertDialogAction variant="neutralSolid">OK</AlertDialogAction>
             </ResponsivePair>
           </AlertDialogFooter>
         </AlertDialogContent>

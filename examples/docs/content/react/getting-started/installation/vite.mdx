@@ -1,0 +1,44 @@
+---
+title: Vite
+description: Install and use Grape Design React in a Vite project.
+---
+
+# Vite
+
+<Steps>
+<Step>
+
+### Install dependencies
+
+```bash
+pnpm add @grape-design/react @seed-design/css
+```
+
+</Step>
+
+<Step>
+
+### Import base CSS
+
+```ts title="main.tsx"
+import "@grape-design/react/styles.css";
+```
+
+</Step>
+
+<Step>
+
+### Use components
+
+Import and use components from `@grape-design/react`.
+
+```tsx
+import { ActionButton } from "@grape-design/react";
+
+export function App() {
+  return <ActionButton>Click me</ActionButton>;
+}
+```
+
+</Step>
+</Steps>

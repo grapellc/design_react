@@ -21,13 +21,13 @@ export default function AlertDialogPreventClose() {
   return (
     <AlertDialogRoot>
       <AlertDialogTrigger asChild>
-        <ActionButton variant="neutralSolid">열기</ActionButton>
+        <ActionButton variant="neutralSolid">Open</ActionButton>
       </AlertDialogTrigger>
       <AlertDialogContent>
         <AlertDialogHeader>
-          <AlertDialogTitle>닫기 방지</AlertDialogTitle>
+          <AlertDialogTitle>Prevent close</AlertDialogTitle>
           <AlertDialogDescription>
-            확인 버튼을 눌러도 다이얼로그가 닫히지 않도록 설정할 수 있습니다.
+            You can prevent the dialog from closing when the OK button is pressed.
           </AlertDialogDescription>
         </AlertDialogHeader>
         <AlertDialogFooter asChild>
@@ -36,7 +36,7 @@ export default function AlertDialogPreventClose() {
               <Switch
                 size="16"
                 tone="neutral"
-                label="preventDefault 사용"
+                label="Use preventDefault"
                 checked={preventClose}
                 onCheckedChange={setPreventClose}
               />
@@ -49,7 +49,7 @@ export default function AlertDialogPreventClose() {
                 }
               }}
             >
-              확인
+              OK
             </AlertDialogAction>
           </VStack>
         </AlertDialogFooter>

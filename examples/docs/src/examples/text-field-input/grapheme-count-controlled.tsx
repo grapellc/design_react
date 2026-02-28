@@ -11,7 +11,7 @@ export default function TextFieldInputGraphemeControlled() {
   return (
     <VStack gap="x4" width="full" align="center">
       <TextField
-        label="라벨"
+        label="Label"
         description="국기 이모지 🇰🇷 를 추가해보세요."
         maxGraphemeCount={100}
         value={value}

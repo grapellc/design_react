@@ -30,8 +30,8 @@
     position: absolute;
     display: flex;
     align-items: center;
-    justify-content: center;
-    text-align: center;
+    justify-content: flex-start;
+    text-align: left;
     top: var(--seed-safe-area-top);
     bottom: 0;
     left: 0;

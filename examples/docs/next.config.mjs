@@ -32,6 +32,7 @@ const resolveAliases = {
   '@karrotmarket/react-monochrome-icon/IconXmarkLine': '@grape-design/icons/monochrome/IconXmarkLine',
   '@karrotmarket/react-multicolor-icon': '@grape-design/icons/multicolor',
   '@seed-design/react-icon': '@grape-design/icons/multicolor',
+  '@seed-design/stackflow': '@grape-design/stackflow',
 };
 const turbopackAliases = {
   'seed-design/ui': registryRelative,
@@ -46,6 +47,7 @@ const turbopackAliases = {
   '@karrotmarket/react-monochrome-icon/IconXmarkLine': '@grape-design/icons/monochrome/IconXmarkLine',
   '@karrotmarket/react-multicolor-icon': '@grape-design/icons/multicolor',
   '@seed-design/react-icon': '@grape-design/icons/multicolor',
+  '@seed-design/stackflow': '@grape-design/stackflow',
 };
 
 /** @type {import('next').NextConfig} */

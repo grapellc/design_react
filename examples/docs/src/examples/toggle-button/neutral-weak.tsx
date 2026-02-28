@@ -8,7 +8,7 @@ export default function ToggleButtonBrandSolid() {
 
   return (
     <ToggleButton variant="neutralWeak" pressed={pressed} onPressedChange={setPressed}>
-      {pressed ? "선택됨" : "미선택"}
+      {pressed ? "Select됨" : "미Select"}
     </ToggleButton>
   );
 }

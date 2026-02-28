@@ -8,23 +8,23 @@ export default function FieldButtonPrefix() {
   return (
     <HStack width="full" gap="x3">
       <FieldButton
-        label="라벨"
-        description="설명을 써주세요"
+        label="Label"
+        description="Description 써주세요"
         prefix="https://"
         buttonProps={{
-          onClick: () => window.alert("버튼 클릭됨"),
+          onClick: () => window.alert("Button 클릭됨"),
           "aria-label": "URL 입력",
         }}
       >
         <FieldButtonPlaceholder>플레이스홀더</FieldButtonPlaceholder>
       </FieldButton>
       <FieldButton
-        label="라벨"
-        description="설명을 써주세요"
+        label="Label"
+        description="Description 써주세요"
         prefixIcon={<IconMagnifyingglassLine />}
         buttonProps={{
-          onClick: () => window.alert("버튼 클릭됨"),
-          "aria-label": "검색",
+          onClick: () => window.alert("Button 클릭됨"),
+          "aria-label": "Search",
         }}
       >
         <FieldButtonPlaceholder>플레이스홀더</FieldButtonPlaceholder>

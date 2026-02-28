@@ -48,7 +48,7 @@ export default function CheckboxReactHookForm() {
           flexGrow={1}
           onClick={() => setValue("mango", true)}
         >
-          mango 선택
+          mango Select
         </ActionButton>
         <ActionButton type="submit" variant="neutralSolid" flexGrow={1}>
           제출

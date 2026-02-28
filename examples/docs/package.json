@@ -12,10 +12,13 @@
   "dependencies": {
     "@grape-design/icons": "workspace:*",
     "@grape-design/react": "workspace:*",
+    "@grape-design/stackflow": "workspace:*",
     "@lottiefiles/react-lottie-player": "^3.6.0",
     "@seed-design/css": ">=1.1.17",
     "@seed-design/react": ">=1.2.0",
     "@seed-design/stackflow": ">=1.1.17",
+    "@stackflow/config": "^1.2.2",
+    "@stackflow/plugin-renderer-basic": "^1.1.13",
     "@stackflow/react": "^1.12.0",
     "@takumi-rs/image-response": "^0.68.17",
     "fumadocs-core": "16.6.6",

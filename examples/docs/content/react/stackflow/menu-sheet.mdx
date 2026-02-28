@@ -1,0 +1,139 @@
+---
+title: Menu Sheet
+description: How to use Menu Sheet with Stackflow.
+---
+
+<Card title="Menu Sheet" href="/react/components/menu-sheet">
+
+Learn more about the Menu Sheet component.
+
+</Card>
+
+## Making a Menu Sheet Activity
+
+**In most cases we recommend implementing Menu Sheet as an [Activity](https://stackflow.so/docs/get-started/activity).**
+
+- Managed as an activity, so z-index is easier to control (above child activities, below parent).
+- Enables deep linking (e.g. open Menu Sheet via URL).
+- Eases migration from [@stackflow/plugin-basic-ui](https://www.npmjs.com/package/@stackflow/plugin-basic-ui) `BottomSheet` for menu UIs.
+
+<StackflowExample names={["react/menu-sheet/activity", "react/menu-sheet/stackflow"]}>
+  ```json doc-gen:file
+  {
+    "file": "../../../src/examples/menu-sheet/activity.tsx",
+    "codeblock": { "meta": "title='MenuSheetActivity.tsx'" }
+  }
+  ```
+  ```json doc-gen:file
+  {
+    "file": "../../../src/examples/menu-sheet/stackflow.tsx",
+    "codeblock": { "meta": "title='MenuSheetStackflow.tsx'" }
+  }
+  ```
+</StackflowExample>
+
+### Usage
+
+```tsx
+import { useActivityZIndexBase } from "@seed-design/stackflow";
+import { useActivity, useFlow, type ActivityComponentType } from "@stackflow/react/future";
+// ... Menu Sheet and other imports
+
+const ActivityMenuSheet: ActivityComponentType<"ActivityMenuSheet"> = () => {
+  const { pop } = useFlow();
+
+  const handleAction = (action: string) => {
+    console.log("Selected action:", action);
+    pop();
+  };
+
+  return (
+    <MenuSheetRoot open={useActivity().isActive} onOpenChange={(open) => !open && pop()}>
+      <MenuSheetContent title="Actions" layerIndex={useActivityZIndexBase()}>
+        <MenuSheetGroup>
+          <MenuSheetItem
+            onClick={() => handleAction("add")}
+            label="Add"
+            prefixIcon={<IconPlusLine />}
+          />
+          <MenuSheetItem
+            onClick={() => handleAction("edit")}
+            label="Edit"
+            prefixIcon={<IconPencilLine />}
+          />
+          <MenuSheetItem
+            onClick={() => handleAction("delete")}
+            tone="critical"
+            label="Delete"
+            prefixIcon={<IconTrashcanLine />}
+          />
+        </MenuSheetGroup>
+      </MenuSheetContent>
+    </MenuSheetRoot>
+  );
+};
+```
+
+1. Pass `useActivity().isActive` to the `open` prop so the sheet opens when the activity is active.
+2. In `onOpenChange`, call `pop()` when the sheet closes to end the activity.
+3. Pass `layerIndex={useActivityZIndexBase()}` so the Menu Sheet activity has the correct z-index base.
+
+- [Learn more about `useActivityZIndexBase`](#about-useactivityzindexbase)
+
+#### Keeping Menu Sheet Mounted
+
+To keep the Menu Sheet mounted when another activity is pushed on top, keep `open` in sync with `transitionState` and only call `pop()` from `onOpenChange` when appropriate:
+
+```tsx
+const { isActive, transitionState } = useActivity();
+
+return (
+  <MenuSheetRoot
+    open={
+      transitionState === "enter-active" || transitionState === "enter-done"
+    }
+    onOpenChange={(open) => !open && isActive && pop()}
+  >
+    {/* ... */}
+  </MenuSheetRoot>
+);
+```
+
+## Syncing Menu Sheet State with a Step
+
+When you cannot implement Menu Sheet as its own activity, you can represent the “sheet open” state as a [Step](https://stackflow.so/docs/get-started/navigating-step).
+
+- The current activity stays on screen; back or overlay dismiss can close the sheet.
+- Use `MenuSheetTrigger` to open and close the sheet.
+
+<Callout type="warn" title="Constraint">
+
+**Close the Menu Sheet before pushing another activity from a non-activity Menu Sheet to avoid z-index issues.**
+
+If the sheet must stay open when returning to the activity that opened it, or cannot be closed by the user, prefer [Making a Menu Sheet Activity](#making-a-menu-sheet-activity).
+
+</Callout>
+
+### Usage
+
+Use step params to sync sheet open state, and `useActivityZIndexBase({ activityOffset: 1 })` so the sheet layers above the current activity. See the [Menu Sheet component docs](/react/components/menu-sheet) for examples.
+
+## About `useActivityZIndexBase`
+
+`useActivityZIndexBase` returns the z-index base for the current activity.
+
+<Accordions>
+<Accordion title="What does useActivityZIndexBase return?">
+
+- It returns `useActivity().zIndex * 5`. `useActivity().zIndex` is the index of the current activity among entered activities.
+- AppScreen elements (layer, appbar, dim, edge) use z-indices derived from this value.
+
+</Accordion>
+<Accordion title="What is the activityOffset option?">
+
+- Use `activityOffset` when you want the z-index base of the *next* activity (e.g. one step ahead).
+- For example, `useActivityZIndexBase({ activityOffset: 1 })` returns the next activity’s base.
+- This is useful in the Step pattern when showing a Menu Sheet above the current activity.
+
+</Accordion>
+</Accordions>

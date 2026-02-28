@@ -17,15 +17,15 @@ const AlertDialogSingle = () => {
   return (
     <AlertDialogRoot>
       <AlertDialogTrigger asChild>
-        <ActionButton variant="neutralSolid">열기</ActionButton>
+        <ActionButton variant="neutralSolid">Open</ActionButton>
       </AlertDialogTrigger>
       <AlertDialogContent layerIndex={50}>
         <AlertDialogHeader>
-          <AlertDialogTitle>제목</AlertDialogTitle>
-          <AlertDialogDescription>단일 선택지를 제공합니다.</AlertDialogDescription>
+          <AlertDialogTitle>Title</AlertDialogTitle>
+          <AlertDialogDescription>Provides a single choice.</AlertDialogDescription>
         </AlertDialogHeader>
         <AlertDialogFooter>
-          <AlertDialogAction variant="neutralSolid">확인</AlertDialogAction>
+          <AlertDialogAction variant="neutralSolid">OK</AlertDialogAction>
         </AlertDialogFooter>
       </AlertDialogContent>
     </AlertDialogRoot>

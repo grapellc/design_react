@@ -13,11 +13,11 @@ export default function ContextualFloatingButtonLoading() {
     setTimeout(() => setLoading(false), 2000);
   }
 
-  // 이벤트 핸들링이 필요할 수 있으므로 loading은 disabled를 포함하지 않습니다. 이벤트 발생을 원하지 않는 경우, disabled 속성을 추가해주세요.
+  // Loading does not imply disabled so you can handle events. Use disabled if you want to prevent 속성을 추가해주세요.
   return (
     <ContextualFloatingButton loading={loading} onClick={handleClick}>
       <PrefixIcon svg={<IconPlusLine />} />
-      시간이 걸리는 액션
+      Action that takes time
     </ContextualFloatingButton>
   );
 }

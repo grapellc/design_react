@@ -8,7 +8,7 @@ export default function ToggleButtonXsmall() {
 
   return (
     <ToggleButton size="xsmall" pressed={pressed} onPressedChange={setPressed}>
-      {pressed ? "선택됨" : "미선택"}
+      {pressed ? "Select됨" : "미Select"}
     </ToggleButton>
   );
 }

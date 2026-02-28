@@ -19,21 +19,20 @@ const AlertDialogWrap = () => {
     // You can set z-index dialog with "--layer-index" custom property. useful for stackflow integration.
     <AlertDialogRoot>
       <AlertDialogTrigger asChild>
-        <ActionButton variant="neutralSolid">열기</ActionButton>
+        <ActionButton variant="neutralSolid">Open</ActionButton>
       </AlertDialogTrigger>
       <AlertDialogContent layerIndex={50}>
         <AlertDialogHeader>
           <AlertDialogTitle>Wrapping</AlertDialogTitle>
           <AlertDialogDescription>
-            ResponsivePair 컴포넌트를 사용해 버튼 컨텐츠가 길어지는 경우 레이아웃을 세로로 접을 수
-            있습니다.
+            Use the ResponsivePair component to stack the layout vertically when button content is long.
           </AlertDialogDescription>
         </AlertDialogHeader>
         <AlertDialogFooter>
           <ResponsivePair gap="x2">
-            <AlertDialogAction variant="neutralWeak">취소</AlertDialogAction>
+            <AlertDialogAction variant="neutralWeak">Cancel</AlertDialogAction>
             <AlertDialogAction variant="neutralSolid">
-              <PrefixIcon svg={<IconCheckFill />} />긴 레이블 예시
+              <PrefixIcon svg={<IconCheckFill />} />Long label example
             </AlertDialogAction>
           </ResponsivePair>
         </AlertDialogFooter>

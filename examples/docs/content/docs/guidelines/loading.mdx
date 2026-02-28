@@ -1,0 +1,207 @@
+---
+title: Loading
+description: Elements for managing loading states, choosing the right option by duration, and optimizing the user experience step by step.
+---
+
+The primary approach to loading is to improve process speed. However, there are situations where loading cannot be avoided. In those cases, it is important to provide clear feedback so users know that loading is in progress and to design the experience accordingly.
+
+## Components
+
+We use three main elements to communicate loading state effectively.
+
+|               | Progress Circle                                                                                              | Progress Bar                                                                                | Skeleton                                                                                              |
+| ------------- | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| **Form**      | A circular loading indicator.                                                                                | A linear bar displayed horizontally.                                                        | An abstract representation of the content structure, with a gray-tone background.                     |
+| **Use case**  | When you don't need to show the final content layout in advance; mainly for short processes.                  | Best for processes with a clear start and end (e.g. install, upload, download).              | When long or complex data is loading and users can preview the layout of the content to come.          |
+| **Benefits**  | Does not take much space. Easy to apply in many situations.                                                   | Lets users understand how much time is left.                                                | Reduces uncertainty by letting users anticipate how content will be laid out.                         |
+| **Duration**  | Short loading (about 1–4 seconds)                                                                             | Longer loading (about 1–10 seconds, or 10+ seconds)                                          | Longer loading (about 1–10 seconds)                                                                    |
+
+### Progress Circle
+
+Progress Circle indicates loading with a circular shape. You can use it in two ways depending on the type of loading.
+
+|          | Determinate Progress Circle                               | Indeterminate Progress Circle    |
+| -------- | --------------------------------------------------------- | -------------------------------- |
+| **Goal** | Show how much time is left until the process completes     | Indicate that the process is in progress |
+| **Behavior** | Fills the circle from start to end                        | Spins continuously               |
+
+![Indeterminate Progress Circle](/docs/guidelines/loading/indeterminate-progress-circle.webp)
+
+Use an indeterminate loading indicator when progress or duration is variable or unknown. Progress Circle is a versatile way to show indeterminate loading.
+
+![Determinate Progress Circle](/docs/guidelines/loading/determinate-progress-circle.webp)
+
+Use a determinate loading indicator when progress or duration is known or can be estimated. It fits processes that may take longer, such as download, upload, or file conversion.
+
+### Progress bar
+
+![Progress Bar](/docs/guidelines/loading/progress-bar.webp)
+
+Progress Bar shows progress and loading state with animation along a straight track. It is often used when loading is required after following an external link.
+
+### Skeleton
+
+![Skeleton](/docs/guidelines/loading/skeleton.webp)
+
+Skeleton visually communicates that content is loading and helps users understand the layout in abstract form. This can make users perceive that the actual content is loading faster.
+
+Skeleton is mainly used on list or card-style screens with repeated data, or on pages where the structure of the upcoming content can be shown in advance.
+
+## Use Cases
+
+Loading situations can be categorized in several ways. Here is how we distinguish them.
+
+### First entry
+
+![First entry](/docs/guidelines/loading/use-case-1.webp)
+
+Loading when the user first opens the service.
+
+**Loading elements to use:** Progress Circle (Indeterminate), Skeleton
+
+### Page transition
+
+![Page transition](/docs/guidelines/loading/use-case-2.webp)
+
+Loading when moving between pages and new content is being fetched. In these cases, loading is usually shown full screen.
+
+**Loading elements to use:** Progress Circle (Indeterminate), Skeleton, Progress Bar
+
+### Loading more content
+
+![Loading more content](/docs/guidelines/loading/use-case-3.webp)
+
+When using infinite scroll or lazy loading, additional content loads as the user scrolls.
+
+**Loading elements to use:** Progress Circle (Indeterminate)
+
+### Data re-request
+
+![Data re-request](/docs/guidelines/loading/use-case-4.webp)
+
+When the user requests new data. A common example is pull-to-refresh (PTR).
+
+**Loading elements to use:** Progress Circle (Determinate)
+
+### Saving or submitting input
+
+![Saving or submitting input](/docs/guidelines/loading/use-case-5.webp)
+
+When saving or submitting data (e.g. login or authentication), loading occurs while communicating with the server.
+
+**Loading elements to use:** Progress Circle (Indeterminate), Loading Animation
+
+### State change
+
+![State change](/docs/guidelines/loading/use-case-6.webp)
+
+When fetching data from the server for a new state, or loading resources such as images or video for that state.
+
+**Loading elements to use:** Progress Circle (Indeterminate), Skeleton
+
+## Time-based Recommendations
+
+![Loading elements by duration](/docs/guidelines/loading/time-based-recommendations.webp)
+
+Choose the loading element to match the expected **loading time**, so users can wait with minimal discomfort and get a better experience.
+
+### Under 1 second
+
+So short that users may not notice loading. In most cases it feels like nothing happened. Showing a loading element can cause flicker and hurt the experience, so we do not show one.
+
+**Loading elements to use:** Not recommended
+
+### 1–4 seconds
+
+A short delay that users may notice. A quick but noticeable delay that can briefly capture attention.
+
+**Loading elements to use:** Progress Circle (Indeterminate), Skeleton
+
+### 4–10 seconds
+
+A noticeable wait; users may start to feel bored. Provide clear feedback and something to focus on. We recommend giving users information about the loading.
+
+**Loading elements to use:** Skeleton, Progress Circle (Indeterminate), Progress Bar
+
+### 10 seconds or more
+
+Users clearly feel the wait. It is important to show progress and make the wait feel less tedious. We recommend showing expected duration so users know the system is working.
+
+**Loading elements to use:** Progress Circle (Determinate), Progress Bar
+
+### 1 minute or more
+
+When loading takes more than a minute, show clear progress. Consider offering background processing and a way to cancel.
+
+**Loading elements to use:** Progress Circle (Determinate), Progress Bar
+
+## Skeleton vs Progress Circle
+
+Skeleton and Progress Circle (spinner) are easy to confuse because both show loading, but they offer different experiences. Here we explain the differences and when to use each.
+
+### Use case of Skeleton
+
+1. **When the layout is clear and the screen shows varied data**
+
+![When the layout is clear and the screen shows varied data](/docs/guidelines/loading/use-case-skeleton-1.webp)
+
+Skeleton fits product detail pages with a clear layout and a mix of images and text. The content structure is stable and does not change much after loading, so Skeleton helps users quickly understand that the page is being prepared.
+
+2. **When you want to preview the structure of the content to come**
+
+![When you want to preview the structure of the content to come](/docs/guidelines/loading/use-case-skeleton-2.webp)
+
+In a comments section, comments often repeat the same shape. With Skeleton, users can predict the structure of the comments that will load. This makes it easier to imagine what will appear.
+
+### Use case of Progress Circle
+
+1. **When the loading scope is limited**
+
+![When the loading scope is limited](/docs/guidelines/loading/use-case-progress-circle-1.webp)
+
+Progress Circle fits when space is limited and the loading scope is small.
+
+For example, when sending a message in chat, you can show a progress circle next to the message bubble to indicate that the message is being sent.
+
+For use inside a button, see [Progress Circle](/docs/components/progress-circle).
+
+## Loading process steps
+
+![Loading process steps](/docs/guidelines/loading/loading-process-steps.webp)
+
+Loading is an essential part of the interaction between user and system. Providing the right feedback at each step improves the experience. Loading can be broken into the following steps.
+
+### Start
+
+![Start step](/docs/guidelines/loading/loading-process-step-start.webp)
+
+Loading starts when the user begins an action such as requesting a page or submitting data. Give initial feedback so the user knows loading has started.
+
+If loading completes within about 1 second, we do not show a loading indicator.
+
+### In progress
+
+![In progress step](/docs/guidelines/loading/loading-process-step-progress.webp)
+
+This is when data is being sent and the server is processing. Keep informing the user that loading is in progress. If it takes longer, use visual feedback so they can anticipate the wait.
+
+### Complete
+
+![Complete step](/docs/guidelines/loading/loading-process-step-complete.webp)
+
+When loading succeeds, a simple case may not need a completion message. When feedback is needed, you can show a success message or similar.
+
+### Failure
+
+![Failure step](/docs/guidelines/loading/loading-process-step-failure.webp)
+
+When loading fails, show an error message that explains what went wrong and what the user can do next.
+
+Provide an option to retry when possible.
+
+## Related documents
+
+<Cards>
+  <Card href="/docs/components/skeleton" title="Skeleton" />
+  <Card href="/docs/components/progress-circle" title="Progress Circle" />
+</Cards>

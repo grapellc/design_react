@@ -27,7 +27,7 @@ export default function FieldButtonReactHookFormSimple() {
     name: "text",
     control,
     rules: {
-      required: "필수 입력 항목입니다",
+      required: "Required 입력 Item입니다",
     },
   });
 
@@ -71,7 +71,7 @@ export default function FieldButtonReactHookFormSimple() {
           </TextField>
           <FieldButton
             label="input을 포함한 FieldButton"
-            description={`이 FieldButton은 <input type="hidden" /> 요소를 한 개 포함하고 있습니다. 자세한 내용은 예시 코드를 참고하세요.`}
+            description={`이 FieldButton은 <input type="hidden" /> 요소를 한 개 포함하고 있습니다. 자세한 Content은 Example 코드를 참고하세요.`}
             invalid={countFieldState.invalid}
             errorMessage={countFieldState.error?.message}
             values={[`${countValue}`]}

@@ -9,8 +9,8 @@ export default function RadioGroupPreview() {
       <RadioGroup
         defaultValue="apple"
         label="좋아하는 과일"
-        description="좋아하는 과일을 선택해 주세요."
-        indicator="선택"
+        description="좋아하는 과일을 Select해 주세요."
+        indicator="Select"
       >
         <RadioGroupItem value="apple" label="Apple" tone="neutral" size="large" />
         <RadioGroupItem value="banana" label="Banana" tone="neutral" size="large" />

@@ -1,6 +1,6 @@
-'use client';
+"use client";
 
-import { Component, type ReactNode } from 'react';
+import { Component, type ReactNode } from "react";
 
 interface Props {
   children: ReactNode;
@@ -12,7 +12,10 @@ interface State {
 }
 
 export class ErrorBoundary extends Component<Props, State> {
-  state: State = { hasError: false, error: null };
+  constructor(props: Props) {
+    super(props);
+    this.state = { hasError: false, error: null };
+  }
 
   static getDerivedStateFromError(error: Error): State {
     return { hasError: true, error };
@@ -21,11 +24,9 @@ export class ErrorBoundary extends Component<Props, State> {
   render() {
     if (this.state.hasError && this.state.error) {
       return (
-        <div role="alert" className="rounded-lg border border-red-200 bg-red-50 p-4 dark:border-red-800 dark:bg-red-950">
-          <p className="font-medium text-red-800 dark:text-red-200">Something went wrong</p>
-          <pre className="mt-2 overflow-auto text-sm text-red-700 dark:text-red-300">
-            {this.state.error.message}
-          </pre>
+        <div role="alert" className="rounded-lg border border-red-500/50 bg-red-500/10 p-4 text-sm">
+          <p className="font-medium text-red-600 dark:text-red-400">Something went wrong</p>
+          <pre className="mt-2 overflow-auto text-fd-muted-foreground">{this.state.error.message}</pre>
         </div>
       );
     }

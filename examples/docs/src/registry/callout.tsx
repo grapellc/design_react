@@ -99,7 +99,7 @@ export const DismissibleCallout = React.forwardRef<
         {linkProps && <SeedCallout.Link {...linkProps} />}
       </SeedCallout.Content>
       {/* You may implement your own i18n for dismiss label */}
-      <SeedCallout.CloseButton aria-label="닫기">
+      <SeedCallout.CloseButton aria-label="Close">
         <SuffixIcon svg={<IconXmarkLine />} />
       </SeedCallout.CloseButton>
     </SeedCallout.Root>

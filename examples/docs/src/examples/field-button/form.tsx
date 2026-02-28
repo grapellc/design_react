@@ -30,7 +30,7 @@ export default function FieldButtonForm() {
           </TextField>
           <FieldButton
             label="input을 포함한 FieldButton"
-            description={`이 FieldButton은 <input type="hidden" /> 요소를 한 개 포함하고 있습니다. 자세한 내용은 예시 코드를 참고하세요.`}
+            description={`이 FieldButton은 <input type="hidden" /> 요소를 한 개 포함하고 있습니다. 자세한 Content은 Example 코드를 참고하세요.`}
             name="field-button-count"
             values={[`${count}`]}
             buttonProps={{

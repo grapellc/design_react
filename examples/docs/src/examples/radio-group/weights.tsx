@@ -6,7 +6,7 @@ import { RadioGroup, RadioGroupItem } from "seed-design/ui/radio-group";
 export default function RadioGroupWeights() {
   return (
     <VStack p="x6">
-      <RadioGroup defaultValue="regular" aria-label="글꼴 굵기 선택">
+      <RadioGroup defaultValue="regular" aria-label="글꼴 굵기 Select">
         <RadioGroupItem
           value="regular"
           label="Regular"

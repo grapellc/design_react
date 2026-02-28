@@ -53,7 +53,7 @@ export default function FieldButtonMultipleValues() {
             showClearButton={tags.length > 0}
             buttonProps={{
               onClick: () => setIsTagSheetOpen(true),
-              "aria-label": tags.length > 0 ? `태그 ${tags.length}개 편집` : "태그 선택",
+              "aria-label": tags.length > 0 ? `태그 ${tags.length}개 Edit` : "태그 Select",
               "aria-haspopup": "dialog",
             }}
           >

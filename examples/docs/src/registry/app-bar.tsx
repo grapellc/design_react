@@ -8,15 +8,28 @@ import * as React from "react";
 import { forwardRef, useContext } from "react";
 import { StandalonePreviewContext } from "../StandalonePreviewContext";
 
-export interface AppBarProps extends SeedAppBar.RootProps {}
+export interface AppBarProps extends SeedAppBar.RootProps {
+  layerOffsetTop?: unknown;
+  gradient?: unknown;
+  preventSwipeBack?: unknown;
+}
+
+const APP_BAR_NON_DOM_KEYS = new Set(["layerOffsetTop", "gradient", "preventSwipeBack"]);
+
+function omitAppBarNonDomProps<P extends Record<string, unknown>>(obj: P): Omit<P, "layerOffsetTop" | "gradient" | "preventSwipeBack"> {
+  return Object.fromEntries(
+    Object.entries(obj).filter(([key]) => !APP_BAR_NON_DOM_KEYS.has(key)),
+  ) as Omit<P, "layerOffsetTop" | "gradient" | "preventSwipeBack">;
+}
 
 export const AppBar = forwardRef<HTMLDivElement, AppBarProps>(
   (props, ref) => {
     const standalone = useContext(StandalonePreviewContext);
+    const safeProps = omitAppBarNonDomProps(props as Record<string, unknown>);
     if (standalone) {
-      return <div ref={ref} role="banner" {...props} />;
+      return <div ref={ref} role="banner" {...safeProps} />;
     }
-    return <SeedAppBar.Root ref={ref} {...props} />;
+    return <SeedAppBar.Root ref={ref} {...safeProps} />;
   },
 );
 AppBar.displayName = "AppBar";
@@ -103,6 +116,7 @@ AppBarIconButton.displayName = "AppBarIconButton";
 
 export const AppBarBackButton = forwardRef<HTMLButtonElement, AppBarIconButtonProps>(
   ({ children = <IconChevronLeftLine />, onClick, ...otherProps }, ref) => {
+    const standalone = useContext(StandalonePreviewContext);
     const activity = useActivity();
     const actions = useActions();
 
@@ -121,10 +135,24 @@ export const AppBarBackButton = forwardRef<HTMLButtonElement, AppBarIconButtonPr
       return null;
     }
 
+    if (standalone) {
+      return (
+        <button
+          ref={ref}
+          aria-label="Back"
+          type="button"
+          onClick={handleOnClick}
+          {...otherProps}
+        >
+          {children}
+        </button>
+      );
+    }
+
     return (
       <SeedAppBar.IconButton
         ref={ref}
-        aria-label="뒤로"
+        aria-label="Back"
         type="button"
         onClick={handleOnClick}
         {...otherProps}
@@ -157,7 +185,7 @@ export const AppBarCloseButton = forwardRef<HTMLButtonElement, AppBarIconButtonP
     return (
       <AppBarIconButton
         ref={ref}
-        aria-label="닫기"
+        aria-label="Close"
         type="button"
         onClick={handleOnClick}
         {...otherProps}

@@ -50,13 +50,25 @@ export const AppBarRoot = forwardRef<HTMLDivElement, AppBarProps>((props, ref) =
 
   const classNames = appBar(resolvedVariantProps);
 
+  const { layerOffsetTop, gradient, preventSwipeBack, ...domProps } = otherProps;
+
+  const NON_DOM_APP_BAR_KEYS = new Set([
+    "layerOffsetTop",
+    "gradient",
+    "preventSwipeBack",
+  ]);
+  const safeDomProps = Object.fromEntries(
+    Object.entries(domProps).filter(([key]) => !NON_DOM_APP_BAR_KEYS.has(key)),
+  );
+  const safeRootProps = mergeProps(
+    { className: classNames.root, style: boxStyle },
+    safeDomProps,
+  );
+
   return (
     <ClassNamesProvider value={classNames}>
       <MainPropsProvider value={resolvedVariantProps}>
-        <AppBarPrimitive.Root
-          ref={ref}
-          {...mergeProps({ className: classNames.root, style: boxStyle }, otherProps)}
-        />
+        <AppBarPrimitive.Root ref={ref} {...safeRootProps} />
       </MainPropsProvider>
     </ClassNamesProvider>
   );

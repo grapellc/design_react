@@ -10,13 +10,26 @@ export interface AppScreenProps extends SeedAppScreen.RootProps {
   preventSwipeBack?: boolean;
 }
 
+const DOM_ONLY_APP_SCREEN_PROPS = new Set([
+  "className",
+  "style",
+  "id",
+  "role",
+  "aria-label",
+  "data-testid",
+]);
+
 export const AppScreen = forwardRef<HTMLDivElement, AppScreenProps>(
   ({ children, onSwipeBackEnd, preventSwipeBack, ...otherProps }, ref) => {
     const standalone = useContext(StandalonePreviewContext);
 
     if (standalone) {
+      const domProps = Object.fromEntries(
+        Object.entries(otherProps).filter(([key]) => DOM_ONLY_APP_SCREEN_PROPS.has(key)),
+      );
+      const rootClassName = [domProps.className, "standalone-app-screen"].filter(Boolean).join(" ");
       return (
-        <div ref={ref} {...otherProps}>
+        <div ref={ref} {...domProps} className={rootClassName}>
           {children}
         </div>
       );
@@ -62,15 +75,21 @@ export const AppScreenContent = forwardRef<HTMLDivElement, AppScreenContentProps
 
     if (standalone) {
       if (!ptr) {
+        const contentClassName = [otherProps.className, "standalone-app-screen-content"]
+          .filter(Boolean)
+          .join(" ");
         return (
-          <div ref={ref} {...otherProps}>
+          <div ref={ref} {...otherProps} className={contentClassName}>
             {children}
           </div>
         );
       }
+      const contentClassName = [otherProps.className, "standalone-app-screen-content"]
+        .filter(Boolean)
+        .join(" ");
       return (
         <PullToRefreshRoot asChild onPtrReady={onPtrReady} onPtrRefresh={onPtrRefresh}>
-          <div ref={ref} {...otherProps}>
+          <div ref={ref} {...otherProps} className={contentClassName}>
             <PullToRefreshIndicator />
             <PullToRefreshContent asChild>{children}</PullToRefreshContent>
           </div>

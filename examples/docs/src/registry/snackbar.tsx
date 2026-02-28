@@ -27,22 +27,22 @@ export const SnackbarProvider = (props: SnackbarProviderProps) => {
 
 export interface SnackbarProps extends SeedSnackbar.RootProps {
   /**
-   * 스낵바에 표시할 메시지
+   * 스낵바에 Show할 메시지
    */
   message: string;
 
   /**
-   * 스낵바에 표시할 액션 버튼의 라벨
+   * 스낵바에 Show할 액션 Button의 라벨
    */
   actionLabel?: string;
 
   /**
-   * 액션 버튼 클릭 시 호출되는 콜백
+   * 액션 Button 클릭 시 호출되는 콜백
    */
   onAction?: () => void;
 
   /**
-   * 액션 버튼 클릭 시 스낵바를 닫을지 여부
+   * 액션 Button 클릭 시 스낵바를 닫을지 여부
    * @default true
    */
   shouldCloseOnAction?: boolean;
@@ -97,7 +97,7 @@ export const Snackbar = React.forwardRef<HTMLDivElement, SnackbarProps>(
           )}
         </SeedSnackbar.Content>
         {/* You may implement your own i18n for dismiss label */}
-        <SeedSnackbar.HiddenCloseButton>닫기</SeedSnackbar.HiddenCloseButton>
+        <SeedSnackbar.HiddenCloseButton>Close</SeedSnackbar.HiddenCloseButton>
       </SeedSnackbar.Root>
     );
   },

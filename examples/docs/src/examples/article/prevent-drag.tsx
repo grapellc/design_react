@@ -41,9 +41,9 @@ const ArticlePreventDrag: ActivityComponentType<"react/article/prevent-drag"> = 
                       Article
                     </Text>
                     <Text textStyle="articleBody" as="p">
-                      이 요소는 Article 내부에 있으므로 텍스트 선택이 가능합니다. 이 Article은 Tabs
+                      이 요소는 Article 내부에 있으므로 텍스트 Select이 가능합니다. 이 Article은 Tabs
                       제스처를 호출하지 않도록 설정되어 있습니다. 여기를 왼쪽으로 스와이프하면 탭이
-                      전환되는 대신 텍스트가 선택됩니다.
+                      전환되는 대신 텍스트가 Select됩니다.
                     </Text>
                   </Article>
                 </VStack>
@@ -53,7 +53,7 @@ const ArticlePreventDrag: ActivityComponentType<"react/article/prevent-drag"> = 
                     Article 외부
                   </Text>
                   <Text textStyle="articleBody" as="p">
-                    이 요소는 Article 외부에 있으므로 텍스트 선택이 불가능합니다. 이 요소는 탭
+                    이 요소는 Article 외부에 있으므로 텍스트 Select이 불가능합니다. 이 요소는 탭
                     스와이프를 호출할 수 있습니다. 여기를 왼쪽으로 스와이프해보세요.
                   </Text>
                 </VStack>

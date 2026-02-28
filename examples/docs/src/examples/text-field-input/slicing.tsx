@@ -8,7 +8,7 @@ export default function TextFieldInputSlicing() {
 
   return (
     <TextField
-      label="라벨"
+      label="Label"
       description="6글자까지 입력 가능합니다"
       maxGraphemeCount={6}
       value={value}

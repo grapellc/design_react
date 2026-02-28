@@ -48,6 +48,16 @@
   --color-fd-ring: #262626;
 }
 
+/* Default text/icon color so inherited currentColor is not black */
+body {
+  color: var(--color-fd-foreground);
+}
+
+/* Ensure SVG icons using currentColor inherit correctly */
+svg [fill="currentColor"] {
+  fill: currentColor;
+}
+
 .example-reset {
   line-height: normal;
   font-family:

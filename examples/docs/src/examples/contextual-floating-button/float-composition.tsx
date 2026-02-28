@@ -16,7 +16,7 @@ export default function ContextualFloatingButtonFloatComposition() {
       <Float placement="bottom-center" offsetY="x4">
         <ContextualFloatingButton>
           <PrefixIcon svg={<IconBellFill />} />
-          알림 설정
+          Notice 설정
         </ContextualFloatingButton>
       </Float>
     </Box>

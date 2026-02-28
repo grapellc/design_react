@@ -33,10 +33,10 @@ export default function ResultSectionSuccessWithLottie() {
             />
           </Box>
         }
-        title="성공했어요"
-        description="요청이 성공적으로 완료되었습니다"
+        title="Success했어요"
+        description="요청이 Success적으로 Done되었습니다"
         primaryActionProps={{
-          children: "확인",
+          children: "OK",
           onClick: () => window.alert("확인 클릭"),
         }}
       />

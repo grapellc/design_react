@@ -15,7 +15,7 @@ export default function CheckboxFieldset() {
     const fruits = formData.getAll("fruit");
 
     if (fruits.includes("apple")) {
-      setFirstErrors({ apple: "Apple은 선택할 수 없습니다." });
+      setFirstErrors({ apple: "Apple은 Select할 수 없습니다." });
 
       return;
     }
@@ -36,8 +36,8 @@ export default function CheckboxFieldset() {
 
     if (!hasTerms || !hasPrivacy) {
       setSecondErrors({
-        ...(!hasTerms && { terms: "필수 항목에 동의해 주세요." }),
-        ...(!hasPrivacy && { privacy: "필수 항목에 동의해 주세요." }),
+        ...(!hasTerms && { terms: "Required Item에 동의해 주세요." }),
+        ...(!hasPrivacy && { privacy: "Required Item에 동의해 주세요." }),
       });
       return;
     }
@@ -52,8 +52,8 @@ export default function CheckboxFieldset() {
         <form onSubmit={handleFirstSubmit}>
           <CheckboxGroup
             label="좋아하는 과일"
-            indicator="선택"
-            description="Apple을 선택하고 제출해보세요."
+            indicator="Select"
+            description="Apple을 Select하고 제출해보세요."
             errorMessage={Object.values(firstErrors).filter(Boolean).join(", ")}
           >
             <Checkbox
@@ -91,18 +91,18 @@ export default function CheckboxFieldset() {
             label="약관 동의"
             labelWeight="bold"
             showRequiredIndicator
-            description="이용약관을 선택하지 않고 제출해보세요."
+            description="이용약관을 Select하지 않고 제출해보세요."
             errorMessage={Object.values(secondErrors).filter(Boolean).join(", ")}
           >
             <Checkbox
-              label="이용약관 동의 (필수)"
+              label="이용약관 동의 (Required)"
               tone="neutral"
               size="large"
               invalid={!!secondErrors.terms}
               inputProps={{ name: "agreement", value: "terms" }}
             />
             <Checkbox
-              label="개인정보 처리방침 동의 (필수)"
+              label="개인정보 처리방침 동의 (Required)"
               tone="neutral"
               size="large"
               defaultChecked
@@ -110,7 +110,7 @@ export default function CheckboxFieldset() {
               inputProps={{ name: "agreement", value: "privacy" }}
             />
             <Checkbox
-              label="마케팅 수신 동의 (선택)"
+              label="마케팅 수신 동의 (Select)"
               tone="neutral"
               size="large"
               invalid={!!secondErrors.marketing}

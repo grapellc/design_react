@@ -112,7 +112,7 @@ export const DismissibleInlineBanner = React.forwardRef<
         <SeedInlineBanner.Description>{description}</SeedInlineBanner.Description>
       </SeedInlineBanner.Content>
       {/* You may implement your own i18n for dismiss label */}
-      <SeedInlineBanner.CloseButton aria-label="닫기">
+      <SeedInlineBanner.CloseButton aria-label="Close">
         <SuffixIcon svg={<IconXmarkLine />} />
       </SeedInlineBanner.CloseButton>
     </SeedInlineBanner.Root>

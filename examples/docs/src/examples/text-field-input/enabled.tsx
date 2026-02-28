@@ -7,29 +7,29 @@ export default function TextFieldInputEnabled() {
   return (
     <VStack width="full" gap="spacingY.componentDefault">
       <HStack gap="x3">
-        <TextField label="라벨" description="설명을 써주세요">
+        <TextField label="Label" description="Description 써주세요">
           <TextFieldInput placeholder="플레이스홀더" />
         </TextField>
         <TextField
-          label="라벨"
-          description="설명을 써주세요"
+          label="Label"
+          description="Description 써주세요"
           invalid
-          errorMessage="오류가 발생한 이유를 써주세요"
+          errorMessage="Error가 발생한 이유를 써주세요"
         >
           <TextFieldInput placeholder="플레이스홀더" />
         </TextField>
       </HStack>
       <HStack gap="x3">
-        <TextField variant="underline" description="설명을 써주세요">
-          <TextFieldInput aria-label="라벨" placeholder="플레이스홀더" />
+        <TextField variant="underline" description="Description 써주세요">
+          <TextFieldInput aria-label="Label" placeholder="플레이스홀더" />
         </TextField>
         <TextField
           variant="underline"
-          description="설명을 써주세요"
+          description="Description 써주세요"
           invalid
-          errorMessage="오류가 발생한 이유를 써주세요"
+          errorMessage="Error가 발생한 이유를 써주세요"
         >
-          <TextFieldInput aria-label="라벨" placeholder="플레이스홀더" />
+          <TextFieldInput aria-label="Label" placeholder="플레이스홀더" />
         </TextField>
       </HStack>
     </VStack>

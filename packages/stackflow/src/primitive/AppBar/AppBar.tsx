@@ -10,15 +10,26 @@ export interface AppBarRootProps
     UseAppBarProps,
     React.HTMLAttributes<HTMLDivElement> {}
 
+const NON_DOM_APP_BAR_KEYS = new Set([
+  "layerOffsetTop",
+  "gradient",
+  "preventSwipeBack",
+]);
+
 export const AppBarRoot = forwardRef<HTMLDivElement, AppBarRootProps>((props, ref) => {
-  const { ...otherProps } = props;
+  const { layerOffsetTop, gradient, preventSwipeBack, ...otherProps } = props;
   const api = useAppBar({});
+
+  const merged = mergeProps(api.rootProps, otherProps);
+  const domProps = Object.fromEntries(
+    Object.entries(merged).filter(([key]) => !NON_DOM_APP_BAR_KEYS.has(key)),
+  );
 
   return (
     <AppBarProvider value={api}>
       <Primitive.div
         ref={composeRefs(api.refs.root, ref)}
-        {...mergeProps(api.rootProps, otherProps)}
+        {...domProps}
       />
     </AppBarProvider>
   );

@@ -1,0 +1,19 @@
+{
+  "title": "React",
+  "description": "Grape React documentation",
+  "icon": "Atom",
+  "pages": [
+    "index",
+    "---Getting Started---",
+    "...getting-started",
+    "...components",
+    "---Stackflow---",
+    "...stackflow",
+    "---Developer Tools---",
+    "...developer-tools",
+    "---Updates---",
+    "...updates",
+    "---Migration---",
+    "...migration"
+  ]
+}

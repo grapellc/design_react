@@ -18,12 +18,12 @@ const AlertDialogNonpreferred = () => {
     // You can set z-index dialog with "--layer-index" custom property. useful for stackflow integration.
     <AlertDialogRoot>
       <AlertDialogTrigger asChild>
-        <ActionButton variant="neutralSolid">열기</ActionButton>
+        <ActionButton variant="neutralSolid">Open</ActionButton>
       </AlertDialogTrigger>
       <AlertDialogContent layerIndex={50}>
         <AlertDialogHeader>
-          <AlertDialogTitle>제목</AlertDialogTitle>
-          <AlertDialogDescription>중립적인 선택지를 제공합니다.</AlertDialogDescription>
+          <AlertDialogTitle>Title</AlertDialogTitle>
+          <AlertDialogDescription>Provides neutral choices.</AlertDialogDescription>
         </AlertDialogHeader>
         <AlertDialogFooter>
           <VStack gap="x4" alignSelf="stretch">

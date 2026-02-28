@@ -7,7 +7,7 @@ export default function ExtendedFabNeutralSolid() {
   return (
     <ExtendedFab variant="neutralSolid">
       <PrefixIcon svg={<IconBellFill />} />
-      알림 설정
+      Notice 설정
     </ExtendedFab>
   );
 }

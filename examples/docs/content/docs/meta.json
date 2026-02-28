@@ -2,5 +2,5 @@
   "title": "Grape Design",
   "description": "React component documentation",
   "icon": "Atom",
-  "pages": ["index", "---Foundation---", "foundation", "---Components---", "components"]
+  "pages": ["index", "progress-board", "foundation", "components", "guidelines", "migration", "resources"]
 }

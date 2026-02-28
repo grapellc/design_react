@@ -14,7 +14,7 @@ export default function ResultSectionPreview() {
           </Box>
         }
         title="결과 타이틀"
-        description="부가 설명을 적어주세요"
+        description="부가 Description 적어주세요"
         primaryActionProps={{
           children: "Primary Action",
           onClick: () => window.alert("Primary Action Clicked"),

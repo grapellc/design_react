@@ -18,18 +18,18 @@ const AlertDialogCritical = () => {
     // You can set z-index dialog with "--layer-index" custom property. useful for stackflow integration.
     <AlertDialogRoot>
       <AlertDialogTrigger asChild>
-        <ActionButton variant="neutralSolid">열기</ActionButton>
+        <ActionButton variant="neutralSolid">Open</ActionButton>
       </AlertDialogTrigger>
       <AlertDialogContent layerIndex={50}>
         <AlertDialogHeader>
-          <AlertDialogTitle>제목</AlertDialogTitle>
-          <AlertDialogDescription>파괴적, 비가역적 작업을 경고합니다.</AlertDialogDescription>
+          <AlertDialogTitle>Title</AlertDialogTitle>
+          <AlertDialogDescription>Warns about a destructive, irreversible action.</AlertDialogDescription>
         </AlertDialogHeader>
         <AlertDialogFooter>
           {/* ResponsivePair component wraps layout if button content is too long. */}
           <ResponsivePair gap="x2">
-            <AlertDialogAction variant="neutralWeak">취소</AlertDialogAction>
-            <AlertDialogAction variant="criticalSolid">확인</AlertDialogAction>
+            <AlertDialogAction variant="neutralWeak">Cancel</AlertDialogAction>
+            <AlertDialogAction variant="criticalSolid">OK</AlertDialogAction>
           </ResponsivePair>
         </AlertDialogFooter>
       </AlertDialogContent>

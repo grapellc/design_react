@@ -27,7 +27,7 @@ export default function TextFieldTextareaReactHookForm() {
     name: "bio",
     control,
     rules: {
-      required: "필수 입력 항목입니다",
+      required: "Required 입력 Item입니다",
     },
   });
   const {
@@ -37,7 +37,7 @@ export default function TextFieldTextareaReactHookForm() {
     name: "address",
     control,
     rules: {
-      required: "필수 입력 항목입니다",
+      required: "Required 입력 Item입니다",
       pattern: { value: /^대한민국/, message: "대한민국으로 시작해주세요" },
     },
   });
