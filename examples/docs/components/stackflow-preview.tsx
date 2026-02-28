@@ -47,7 +47,9 @@ export function StackflowPreview(props: StackflowPreviewProps) {
       .filter((name) => ACTIVITY_IMPORTS[name])
       .map((name) => ({
         name: name as RegisteredActivityName,
-        component: React.lazy(ACTIVITY_IMPORTS[name]) as ActivityComponentType<RegisteredActivityName>,
+        component: React.lazy(
+          ACTIVITY_IMPORTS[name] as () => Promise<{ default: React.ComponentType<any> }>,
+        ) as ActivityComponentType<RegisteredActivityName>,
       }));
   }, [names]);
 

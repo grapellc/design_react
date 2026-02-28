@@ -1,6 +1,6 @@
+import { BookOpen, Code2 } from 'lucide-react';
 import type { BaseLayoutProps } from 'fumadocs-ui/layouts/shared';
 
-// fill this with your actual GitHub info, for example:
 export const gitConfig = {
   user: 'fuma-nama',
   repo: 'fumadocs',
@@ -10,8 +10,12 @@ export const gitConfig = {
 export function baseOptions(): BaseLayoutProps {
   return {
     nav: {
-      title: 'My App',
+      title: 'Grape Design',
     },
     githubUrl: `https://github.com/${gitConfig.user}/${gitConfig.repo}`,
+    links: [
+      { icon: <BookOpen />, text: 'Docs', url: '/docs', active: 'nested-url' },
+      { icon: <Code2 />, text: 'React', url: '/react', active: 'nested-url' },
+    ],
   };
 }

@@ -1,14 +1,16 @@
 "use client";
 
-import { RefObject, useRef, useState } from "react";
+import React, { RefObject, useRef, useState } from "react";
 import { TabsCarousel, TabsContent, TabsList, TabsRoot, TabsTrigger } from "seed-design/ui/tabs";
 
 export default function TabsScrollTop() {
   const [currentTab, setCurrentTab] = useState("1");
-  const contentRefs: Record<string, RefObject<HTMLDivElement | null>> = {
-    "1": useRef(null),
-    "2": useRef(null),
+  const contentRefs: Record<string, RefObject<HTMLSpanElement | null>> = {
+    "1": useRef<HTMLSpanElement>(null),
+    "2": useRef<HTMLSpanElement>(null),
   };
+  const refOrUndefined = (r: RefObject<HTMLSpanElement | null>) =>
+    r as React.RefObject<HTMLSpanElement>;
 
   const handleTriggerClick = (value: string) => {
     if (value === currentTab) {
@@ -28,10 +30,10 @@ export default function TabsScrollTop() {
           </TabsTrigger>
         </TabsList>
         <TabsCarousel swipeable>
-          <TabsContent ref={contentRefs["1"]} value="1" style={{ maxHeight: "200px" }}>
+          <TabsContent ref={refOrUndefined(contentRefs["1"])} value="1" style={{ maxHeight: "200px" }}>
             <Content height="1000px">Content 1</Content>
           </TabsContent>
-          <TabsContent ref={contentRefs["2"]} value="2" style={{ maxHeight: "200px" }}>
+          <TabsContent ref={refOrUndefined(contentRefs["2"])} value="2" style={{ maxHeight: "200px" }}>
             <Content height="1000px">Content 2</Content>
           </TabsContent>
         </TabsCarousel>

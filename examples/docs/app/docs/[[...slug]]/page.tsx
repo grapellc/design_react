@@ -1,13 +1,18 @@
-import { getPageImage, source } from '@/lib/source';
-import { DocsBody, DocsDescription, DocsPage, DocsTitle } from 'fumadocs-ui/layouts/notebook/page';
-import { notFound } from 'next/navigation';
-import { getMDXComponents } from '@/mdx-components';
-import type { Metadata } from 'next';
-import type { MDXComponents } from 'mdx/types';
-import { createRelativeLink } from 'fumadocs-ui/mdx';
-import type { TOCItemType } from 'fumadocs-core/toc';
-import { LLMCopyButton, ViewOptions } from '@/components/ai/page-actions';
-import { gitConfig } from '@/lib/layout.shared';
+import { LLMCopyButton, ViewOptions } from "@/components/ai/page-actions";
+import { gitConfig } from "@/lib/layout.shared";
+import { getPageImage, source } from "@/lib/source";
+import { getMDXComponents } from "@/mdx-components";
+import type { TOCItemType } from "fumadocs-core/toc";
+import {
+  DocsBody,
+  DocsDescription,
+  DocsPage,
+  DocsTitle,
+} from "fumadocs-ui/layouts/notebook/page";
+import { createRelativeLink } from "fumadocs-ui/mdx";
+import type { MDXComponents } from "mdx/types";
+import type { Metadata } from "next";
+import { notFound } from "next/navigation";
 
 type PageDataWithBody = {
   body: React.ComponentType<{ components?: MDXComponents }>;
@@ -15,7 +20,7 @@ type PageDataWithBody = {
   full?: boolean;
 };
 
-export default async function Page(props: PageProps<'/docs/[[...slug]]'>) {
+export default async function Page(props: PageProps<"/docs/[[...slug]]">) {
   const params = await props.params;
   const page = source.getPage(params.slug);
   if (!page) notFound();
@@ -26,7 +31,9 @@ export default async function Page(props: PageProps<'/docs/[[...slug]]'>) {
   return (
     <DocsPage toc={pageData.toc} full={pageData.full}>
       <DocsTitle>{page.data.title}</DocsTitle>
-      <DocsDescription className="mb-0">{page.data.description}</DocsDescription>
+      <DocsDescription className="mb-0">
+        {page.data.description}
+      </DocsDescription>
       <div className="flex flex-row gap-2 items-center border-b pb-6">
         <LLMCopyButton markdownUrl={`${page.url}.mdx`} />
         <ViewOptions
@@ -36,9 +43,9 @@ export default async function Page(props: PageProps<'/docs/[[...slug]]'>) {
       </div>
       <DocsBody>
         <MDX
-          components={getMDXComponents(
-            { a: createRelativeLink(source, page) } as MDXComponents,
-          )}
+          components={getMDXComponents({
+            a: createRelativeLink(source, page),
+          } as MDXComponents)}
         />
       </DocsBody>
     </DocsPage>
@@ -49,7 +56,9 @@ export async function generateStaticParams() {
   return source.generateParams();
 }
 
-export async function generateMetadata(props: PageProps<'/docs/[[...slug]]'>): Promise<Metadata> {
+export async function generateMetadata(
+  props: PageProps<"/docs/[[...slug]]">,
+): Promise<Metadata> {
   const params = await props.params;
   const page = source.getPage(params.slug);
   if (!page) notFound();

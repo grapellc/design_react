@@ -1,8 +1,8 @@
 "use client";
 
+import type { DocsLayoutProps } from "fumadocs-ui/layouts/notebook";
 import { DocsLayout } from "fumadocs-ui/layouts/notebook";
 import { useEffect, useState } from "react";
-import type { DocsLayoutProps } from "fumadocs-ui/layouts/notebook";
 
 export interface ClientOnlyDocsLayoutProps extends DocsLayoutProps {
   children: React.ReactNode;
@@ -21,7 +21,10 @@ const LAYOUT_PLACEHOLDER = (
   </div>
 );
 
-export function ClientOnlyDocsLayout({ children, ...options }: ClientOnlyDocsLayoutProps) {
+export function ClientOnlyDocsLayout({
+  children,
+  ...options
+}: ClientOnlyDocsLayoutProps) {
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {

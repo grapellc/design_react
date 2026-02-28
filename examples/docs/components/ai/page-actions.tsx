@@ -212,7 +212,6 @@ export function ViewOptions({
 
   return (
     <Popover>
-      {/* @ts-expect-error fumadocs PopoverTrigger types omit asChild/children; Radix accepts them */}
       <PopoverTrigger asChild>
         <button
           type="button"
@@ -228,7 +227,6 @@ export function ViewOptions({
           <ChevronDown className="size-3.5 text-fd-muted-foreground" />
         </button>
       </PopoverTrigger>
-      {/* @ts-expect-error fumadocs PopoverContent types omit children */}
       <PopoverContent className="flex flex-col">
         {items.map((item) => (
           <a

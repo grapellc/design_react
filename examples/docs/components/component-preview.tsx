@@ -2,7 +2,7 @@
 
 import React from 'react';
 
-const PREVIEW_LOADERS: Record<string, () => Promise<{ default: React.ComponentType }>> = {
+const PREVIEW_LOADERS = {
   'action-button/bleed': () => import('@/src/examples/action-button/bleed'),
   'action-button/brand-outline': () => import('@/src/examples/action-button/brand-outline'),
   'action-button/brand-solid': () => import('@/src/examples/action-button/brand-solid'),
@@ -419,7 +419,8 @@ const PREVIEW_LOADERS: Record<string, () => Promise<{ default: React.ComponentTy
   'toggle-button/small': () => import('@/src/examples/toggle-button/small'),
   'toggle-button/xsmall': () => import('@/src/examples/toggle-button/xsmall'),
   'v-stack/preview': () => import('@/src/examples/v-stack/preview'),
-};
+  // Stackflow activity components use params; cast so loaders accept both regular and activity components
+} as Record<string, () => Promise<{ default: React.ComponentType<any> }>>;
 
 interface ComponentPreviewProps {
   name: string;
