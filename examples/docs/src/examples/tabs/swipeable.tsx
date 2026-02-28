@@ -1,6 +1,6 @@
 "use client";
 
-import { TabsRoot, TabsList, TabsTrigger, TabsCarousel, TabsContent } from "grape-design/ui/tabs";
+import { TabsRoot, TabsList, TabsTrigger, TabsCarousel, TabsContent } from "grapu-design/ui/tabs";
 
 export default function TabsSwipeable() {
   return (

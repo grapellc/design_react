@@ -1,6 +1,6 @@
 "use client";
 
-import { Box, HStack } from "@grape-design/react";
+import { Box, HStack } from "@grapu-design/react";
 
 export default function HStackPreview() {
   return (

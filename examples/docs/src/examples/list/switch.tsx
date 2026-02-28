@@ -2,9 +2,9 @@
 
 import { IconTrashcanLine } from "@karrotmarket/react-monochrome-icon";
 import { IconSparkle2 } from "@karrotmarket/react-multicolor-icon";
-import { Icon } from "@grape-design/react";
-import { List, ListDivider, ListSwitchItem } from "grape-design/ui/list";
-import { Switchmark } from "grape-design/ui/switch";
+import { Icon } from "@grapu-design/react";
+import { List, ListDivider, ListSwitchItem } from "grapu-design/ui/list";
+import { Switchmark } from "grapu-design/ui/switch";
 
 export default function ListSwitch() {
   return (

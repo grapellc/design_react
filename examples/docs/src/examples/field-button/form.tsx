@@ -1,9 +1,9 @@
 "use client";
 
-import { VStack, HStack } from "@grape-design/react";
-import { FieldButton, FieldButtonValue } from "grape-design/ui/field-button";
-import { ActionButton } from "grape-design/ui/action-button";
-import { TextField, TextFieldInput } from "grape-design/ui/text-field";
+import { VStack, HStack } from "@grapu-design/react";
+import { FieldButton, FieldButtonValue } from "grapu-design/ui/field-button";
+import { ActionButton } from "grapu-design/ui/action-button";
+import { TextField, TextFieldInput } from "grapu-design/ui/text-field";
 import { useState, type FormEvent } from "react";
 
 export default function FieldButtonForm() {

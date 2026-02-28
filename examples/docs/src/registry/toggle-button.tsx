@@ -3,7 +3,7 @@
 import {
   ToggleButton as SeedToggleButton,
   type ToggleButtonProps as SeedToggleButtonProps,
-} from "@grape-design/react";
+} from "@grapu-design/react";
 import * as React from "react";
 import { LoadingIndicator } from "./loading-indicator";
 

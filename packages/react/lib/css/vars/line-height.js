@@ -1,0 +1,23 @@
+'use client';
+const t1 = "var(--seed-line-height-t1)";
+const t2 = "var(--seed-line-height-t2)";
+const t3 = "var(--seed-line-height-t3)";
+const t4 = "var(--seed-line-height-t4)";
+const t5 = "var(--seed-line-height-t5)";
+const t6 = "var(--seed-line-height-t6)";
+const t7 = "var(--seed-line-height-t7)";
+const t8 = "var(--seed-line-height-t8)";
+const t9 = "var(--seed-line-height-t9)";
+const t10 = "var(--seed-line-height-t10)";
+const t1Static = "var(--seed-line-height-t1-static)";
+const t2Static = "var(--seed-line-height-t2-static)";
+const t3Static = "var(--seed-line-height-t3-static)";
+const t4Static = "var(--seed-line-height-t4-static)";
+const t5Static = "var(--seed-line-height-t5-static)";
+const t6Static = "var(--seed-line-height-t6-static)";
+const t7Static = "var(--seed-line-height-t7-static)";
+const t8Static = "var(--seed-line-height-t8-static)";
+const t9Static = "var(--seed-line-height-t9-static)";
+const t10Static = "var(--seed-line-height-t10-static)";
+
+export { t1, t10, t10Static, t1Static, t2, t2Static, t3, t3Static, t4, t4Static, t5, t5Static, t6, t6Static, t7, t7Static, t8, t8Static, t9, t9Static };

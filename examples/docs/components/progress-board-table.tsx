@@ -1,4 +1,4 @@
-import { Badge } from '@grape-design/react';
+import { Badge } from '@grapu-design/react';
 import Link from 'next/link';
 import {
   PROGRESS_BOARD_ROWS,

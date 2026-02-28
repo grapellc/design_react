@@ -4,13 +4,13 @@ import {
   List as SeedList,
   Divider as SeedDivider,
   type DividerProps as SeedDividerProps,
-} from "@grape-design/react";
+} from "@grapu-design/react";
 import {
   Checkbox as CheckboxPrimitive,
   RadioGroup as RadioGroupPrimitive,
   Switch as SwitchPrimitive,
-} from "@grape-design/react/primitive";
-import { listItem } from "@grape-design/css/recipes/list-item";
+} from "@grapu-design/react/primitive";
+import { listItem } from "@grapu-design/css/recipes/list-item";
 import * as React from "react";
 
 export interface ListProps extends SeedList.RootProps {}

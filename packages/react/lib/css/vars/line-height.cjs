@@ -1,0 +1,46 @@
+'use client';
+'use strict';
+
+Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
+
+const t1 = "var(--seed-line-height-t1)";
+const t2 = "var(--seed-line-height-t2)";
+const t3 = "var(--seed-line-height-t3)";
+const t4 = "var(--seed-line-height-t4)";
+const t5 = "var(--seed-line-height-t5)";
+const t6 = "var(--seed-line-height-t6)";
+const t7 = "var(--seed-line-height-t7)";
+const t8 = "var(--seed-line-height-t8)";
+const t9 = "var(--seed-line-height-t9)";
+const t10 = "var(--seed-line-height-t10)";
+const t1Static = "var(--seed-line-height-t1-static)";
+const t2Static = "var(--seed-line-height-t2-static)";
+const t3Static = "var(--seed-line-height-t3-static)";
+const t4Static = "var(--seed-line-height-t4-static)";
+const t5Static = "var(--seed-line-height-t5-static)";
+const t6Static = "var(--seed-line-height-t6-static)";
+const t7Static = "var(--seed-line-height-t7-static)";
+const t8Static = "var(--seed-line-height-t8-static)";
+const t9Static = "var(--seed-line-height-t9-static)";
+const t10Static = "var(--seed-line-height-t10-static)";
+
+exports.t1 = t1;
+exports.t10 = t10;
+exports.t10Static = t10Static;
+exports.t1Static = t1Static;
+exports.t2 = t2;
+exports.t2Static = t2Static;
+exports.t3 = t3;
+exports.t3Static = t3Static;
+exports.t4 = t4;
+exports.t4Static = t4Static;
+exports.t5 = t5;
+exports.t5Static = t5Static;
+exports.t6 = t6;
+exports.t6Static = t6Static;
+exports.t7 = t7;
+exports.t7Static = t7Static;
+exports.t8 = t8;
+exports.t8Static = t8Static;
+exports.t9 = t9;
+exports.t9Static = t9Static;

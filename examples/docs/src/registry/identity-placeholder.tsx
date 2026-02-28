@@ -1,6 +1,6 @@
 "use client";
 
-import { IdentityPlaceholder as SeedIdentityPlaceholder } from "@grape-design/react";
+import { IdentityPlaceholder as SeedIdentityPlaceholder } from "@grapu-design/react";
 import * as React from "react";
 
 export interface IdentityPlaceholderProps extends SeedIdentityPlaceholder.RootProps {}

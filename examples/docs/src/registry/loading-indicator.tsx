@@ -3,7 +3,7 @@
 import {
   LoadingIndicator as SeedLoadingIndicator,
   type LoadingIndicatorProps as SeedLoadingIndicatorProps,
-} from "@grape-design/react";
+} from "@grapu-design/react";
 import * as React from "react";
 import { ProgressCircle } from "./progress-circle";
 

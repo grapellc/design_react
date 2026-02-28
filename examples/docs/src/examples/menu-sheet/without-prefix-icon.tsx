@@ -1,13 +1,13 @@
 "use client";
 
-import { ActionButton } from "grape-design/ui/action-button";
+import { ActionButton } from "grapu-design/ui/action-button";
 import {
   MenuSheetContent,
   MenuSheetGroup,
   MenuSheetItem,
   MenuSheetRoot,
   MenuSheetTrigger,
-} from "grape-design/ui/menu-sheet";
+} from "grapu-design/ui/menu-sheet";
 
 const MenuSheetWithoutPrefixIcon = () => {
   return (

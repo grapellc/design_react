@@ -1,6 +1,6 @@
 {
   "name": "@grape-design/icons",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Grape Design icon set – React components (monochrome & multicolor), compatible with @karrotmarket icon API",
   "type": "module",
   "main": "./lib/monochrome.js",

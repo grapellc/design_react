@@ -1,6 +1,6 @@
 {
   "name": "@grape-design/react-image",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/grape-design/designsystem.git",
@@ -30,8 +30,8 @@
     "@radix-ui/react-compose-refs": "^1.1.2",
     "@radix-ui/react-use-callback-ref": "^1.1.1",
     "@radix-ui/react-use-layout-effect": "^1.1.1",
-    "@grape-design/dom-utils": "workspace:*",
-    "@grape-design/react-primitive": "workspace:*"
+    "@grape-design/dom-utils": "^0.1.2",
+    "@grape-design/react-primitive": "^0.1.2"
   },
   "devDependencies": {
     "@types/react": "^19.1.6",

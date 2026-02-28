@@ -1,14 +1,14 @@
 "use client";
 
 import { IconEyeSlashLine } from "@karrotmarket/react-monochrome-icon";
-import { ActionButton } from "grape-design/ui/action-button";
+import { ActionButton } from "grapu-design/ui/action-button";
 import {
   MenuSheetContent,
   MenuSheetGroup,
   MenuSheetItem,
   MenuSheetRoot,
   MenuSheetTrigger,
-} from "grape-design/ui/menu-sheet";
+} from "grapu-design/ui/menu-sheet";
 
 const MenuSheetWithPrefixIcon = () => {
   return (

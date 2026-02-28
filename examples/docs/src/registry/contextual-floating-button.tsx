@@ -3,7 +3,7 @@
 import {
   ContextualFloatingButton as SeedContextualFloatingButton,
   type ContextualFloatingButtonProps as SeedContextualFloatingButtonProps,
-} from "@grape-design/react";
+} from "@grapu-design/react";
 import * as React from "react";
 import { LoadingIndicator } from "./loading-indicator";
 

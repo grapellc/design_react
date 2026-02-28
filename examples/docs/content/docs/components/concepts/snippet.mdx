@@ -47,7 +47,7 @@ Compound components는 뛰어난 유연성을 제공하지만, 매번 이렇게 
 다음 명령어를 통해 필요한 컴포넌트의 snippet을 프로젝트에 추가할 수 있습니다:
 
 ```bash
-bun add @grape-design/react @grape-design/css
+bun add @grapu-design/react @grapu-design/css
 ```
 
 <Card title="CLI Commands" href="/react/getting-started/cli/commands" icon={<IconTerminal/>}>
@@ -62,10 +62,10 @@ CLI 명령어에 대해 더 알아봅니다.
 
 ### 생성된 Snippet 활용
 
-CLI 실행 후, `grape-design/ui/*` 디렉토리에 snippet이 생성됩니다. 예를 들어:
+CLI 실행 후, `grapu-design/ui/*` 디렉토리에 snippet이 생성됩니다. 예를 들어:
 
 ```tsx
-// grape-design/ui/checkbox.tsx
+// grapu-design/ui/checkbox.tsx
 
 export const Checkbox = React.forwardRef<HTMLInputElement, CheckboxProps>(
   ({ inputProps, rootRef, label, variant = "square", ...otherProps }, ref) => {
@@ -94,7 +94,7 @@ export const Checkbox = React.forwardRef<HTMLInputElement, CheckboxProps>(
 Snippet을 통해 복잡한 compound components를 간단하게 사용할 수 있습니다:
 
 ```tsx
-import { Checkbox } from "@/grape-design/ui/checkbox";
+import { Checkbox } from "@/grapu-design/ui/checkbox";
 
 const Demo = () => <Checkbox>Click me</Checkbox>;
 ```

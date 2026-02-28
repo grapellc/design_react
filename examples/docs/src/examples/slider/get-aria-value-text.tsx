@@ -1,8 +1,8 @@
 "use client";
 
-import { VStack, Text } from "@grape-design/react";
+import { VStack, Text } from "@grapu-design/react";
 import { useState } from "react";
-import { Slider } from "grape-design/ui/slider";
+import { Slider } from "grapu-design/ui/slider";
 
 const days = ["일", "월", "화", "수", "목", "금", "토"];
 

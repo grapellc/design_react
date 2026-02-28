@@ -1,6 +1,6 @@
 "use client";
 
-import { PrefixIcon, MenuSheet as SeedMenuSheet } from "@grape-design/react";
+import { PrefixIcon, MenuSheet as SeedMenuSheet } from "@grapu-design/react";
 import { forwardRef } from "react";
 import type * as React from "react";
 

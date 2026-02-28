@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { TextField, TextFieldInput } from "grape-design/ui/text-field";
+import { TextField, TextFieldInput } from "grapu-design/ui/text-field";
 
 export default function TextFieldInputSlicing() {
   const [value, setValue] = useState("");

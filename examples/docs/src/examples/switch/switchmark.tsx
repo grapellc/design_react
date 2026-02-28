@@ -1,8 +1,8 @@
 "use client";
 
-import { HStack, Text, VStack } from "@grape-design/react";
-import { Switch } from "@grape-design/react/primitive";
-import { Switchmark } from "grape-design/ui/switch";
+import { HStack, Text, VStack } from "@grapu-design/react";
+import { Switch } from "@grapu-design/react/primitive";
+import { Switchmark } from "grapu-design/ui/switch";
 
 function CustomSwitch({ children, ...props }: Switch.RootProps) {
   return (

@@ -1,6 +1,6 @@
 "use client";
 
-import { ActionSheet as SeedActionSheet } from "@grape-design/react";
+import { ActionSheet as SeedActionSheet } from "@grapu-design/react";
 import { forwardRef } from "react";
 import type * as React from "react";
 

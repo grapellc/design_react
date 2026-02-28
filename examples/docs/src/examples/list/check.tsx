@@ -1,8 +1,8 @@
 "use client";
 
-import { Badge, HStack } from "@grape-design/react";
-import { List, ListDivider, ListCheckItem } from "grape-design/ui/list";
-import { Checkmark } from "grape-design/ui/checkbox";
+import { Badge, HStack } from "@grapu-design/react";
+import { List, ListDivider, ListCheckItem } from "grapu-design/ui/list";
+import { Checkmark } from "grapu-design/ui/checkbox";
 
 export default function ListCheckbox() {
   return (

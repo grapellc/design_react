@@ -6,7 +6,7 @@ import {
   MannerTemp as SeedMannerTemp,
   SuffixIcon,
   type MannerTempProps as SeedMannerTempProps,
-} from "@grape-design/react";
+} from "@grapu-design/react";
 import * as React from "react";
 import { mannerTempToLevel } from "../lib/manner-temp-level";
 

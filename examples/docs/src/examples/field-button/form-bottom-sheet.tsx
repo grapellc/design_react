@@ -1,17 +1,17 @@
 "use client";
 
 import { useState } from "react";
-import { HStack, VStack } from "@grape-design/react";
-import { FieldButton, FieldButtonValue, FieldButtonPlaceholder } from "grape-design/ui/field-button";
-import { ActionButton } from "grape-design/ui/action-button";
+import { HStack, VStack } from "@grapu-design/react";
+import { FieldButton, FieldButtonValue, FieldButtonPlaceholder } from "grapu-design/ui/field-button";
+import { ActionButton } from "grapu-design/ui/action-button";
 import {
   BottomSheetRoot,
   BottomSheetContent,
   BottomSheetBody,
   BottomSheetFooter,
-} from "grape-design/ui/bottom-sheet";
-import { TextField, TextFieldInput } from "grape-design/ui/text-field";
-import { Portal } from "@grape-design/react";
+} from "grapu-design/ui/bottom-sheet";
+import { TextField, TextFieldInput } from "grapu-design/ui/text-field";
+import { Portal } from "@grapu-design/react";
 
 interface ProductFormData {
   category: string;

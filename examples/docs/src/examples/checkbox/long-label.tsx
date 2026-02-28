@@ -1,7 +1,7 @@
 "use client";
 
-import { VStack } from "@grape-design/react";
-import { Checkbox, CheckboxGroup } from "grape-design/ui/checkbox";
+import { VStack } from "@grapu-design/react";
+import { Checkbox, CheckboxGroup } from "grapu-design/ui/checkbox";
 
 export default function CheckboxLongLabel() {
   return (

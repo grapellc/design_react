@@ -8,11 +8,11 @@ import {
   IconPlusFill,
   IconSquare2StackedFill,
 } from "@karrotmarket/react-monochrome-icon";
-import { PrefixIcon, Icon, Box } from "@grape-design/react";
+import { PrefixIcon, Icon, Box } from "@grapu-design/react";
 import { useCallback, useState } from "react";
-import { List, ListDivider, ListItem, ListButtonItem, ListLinkItem } from "grape-design/ui/list";
-import { ActionButton } from "grape-design/ui/action-button";
-import { ToggleButton } from "grape-design/ui/toggle-button";
+import { List, ListDivider, ListItem, ListButtonItem, ListLinkItem } from "grapu-design/ui/list";
+import { ActionButton } from "grapu-design/ui/action-button";
+import { ToggleButton } from "grapu-design/ui/toggle-button";
 
 const href = "https://www.daangn.com";
 

@@ -1,8 +1,8 @@
 "use client";
 
-import { HStack, Text, VStack } from "@grape-design/react";
-import { Radiomark } from "grape-design/ui/radio-group";
-import { RadioGroup } from "@grape-design/react/primitive";
+import { HStack, Text, VStack } from "@grapu-design/react";
+import { Radiomark } from "grapu-design/ui/radio-group";
+import { RadioGroup } from "@grapu-design/react/primitive";
 
 function CustomRadioGroupItem({ children, ...props }: RadioGroup.ItemProps) {
   return (

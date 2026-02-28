@@ -1,6 +1,6 @@
 "use client";
 
-import { Badge } from "@grape-design/react";
+import { Badge } from "@grapu-design/react";
 
 export default function BadgePreview() {
   return <Badge>Label</Badge>;

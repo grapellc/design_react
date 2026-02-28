@@ -3,39 +3,39 @@
 import { useState, useMemo } from "react";
 import type { ActivityComponentType } from "@stackflow/react/future";
 import { useActions } from "@stackflow/react";
-import { AppBar, AppBarMain } from "grape-design/ui/app-bar";
-import { AppScreen, AppScreenContent } from "grape-design/ui/app-screen";
+import { AppBar, AppBarMain } from "grapu-design/ui/app-bar";
+import { AppScreen, AppScreenContent } from "grapu-design/ui/app-screen";
 import {
   TabsRoot,
   TabsTrigger,
   TabsList,
   TabsCarousel,
   TabsContent,
-} from "grape-design/ui/tabs";
-import { SnackbarProvider } from "grape-design/ui/snackbar";
-import { ResultSection } from "grape-design/ui/result-section";
+} from "grapu-design/ui/tabs";
+import { SnackbarProvider } from "grapu-design/ui/snackbar";
+import { ResultSection } from "grapu-design/ui/result-section";
 import {
   IconSquare2StackedFill,
   IconChevronDownFill,
-} from "@grape-design/icons";
-import { Flex, HStack, VStack, Icon, Box, Text, Badge, Portal } from "@grape-design/react";
-import { TagGroupRoot, TagGroupItem } from "grape-design/ui/tag-group";
-import { Chip } from "grape-design/ui/chip";
+} from "@grapu-design/icons";
+import { Flex, HStack, VStack, Icon, Box, Text, Badge, Portal } from "@grapu-design/react";
+import { TagGroupRoot, TagGroupItem } from "grapu-design/ui/tag-group";
+import { Chip } from "grapu-design/ui/chip";
 import {
   BottomSheetBody,
   BottomSheetRoot,
   BottomSheetContent,
   BottomSheetFooter,
   BottomSheetTrigger,
-} from "grape-design/ui/bottom-sheet";
-import { ActionButton } from "grape-design/ui/action-button";
-import { Snackbar, useSnackbarAdapter } from "grape-design/ui/snackbar";
+} from "grapu-design/ui/bottom-sheet";
+import { ActionButton } from "grapu-design/ui/action-button";
+import { Snackbar, useSnackbarAdapter } from "grapu-design/ui/snackbar";
 import { ARTICLES, CATEGORIES, type Article, type Category } from "./demo-data";
-import { Avatar } from "grape-design/ui/avatar";
-import { IdentityPlaceholder } from "grape-design/ui/identity-placeholder";
+import { Avatar } from "grapu-design/ui/avatar";
+import { IdentityPlaceholder } from "grapu-design/ui/identity-placeholder";
 import { formatDate } from "./utils/date";
-import { useActivityZIndexBase } from "@grape-design/stackflow";
-import { tabsCarouselPreventDrag } from "@grape-design/react";
+import { useActivityZIndexBase } from "@grapu-design/stackflow";
+import { tabsCarouselPreventDrag } from "@grapu-design/react";
 
 declare module "@stackflow/config" {
   interface Register {

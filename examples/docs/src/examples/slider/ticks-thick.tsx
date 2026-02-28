@@ -1,6 +1,6 @@
 "use client";
 
-import { Slider } from "grape-design/ui/slider";
+import { Slider } from "grapu-design/ui/slider";
 
 export default function SliderTicksThick() {
   return (

@@ -1,12 +1,12 @@
 "use client";
 
-import { List, ListDivider, ListItem } from "grape-design/ui/list";
-import { ListHeader } from "grape-design/ui/list-header";
+import { List, ListDivider, ListItem } from "grapu-design/ui/list";
+import { ListHeader } from "grapu-design/ui/list-header";
 import {
   IconILowercaseSerifCircleLine,
   IconPersonCircleLine,
 } from "@karrotmarket/react-monochrome-icon";
-import { Icon, VStack } from "@grape-design/react";
+import { Icon, VStack } from "@grapu-design/react";
 
 export default function ListPreview() {
   return (

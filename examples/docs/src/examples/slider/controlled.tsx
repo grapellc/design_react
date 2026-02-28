@@ -1,8 +1,8 @@
 "use client";
 
-import { VStack, HStack, Text } from "@grape-design/react";
-import { Slider } from "grape-design/ui/slider";
-import { ActionButton } from "grape-design/ui/action-button";
+import { VStack, HStack, Text } from "@grapu-design/react";
+import { Slider } from "grapu-design/ui/slider";
+import { ActionButton } from "grapu-design/ui/action-button";
 import { useState } from "react";
 
 const DEFAULT_VALUE = [50];

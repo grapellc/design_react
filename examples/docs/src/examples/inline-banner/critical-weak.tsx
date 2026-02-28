@@ -1,8 +1,8 @@
 "use client";
 
 import { IconExclamationmarkCircleFill } from "@karrotmarket/react-monochrome-icon";
-import { VStack } from "@grape-design/react";
-import { ActionableInlineBanner, InlineBanner } from "grape-design/ui/inline-banner";
+import { VStack } from "@grapu-design/react";
+import { ActionableInlineBanner, InlineBanner } from "grapu-design/ui/inline-banner";
 
 export default function InlineBannerCriticalWeak() {
   return (

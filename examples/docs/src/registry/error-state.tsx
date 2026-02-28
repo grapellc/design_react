@@ -1,9 +1,9 @@
 "use client";
 
-import { Text, VStack, type TextProps } from "@grape-design/react";
+import { Text, VStack, type TextProps } from "@grapu-design/react";
 import * as React from "react";
 import { ActionButton, type ActionButtonProps } from "./action-button";
-import type { ScopedColorBg } from "@grape-design/css/vars";
+import type { ScopedColorBg } from "@grapu-design/css/vars";
 
 /**
  * @deprecated Use result-section instead.

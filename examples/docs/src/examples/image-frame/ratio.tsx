@@ -1,6 +1,6 @@
 "use client";
 
-import { ImageFrame, Flex, VStack, Text } from "@grape-design/react";
+import { ImageFrame, Flex, VStack, Text } from "@grapu-design/react";
 
 export default function ImageFrameRatio() {
   return (

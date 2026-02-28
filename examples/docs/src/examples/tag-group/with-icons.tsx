@@ -1,8 +1,8 @@
 "use client";
 
 import { IconLocationpinFill, IconMegaphoneFill } from "@karrotmarket/react-monochrome-icon";
-import { VStack } from "@grape-design/react";
-import { TagGroupRoot, TagGroupItem } from "grape-design/ui/tag-group";
+import { VStack } from "@grapu-design/react";
+import { TagGroupRoot, TagGroupItem } from "grapu-design/ui/tag-group";
 
 export default function TagGroupWithIcons() {
   return (

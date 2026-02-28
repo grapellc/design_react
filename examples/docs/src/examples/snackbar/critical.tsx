@@ -1,7 +1,7 @@
 "use client";
 
-import { ActionButton } from "grape-design/ui/action-button";
-import { Snackbar, SnackbarProvider, useSnackbarAdapter } from "grape-design/ui/snackbar";
+import { ActionButton } from "grapu-design/ui/action-button";
+import { Snackbar, SnackbarProvider, useSnackbarAdapter } from "grapu-design/ui/snackbar";
 
 function Component() {
   const adapter = useSnackbarAdapter();

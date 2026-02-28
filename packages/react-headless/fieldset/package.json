@@ -1,6 +1,6 @@
 {
   "name": "@grape-design/react-fieldset",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/grape-design/designsystem.git",
@@ -28,8 +28,8 @@
   },
   "dependencies": {
     "@radix-ui/react-compose-refs": "^1.1.2",
-    "@grape-design/dom-utils": "workspace:*",
-    "@grape-design/react-primitive": "workspace:*"
+    "@grape-design/dom-utils": "^0.1.2",
+    "@grape-design/react-primitive": "^0.1.2"
   },
   "devDependencies": {
     "@types/react": "^19.1.6",

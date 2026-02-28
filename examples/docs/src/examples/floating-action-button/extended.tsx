@@ -1,9 +1,9 @@
 "use client";
 
-import { FloatingActionButton } from "grape-design/ui/floating-action-button";
-import { Switch } from "grape-design/ui/switch";
+import { FloatingActionButton } from "grapu-design/ui/floating-action-button";
+import { Switch } from "grapu-design/ui/switch";
 import IconPlusLine from "@karrotmarket/react-monochrome-icon/IconPlusLine";
-import { Flex, VStack } from "@grape-design/react";
+import { Flex, VStack } from "@grapu-design/react";
 import { useState } from "react";
 
 export default function FloatingActionButtonExtended() {

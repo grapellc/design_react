@@ -1,6 +1,6 @@
 "use client";
 
-import { Flex, Skeleton } from "@grape-design/react";
+import { Flex, Skeleton } from "@grapu-design/react";
 
 export default function SkeletonRadius() {
   return (

@@ -1,8 +1,8 @@
 "use client";
 
 import { IconDiamond } from "@karrotmarket/react-multicolor-icon";
-import { VStack, Icon, Box } from "@grape-design/react";
-import { ResultSection } from "grape-design/ui/result-section";
+import { VStack, Icon, Box } from "@grapu-design/react";
+import { ResultSection } from "grapu-design/ui/result-section";
 
 export default function ResultSectionPreview() {
   return (

@@ -1,6 +1,6 @@
 "use client";
 
-import { ProgressCircle } from "grape-design/ui/progress-circle";
+import { ProgressCircle } from "grapu-design/ui/progress-circle";
 
 export default function ProgressCirclePreview() {
   // if you want to show an indeterminate progress circle, you can pass `undefined` or omit the `value` prop

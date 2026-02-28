@@ -1,10 +1,10 @@
 "use client";
 
 import { IconPersonCircleLine } from "@karrotmarket/react-monochrome-icon";
-import { Box, Icon, VStack } from "@grape-design/react";
+import { Box, Icon, VStack } from "@grapu-design/react";
 import { useState } from "react";
-import { List, ListDivider, ListItem, ListButtonItem } from "grape-design/ui/list";
-import { Switch } from "grape-design/ui/switch";
+import { List, ListDivider, ListItem, ListButtonItem } from "grapu-design/ui/list";
+import { Switch } from "grapu-design/ui/switch";
 
 export default function ListHighlighted() {
   const [highlighted, setHighlighted] = useState(true);

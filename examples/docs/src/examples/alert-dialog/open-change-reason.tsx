@@ -1,8 +1,8 @@
 "use client";
 
-import { HStack, ResponsivePair, Text, VStack } from "@grape-design/react";
+import { HStack, ResponsivePair, Text, VStack } from "@grapu-design/react";
 import { useState } from "react";
-import { ActionButton } from "grape-design/ui/action-button";
+import { ActionButton } from "grapu-design/ui/action-button";
 import {
   AlertDialogAction,
   AlertDialogContent,
@@ -12,7 +12,7 @@ import {
   AlertDialogRoot,
   AlertDialogTitle,
   AlertDialogTrigger,
-} from "grape-design/ui/alert-dialog";
+} from "grapu-design/ui/alert-dialog";
 
 export default function AlertDialogOnOpenChangeReason() {
   const [open, setOpen] = useState(false);

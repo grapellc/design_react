@@ -1,6 +1,6 @@
 "use client";
 
-import { PrefixIcon, TagGroup as SeedTagGroup, SuffixIcon } from "@grape-design/react";
+import { PrefixIcon, TagGroup as SeedTagGroup, SuffixIcon } from "@grapu-design/react";
 import * as React from "react";
 
 export interface TagGroupRootProps extends SeedTagGroup.RootProps {}

@@ -1,6 +1,6 @@
 "use client";
 
-import { Article, Divider, VStack, Text } from "@grape-design/react";
+import { Article, Divider, VStack, Text } from "@grapu-design/react";
 
 export default function ArticleAs() {
   return (

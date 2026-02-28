@@ -1,14 +1,14 @@
 "use client";
 
-import { HStack } from "@grape-design/react";
-import { ActionButton } from "grape-design/ui/action-button";
+import { HStack } from "@grapu-design/react";
+import { ActionButton } from "grapu-design/ui/action-button";
 import {
   BottomSheetBody,
   BottomSheetContent,
   BottomSheetFooter,
   BottomSheetRoot,
   BottomSheetTrigger,
-} from "grape-design/ui/bottom-sheet";
+} from "grapu-design/ui/bottom-sheet";
 
 const BottomSheetHeaderAlign = () => {
   return (

@@ -1,6 +1,6 @@
 {
   "name": "grape-design-system",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "private": true,
   "packageManager": "bun@1.2.20",
   "workspaces": [
@@ -22,7 +22,9 @@
     "build:docs": "bun run build && bun run --cwd examples/docs build",
     "build:showcase": "bun run build && bun run --cwd examples/showcase build",
     "showcase": "bun run --cwd examples/showcase dev",
-    "docs": "bun run --cwd examples/docs dev"
+    "docs": "bun run --cwd examples/docs dev",
+    "prepare-publish": "node scripts/prepare-publish.js",
+    "publish-missing": "bash scripts/publish-missing.sh"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",

@@ -1,8 +1,8 @@
 "use client";
 
-import { HStack, Text, VStack } from "@grape-design/react";
-import { Checkbox } from "@grape-design/react/primitive";
-import { Checkmark } from "grape-design/ui/checkbox";
+import { HStack, Text, VStack } from "@grapu-design/react";
+import { Checkbox } from "@grapu-design/react/primitive";
+import { Checkmark } from "grapu-design/ui/checkbox";
 
 function CustomCheckbox({ children, ...props }: Checkbox.RootProps) {
   return (

@@ -1,6 +1,6 @@
 "use client";
 
-import { Column, Columns } from "@grape-design/react";
+import { Column, Columns } from "@grapu-design/react";
 
 /**
  * @deprecated use `HStack` instead.

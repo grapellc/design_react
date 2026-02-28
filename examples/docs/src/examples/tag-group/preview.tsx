@@ -1,7 +1,7 @@
 "use client";
 
 import { IconLocationpinFill } from "@karrotmarket/react-monochrome-icon";
-import { TagGroupRoot, TagGroupItem } from "grape-design/ui/tag-group";
+import { TagGroupRoot, TagGroupItem } from "grapu-design/ui/tag-group";
 
 export default function TagGroupPreview() {
   return (

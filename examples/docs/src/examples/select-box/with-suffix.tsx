@@ -1,7 +1,7 @@
 "use client";
 
 import { IconPersonCircleLine } from "@karrotmarket/react-monochrome-icon";
-import { Text, HStack, Box } from "@grape-design/react";
+import { Text, HStack, Box } from "@grapu-design/react";
 import {
   CheckSelectBox,
   CheckSelectBoxCheckmark,
@@ -9,7 +9,7 @@ import {
   RadioSelectBoxItem,
   RadioSelectBoxRadiomark,
   RadioSelectBoxRoot,
-} from "grape-design/ui/select-box";
+} from "grapu-design/ui/select-box";
 
 export default function SelectBoxWithSuffix() {
   return (

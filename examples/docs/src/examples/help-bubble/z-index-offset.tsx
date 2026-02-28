@@ -1,10 +1,10 @@
 "use client";
 
-import { Flex, HStack, VStack } from "@grape-design/react";
+import { Flex, HStack, VStack } from "@grapu-design/react";
 import { useState } from "react";
-import { HelpBubbleAnchor } from "grape-design/ui/help-bubble";
-import { Slider } from "grape-design/ui/slider";
-import { Avatar } from "grape-design/ui/avatar";
+import { HelpBubbleAnchor } from "grapu-design/ui/help-bubble";
+import { Slider } from "grapu-design/ui/slider";
+import { Avatar } from "grapu-design/ui/avatar";
 
 export default function HelpBubbleZIndexOffset() {
   const [zIndexOffset, setZIndexOffset] = useState(5);

@@ -1,8 +1,8 @@
 "use client";
 
-import { IdentityPlaceholder } from "grape-design/ui/identity-placeholder";
-import { Avatar, AvatarBadge } from "grape-design/ui/avatar";
-import { Box, HStack } from "@grape-design/react";
+import { IdentityPlaceholder } from "grapu-design/ui/identity-placeholder";
+import { Avatar, AvatarBadge } from "grapu-design/ui/avatar";
+import { Box, HStack } from "@grapu-design/react";
 
 export default function () {
   return (

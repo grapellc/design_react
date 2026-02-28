@@ -1,6 +1,6 @@
 "use client";
 
-import { Box, ScrollFog, VStack } from "@grape-design/react";
+import { Box, ScrollFog, VStack } from "@grapu-design/react";
 
 export default function ScrollFogPreview() {
   return (

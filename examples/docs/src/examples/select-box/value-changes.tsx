@@ -1,6 +1,6 @@
 "use client";
 
-import { HStack, Text, VStack } from "@grape-design/react";
+import { HStack, Text, VStack } from "@grapu-design/react";
 import {
   CheckSelectBox,
   CheckSelectBoxCheckmark,
@@ -8,7 +8,7 @@ import {
   RadioSelectBoxItem,
   RadioSelectBoxRadiomark,
   RadioSelectBoxRoot,
-} from "grape-design/ui/select-box";
+} from "grapu-design/ui/select-box";
 import { useState } from "react";
 
 export default function SelectBoxValueChanges() {

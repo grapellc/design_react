@@ -1,8 +1,8 @@
 "use client";
 
 import { IconBellFill } from "@karrotmarket/react-monochrome-icon";
-import { Box, Float, PrefixIcon } from "@grape-design/react";
-import { ContextualFloatingButton } from "grape-design/ui/contextual-floating-button";
+import { Box, Float, PrefixIcon } from "@grapu-design/react";
+import { ContextualFloatingButton } from "grapu-design/ui/contextual-floating-button";
 
 export default function ContextualFloatingButtonFloatComposition() {
   return (

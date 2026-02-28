@@ -1,6 +1,6 @@
 "use client";
 
-import { IdentityPlaceholder } from "grape-design/ui/identity-placeholder";
+import { IdentityPlaceholder } from "grapu-design/ui/identity-placeholder";
 
 export default function IdentityPlaceholderPreview() {
   return <IdentityPlaceholder />;

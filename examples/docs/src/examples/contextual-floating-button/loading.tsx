@@ -1,9 +1,9 @@
 "use client";
 
 import { IconPlusLine } from "@karrotmarket/react-monochrome-icon";
-import { PrefixIcon } from "@grape-design/react";
+import { PrefixIcon } from "@grapu-design/react";
 import { useState } from "react";
-import { ContextualFloatingButton } from "grape-design/ui/contextual-floating-button";
+import { ContextualFloatingButton } from "grapu-design/ui/contextual-floating-button";
 
 export default function ContextualFloatingButtonLoading() {
   const [loading, setLoading] = useState(false);

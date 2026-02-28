@@ -1,7 +1,7 @@
 "use client";
 
-import { HStack, VStack, Icon } from "@grape-design/react";
-import { Chip } from "grape-design/ui/chip";
+import { HStack, VStack, Icon } from "@grapu-design/react";
+import { Chip } from "grapu-design/ui/chip";
 import {
   IconArrowClockwiseCircularLine,
   IconBellLine,

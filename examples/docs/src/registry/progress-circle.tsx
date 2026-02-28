@@ -1,6 +1,6 @@
 "use client";
 
-import { ProgressCircle as SeedProgressCircle } from "@grape-design/react";
+import { ProgressCircle as SeedProgressCircle } from "@grapu-design/react";
 import * as React from "react";
 
 export interface ProgressCircleProps extends SeedProgressCircle.RootProps {}

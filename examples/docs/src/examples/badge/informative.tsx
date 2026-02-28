@@ -1,6 +1,6 @@
 "use client";
 
-import { Badge, HStack, VStack } from "@grape-design/react";
+import { Badge, HStack, VStack } from "@grapu-design/react";
 
 export default function BadgeInformative() {
   return (

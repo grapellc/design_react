@@ -6,24 +6,24 @@ A design system that mirrors [seed-design](https://github.com/daangn/seed-design
 
 | Package | Description |
 |--------|-------------|
-| `@grape-design/tokens` | Shared design tokens. Web: re-exports from `@grape-design/css`. Native: resolved values for React Native. |
-| `@grape-design/react` | Web components. Same API as Seed Design; built and maintained as Grape Design. |
-| `@grape-design/react-native` | React Native components with the same API surface (Box, Text, ActionButton, Flex, Divider). |
+| `@grapu-design/tokens` | Shared design tokens. Web: re-exports from `@grapu-design/css`. Native: resolved values for React Native. |
+| `@grapu-design/react` | Web components. Same API as Seed Design; built and maintained as Grape Design. |
+| `@grapu-design/react-native` | React Native components with the same API surface (Box, Text, ActionButton, Flex, Divider). |
 
 ## React (web)
 
 ```bash
-bun add @grape-design/react @grape-design/css
+bun add @grapu-design/react @grapu-design/css
 ```
 
 Import base and recipe CSS from Grape Design, then use the components:
 
 ```tsx
-import "@grape-design/css/base.css";
-import "@grape-design/css/recipes/box.css";
+import "@grapu-design/css/base.css";
+import "@grapu-design/css/recipes/box.css";
 // ... other recipe CSS you need
 
-import { Box, Text, ActionButton } from "@grape-design/react";
+import { Box, Text, ActionButton } from "@grapu-design/react";
 
 export function App() {
   return (
@@ -40,11 +40,11 @@ Component names and props follow the same patterns as [Seed Design](https://seed
 ## React Native
 
 ```bash
-bun add @grape-design/react-native @grape-design/tokens
+bun add @grapu-design/react-native @grapu-design/tokens
 ```
 
 ```tsx
-import { Box, Text, ActionButton, Flex, Divider } from "@grape-design/react-native";
+import { Box, Text, ActionButton, Flex, Divider } from "@grapu-design/react-native";
 
 export function Screen() {
   return (
@@ -63,10 +63,10 @@ export function Screen() {
 }
 ```
 
-Tokens for React Native (spacing, colors, radius, typography) come from `@grape-design/tokens/native` and are used by the components; you can use them for custom layouts:
+Tokens for React Native (spacing, colors, radius, typography) come from `@grapu-design/tokens/native` and are used by the components; you can use them for custom layouts:
 
 ```tsx
-import { spacing, colors, radius } from "@grape-design/tokens/native";
+import { spacing, colors, radius } from "@grapu-design/tokens/native";
 ```
 
 ## Showcase (React web)
@@ -103,6 +103,18 @@ bun run build
 ```
 
 Build order: `tokens` → `react` and `react-native` (react-native depends on tokens).
+
+## Publishing to npm and using in other projects
+
+To publish Grape Design to npm (or a private registry) and use it in another app, see **[RELEASE.md](./RELEASE.md)**. It covers:
+
+- Adding `publishConfig` for scoped packages
+- Replacing `workspace:*` with version ranges before publish
+- Publish order for all packages
+- **Using in another project**: install `@grapu-design/react` and `@grapu-design/css`, import CSS and components as in the examples above
+- Optional: publishing to GitHub Packages
+
+After publishing, any project can run `bun add @grapu-design/react @grapu-design/css` (or `npm install`) and use the same imports as in this README.
 
 ## License
 

@@ -5,11 +5,11 @@ import {
   IconPersonCircleLine,
   IconSlashCircleLine,
 } from "@karrotmarket/react-monochrome-icon";
-import { Divider, Icon, VStack } from "@grape-design/react";
-import { RadioGroup } from "@grape-design/react/primitive";
-import { List, ListButtonItem, ListCheckItem, ListRadioItem } from "grape-design/ui/list";
-import { Checkmark } from "grape-design/ui/checkbox";
-import { Radiomark } from "grape-design/ui/radio-group";
+import { Divider, Icon, VStack } from "@grapu-design/react";
+import { RadioGroup } from "@grapu-design/react/primitive";
+import { List, ListButtonItem, ListCheckItem, ListRadioItem } from "grapu-design/ui/list";
+import { Checkmark } from "grapu-design/ui/checkbox";
+import { Radiomark } from "grapu-design/ui/radio-group";
 
 export default function ListDisabled() {
   return (

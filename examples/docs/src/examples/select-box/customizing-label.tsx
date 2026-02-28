@@ -1,6 +1,6 @@
 "use client";
 
-import { Badge, HStack } from "@grape-design/react";
+import { Badge, HStack } from "@grapu-design/react";
 import {
   CheckSelectBox,
   CheckSelectBoxCheckmark,
@@ -8,7 +8,7 @@ import {
   RadioSelectBoxItem,
   RadioSelectBoxRadiomark,
   RadioSelectBoxRoot,
-} from "grape-design/ui/select-box";
+} from "grapu-design/ui/select-box";
 
 export default function SelectBoxCustomizingLabel() {
   return (

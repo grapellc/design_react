@@ -1,7 +1,7 @@
 "use client";
 
-import { HStack, VStack, Text } from "@grape-design/react";
-import { Chip } from "grape-design/ui/chip";
+import { HStack, VStack, Text } from "@grapu-design/react";
+import { Chip } from "grapu-design/ui/chip";
 import { useState } from "react";
 
 export default function ChipValueChanges() {

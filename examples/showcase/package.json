@@ -1,5 +1,5 @@
 {
-  "name": "@grape-design/showcase",
+  "name": "@grapu-design/showcase",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -9,14 +9,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@grape-design/icons": "workspace:*",
-    "@grape-design/react": "workspace:*",
+    "@grapu-design/icons": "workspace:*",
+    "@grapu-design/react": "workspace:*",
     "@stackflow/react": "^1.12.0",
     "@tanstack/react-router": "^1.163.2",
     "react": "^18.3.0",
     "react-dom": "^18.3.0",
-    "@grape-design/css": "workspace:*",
-    "@grape-design/stackflow": "workspace:*"
+    "@grapu-design/css": "workspace:*",
+    "@grapu-design/stackflow": "workspace:*"
   },
   "devDependencies": {
     "@types/react": "^18.3.0",

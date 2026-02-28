@@ -1,0 +1,12 @@
+import * as palette from './palette.js';
+export { palette };
+import * as fg from './fg.js';
+export { fg };
+import * as bg from './bg.js';
+export { bg };
+import * as stroke from './stroke.js';
+export { stroke };
+import * as index from './manner-temp/index.js';
+export { index as mannerTemp };
+import * as banner from './banner.js';
+export { banner };

@@ -1,6 +1,6 @@
 "use client";
 
-import { ActionChip } from "@grape-design/react";
+import { ActionChip } from "@grapu-design/react";
 
 export default function ActionChipSmall() {
   return <ActionChip size="small">Label</ActionChip>;

@@ -1,6 +1,6 @@
 "use client";
 
-import { Flex, Text } from "@grape-design/react";
+import { Flex, Text } from "@grapu-design/react";
 
 export default function TextTextDecorationLines() {
   return (

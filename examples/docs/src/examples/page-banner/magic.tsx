@@ -1,13 +1,13 @@
 "use client";
 
 import { IconSparkle2 } from "@karrotmarket/react-multicolor-icon";
-import { VStack } from "@grape-design/react";
+import { VStack } from "@grapu-design/react";
 import {
   ActionablePageBanner,
   DismissiblePageBanner,
   PageBanner,
   PageBannerButton,
-} from "grape-design/ui/page-banner";
+} from "grapu-design/ui/page-banner";
 
 export default function PageBannerMagic() {
   return (

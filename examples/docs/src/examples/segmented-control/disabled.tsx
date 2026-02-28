@@ -1,7 +1,7 @@
 "use client";
 
-import { VStack } from "@grape-design/react";
-import { SegmentedControl, SegmentedControlItem } from "grape-design/ui/segmented-control";
+import { VStack } from "@grapu-design/react";
+import { SegmentedControl, SegmentedControlItem } from "grapu-design/ui/segmented-control";
 
 export default function SegmentedControlPreview() {
   return (

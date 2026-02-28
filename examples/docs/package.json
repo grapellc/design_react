@@ -10,10 +10,10 @@
     "postinstall": "fumadocs-mdx"
   },
   "dependencies": {
-    "@grape-design/css": "workspace:*",
-    "@grape-design/icons": "workspace:*",
-    "@grape-design/react": "workspace:*",
-    "@grape-design/stackflow": "workspace:*",
+    "@grapu-design/css": "workspace:*",
+    "@grapu-design/icons": "workspace:*",
+    "@grapu-design/react": "workspace:*",
+    "@grapu-design/stackflow": "workspace:*",
     "@lottiefiles/react-lottie-player": "^3.6.0",
     "@stackflow/config": "^1.2.2",
     "@stackflow/plugin-renderer-basic": "^1.1.13",

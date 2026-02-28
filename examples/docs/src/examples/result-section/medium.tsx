@@ -1,7 +1,7 @@
 "use client";
 
-import { VStack } from "@grape-design/react";
-import { ResultSection } from "grape-design/ui/result-section";
+import { VStack } from "@grapu-design/react";
+import { ResultSection } from "grapu-design/ui/result-section";
 
 export default function ResultSectionMedium() {
   return (

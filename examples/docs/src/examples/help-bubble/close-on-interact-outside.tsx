@@ -1,8 +1,8 @@
 "use client";
 
-import { VStack } from "@grape-design/react";
-import { HelpBubbleTrigger } from "grape-design/ui/help-bubble";
-import { ActionButton } from "grape-design/ui/action-button";
+import { VStack } from "@grapu-design/react";
+import { HelpBubbleTrigger } from "grapu-design/ui/help-bubble";
+import { ActionButton } from "grapu-design/ui/action-button";
 
 export default function () {
   return (

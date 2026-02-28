@@ -1,6 +1,6 @@
 "use client";
 
-import { TextField, TextFieldInput } from "grape-design/ui/text-field";
+import { TextField, TextFieldInput } from "grapu-design/ui/text-field";
 
 export default function TextFieldPreview() {
   return (

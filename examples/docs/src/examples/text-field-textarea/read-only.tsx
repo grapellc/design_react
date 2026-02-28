@@ -1,7 +1,7 @@
 "use client";
 
-import { HStack } from "@grape-design/react";
-import { TextField, TextFieldTextarea } from "grape-design/ui/text-field";
+import { HStack } from "@grapu-design/react";
+import { TextField, TextFieldTextarea } from "grapu-design/ui/text-field";
 
 export default function TextFieldTextareaReadOnly() {
   return (

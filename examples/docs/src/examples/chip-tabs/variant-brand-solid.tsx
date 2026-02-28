@@ -1,7 +1,7 @@
 "use client";
 
 import * as React from "react";
-import { ChipTabsList, ChipTabsRoot, ChipTabsTrigger } from "grape-design/ui/chip-tabs";
+import { ChipTabsList, ChipTabsRoot, ChipTabsTrigger } from "grapu-design/ui/chip-tabs";
 
 export default function ChipTabsVariantBrandSolid() {
   const [value, setValue] = React.useState("1");

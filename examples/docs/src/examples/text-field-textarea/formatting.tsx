@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { TextField, TextFieldTextarea } from "grape-design/ui/text-field";
+import { TextField, TextFieldTextarea } from "grapu-design/ui/text-field";
 
 export default function TextFieldTextareaFormatting() {
   const [value, setValue] = useState("");

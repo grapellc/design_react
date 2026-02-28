@@ -2,29 +2,29 @@
 
 import { useState, useLayoutEffect, useRef } from "react";
 import type { ActivityComponentType } from "@stackflow/react/future";
-import { AppScreen, AppScreenContent } from "grape-design/ui/app-screen";
+import { AppScreen, AppScreenContent } from "grapu-design/ui/app-screen";
 import {
   AppBar,
   AppBarBackButton,
   AppBarCloseButton,
   AppBarRight,
   AppBarLeft,
-} from "grape-design/ui/app-bar";
-import type { AppBarProps } from "grape-design/ui/app-bar";
-import { VStack, HStack, Box, Article as SeedArticle } from "@grape-design/react";
-import { TagGroupRoot, TagGroupItem } from "grape-design/ui/tag-group";
-import { Text } from "@grape-design/react";
-import { Badge } from "@grape-design/react";
-import { SegmentedControl, SegmentedControlItem } from "grape-design/ui/segmented-control";
-import { Callout } from "grape-design/ui/callout";
-import { TextField, TextFieldTextarea } from "grape-design/ui/text-field";
-import { ActionButton } from "grape-design/ui/action-button";
-import { Skeleton } from "@grape-design/react";
-import { IconILowercaseSerifCircleFill } from "@grape-design/icons";
-import { ResultSection } from "grape-design/ui/result-section";
+} from "grapu-design/ui/app-bar";
+import type { AppBarProps } from "grapu-design/ui/app-bar";
+import { VStack, HStack, Box, Article as SeedArticle } from "@grapu-design/react";
+import { TagGroupRoot, TagGroupItem } from "grapu-design/ui/tag-group";
+import { Text } from "@grapu-design/react";
+import { Badge } from "@grapu-design/react";
+import { SegmentedControl, SegmentedControlItem } from "grapu-design/ui/segmented-control";
+import { Callout } from "grapu-design/ui/callout";
+import { TextField, TextFieldTextarea } from "grapu-design/ui/text-field";
+import { ActionButton } from "grapu-design/ui/action-button";
+import { Skeleton } from "@grapu-design/react";
+import { IconILowercaseSerifCircleFill } from "@grapu-design/icons";
+import { ResultSection } from "grapu-design/ui/result-section";
 import { CATEGORIES, type Article, ARTICLES } from "./demo-data";
-import { Avatar } from "grape-design/ui/avatar";
-import { IdentityPlaceholder } from "grape-design/ui/identity-placeholder";
+import { Avatar } from "grapu-design/ui/avatar";
+import { IdentityPlaceholder } from "grapu-design/ui/identity-placeholder";
 import { formatDate } from "./utils/date";
 
 const DEMO_IMAGE_URL = "https://picsum.photos/400/400";

@@ -1,6 +1,6 @@
 "use client";
 
-import { Box, Inline } from "@grape-design/react";
+import { Box, Inline } from "@grapu-design/react";
 
 /**
  * @deprecated Use `HStack` instead.

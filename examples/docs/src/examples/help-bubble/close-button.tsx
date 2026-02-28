@@ -1,7 +1,7 @@
 "use client";
 
-import { ActionButton } from "grape-design/ui/action-button";
-import { HelpBubbleTrigger } from "grape-design/ui/help-bubble";
+import { ActionButton } from "grapu-design/ui/action-button";
+import { HelpBubbleTrigger } from "grapu-design/ui/help-bubble";
 
 export default function HelpBubbleCloseButton() {
   return (

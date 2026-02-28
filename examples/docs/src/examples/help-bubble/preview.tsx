@@ -1,9 +1,9 @@
 "use client";
 
 import { IconILowercaseSerifCircleLine } from "@karrotmarket/react-monochrome-icon";
-import { HelpBubbleTrigger } from "grape-design/ui/help-bubble";
-import { ActionButton } from "grape-design/ui/action-button";
-import { Icon } from "@grape-design/react";
+import { HelpBubbleTrigger } from "grapu-design/ui/help-bubble";
+import { ActionButton } from "grapu-design/ui/action-button";
+import { Icon } from "@grapu-design/react";
 
 export default function HelpBubblePreview() {
   return (

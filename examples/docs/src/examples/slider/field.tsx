@@ -1,7 +1,7 @@
 "use client";
 
-import { Divider, VStack } from "@grape-design/react";
-import { Slider } from "grape-design/ui/slider";
+import { Divider, VStack } from "@grapu-design/react";
+import { Slider } from "grapu-design/ui/slider";
 
 const markers = [
   { value: 0, label: "매우 동의하지 않음" },

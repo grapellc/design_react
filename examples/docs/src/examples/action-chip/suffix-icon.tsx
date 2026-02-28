@@ -1,7 +1,7 @@
 "use client";
 
 import { IconChevronDownFill } from "@karrotmarket/react-monochrome-icon";
-import { ActionChip, SuffixIcon } from "@grape-design/react";
+import { ActionChip, SuffixIcon } from "@grapu-design/react";
 
 export default function ActionChipSuffixIcon() {
   return (

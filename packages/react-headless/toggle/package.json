@@ -28,8 +28,8 @@
   },
   "dependencies": {
     "@radix-ui/react-use-controllable-state": "1.2.2",
-    "@grape-design/dom-utils": "workspace:*",
-    "@grape-design/react-primitive": "workspace:*"
+    "@grape-design/dom-utils": "^0.1.2",
+    "@grape-design/react-primitive": "^0.1.2"
   },
   "devDependencies": {
     "@types/react": "^19.1.6",

@@ -1,7 +1,7 @@
 "use client";
 
-import { HStack } from "@grape-design/react";
-import { FieldButton, FieldButtonPlaceholder } from "grape-design/ui/field-button";
+import { HStack } from "@grapu-design/react";
+import { FieldButton, FieldButtonPlaceholder } from "grapu-design/ui/field-button";
 import { IconPlusCircleLine, IconWonLine } from "@karrotmarket/react-monochrome-icon";
 
 export default function FieldButtonBothAffixes() {

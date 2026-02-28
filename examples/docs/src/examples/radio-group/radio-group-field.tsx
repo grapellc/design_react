@@ -1,8 +1,8 @@
 "use client";
 
-import { ActionButton, HStack, VStack } from "@grape-design/react";
+import { ActionButton, HStack, VStack } from "@grapu-design/react";
 import { useState } from "react";
-import { RadioGroup, RadioGroupItem } from "grape-design/ui/radio-group";
+import { RadioGroup, RadioGroupItem } from "grapu-design/ui/radio-group";
 
 export default function RadioGroupRadioGroupField() {
   const [firstErrorMessage, setFirstErrorMessage] = useState<string | undefined>();

@@ -3,7 +3,7 @@
 import {
   ActionButton as SeedActionButton,
   type ActionButtonProps as SeedActionButtonProps,
-} from "@grape-design/react";
+} from "@grapu-design/react";
 import * as React from "react";
 import { LoadingIndicator } from "./loading-indicator";
 

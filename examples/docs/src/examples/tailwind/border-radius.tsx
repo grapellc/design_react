@@ -1,6 +1,6 @@
 "use client";
 
-import { HStack, VStack, Text } from "@grape-design/react";
+import { HStack, VStack, Text } from "@grapu-design/react";
 
 export default function TailwindBorderRadius() {
   return (

@@ -1,7 +1,7 @@
 "use client";
 
-import { VStack } from "@grape-design/react";
-import { ErrorState } from "grape-design/ui/error-state";
+import { VStack } from "@grapu-design/react";
+import { ErrorState } from "grapu-design/ui/error-state";
 
 export default function ErrorStateBasement() {
   return (

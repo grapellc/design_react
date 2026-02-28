@@ -1,13 +1,13 @@
 "use client";
 
-import { Box, HStack, Text } from "@grape-design/react";
+import { Box, HStack, Text } from "@grapu-design/react";
 import { useState } from "react";
 import {
   PullToRefreshContent,
   PullToRefreshIndicator,
   PullToRefreshRoot,
-} from "grape-design/ui/pull-to-refresh";
-import { Switch } from "grape-design/ui/switch";
+} from "grapu-design/ui/pull-to-refresh";
+import { Switch } from "grapu-design/ui/switch";
 
 const PullToRefreshDisabled = () => {
   const [disabled, setDisabled] = useState(false);

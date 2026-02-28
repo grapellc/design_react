@@ -1,8 +1,8 @@
 "use client";
 
 import { IconChevronRightFill } from "@karrotmarket/react-monochrome-icon";
-import { SuffixIcon } from "@grape-design/react";
-import { ActionButton } from "grape-design/ui/action-button";
+import { SuffixIcon } from "@grapu-design/react";
+import { ActionButton } from "grapu-design/ui/action-button";
 
 export default function ActionButtonSuffixIcon() {
   return (

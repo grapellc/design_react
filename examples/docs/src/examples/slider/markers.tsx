@@ -1,7 +1,7 @@
 "use client";
 
-import { VStack } from "@grape-design/react";
-import { Slider } from "grape-design/ui/slider";
+import { VStack } from "@grapu-design/react";
+import { Slider } from "grapu-design/ui/slider";
 
 export default function SliderMarkers() {
   return (

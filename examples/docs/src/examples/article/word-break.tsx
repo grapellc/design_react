@@ -1,6 +1,6 @@
 "use client";
 
-import { Article, Text, VStack } from "@grape-design/react";
+import { Article, Text, VStack } from "@grapu-design/react";
 
 export default function ArticleWordBreak() {
   return (

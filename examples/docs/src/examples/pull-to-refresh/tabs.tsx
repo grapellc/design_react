@@ -1,15 +1,15 @@
 "use client";
 
-import { VStack } from "@grape-design/react";
+import { VStack } from "@grapu-design/react";
 import { ActivityComponentType } from "@stackflow/react/future";
-import { AppBar, AppBarMain } from "grape-design/ui/app-bar";
-import { AppScreen, AppScreenContent } from "grape-design/ui/app-screen";
+import { AppBar, AppBarMain } from "grapu-design/ui/app-bar";
+import { AppScreen, AppScreenContent } from "grapu-design/ui/app-screen";
 import {
   PullToRefreshContent,
   PullToRefreshIndicator,
   PullToRefreshRoot,
-} from "grape-design/ui/pull-to-refresh";
-import { TabsContent, TabsList, TabsRoot, TabsTrigger } from "grape-design/ui/tabs";
+} from "grapu-design/ui/pull-to-refresh";
+import { TabsContent, TabsList, TabsRoot, TabsTrigger } from "grapu-design/ui/tabs";
 
 declare module "@stackflow/config" {
   interface Register {

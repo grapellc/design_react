@@ -1,7 +1,7 @@
 "use client";
 
 import { IconPlusFill } from "@karrotmarket/react-monochrome-icon";
-import { ActionChip, PrefixIcon } from "@grape-design/react";
+import { ActionChip, PrefixIcon } from "@grapu-design/react";
 
 export default function ActionChipPrefixIcon() {
   return (

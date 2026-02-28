@@ -1,6 +1,6 @@
 "use client";
 
-import { Skeleton, VStack } from "@grape-design/react";
+import { Skeleton, VStack } from "@grapu-design/react";
 
 export default function SkeletonPreview() {
   return (

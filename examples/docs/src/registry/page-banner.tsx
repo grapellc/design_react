@@ -1,6 +1,6 @@
 "use client";
 
-import { PrefixIcon, PageBanner as SeedPageBanner, SuffixIcon } from "@grape-design/react";
+import { PrefixIcon, PageBanner as SeedPageBanner, SuffixIcon } from "@grapu-design/react";
 import * as React from "react";
 
 import { IconChevronRightLine, IconXmarkLine } from "@karrotmarket/react-monochrome-icon"; // "@daangn/react-monochrome-icon"과 동일합니다.

@@ -1,11 +1,11 @@
 "use client";
 
-import { List, ListCheckItem, ListRadioItem } from "grape-design/ui/list";
-import { ListHeader } from "grape-design/ui/list-header";
-import { Checkmark } from "grape-design/ui/checkbox";
-import { Radiomark } from "grape-design/ui/radio-group";
-import { HStack, VStack } from "@grape-design/react";
-import { RadioGroup } from "@grape-design/react/primitive";
+import { List, ListCheckItem, ListRadioItem } from "grapu-design/ui/list";
+import { ListHeader } from "grapu-design/ui/list-header";
+import { Checkmark } from "grapu-design/ui/checkbox";
+import { Radiomark } from "grapu-design/ui/radio-group";
+import { HStack, VStack } from "@grapu-design/react";
+import { RadioGroup } from "@grapu-design/react/primitive";
 
 export default function ListBorderRadius() {
   return (

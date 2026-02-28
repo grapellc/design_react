@@ -1,7 +1,7 @@
 "use client";
 
-import { Box, Float } from "@grape-design/react";
-import { ContextualFloatingButton } from "grape-design/ui/contextual-floating-button";
+import { Box, Float } from "@grapu-design/react";
+import { ContextualFloatingButton } from "grapu-design/ui/contextual-floating-button";
 
 export default function FloatOffsetX() {
   return (

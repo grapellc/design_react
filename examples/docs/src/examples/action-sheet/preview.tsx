@@ -5,8 +5,8 @@ import {
   ActionSheetItem,
   ActionSheetRoot,
   ActionSheetTrigger,
-} from "grape-design/ui/action-sheet";
-import { ActionButton } from "grape-design/ui/action-button";
+} from "grapu-design/ui/action-sheet";
+import { ActionButton } from "grapu-design/ui/action-button";
 
 const ActionSheetPreview = () => {
   return (

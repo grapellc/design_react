@@ -1,8 +1,8 @@
 "use client";
 
 import { IconExclamationmarkCircleFill } from "@karrotmarket/react-monochrome-icon";
-import { Article, Divider, Icon, Text, VStack } from "@grape-design/react";
-import { PageBanner } from "grape-design/ui/page-banner";
+import { Article, Divider, Icon, Text, VStack } from "@grapu-design/react";
+import { PageBanner } from "grapu-design/ui/page-banner";
 
 export default function ArticleSelectable() {
   return (

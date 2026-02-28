@@ -1,8 +1,8 @@
 "use client";
 
-import { ActionButton } from "grape-design/ui/action-button";
-import { actionButtonVariantMap } from "@grape-design/css/recipes/action-button";
-import { Text, VStack } from "@grape-design/react";
+import { ActionButton } from "grapu-design/ui/action-button";
+import { actionButtonVariantMap } from "@grapu-design/css/recipes/action-button";
+import { Text, VStack } from "@grapu-design/react";
 
 function Demo() {
   return (

@@ -1,15 +1,15 @@
 "use client";
 
 import { IconEyeSlashLine } from "@karrotmarket/react-monochrome-icon";
-import { PrefixIcon } from "@grape-design/react";
-import { ActionButton } from "grape-design/ui/action-button";
+import { PrefixIcon } from "@grapu-design/react";
+import { ActionButton } from "grapu-design/ui/action-button";
 import {
   ExtendedActionSheetContent,
   ExtendedActionSheetGroup,
   ExtendedActionSheetItem,
   ExtendedActionSheetRoot,
   ExtendedActionSheetTrigger,
-} from "grape-design/ui/extended-action-sheet";
+} from "grapu-design/ui/extended-action-sheet";
 
 const ExtendedActionSheetPreview = () => {
   return (

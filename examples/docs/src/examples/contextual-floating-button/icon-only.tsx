@@ -1,8 +1,8 @@
 "use client";
 
 import { IconPlusFill } from "@karrotmarket/react-monochrome-icon";
-import { Icon } from "@grape-design/react";
-import { ContextualFloatingButton } from "grape-design/ui/contextual-floating-button";
+import { Icon } from "@grapu-design/react";
+import { ContextualFloatingButton } from "grapu-design/ui/contextual-floating-button";
 
 export default function ContextualFloatingButtonIconOnly() {
   return (

@@ -1,12 +1,12 @@
 "use client";
 
 import { IconBellFill } from "@karrotmarket/react-monochrome-icon";
-import { VStack } from "@grape-design/react";
+import { VStack } from "@grapu-design/react";
 import {
   ActionableInlineBanner,
   DismissibleInlineBanner,
   InlineBanner,
-} from "grape-design/ui/inline-banner";
+} from "grapu-design/ui/inline-banner";
 
 export default function InlineBannerWithIcon() {
   return (

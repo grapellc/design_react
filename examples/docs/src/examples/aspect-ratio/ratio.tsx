@@ -1,6 +1,6 @@
 "use client";
 
-import { AspectRatio, Box, HStack } from "@grape-design/react";
+import { AspectRatio, Box, HStack } from "@grapu-design/react";
 
 export default function AspectRatioRatio() {
   return (

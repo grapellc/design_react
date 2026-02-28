@@ -1,8 +1,8 @@
 "use client";
 
 import { IconFaceSmileCircleFill } from "@karrotmarket/react-monochrome-icon";
-import { Count, PrefixIcon } from "@grape-design/react";
-import { ReactionButton } from "grape-design/ui/reaction-button";
+import { Count, PrefixIcon } from "@grapu-design/react";
+import { ReactionButton } from "grapu-design/ui/reaction-button";
 
 export default function ReactionButtonPreview() {
   return (

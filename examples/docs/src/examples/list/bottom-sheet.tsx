@@ -6,11 +6,11 @@ import {
   BottomSheetFooter,
   BottomSheetRoot,
   BottomSheetTrigger,
-} from "grape-design/ui/bottom-sheet";
-import { ActionButton } from "grape-design/ui/action-button";
-import { Checkmark } from "grape-design/ui/checkbox";
-import { List, ListCheckItem } from "grape-design/ui/list";
-import { PrefixIcon, VStack } from "@grape-design/react";
+} from "grapu-design/ui/bottom-sheet";
+import { ActionButton } from "grapu-design/ui/action-button";
+import { Checkmark } from "grapu-design/ui/checkbox";
+import { List, ListCheckItem } from "grapu-design/ui/list";
+import { PrefixIcon, VStack } from "@grapu-design/react";
 import { useState } from "react";
 import { IconArrowClockwiseCircularFill } from "@karrotmarket/react-monochrome-icon";
 

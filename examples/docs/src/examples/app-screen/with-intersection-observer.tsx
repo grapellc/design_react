@@ -1,7 +1,7 @@
 "use client";
 
 import { IconBellFill } from "@karrotmarket/react-monochrome-icon";
-import { Flex } from "@grape-design/react";
+import { Flex } from "@grapu-design/react";
 import type { ActivityComponentType } from "@stackflow/react/future";
 import { useEffect, useRef, useState } from "react";
 import {
@@ -12,8 +12,8 @@ import {
   AppBarMain,
   AppBarProps,
   AppBarRight,
-} from "grape-design/ui/app-bar";
-import { AppScreen, AppScreenContent } from "grape-design/ui/app-screen";
+} from "grapu-design/ui/app-bar";
+import { AppScreen, AppScreenContent } from "grapu-design/ui/app-screen";
 
 declare module "@stackflow/config" {
   interface Register {

@@ -1,21 +1,21 @@
 "use client";
 
-import { Flex, VStack } from "@grape-design/react";
+import { Flex, VStack } from "@grapu-design/react";
 import { useActivity, useFlow, type StaticActivityComponentType } from "@stackflow/react/future";
 import { useState } from "react";
 import {
   IconPenHorizlineFill,
   IconPlusLine,
   IconTrashcanLine,
-} from "@grape-design/icons";
+} from "@grapu-design/icons";
 import {
   MenuSheetContent,
   MenuSheetGroup,
   MenuSheetItem,
   MenuSheetRoot,
-} from "grape-design/ui/menu-sheet";
-import { Switch } from "grape-design/ui/switch";
-import { useActivityZIndexBase } from "@grape-design/stackflow";
+} from "grapu-design/ui/menu-sheet";
+import { Switch } from "grapu-design/ui/switch";
+import { useActivityZIndexBase } from "@grapu-design/stackflow";
 
 declare module "@stackflow/config" {
   interface Register {

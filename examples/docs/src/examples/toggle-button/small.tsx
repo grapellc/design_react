@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { ToggleButton } from "grape-design/ui/toggle-button";
+import { ToggleButton } from "grapu-design/ui/toggle-button";
 
 export default function ToggleButtonSmall() {
   const [pressed, setPressed] = useState(false);

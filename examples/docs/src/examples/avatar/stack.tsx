@@ -1,7 +1,7 @@
 "use client";
 
-import { Avatar, AvatarStack } from "grape-design/ui/avatar";
-import { IdentityPlaceholder } from "grape-design/ui/identity-placeholder";
+import { Avatar, AvatarStack } from "grapu-design/ui/avatar";
+import { IdentityPlaceholder } from "grapu-design/ui/identity-placeholder";
 
 export default function AvatarStackExample() {
   return (

@@ -1,8 +1,8 @@
 "use client";
 
-import { Slider } from "grape-design/ui/slider";
+import { Slider } from "grapu-design/ui/slider";
 import { useState } from "react";
-import { VStack, Text } from "@grape-design/react";
+import { VStack, Text } from "@grapu-design/react";
 
 export default function SliderSteps() {
   const [value, setValue] = useState([50]);

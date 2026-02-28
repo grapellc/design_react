@@ -1,8 +1,8 @@
 "use client";
 
-import { HelpBubbleAnchor } from "grape-design/ui/help-bubble";
-import { SegmentedControl, SegmentedControlItem } from "grape-design/ui/segmented-control";
-import { VStack } from "@grape-design/react";
+import { HelpBubbleAnchor } from "grapu-design/ui/help-bubble";
+import { SegmentedControl, SegmentedControlItem } from "grapu-design/ui/segmented-control";
+import { VStack } from "@grapu-design/react";
 import { useState } from "react";
 
 const WIDTH_OPTIONS = ["200px", "300px", "unset"] as const;

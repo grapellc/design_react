@@ -1,19 +1,19 @@
 "use client";
 
-import { Divider, HStack, VStack } from "@grape-design/react";
+import { Divider, HStack, VStack } from "@grapu-design/react";
 import { useActivity, useFlow, type StaticActivityComponentType } from "@stackflow/react/future";
 import { useRef, useState } from "react";
-import { ActionButton } from "grape-design/ui/action-button";
+import { ActionButton } from "grapu-design/ui/action-button";
 import {
   BottomSheetBody,
   BottomSheetContent,
   BottomSheetFooter,
   BottomSheetRoot,
-} from "grape-design/ui/bottom-sheet";
-import { Checkbox } from "grape-design/ui/checkbox";
-import { TextField, TextFieldInput } from "grape-design/ui/text-field";
-import { Switch } from "grape-design/ui/switch";
-import { useActivityZIndexBase } from "@grape-design/stackflow";
+} from "grapu-design/ui/bottom-sheet";
+import { Checkbox } from "grapu-design/ui/checkbox";
+import { TextField, TextFieldInput } from "grapu-design/ui/text-field";
+import { Switch } from "grapu-design/ui/switch";
+import { useActivityZIndexBase } from "@grapu-design/stackflow";
 
 declare module "@stackflow/config" {
   interface Register {

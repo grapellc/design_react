@@ -1,6 +1,6 @@
 "use client";
 
-import { ScrollFog } from "@grape-design/react";
+import { ScrollFog } from "@grapu-design/react";
 
 export default function ScrollFogSize() {
   return (

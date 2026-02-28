@@ -1,9 +1,9 @@
 "use client";
 
-import { HStack, VStack } from "@grape-design/react";
+import { HStack, VStack } from "@grapu-design/react";
 import { useCallback, type FormEvent } from "react";
 import { useController, useForm, type Control } from "react-hook-form";
-import { ActionButton } from "grape-design/ui/action-button";
+import { ActionButton } from "grapu-design/ui/action-button";
 import {
   CheckSelectBox,
   CheckSelectBoxCheckmark,
@@ -11,7 +11,7 @@ import {
   RadioSelectBoxItem,
   RadioSelectBoxRadiomark,
   RadioSelectBoxRoot,
-} from "grape-design/ui/select-box";
+} from "grapu-design/ui/select-box";
 
 const POSSIBLE_FRUIT_VALUES = ["apple", "melon", "mango"] as const;
 

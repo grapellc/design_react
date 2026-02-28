@@ -3,7 +3,7 @@
 import {
   ListHeader as SeedListHeader,
   type ListHeaderProps as SeedListHeaderProps,
-} from "@grape-design/react";
+} from "@grapu-design/react";
 
 export interface ListHeaderProps extends SeedListHeaderProps {}
 

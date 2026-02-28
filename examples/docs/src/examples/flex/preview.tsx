@@ -1,6 +1,6 @@
 "use client";
 
-import { Flex } from "@grape-design/react";
+import { Flex } from "@grapu-design/react";
 
 export default function FlexPreview() {
   return (

@@ -1,8 +1,8 @@
 "use client";
 
-import { TextField, TextFieldInput } from "grape-design/ui/text-field";
+import { TextField, TextFieldInput } from "grapu-design/ui/text-field";
 import { useState } from "react";
-import { Text, VStack } from "@grape-design/react";
+import { Text, VStack } from "@grapu-design/react";
 
 export default function TextFieldInputGraphemeControlled() {
   const [value, setValue] = useState("");

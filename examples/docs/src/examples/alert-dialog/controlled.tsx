@@ -1,8 +1,8 @@
 "use client";
 
-import { ResponsivePair } from "@grape-design/react";
+import { ResponsivePair } from "@grapu-design/react";
 import { useState } from "react";
-import { ActionButton } from "grape-design/ui/action-button";
+import { ActionButton } from "grapu-design/ui/action-button";
 import {
   AlertDialogAction,
   AlertDialogContent,
@@ -11,7 +11,7 @@ import {
   AlertDialogHeader,
   AlertDialogRoot,
   AlertDialogTitle,
-} from "grape-design/ui/alert-dialog";
+} from "grapu-design/ui/alert-dialog";
 
 const AlertDialogControlled = () => {
   const [open, setOpen] = useState(false);

@@ -1,11 +1,11 @@
 "use client";
 
-import { VStack } from "@grape-design/react";
+import { VStack } from "@grapu-design/react";
 import {
   ActionablePageBanner,
   DismissiblePageBanner,
   PageBanner,
-} from "grape-design/ui/page-banner";
+} from "grapu-design/ui/page-banner";
 
 export default function PageBannerPreview() {
   return (

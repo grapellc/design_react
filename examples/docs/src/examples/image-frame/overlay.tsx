@@ -11,7 +11,7 @@ import {
   Flex,
   VStack,
   Text,
-} from "@grape-design/react";
+} from "@grapu-design/react";
 import { useState } from "react";
 
 export default function ImageFrameOverlayExample() {

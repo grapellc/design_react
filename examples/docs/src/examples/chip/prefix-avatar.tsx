@@ -1,9 +1,9 @@
 "use client";
 
-import { HStack, VStack } from "@grape-design/react";
-import { Chip } from "grape-design/ui/chip";
-import { Avatar } from "grape-design/ui/avatar";
-import { IdentityPlaceholder } from "grape-design/ui/identity-placeholder";
+import { HStack, VStack } from "@grapu-design/react";
+import { Chip } from "grapu-design/ui/chip";
+import { Avatar } from "grapu-design/ui/avatar";
+import { IdentityPlaceholder } from "grapu-design/ui/identity-placeholder";
 
 export default function ChipPrefixAvatar() {
   return (

@@ -1,6 +1,6 @@
 "use client";
 
-import { Box, Skeleton, VStack } from "@grape-design/react";
+import { Box, Skeleton, VStack } from "@grapu-design/react";
 
 export default function SkeletonTone() {
   return (

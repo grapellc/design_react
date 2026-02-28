@@ -1,6 +1,6 @@
 "use client";
 
-import { VStack } from "@grape-design/react";
+import { VStack } from "@grapu-design/react";
 import { useFlow, type StaticActivityComponentType } from "@stackflow/react/future";
 import {
   AppBar,
@@ -9,10 +9,10 @@ import {
   AppBarLeft,
   AppBarMain,
   AppBarRight,
-} from "grape-design/ui/app-bar";
-import { AppScreen, AppScreenContent } from "grape-design/ui/app-screen";
-import { ActionButton } from "grape-design/ui/action-button";
-import { IconHouseLine } from "@grape-design/icons";
+} from "grapu-design/ui/app-bar";
+import { AppScreen, AppScreenContent } from "grapu-design/ui/app-screen";
+import { ActionButton } from "grapu-design/ui/action-button";
+import { IconHouseLine } from "@grapu-design/icons";
 
 declare module "@stackflow/config" {
   interface Register {

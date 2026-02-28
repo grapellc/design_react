@@ -1,8 +1,8 @@
 "use client";
 
-import { Box, VStack } from "@grape-design/react";
+import { Box, VStack } from "@grapu-design/react";
 import { useState } from "react";
-import { ActionButton } from "grape-design/ui/action-button";
+import { ActionButton } from "grapu-design/ui/action-button";
 import {
   AlertDialogAction,
   AlertDialogContent,
@@ -12,8 +12,8 @@ import {
   AlertDialogRoot,
   AlertDialogTitle,
   AlertDialogTrigger,
-} from "grape-design/ui/alert-dialog";
-import { Switch } from "grape-design/ui/switch";
+} from "grapu-design/ui/alert-dialog";
+import { Switch } from "grapu-design/ui/switch";
 
 export default function AlertDialogPreventClose() {
   const [preventClose, setPreventClose] = useState(true);

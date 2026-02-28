@@ -1,6 +1,6 @@
 "use client";
 
-import { HStack, NotificationBadge, ChipTabs as SeedChipTabs } from "@grape-design/react";
+import { HStack, NotificationBadge, ChipTabs as SeedChipTabs } from "@grapu-design/react";
 import { forwardRef } from "react";
 
 export interface ChipTabsRootProps extends SeedChipTabs.RootProps {}

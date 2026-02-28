@@ -1,9 +1,9 @@
 "use client";
 
-import { VStack } from "@grape-design/react";
-import { ActionButton } from "grape-design/ui/action-button";
-import { Snackbar, SnackbarProvider, useSnackbarAdapter } from "grape-design/ui/snackbar";
-import { SegmentedControl, SegmentedControlItem } from "grape-design/ui/segmented-control";
+import { VStack } from "@grapu-design/react";
+import { ActionButton } from "grapu-design/ui/action-button";
+import { Snackbar, SnackbarProvider, useSnackbarAdapter } from "grapu-design/ui/snackbar";
+import { SegmentedControl, SegmentedControlItem } from "grapu-design/ui/segmented-control";
 import { useState } from "react";
 
 function Component() {

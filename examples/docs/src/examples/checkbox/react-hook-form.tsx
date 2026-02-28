@@ -1,10 +1,10 @@
 "use client";
 
-import { HStack, VStack } from "@grape-design/react";
+import { HStack, VStack } from "@grapu-design/react";
 import { useCallback, type FormEvent } from "react";
 import { useController, useForm, type Control } from "react-hook-form";
-import { ActionButton } from "grape-design/ui/action-button";
-import { Checkbox, CheckboxGroup } from "grape-design/ui/checkbox";
+import { ActionButton } from "grapu-design/ui/action-button";
+import { Checkbox, CheckboxGroup } from "grapu-design/ui/checkbox";
 
 const POSSIBLE_FRUIT_VALUES = ["apple", "melon", "mango"] as const;
 

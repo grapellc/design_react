@@ -1,8 +1,8 @@
 "use client";
 
 import { IconPlusFill } from "@karrotmarket/react-monochrome-icon";
-import { PrefixIcon } from "@grape-design/react";
-import { ActionButton } from "grape-design/ui/action-button";
+import { PrefixIcon } from "@grapu-design/react";
+import { ActionButton } from "grapu-design/ui/action-button";
 
 export default function ActionButtonPrefixIcon() {
   return (

@@ -1,6 +1,6 @@
 "use client";
 
-import { Badge, VStack } from "@grape-design/react";
+import { Badge, VStack } from "@grapu-design/react";
 
 export default function BadgeTruncating() {
   return (

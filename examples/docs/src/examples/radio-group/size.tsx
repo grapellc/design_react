@@ -1,7 +1,7 @@
 "use client";
 
-import { RadioGroup, RadioGroupItem } from "grape-design/ui/radio-group";
-import { VStack } from "@grape-design/react";
+import { RadioGroup, RadioGroupItem } from "grapu-design/ui/radio-group";
+import { VStack } from "@grapu-design/react";
 
 export default function RadioGroupSize() {
   return (

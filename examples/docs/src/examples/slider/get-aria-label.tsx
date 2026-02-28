@@ -1,8 +1,8 @@
 "use client";
 
-import { VStack, Text, type SliderRootProps } from "@grape-design/react";
+import { VStack, Text, type SliderRootProps } from "@grapu-design/react";
 import { useState } from "react";
-import { Slider } from "grape-design/ui/slider";
+import { Slider } from "grapu-design/ui/slider";
 
 const getAriaLabel: NonNullable<SliderRootProps["getAriaLabel"]> = (thumbIndex) =>
   thumbIndex === 0 ? "최소값" : "최대값";

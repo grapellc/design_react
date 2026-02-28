@@ -1,9 +1,9 @@
 "use client";
 
-import { HStack, VStack } from "@grape-design/react";
+import { HStack, VStack } from "@grapu-design/react";
 import { useCallback, useState, type FormEvent } from "react";
-import { ActionButton } from "grape-design/ui/action-button";
-import { TextField, TextFieldTextarea } from "grape-design/ui/text-field";
+import { ActionButton } from "grapu-design/ui/action-button";
+import { TextField, TextFieldTextarea } from "grapu-design/ui/text-field";
 
 type FieldErrors = {
   bio?: string;

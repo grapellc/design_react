@@ -1,0 +1,63 @@
+'use client';
+/* empty css              */
+import { createClassName, mergeVariants, splitVariantProps } from './shared.js';
+
+const tagGroupSlotNames = [
+  [
+    "root",
+    "seed-tag-group__root"
+  ],
+  [
+    "separator",
+    "seed-tag-group__separator"
+  ]
+];
+
+const defaultVariant = {
+  "size": "t2",
+  "truncate": false
+};
+
+const compoundVariants = [
+  {
+    "size": "t2",
+    "truncate": false
+  },
+  {
+    "size": "t3",
+    "truncate": false
+  },
+  {
+    "size": "t4",
+    "truncate": false
+  }
+];
+
+const tagGroupVariantMap = {
+  "size": [
+    "t2",
+    "t3",
+    "t4"
+  ],
+  "truncate": [
+    true,
+    false
+  ]
+};
+
+function tagGroup(props) {
+  return Object.fromEntries(
+    tagGroupSlotNames.map(([slot, className]) => {
+      return [
+        slot,
+        createClassName(className, mergeVariants(defaultVariant, props), compoundVariants),
+      ];
+    }),
+  );
+}
+
+Object.assign(tagGroup, { splitVariantProps: (props) => splitVariantProps(props, tagGroupVariantMap) });
+
+// @recipe(seed): tag-group
+
+export { tagGroup, tagGroupVariantMap };

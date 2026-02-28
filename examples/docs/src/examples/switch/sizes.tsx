@@ -1,7 +1,7 @@
 "use client";
 
-import { VStack } from "@grape-design/react";
-import { Switch } from "grape-design/ui/switch";
+import { VStack } from "@grapu-design/react";
+import { Switch } from "grapu-design/ui/switch";
 
 export default function SwitchSizes() {
   return (

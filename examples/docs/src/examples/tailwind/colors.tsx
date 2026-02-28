@@ -1,6 +1,6 @@
 "use client";
 
-import { VStack, Text } from "@grape-design/react";
+import { VStack, Text } from "@grapu-design/react";
 
 export default function TailwindColors() {
   return (

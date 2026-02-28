@@ -1,0 +1,23 @@
+'use client';
+const t1 = "var(--seed-font-size-t1)";
+const t2 = "var(--seed-font-size-t2)";
+const t3 = "var(--seed-font-size-t3)";
+const t4 = "var(--seed-font-size-t4)";
+const t5 = "var(--seed-font-size-t5)";
+const t6 = "var(--seed-font-size-t6)";
+const t7 = "var(--seed-font-size-t7)";
+const t8 = "var(--seed-font-size-t8)";
+const t9 = "var(--seed-font-size-t9)";
+const t10 = "var(--seed-font-size-t10)";
+const t1Static = "var(--seed-font-size-t1-static)";
+const t2Static = "var(--seed-font-size-t2-static)";
+const t3Static = "var(--seed-font-size-t3-static)";
+const t4Static = "var(--seed-font-size-t4-static)";
+const t5Static = "var(--seed-font-size-t5-static)";
+const t6Static = "var(--seed-font-size-t6-static)";
+const t7Static = "var(--seed-font-size-t7-static)";
+const t8Static = "var(--seed-font-size-t8-static)";
+const t9Static = "var(--seed-font-size-t9-static)";
+const t10Static = "var(--seed-font-size-t10-static)";
+
+export { t1, t10, t10Static, t1Static, t2, t2Static, t3, t3Static, t4, t4Static, t5, t5Static, t6, t6Static, t7, t7Static, t8, t8Static, t9, t9Static };

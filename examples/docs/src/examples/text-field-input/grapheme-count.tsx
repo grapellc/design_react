@@ -1,7 +1,7 @@
 "use client";
 
-import { TextField, TextFieldInput } from "grape-design/ui/text-field";
-import { HStack } from "@grape-design/react";
+import { TextField, TextFieldInput } from "grapu-design/ui/text-field";
+import { HStack } from "@grapu-design/react";
 
 export default function TextFieldInputGraphemeCount() {
   return (

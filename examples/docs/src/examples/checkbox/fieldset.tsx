@@ -1,8 +1,8 @@
 "use client";
 
-import { ActionButton, HStack, VStack } from "@grape-design/react";
+import { ActionButton, HStack, VStack } from "@grapu-design/react";
 import { useState } from "react";
-import { Checkbox, CheckboxGroup } from "grape-design/ui/checkbox";
+import { Checkbox, CheckboxGroup } from "grapu-design/ui/checkbox";
 
 export default function CheckboxFieldset() {
   const [firstErrors, setFirstErrors] = useState<Record<string, string | undefined>>({});

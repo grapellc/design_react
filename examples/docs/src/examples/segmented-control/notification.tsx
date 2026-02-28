@@ -1,8 +1,8 @@
 "use client";
 
-import { ActionButton, VStack } from "@grape-design/react";
+import { ActionButton, VStack } from "@grapu-design/react";
 import { useState } from "react";
-import { SegmentedControl, SegmentedControlItem } from "grape-design/ui/segmented-control";
+import { SegmentedControl, SegmentedControlItem } from "grapu-design/ui/segmented-control";
 
 export default function SegmentedControlNotification() {
   const [sortBy, setSortBy] = useState("monthly");

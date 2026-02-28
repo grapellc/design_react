@@ -1,8 +1,8 @@
 "use client";
 
 import { IconPlusFill } from "@karrotmarket/react-monochrome-icon";
-import { Icon } from "@grape-design/react";
-import { ControlChip } from "grape-design/ui/control-chip";
+import { Icon } from "@grapu-design/react";
+import { ControlChip } from "grapu-design/ui/control-chip";
 
 export default function ControlChipIconOnly() {
   return (

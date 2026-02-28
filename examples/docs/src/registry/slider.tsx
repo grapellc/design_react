@@ -6,10 +6,10 @@ import {
   Field as SeedField,
   VisuallyHidden,
   PrefixIcon,
-} from "@grape-design/react";
-import type { SliderTickVariantProps } from "@grape-design/css/recipes/slider-tick";
-import type { FieldLabelVariantProps } from "@grape-design/css/recipes/field-label";
-import type { SliderMarkerVariantProps } from "@grape-design/css/recipes/slider-marker";
+} from "@grapu-design/react";
+import type { SliderTickVariantProps } from "@grapu-design/css/recipes/slider-tick";
+import type { FieldLabelVariantProps } from "@grapu-design/css/recipes/field-label";
+import type { SliderMarkerVariantProps } from "@grapu-design/css/recipes/slider-marker";
 import * as React from "react";
 
 export interface SliderProps extends SeedSlider.RootProps {

@@ -2,10 +2,10 @@
 
 import * as React from "react";
 
-import { ChipTabsList, ChipTabsRoot, ChipTabsTrigger } from "grape-design/ui/chip-tabs";
+import { ChipTabsList, ChipTabsRoot, ChipTabsTrigger } from "grapu-design/ui/chip-tabs";
 import type { ActivityComponentType } from "@stackflow/react/future";
-import { AppScreen, AppScreenContent } from "grape-design/ui/app-screen";
-import { AppBar, AppBarMain } from "grape-design/ui/app-bar";
+import { AppScreen, AppScreenContent } from "grapu-design/ui/app-screen";
+import { AppBar, AppBarMain } from "grapu-design/ui/app-bar";
 
 declare module "@stackflow/config" {
   interface Register {

@@ -1,15 +1,15 @@
 "use client";
 
-import { List, ListButtonItem } from "grape-design/ui/list";
-import { ListHeader } from "grape-design/ui/list-header";
-import { ActionButton } from "grape-design/ui/action-button";
+import { List, ListButtonItem } from "grapu-design/ui/list";
+import { ListHeader } from "grapu-design/ui/list-header";
+import { ActionButton } from "grapu-design/ui/action-button";
 import {
   IconChevronRightLine,
   IconLockLine,
   IconPersonCircleLine,
   IconQuestionmarkCircleFill,
 } from "@karrotmarket/react-monochrome-icon";
-import { Divider, Icon, PrefixIcon, VStack } from "@grape-design/react";
+import { Divider, Icon, PrefixIcon, VStack } from "@grapu-design/react";
 
 export default function () {
   return (

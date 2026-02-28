@@ -1,7 +1,7 @@
 "use client";
 
-import { Box, Tabs } from "@grape-design/react";
-import { TabsCarousel, TabsContent, TabsList, TabsRoot, TabsTrigger } from "grape-design/ui/tabs";
+import { Box, Tabs } from "@grapu-design/react";
+import { TabsCarousel, TabsContent, TabsList, TabsRoot, TabsTrigger } from "grapu-design/ui/tabs";
 
 export default function TabsCarouselPreventDrag() {
   return (

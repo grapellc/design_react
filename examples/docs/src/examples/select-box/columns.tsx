@@ -1,7 +1,7 @@
 "use client";
 
 import { IconDiamond, IconIcecreamcone } from "@karrotmarket/react-multicolor-icon";
-import { VStack } from "@grape-design/react";
+import { VStack } from "@grapu-design/react";
 import {
   CheckSelectBox,
   CheckSelectBoxCheckmark,
@@ -9,7 +9,7 @@ import {
   RadioSelectBoxItem,
   RadioSelectBoxRadiomark,
   RadioSelectBoxRoot,
-} from "grape-design/ui/select-box";
+} from "grapu-design/ui/select-box";
 
 export default function SelectBoxColumns() {
   return (

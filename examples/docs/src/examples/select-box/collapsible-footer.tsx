@@ -1,6 +1,6 @@
 "use client";
 
-import { Box, HStack, Text } from "@grape-design/react";
+import { Box, HStack, Text } from "@grapu-design/react";
 import {
   CheckSelectBox,
   CheckSelectBoxCheckmark,
@@ -8,7 +8,7 @@ import {
   RadioSelectBoxItem,
   RadioSelectBoxRadiomark,
   RadioSelectBoxRoot,
-} from "grape-design/ui/select-box";
+} from "grapu-design/ui/select-box";
 
 export default function SelectBoxCollapsibleFooter() {
   return (

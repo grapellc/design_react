@@ -1,14 +1,14 @@
 "use client";
 
-import { HStack, Text, VStack } from "@grape-design/react";
+import { HStack, Text, VStack } from "@grapu-design/react";
 import { useState } from "react";
-import { ActionButton } from "grape-design/ui/action-button";
+import { ActionButton } from "grapu-design/ui/action-button";
 import {
   BottomSheetBody,
   BottomSheetContent,
   BottomSheetRoot,
   BottomSheetTrigger,
-} from "grape-design/ui/bottom-sheet";
+} from "grapu-design/ui/bottom-sheet";
 
 const snapPoints = ["200px", "400px", 1];
 

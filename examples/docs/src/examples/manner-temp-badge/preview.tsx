@@ -1,7 +1,7 @@
 "use client";
 
-import { VStack } from "@grape-design/react";
-import { MannerTempBadge } from "grape-design/ui/manner-temp-badge";
+import { VStack } from "@grapu-design/react";
+import { MannerTempBadge } from "grapu-design/ui/manner-temp-badge";
 
 export default function BadgePreview() {
   return (

@@ -1,6 +1,6 @@
 "use client";
 
-import { Box } from "@grape-design/react";
+import { Box } from "@grapu-design/react";
 
 export default function BoxPreview() {
   return (

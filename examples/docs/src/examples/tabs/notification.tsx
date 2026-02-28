@@ -1,6 +1,6 @@
 "use client";
 
-import { TabsContent, TabsList, TabsRoot, TabsTrigger } from "grape-design/ui/tabs";
+import { TabsContent, TabsList, TabsRoot, TabsTrigger } from "grapu-design/ui/tabs";
 
 export default function TabsNotification() {
   return (

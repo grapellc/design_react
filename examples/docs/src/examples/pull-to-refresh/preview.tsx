@@ -1,13 +1,13 @@
 "use client";
 
-import { AppBar, AppScreen } from "@grape-design/stackflow";
+import { AppBar, AppScreen } from "@grapu-design/stackflow";
 import { ActivityComponentType } from "@stackflow/react/future";
-import { VStack } from "@grape-design/react";
+import { VStack } from "@grapu-design/react";
 import {
   PullToRefreshContent,
   PullToRefreshIndicator,
   PullToRefreshRoot,
-} from "grape-design/ui/pull-to-refresh";
+} from "grapu-design/ui/pull-to-refresh";
 
 declare module "@stackflow/config" {
   interface Register {
@@ -16,7 +16,7 @@ declare module "@stackflow/config" {
 }
 
 const PullToRefreshPreview: ActivityComponentType<"react/pull-to-refresh/preview"> = () => {
-  // AppScreen is imported from @grape-design/stackflow instead of snippet for demo purpose.
+  // AppScreen is imported from @grapu-design/stackflow instead of snippet for demo purpose.
   // AppScreen snippet is integrating PullToRefresh, so it's not necessary to use it here.
   return (
     <AppScreen.Root>

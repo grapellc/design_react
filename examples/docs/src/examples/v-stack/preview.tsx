@@ -1,6 +1,6 @@
 "use client";
 
-import { Box, VStack } from "@grape-design/react";
+import { Box, VStack } from "@grapu-design/react";
 
 export default function VStackPreview() {
   return (

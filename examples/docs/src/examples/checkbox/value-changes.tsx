@@ -1,7 +1,7 @@
 "use client";
 
-import { VStack, Text } from "@grape-design/react";
-import { Checkbox } from "grape-design/ui/checkbox";
+import { VStack, Text } from "@grapu-design/react";
+import { Checkbox } from "grapu-design/ui/checkbox";
 import { useState } from "react";
 
 export default function CheckboxValueChanges() {

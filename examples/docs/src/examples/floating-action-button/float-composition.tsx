@@ -1,8 +1,8 @@
 "use client";
 
-import { FloatingActionButton } from "grape-design/ui/floating-action-button";
+import { FloatingActionButton } from "grapu-design/ui/floating-action-button";
 import { IconBellFill } from "@karrotmarket/react-monochrome-icon";
-import { Box, Float } from "@grape-design/react";
+import { Box, Float } from "@grapu-design/react";
 
 export default function FloatingActionButtonFloatComposition() {
   return (

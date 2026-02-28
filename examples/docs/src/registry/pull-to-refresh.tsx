@@ -1,6 +1,6 @@
 "use client";
 
-import { PullToRefresh } from "@grape-design/react";
+import { PullToRefresh } from "@grapu-design/react";
 import { forwardRef } from "react";
 import { ProgressCircle } from "./progress-circle";
 

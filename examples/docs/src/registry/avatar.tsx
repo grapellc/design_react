@@ -1,6 +1,6 @@
 "use client";
 
-import { Avatar as SeedAvatar } from "@grape-design/react";
+import { Avatar as SeedAvatar } from "@grapu-design/react";
 import * as React from "react";
 
 export interface AvatarProps extends SeedAvatar.RootProps {

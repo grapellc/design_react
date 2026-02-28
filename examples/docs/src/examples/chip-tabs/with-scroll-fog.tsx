@@ -1,12 +1,12 @@
 "use client";
 
-import { ScrollFog } from "@grape-design/react";
+import { ScrollFog } from "@grapu-design/react";
 import {
   ChipTabsCarousel,
   ChipTabsList,
   ChipTabsRoot,
   ChipTabsTrigger,
-} from "grape-design/ui/chip-tabs";
+} from "grapu-design/ui/chip-tabs";
 
 export default function ChipTabsWithScrollFog() {
   return (

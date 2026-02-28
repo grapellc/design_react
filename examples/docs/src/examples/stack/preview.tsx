@@ -1,6 +1,6 @@
 "use client";
 
-import { Box, Stack } from "@grape-design/react";
+import { Box, Stack } from "@grapu-design/react";
 
 /**
  * @deprecated Use `VStack` instead.

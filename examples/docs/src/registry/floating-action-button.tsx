@@ -1,6 +1,6 @@
 "use client";
 
-import { FloatingActionButton as SeedFloatingActionButton } from "@grape-design/react";
+import { FloatingActionButton as SeedFloatingActionButton } from "@grapu-design/react";
 import * as React from "react";
 
 export interface FloatingActionButtonProps

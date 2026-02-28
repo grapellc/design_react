@@ -1,8 +1,8 @@
 "use client";
 
 import { IconPlusFill } from "@karrotmarket/react-monochrome-icon";
-import { Icon } from "@grape-design/react";
-import { ActionButton } from "grape-design/ui/action-button";
+import { Icon } from "@grapu-design/react";
+import { ActionButton } from "grapu-design/ui/action-button";
 
 export default function ActionButtonIconOnly() {
   return (

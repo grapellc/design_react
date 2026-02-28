@@ -1,6 +1,6 @@
 "use client";
 
-import { ActionButton, HStack, VStack, Box, Text } from "@grape-design/react";
+import { ActionButton, HStack, VStack, Box, Text } from "@grapu-design/react";
 import { useState } from "react";
 import {
   CheckSelectBox,
@@ -9,7 +9,7 @@ import {
   RadioSelectBoxItem,
   RadioSelectBoxRadiomark,
   RadioSelectBoxRoot,
-} from "grape-design/ui/select-box";
+} from "grapu-design/ui/select-box";
 
 export default function SelectBoxFieldset() {
   const [checkErrors, setCheckErrors] = useState<Record<string, string | undefined>>({});

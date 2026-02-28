@@ -1,6 +1,6 @@
 "use client";
 
-import { Dialog } from "@grape-design/react";
+import { Dialog } from "@grapu-design/react";
 import { forwardRef } from "react";
 import { ActionButton, type ActionButtonProps } from "./action-button";
 import type * as React from "react";

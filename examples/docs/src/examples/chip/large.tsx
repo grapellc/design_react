@@ -1,7 +1,7 @@
 "use client";
 
-import { HStack, VStack } from "@grape-design/react";
-import { Chip } from "grape-design/ui/chip";
+import { HStack, VStack } from "@grapu-design/react";
+import { Chip } from "grapu-design/ui/chip";
 
 export default function ChipLarge() {
   return (

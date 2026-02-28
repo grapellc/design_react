@@ -1,9 +1,9 @@
 "use client";
 
 import { IconCheckmarkLine, IconPlusLine } from "@karrotmarket/react-monochrome-icon";
-import { PrefixIcon } from "@grape-design/react";
+import { PrefixIcon } from "@grapu-design/react";
 import { useState } from "react";
-import { ToggleButton } from "grape-design/ui/toggle-button";
+import { ToggleButton } from "grapu-design/ui/toggle-button";
 
 export default function ToggleButtonPrefixIcon() {
   const [pressed, setPressed] = useState(false);

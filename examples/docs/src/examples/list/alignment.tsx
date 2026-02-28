@@ -1,9 +1,9 @@
 "use client";
 
-import { List, ListItem } from "grape-design/ui/list";
-import { HStack } from "@grape-design/react";
-import { IdentityPlaceholder } from "grape-design/ui/identity-placeholder";
-import { Avatar } from "grape-design/ui/avatar";
+import { List, ListItem } from "grapu-design/ui/list";
+import { HStack } from "@grapu-design/react";
+import { IdentityPlaceholder } from "grapu-design/ui/identity-placeholder";
+import { Avatar } from "grapu-design/ui/avatar";
 
 export default function ListAlignment() {
   return (

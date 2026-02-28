@@ -1,6 +1,6 @@
 "use client";
 
-import { Box, Divider, VStack } from "@grape-design/react";
+import { Box, Divider, VStack } from "@grapu-design/react";
 
 export default function DividerPreview() {
   return (

@@ -1,6 +1,6 @@
 "use client";
 
-import { AspectRatio, Text, VStack } from "@grape-design/react";
+import { AspectRatio, Text, VStack } from "@grapu-design/react";
 
 export default function AspectRatioPreview() {
   return (

@@ -1,6 +1,6 @@
 "use client";
 
-import { Box, Text, VStack } from "@grape-design/react";
+import { Box, Text, VStack } from "@grapu-design/react";
 
 const sampleText = `이것은 여러 개         의
 공백, 줄바꿈과

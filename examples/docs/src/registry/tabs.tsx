@@ -5,7 +5,7 @@ import {
   NotificationBadge,
   NotificationBadgePositioner,
   Tabs as SeedTabs,
-} from "@grape-design/react";
+} from "@grapu-design/react";
 import { forwardRef } from "react";
 
 export interface TabsRootProps extends SeedTabs.RootProps {}

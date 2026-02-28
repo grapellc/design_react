@@ -1,7 +1,7 @@
 "use client";
 
-import { Flex } from "@grape-design/react";
-import { Avatar } from "grape-design/ui/avatar";
+import { Flex } from "@grapu-design/react";
+import { Avatar } from "grapu-design/ui/avatar";
 
 export default function AvatarSize() {
   return (

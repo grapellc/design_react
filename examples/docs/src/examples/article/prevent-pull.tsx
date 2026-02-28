@@ -1,16 +1,16 @@
 "use client";
 
-import { VStack, Icon, Text, Article, Divider, PullToRefresh } from "@grape-design/react";
+import { VStack, Icon, Text, Article, Divider, PullToRefresh } from "@grapu-design/react";
 import { ActivityComponentType } from "@stackflow/react/future";
-import { AppBar, AppBarMain } from "grape-design/ui/app-bar";
-import { AppScreen, AppScreenContent } from "grape-design/ui/app-screen";
+import { AppBar, AppBarMain } from "grapu-design/ui/app-bar";
+import { AppScreen, AppScreenContent } from "grapu-design/ui/app-screen";
 import {
   PullToRefreshContent,
   PullToRefreshIndicator,
   PullToRefreshRoot,
-} from "grape-design/ui/pull-to-refresh";
+} from "grapu-design/ui/pull-to-refresh";
 import { IconExclamationmarkCircleFill } from "@karrotmarket/react-monochrome-icon";
-import { PageBanner } from "grape-design/ui/page-banner";
+import { PageBanner } from "grapu-design/ui/page-banner";
 
 declare module "@stackflow/config" {
   interface Register {

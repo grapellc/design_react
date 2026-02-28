@@ -1,10 +1,10 @@
 "use client";
 
-import { VStack } from "@grape-design/react";
+import { VStack } from "@grapu-design/react";
 import { useState } from "react";
-import { HelpBubbleTrigger } from "grape-design/ui/help-bubble";
-import { Switch } from "grape-design/ui/switch";
-import { ActionButton } from "grape-design/ui/action-button";
+import { HelpBubbleTrigger } from "grapu-design/ui/help-bubble";
+import { Switch } from "grapu-design/ui/switch";
+import { ActionButton } from "grapu-design/ui/action-button";
 
 export default function () {
   const [isControlledHelpBubbleOpen, setIsControlledHelpBubbleOpen] = useState(true);

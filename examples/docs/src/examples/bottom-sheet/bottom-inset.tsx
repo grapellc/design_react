@@ -1,13 +1,13 @@
 "use client";
 
-import { ActionButton } from "grape-design/ui/action-button";
+import { ActionButton } from "grapu-design/ui/action-button";
 import {
   BottomSheetBody,
   BottomSheetContent,
   BottomSheetFooter,
   BottomSheetRoot,
   BottomSheetTrigger,
-} from "grape-design/ui/bottom-sheet";
+} from "grapu-design/ui/bottom-sheet";
 
 const BottomSheetBottomInset = () => {
   return (

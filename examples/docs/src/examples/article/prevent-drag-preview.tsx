@@ -1,9 +1,9 @@
 "use client";
 
-import { VStack, Icon, Text, Article, Divider, Tabs } from "@grape-design/react";
-import { TabsCarousel, TabsContent, TabsList, TabsRoot, TabsTrigger } from "grape-design/ui/tabs";
+import { VStack, Icon, Text, Article, Divider, Tabs } from "@grapu-design/react";
+import { TabsCarousel, TabsContent, TabsList, TabsRoot, TabsTrigger } from "grapu-design/ui/tabs";
 import { IconExclamationmarkCircleFill } from "@karrotmarket/react-monochrome-icon";
-import { PageBanner } from "grape-design/ui/page-banner";
+import { PageBanner } from "grapu-design/ui/page-banner";
 
 export default function ArticlePreventDragPreview() {
   return (

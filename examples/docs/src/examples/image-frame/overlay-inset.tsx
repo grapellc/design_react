@@ -1,6 +1,6 @@
 "use client";
 
-import { ImageFrame, ImageFrameFloater, ImageFrameIndicator } from "@grape-design/react";
+import { ImageFrame, ImageFrameFloater, ImageFrameIndicator } from "@grapu-design/react";
 
 export default function ImageFrameOverlayInsetExample() {
   return (

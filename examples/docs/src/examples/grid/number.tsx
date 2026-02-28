@@ -1,6 +1,6 @@
 "use client";
 
-import { Divider, Flex, Grid, HStack } from "@grape-design/react";
+import { Divider, Flex, Grid, HStack } from "@grapu-design/react";
 
 export default function GridNumber() {
   return (

@@ -1,13 +1,13 @@
 "use client";
 
-import { Portal } from "@grape-design/react";
-import { ActionButton } from "grape-design/ui/action-button";
+import { Portal } from "@grapu-design/react";
+import { ActionButton } from "grapu-design/ui/action-button";
 import {
   ActionSheetContent,
   ActionSheetItem,
   ActionSheetRoot,
   ActionSheetTrigger,
-} from "grape-design/ui/action-sheet";
+} from "grapu-design/ui/action-sheet";
 
 const ActionSheetPortalled = () => {
   return (

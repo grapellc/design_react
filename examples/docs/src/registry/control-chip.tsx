@@ -4,8 +4,8 @@ import {
   ControlChip as SeedControlChip,
   type ControlChipBaseProps as SeedControlChipBaseProps,
   type ControlChipProps as SeedControlChipProps,
-} from "@grape-design/react";
-import { Checkbox, RadioGroup } from "@grape-design/react/primitive";
+} from "@grapu-design/react";
+import { Checkbox, RadioGroup } from "@grapu-design/react/primitive";
 import * as React from "react";
 
 /**

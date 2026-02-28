@@ -1,8 +1,8 @@
 "use client";
 
 import { IconMagnifyingglassLine } from "@karrotmarket/react-monochrome-icon";
-import { HStack, VStack } from "@grape-design/react";
-import { TextField, TextFieldInput } from "grape-design/ui/text-field";
+import { HStack, VStack } from "@grapu-design/react";
+import { TextField, TextFieldInput } from "grapu-design/ui/text-field";
 
 export default function TextFieldInputPrefix() {
   return (

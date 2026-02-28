@@ -1,6 +1,6 @@
 {
   "name": "@grape-design/stackflow",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "sideEffects": false,
   "type": "module",
   "exports": {
@@ -27,8 +27,8 @@
     "@radix-ui/react-use-callback-ref": "^1.1.1",
     "@stackflow/react-ui-core": "^1.3.3",
     "clsx": "^2.1.1",
-    "@grape-design/dom-utils": "workspace:*",
-    "@grape-design/react-primitive": "workspace:*"
+    "@grape-design/dom-utils": "^0.1.2",
+    "@grape-design/react-primitive": "^0.1.2"
   },
   "devDependencies": {
     "@stackflow/core": "^1.2.0",
@@ -41,13 +41,13 @@
     "react-dom": "^19.1.0",
     "vite": "^7.0.0",
     "vite-plugin-dts": "^4.5.3",
-    "@grape-design/css": "workspace:*"
+    "@grape-design/css": "^0.1.2"
   },
   "peerDependencies": {
     "@stackflow/core": ">=1.1.0",
     "@stackflow/react": ">=1.4.1",
     "react": ">=18.0.0",
     "react-dom": ">=18.0.0",
-    "@grape-design/css": "workspace:*"
+    "@grape-design/css": "^0.1.2"
   }
 }

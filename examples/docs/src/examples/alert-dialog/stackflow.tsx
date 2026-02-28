@@ -1,9 +1,9 @@
 "use client";
 
-import { ResponsivePair, VStack } from "@grape-design/react";
+import { ResponsivePair, VStack } from "@grapu-design/react";
 import { useActivity, useFlow, type StaticActivityComponentType } from "@stackflow/react/future";
 import { useState } from "react";
-import { ActionButton } from "grape-design/ui/action-button";
+import { ActionButton } from "grapu-design/ui/action-button";
 import {
   AlertDialogAction,
   AlertDialogContent,
@@ -12,9 +12,9 @@ import {
   AlertDialogHeader,
   AlertDialogRoot,
   AlertDialogTitle,
-} from "grape-design/ui/alert-dialog";
-import { Switch } from "grape-design/ui/switch";
-import { useActivityZIndexBase } from "@grape-design/stackflow";
+} from "grapu-design/ui/alert-dialog";
+import { Switch } from "grapu-design/ui/switch";
+import { useActivityZIndexBase } from "@grapu-design/stackflow";
 
 declare module "@stackflow/config" {
   interface Register {

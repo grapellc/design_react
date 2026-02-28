@@ -1,6 +1,6 @@
 "use client";
 
-import { VStack, HStack, Text } from "@grape-design/react";
+import { VStack, HStack, Text } from "@grapu-design/react";
 
 export default function TailwindSpacing() {
   return (

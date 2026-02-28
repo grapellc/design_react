@@ -1,6 +1,6 @@
 "use client";
 
-import { Divider, Grid, GridItem, HStack } from "@grape-design/react";
+import { Divider, Grid, GridItem, HStack } from "@grapu-design/react";
 
 export default function Spanning() {
   return (

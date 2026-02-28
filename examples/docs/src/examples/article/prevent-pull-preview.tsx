@@ -7,14 +7,14 @@ import {
   Article,
   Divider,
   PullToRefresh,
-} from "@grape-design/react";
+} from "@grapu-design/react";
 import {
   PullToRefreshContent,
   PullToRefreshIndicator,
   PullToRefreshRoot,
-} from "grape-design/ui/pull-to-refresh";
+} from "grapu-design/ui/pull-to-refresh";
 import { IconExclamationmarkCircleFill } from "@karrotmarket/react-monochrome-icon";
-import { PageBanner } from "grape-design/ui/page-banner";
+import { PageBanner } from "grapu-design/ui/page-banner";
 
 export default function ArticlePreventPullPreview() {
   return (

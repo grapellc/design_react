@@ -1,6 +1,6 @@
 "use client";
 
-import { ExtendedActionSheet as SeedExtendedActionSheet } from "@grape-design/react";
+import { ExtendedActionSheet as SeedExtendedActionSheet } from "@grapu-design/react";
 import { forwardRef } from "react";
 import type * as React from "react";
 

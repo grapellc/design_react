@@ -1,13 +1,13 @@
 "use client";
 
-import { Flex, VStack } from "@grape-design/react";
-import { ActionButton } from "grape-design/ui/action-button";
+import { Flex, VStack } from "@grapu-design/react";
+import { ActionButton } from "grapu-design/ui/action-button";
 import {
   Snackbar,
   SnackbarAvoidOverlap,
   SnackbarProvider,
   useSnackbarAdapter,
-} from "grape-design/ui/snackbar";
+} from "grapu-design/ui/snackbar";
 
 function Component() {
   const adapter = useSnackbarAdapter();

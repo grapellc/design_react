@@ -1,6 +1,6 @@
 "use client";
 
-import { FieldButton, FieldButtonValue, FieldButtonPlaceholder } from "grape-design/ui/field-button";
+import { FieldButton, FieldButtonValue, FieldButtonPlaceholder } from "grapu-design/ui/field-button";
 import { useState } from "react";
 
 export default function FieldButtonFormControl() {

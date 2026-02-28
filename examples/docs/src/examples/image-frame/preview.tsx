@@ -1,6 +1,6 @@
 "use client";
 
-import { ImageFrame } from "@grape-design/react";
+import { ImageFrame } from "@grapu-design/react";
 
 export default function ImageFramePreview() {
   return (

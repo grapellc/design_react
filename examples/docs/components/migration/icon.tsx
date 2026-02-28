@@ -1,6 +1,6 @@
 "use client";
 
-import * as Icons from "@grape-design/icons/react-icon";
+import * as Icons from "@grapu-design/icons/react-icon";
 
 /**
  * Renders an icon by name from the Grape icon set (same pattern as seed-design migration).
@@ -28,6 +28,6 @@ export function GrapeIcon({
 }
 
 /**
- * Same pattern as seed-design: import * as Icons from "@grape-design/icons/react-icon";
+ * Same pattern as seed-design: import * as Icons from "@grapu-design/icons/react-icon";
  * Then use <Icons.IconCheckmarkFill size={20} /> or Icons[name] for dynamic lookup.
  */

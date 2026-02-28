@@ -1,8 +1,8 @@
 "use client";
 
-import { VStack } from "@grape-design/react";
+import { VStack } from "@grapu-design/react";
 import { useState } from "react";
-import { Switch } from "grape-design/ui/switch";
+import { Switch } from "grapu-design/ui/switch";
 
 export default function SwitchDisabled() {
   const [disabled, setDisabled] = useState(true);

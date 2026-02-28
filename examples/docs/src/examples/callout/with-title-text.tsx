@@ -1,7 +1,7 @@
 "use client";
 
-import { VStack } from "@grape-design/react";
-import { ActionableCallout, Callout, DismissibleCallout } from "grape-design/ui/callout";
+import { VStack } from "@grapu-design/react";
+import { ActionableCallout, Callout, DismissibleCallout } from "grapu-design/ui/callout";
 
 export default function CalloutWithTitleText() {
   return (

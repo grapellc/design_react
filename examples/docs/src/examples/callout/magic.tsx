@@ -1,8 +1,8 @@
 "use client";
 
 import { IconSparkle2 } from "@karrotmarket/react-multicolor-icon";
-import { VStack } from "@grape-design/react";
-import { ActionableCallout, Callout, DismissibleCallout } from "grape-design/ui/callout";
+import { VStack } from "@grapu-design/react";
+import { ActionableCallout, Callout, DismissibleCallout } from "grapu-design/ui/callout";
 
 export default function CalloutMagic() {
   return (

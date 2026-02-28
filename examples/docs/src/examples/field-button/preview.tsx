@@ -1,6 +1,6 @@
 "use client";
 
-import { FieldButton } from "grape-design/ui/field-button";
+import { FieldButton } from "grapu-design/ui/field-button";
 
 export default function FieldButtonPreview() {
   return (

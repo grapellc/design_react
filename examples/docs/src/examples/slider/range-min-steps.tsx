@@ -1,7 +1,7 @@
 "use client";
 
-import { VStack, Text } from "@grape-design/react";
-import { Slider } from "grape-design/ui/slider";
+import { VStack, Text } from "@grapu-design/react";
+import { Slider } from "grapu-design/ui/slider";
 import { useState } from "react";
 
 export default function SliderRangeMinSteps() {
