@@ -1,5 +1,5 @@
 {
-  "name": "@grape-design/react-native",
+  "name": "@grapu-design/react-native",
   "version": "0.1.2",
   "description": "Grape Design System – React Native. Same component API as @grape-design/react.",
   "main": "lib/index.js",
@@ -21,7 +21,7 @@
     "clean": "rm -rf lib"
   },
   "dependencies": {
-    "@grape-design/tokens": "^0.1.2"
+    "@grapu-design/tokens": "^0.1.2"
   },
   "peerDependencies": {
     "react": ">=18.0.0",

@@ -1,5 +1,5 @@
 {
-  "name": "@grape-design/react-popover",
+  "name": "@grapu-design/react-popover",
   "version": "1.0.3",
   "repository": {
     "type": "git",
@@ -30,8 +30,8 @@
     "@floating-ui/react": "^0.27.0",
     "@radix-ui/react-compose-refs": "^1.1.2",
     "@radix-ui/react-use-controllable-state": "1.2.2",
-    "@grape-design/dom-utils": "^0.1.2",
-    "@grape-design/react-primitive": "^0.1.2"
+    "@grapu-design/dom-utils": "^0.1.2",
+    "@grapu-design/react-primitive": "^0.1.2"
   },
   "devDependencies": {
     "@types/react": "^19.1.6",

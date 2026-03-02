@@ -47,13 +47,28 @@ const packageDirs = [
   "packages/react-native",
 ];
 
-function replaceWorkspaceRefs(obj) {
+function transformPackage(obj) {
   let changed = false;
+
+  // Swap name from @grape-design to @grapu-design
+  if (obj.name && obj.name.startsWith("@grape-design/")) {
+    obj.name = obj.name.replace("@grape-design/", "@grapu-design/");
+    changed = true;
+  }
+
   for (const key of ["dependencies", "peerDependencies", "devDependencies"]) {
     if (!obj[key] || typeof obj[key] !== "object") continue;
     for (const dep of Object.keys(obj[key])) {
+      // Replace workspace:* with concrete version
       if (obj[key][dep] === "workspace:*") {
         obj[key][dep] = range;
+        changed = true;
+      }
+      // Swap dependency name from @grape-design to @grapu-design
+      if (dep.startsWith("@grape-design/")) {
+        const newDep = dep.replace("@grape-design/", "@grapu-design/");
+        obj[key][newDep] = obj[key][dep];
+        delete obj[key][dep];
         changed = true;
       }
     }
@@ -67,7 +82,7 @@ for (const dir of packageDirs) {
   if (!fs.existsSync(pkgPath)) continue;
   const content = fs.readFileSync(pkgPath, "utf8");
   const pkg = JSON.parse(content);
-  if (replaceWorkspaceRefs(pkg)) {
+  if (transformPackage(pkg)) {
     fs.writeFileSync(pkgPath, JSON.stringify(pkg, null, 2) + "\n");
     count++;
     console.log(`Updated ${dir}/package.json`);
